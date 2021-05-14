@@ -1,4 +1,4 @@
-name,address,phone,notes,Y,X,address2,size,update_date
+name,address,phone,note,Y,X,address2,size,update_date
 Luciano Foods,114 Preston St,(613) 233-1972,"Delis, Sandwiches, Grocery",45.40855589600005,-75.71470521899994,,small,2021-05-14
 Pot & Pantry,244 Elgin Street,(613) 565-1212,"Kitchen Supplies, Grocery",45.418221638000034,-75.69096712099997,,small,2021-05-14
 Bienvenidos,1731 St Laurent Boulevard,(613) 618-7239,International Grocery,45.406123953000076,-75.62555153199997,,small,2021-05-14

@@ -54,7 +54,7 @@ list(
       filter(!toupper(name) %in% grocers_large$name & !name %in% grocers_large$name) %>%
       filter(!stringr::str_detect(name, "Your Independent Grocer|No Frills|Sobeys|Farmboy|T&T")) %>%
       drop_na(lat) %>%
-      rename(notes = categories,
+      rename(note = categories,
              X=lng,
              Y=lat,
              address = formattedAddress) %>%
