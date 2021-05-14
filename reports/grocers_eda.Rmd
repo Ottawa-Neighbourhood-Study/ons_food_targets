@@ -1,0 +1,71 @@
+---
+title: "ONS test - grocery stores"
+author: "Christopher Belanger, PhD"
+date: "14/05/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE, message = FALSE, warning = FALSE}
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE)
+library(tidyverse)
+library(leaflet)
+
+# grocers_large <- read_csv("../data/grocers_large_ottawa.csv")
+# 
+# grocers_yelp <- read_csv("../data/grocers_yelp_ottawa.csv")
+
+grocers <- read_csv("../data/grocers_all.csv")
+```
+
+## Summary
+
+Showing results for 326 grocery stores collected from company sites (for large grocers) and from Yelp (for small grocers).
+
+## Map
+
+Green grocers are large (parsed from company sites); blue grocers are small (parsed from Yelp).
+
+
+```{r echo = FALSE}
+  
+get_colour <- function(data){
+  if_else(data$size == "large", "green", "blue")
+}
+
+icons <- awesomeIcons(
+  icon = 'glyphicon-apple',
+  iconColor = 'black',
+  library = 'glyphicon',
+  markerColor = get_colour(grocers)
+)
+
+# icons <- awesomeIcons(
+#   icon = 'ios-nutrition',
+#   iconColor = 'black',
+#   library = 'ion',
+#   markerColor = getColor(df.20)
+#)
+
+labels <- purrr::map(paste0("<b>",grocers$name,
+                            "</b><br>",grocers$address), 
+                     htmltools::HTML)
+grocers %>%
+  rename(lat = Y, lon = X) %>%
+  leaflet() %>%
+  addTiles() %>% 
+  addAwesomeMarkers(~lon, ~lat, label = labels,
+             icon = icons) 
+```
+
+
+
+## Data table
+
+```{r}
+
+grocers %>%
+  select(name, address, address2, phone, size, update_date, notes, X, Y) %>%
+  DT::datatable()
+
+```
+
