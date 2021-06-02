@@ -1,0 +1,26 @@
+GROCERY DATA REVIEW
+
+The ONS is updating its data about Ottawa's food space so that we can better understand how access to food resources varies across the city. The last data update was a few years ago, and so we're collecting new data now and comparing it to our old data. We're starting with grocery stores, and we have collected a lot of data about grocery store names and addresses that we need to validate.
+
+Since addresses can be written many different ways, we have used the City of Ottawa's geocoding system to turn each address into a set of latitude/longitude coordinates. Then we matched the old data with the new data by their lat/lon coordinates. This is the starting point for our data validation.
+
+You'll be helping by looking at how the old data maps onto the new data in two ways.
+
+FIRST: For old and new locations that are matched by lat/lons, are they actually the same store?
+
+File name: grocers_old_matched_forreview.csv
+
+For each row, look at the old and new names and addresses. We want them to be the same names and locations, with maybe differences in capital letters. If you see anything else (e.g. a different name for the old and new locations), please flag it in the column "status."
+
+* If they're the same, put a 1;
+* If something more complex, put a 2 and write a brief description in "notes."
+
+SECOND: For old locations that had no match in the new data, do they still exist?
+
+File name: grocers_old_unmatched_forreview.csv
+
+The easiest way to do this is by doing Google searches for the name and address of each location, and in the worst case making a telephone call to see if they're still there. Please log your findings in the column "status" as follows, and write a note in the "notes" column if applicable:
+
+* If the store has closed, put a 0;
+* If the store is still there with no change, put a 1;
+* If something more complicated has happened (it moved, changed names, etc.), put a 2 and add a short note explaining.
