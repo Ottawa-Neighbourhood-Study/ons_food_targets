@@ -6,16 +6,21 @@ Since addresses can be written many different ways, we have used the City of Ott
 
 You'll be helping by looking at how the old data maps onto the new data in two ways.
 
-FIRST: For old and new locations that are matched by lat/lons, are they actually the same store?
+ELYSE: For old and new locations that are matched by lat/lons, are they actually the same store?
 
 File name: grocers_old_matched_forreview.csv
 
 For each row, look at the old and new names and addresses. We want them to be the same names and locations, with maybe differences in capital letters. If you see anything else (e.g. a different name for the old and new locations), please flag it in the column "status."
+Please use the following rules for column H:
+1 = column A is correct
+2 = column E is correct
+3 = there are two DIFFERENT stores at the same location so both are correct
+4 = something more complicated - (please explain in column I)
 
-* If they're the same, put a 1;
-* If something more complex, put a 2 and write a brief description in "notes."
+note: if both names are very similar but not exactly the same (i.e. you know they both refer to the same place but their names are written slightly differently), write "1" or "2" based on which name is more accurate (use Google)
 
-SECOND: For old locations that had no match in the new data, do they still exist?
+
+PEDRO: For old locations that had no match in the new data, do they still exist?
 
 File name: grocers_old_unmatched_forreview.csv
 
