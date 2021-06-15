@@ -1,4 +1,4 @@
-name_old,address_old,lat,lng,name_new,address_new,address2_new,"status (1 = match, 2 = something more complex)",notes
+name_1_old,address_old,lat,lng,name_2_new,address_new,address2_new,"status (1 = column A is correct, 2 = column E is correct, 3 = there are two DIFFERENT stores at the same location so both are correct, 4 = something more complicated which is explained in column I)",notes
 AL WAHA Halal Meat & Grocery,2833 Dumaurier Ave,45.3508832,-75.793692,Ottawa Halal Market,2833 Dumaurier Avenue,NA,,
 ALJAZEERA FOOD MARKET,1101 Wellington St W,45.4029553,-75.72592308,Al Jazeerah Food and Meat Market,1101 Wellington Street W,NA,,
 Al-Noor Bakery Halal,70 Wylie Avenue,45.35475223,-75.8068701,Vaishali’s Super Store,62 Wylie Ave,NA,,
