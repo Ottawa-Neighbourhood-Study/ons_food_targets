@@ -1,0 +1,53 @@
+---
+title: "OSM Grocery Test"
+author: "Christopher Belanger, PhD"
+date: "08/06/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE, message=FALSE, warning = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(osmdata)
+library(sf)
+library(leaflet)
+library(onsr)
+
+ons_shp <- onsr::get_ons_shp()
+
+ons_bbox <- sf::st_bbox(ons_shp)
+
+```
+
+
+
+## OSM Grocery  Query
+
+Learning from [this site](https://dominicroye.github.io/en/2018/accessing-openstreetmap-data-with-r/)
+
+```{r}
+
+osmdata::available_features()
+
+osmdata::available_tags("amenity") # includes fast_food and restaurant
+
+osmdata::available_tags("shop") # "convenience" "ice_cream"
+
+grocery_tags <- c("bakery", "butcher", "cheese", "chocolate", "confectionery", "dairy", "deli", "frozen_food", "greengrocer", "health_food", "organic", "pasta", "spices", "supermarket")
+
+q <- osmdata::opq(bbox = ons_bbox) %>%
+  add_osm_feature("shop", "supermarket")
+
+supermarket_shp <- osmdata::osmdata_sf(q)
+
+sm <- supermarket_shp$osm_polygons %>%
+  select(osm_id, name, addr.housenumber, addr.street, addr.postcode, shop)
+
+sm %>% ggplot() + geom_sf()
+
+sm %>%
+  drop_na(name)
+
+```
+

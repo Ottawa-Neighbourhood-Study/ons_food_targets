@@ -1,0 +1,86 @@
+---
+title: "Grocery Stores in Ottawa"
+output: 
+  flexdashboard::flex_dashboard:
+    #orientation: rows
+---
+
+```{r setup, include=FALSE, message=FALSE, warning=FALSE}
+
+library(readr)
+library(dplyr)
+library(flexdashboard)
+library(crosstalk)
+library(leaflet)
+library(DT)
+
+
+ons_shp <- onsr::get_ons_shp()
+
+grocers <- read_csv("../data/grocers_final.csv") %>%
+  sf::st_as_sf(coords = c("lng", "lat"), crs = "WGS84", remove = FALSE) %>%
+  group_by(lat, lng) %>%
+  mutate(num = n())
+
+
+grocers_ons <- onsr::get_pts_neighbourhood(pts = grocers,
+                            pgon = ons_shp)
+
+labs <- paste0("<b>",grocers$name,"</b><br>",
+               grocers$address) %>%
+  purrr::map(htmltools::HTML)
+```
+
+Column {data-height=650}
+-----------------------------------------------------------------------
+
+### 
+
+```{r}
+
+  leaflet(grocers) %>% 
+  addTiles() %>% 
+  addMarkers(label = labs
+             #,clusterOptions = leaflet::markerClusterOptions()
+             ) %>%
+  addPolygons(data = ons_shp,
+              weight = 2,
+              fillOpacity = 0,
+              label = ons_shp$Name)
+  
+
+```
+
+Column {data-height=350}
+-----------------------------------------------------------------------
+
+### Data Table {data-height=700}
+
+
+```{r}
+
+grocers_ons %>%
+  sf::st_set_geometry(NULL) %>%
+  select(Neighbourhood = Name,
+         Name = name,
+         Address = address) %>%
+  arrange(Neighbourhood, Name) %>%
+DT::datatable(options = list(scrollY = TRUE,
+                             pageLength = 10,
+                             dom = "ftp"))
+
+```
+
+### Additional Information
+
+The [Ottawa Neighbourhood Study](https://www.neighbourhoodstudy.ca) (ONS) is refreshing its data about Ottawa's food environment. This data will help to understand the types of food resources available to Ottawa's residents, and can inform social policy and municipal planning.
+
+The data shown here was collected from major food retailers' websites and from Yelp, and combined with the ONS's previous data about Ottawa's food environment.
+
+This data is provisional: if you see any errors, or if something is missing, we would welcome your feedback via email at [ONS.eqo@gmail.com](mailto:ONS.eqo@gmail.com).
+
+<div style="text-align: right">
+
+*Rev 2021-06-08*
+
+</div>

@@ -1,0 +1,74 @@
+---
+title: "Grocery Stores in Ottawa"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+---
+
+```{r setup, include=FALSE, message=FALSE, warning=FALSE}
+library(readr)
+library(dplyr)
+library(flexdashboard)
+library(crosstalk)
+library(leaflet)
+library(DT)
+# Wrap data frame in SharedData
+sd <- SharedData$new(quakes[sample(nrow(quakes), 100),])
+
+
+ons_shp <- onsr::get_ons_shp()
+
+grocers <- read_csv("../data/for_validation/grocers_updated.csv") %>%
+  sf::st_as_sf(coords = c("lng", "lat"), crs = "WGS84")
+
+
+grocers_ons <- onsr::get_pts_neighbourhood(pts = grocers,
+                            pgon = ons_shp)
+
+labs <- paste0("<b>",grocers$name,"</b><br>",
+               grocers$address) %>%
+  purrr::map(htmltools::HTML)
+```
+
+Row {data-height = 600}
+-----------------------------------------------------------------------
+
+### 
+
+```{r}
+
+  leaflet(grocers) %>% 
+  addTiles() %>% 
+  addMarkers(label = labs
+             ,clusterOptions = leaflet::markerClusterOptions()
+             ) %>%
+  addPolygons(data = ons_shp,
+              weight = 2,
+              fillOpacity = 0,
+              label = ons_shp$Name)
+  
+
+```
+
+Row {.tabset}
+-----------------------------------------------------------------------
+
+### Data Table
+
+
+```{r}
+
+grocers_ons %>%
+  sf::st_set_geometry(NULL) %>%
+  select(Neighbourhood = Name,
+         Name = name,
+         Address = address,
+         Size = size) %>%
+  arrange(Neighbourhood, Name) %>%
+DT::datatable()
+
+```
+
+### Additional Information
+
+Why hello there!

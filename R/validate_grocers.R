@@ -65,3 +65,13 @@ nogeocode_new <- grocers_new %>%
 
 nogeocode_old <- grocers_old %>%
   filter(is.na(lat))
+
+
+grocers_matched %>%
+  write_csv("data/for_validation/grocers_old_matched.csv")
+
+grocers_old_unmatched %>%
+  write_csv("data/for_validation/grocers_old_unmatched.csv")
+
+grocers_new_unmatched %>%
+  write_csv("data/for_validation/grocers_new_unmatched.csv")

@@ -1,0 +1,177 @@
+library(tidyverse)
+library(sf)
+library(cowplot)
+library(ggiraph)
+
+theme_map <-function (...){
+    theme_minimal() +
+      theme(
+        text = element_text(color = "#666666"),
+        # remove all axes
+        axis.line = element_blank(),
+        axis.text.x = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks = element_blank(),
+        # add a subtle grid
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        ...
+      )
+}
+
+ons_shp <- onsr::get_ons_shp(all_details = TRUE)
+ons_data <- onsr::get_ons_data()
+
+
+
+pops <- ons_data %>%
+  filter(polygon_attribute == "pop2016" & ONS_ID >0) %>%
+  select(ONS_ID,
+         pop2016 = value) %>%
+  mutate(ONS_ID = as.numeric(ONS_ID))
+
+specialty <- ons_data %>%
+  filter(polygon_attribute == "F_specialty_count" & ONS_ID > 0) %>%
+  select(ONS_ID, 
+         specialty_food_stores = value) %>%
+  mutate(ONS_ID = as.numeric(ONS_ID)) %>%
+  distinct()
+
+# join the data
+df <- ons_shp %>%
+  dplyr::left_join(pops, by = "ONS_ID") %>%
+  dplyr::left_join(specialty, by = "ONS_ID")
+
+
+
+
+## FFUNCTION STARTS HERE
+var1_label <- "Population"
+var2_label <- "Speciality\nFood Stores"
+
+plot_title <- "Population and Specialty Food Stores by Neighbourhood"
+plot_subtitle <- "Interactive Bivariate Choropleth"
+
+var1_name <- "pop2016"
+var2_name <- "specialty_food_stores"
+na_values <- "zero"
+plot_title <- plot_subtitle <- NULL
+
+bivariate_choropleth(df, var1_name, var2_name,
+                     plot_title= "Testing a title")
+
+bivariate_choropleth <- function (df, var1_name, var2_name, 
+                                  var1_label= "var1", var2_label = "var2", 
+                                  na_values = c("zero","drop_na"),    # what happens to NAs in var1 and var2?
+                                  plot_title = NULL, plot_subtitle = NULL){
+  
+  # handle NA values in the two variables of interest
+  na_values <- match.arg(na_values, na_values)
+  
+  # create a renamed dataframe to work with
+  forplot <- dplyr::rename(df,
+                           var1 = tidyselect::all_of(var1_name), 
+                           var2 = tidyselect::all_of(var2_name))
+  
+  # handle NA values
+  if (na_values == "zero"){
+    forplot <- dplyr::mutate(forplot, 
+                             var1 = dplyr::if_else(is.na(var1), 0, var1),
+                             var2 = dplyr::if_else(is.na(var2), 0, var2))
+  }
+  if (na_values == "drop_na"){
+    forplot <- tidyr::drop_na(forplot, var1, var2)
+  }
+  
+  # convert raw values to n-tiles
+  forplot <- forplot %>%
+    dplyr::mutate(var1_ntile = dplyr::ntile(n=3, var1),
+                  var2_ntile = dplyr::ntile(n=3, var2),
+                  uni_dim_fill = (var1_ntile-1)*3 + var2_ntile)
+  
+  ###### DEFINE OUR COLOUR SCALES
+  # https://rpubs.com/ayushbipinpatel/593942
+  # https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/
+  bivariate_color_scale <- tibble::tribble(
+    ~var1, ~var2, ~fill,
+    3,  3,  "#3F2949", # high inequality, high income
+    2,  3,  "#435786",
+    1,  3,  "#4885C1", # low inequality, high income
+    3,  2,  "#77324C",
+    2,  2,  "#806A8A", # medium inequality, medium income
+    1,  2,  "#89A1C8",
+    3,  1,  "#AE3A4E", # high inequality, low income
+    2,  1,  "#BC7C8F",
+    1,  1,  "#CABED0" # low inequality, low income
+  )
+  
+  bivariate_color_scale_unidim <- bivariate_color_scale %>%
+    dplyr::mutate(uni_dim_fill = (var1-1)*3 + var2) %>%
+    dplyr::select(uni_dim_fill, fill)
+  
+  
+  
+  forplot <- dplyr::left_join(forplot, 
+                              bivariate_color_scale_unidim,
+                              by = "uni_dim_fill")
+  
+  # create the map plot
+  p <- forplot %>%
+    ggplot2::ggplot() +
+    ggiraph::geom_sf_interactive(aes(tooltip = paste0(Name,"\nvar1:",var1_ntile,"\nvar2:",var2_ntile,"\nfill:",fill), 
+                                     fill = fill),
+                                 size = .2) +
+    ggplot2::theme_minimal() +
+    ggplot2::scale_fill_identity() +
+    theme_map() +
+    ggplot2::labs(title = plot_title,
+                  subtitle = plot_subtitle)
+  
+  # create the legend
+  legend <- ggplot2::ggplot() +
+    theme_map() +
+    ggplot2::geom_tile(
+      data = bivariate_color_scale,
+      mapping = ggplot2::aes(
+        x = var1,
+        y = var2,
+        fill = fill)
+    ) +
+    ggplot2::scale_fill_identity() +
+    ggplot2::labs(x = paste0(var1_label, sprintf("\u27f6")),
+                  y = paste0(var2_label,sprintf("\u27f6"))) +
+    # make font small enough
+    ggplot2::theme(
+      axis.title = ggplot2::element_text(size = 6)
+    ) +
+    # quadratic tiles
+    ggplot2::coord_fixed() 
+  # +
+  #   ggplot2::geom_text(aes(x=-1,y=0, label = "asdf")) +
+  #   ggplot2::geom_curve(aes(x=-1, y=0.1, xend = 0.5, yend = 0.5), curvature = -0.5)
+  # legend
+  
+  t <- cowplot::ggdraw() +
+    cowplot::draw_plot(p, 0, 0, 1, 1) +
+    cowplot::draw_plot(legend, 0.75, 0.1, 0.15, 0.15)
+  
+  
+  ggiraph::girafe(ggobj = t) %>%
+    ggiraph::girafe_options(opts_zoom(min = 1, max = 5) )
+}
+
+
+# 
+# # https://rpubs.com/ayushbipinpatel/593942
+# bivariate_color_scale <- tibble(
+#   "3 - 3" = "#3F2949", # high inequality, high income
+#   "2 - 3" = "#435786",
+#   "1 - 3" = "#4885C1", # low inequality, high income
+#   "3 - 2" = "#77324C",
+#   "2 - 2" = "#806A8A", # medium inequality, medium income
+#   "1 - 2" = "#89A1C8",
+#   "3 - 1" = "#AE3A4E", # high inequality, low income
+#   "2 - 1" = "#BC7C8F",
+#   "1 - 1" = "#CABED0" # low inequality, low income
+# ) %>%
+#   gather("group", "fill")
