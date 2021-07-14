@@ -15,10 +15,10 @@ source("R/scrape_grocers.R")
 source("R/parse_grocers.R")
 
 list(
-  # tar_target(
-  #   gmap_api_key,
-  #     readr::read_file("../chris_google_api/chris_google_api_key.csv")
-  # ),
+  tar_target(
+    gmap_api_key,
+      readr::read_file("../chris_google_api/chris_google_api_key.csv")
+  ),
   # 
   # tar_target(
   #   grocers_large,
@@ -27,12 +27,12 @@ list(
   # ),
   tar_target(
     grocers_large_data,
-    "data/grocers_large_ottawa.csv",
+    "data/grocers/grocers_large_ottawa.csv",
     format = "file"
   ),
   tar_target(
     yelp_grocers_data,
-    "data/yelp_grocery.csv",
+    "data/grocers/yelp_grocery.csv",
     format = "file"
   ),
   
@@ -62,12 +62,33 @@ list(
       mutate(address2 = "",
              size = "small",
              update_date= Sys.Date()) %>%
-      write_csv("data/grocers_yelp_ottawa.csv")
+      write_csv("data/grocers/grocers_yelp_ottawa.csv")
   ),
   
-  tar_target(grocers_all,
+  tar_target(grocers_all_scraped,
              bind_rows(grocers_large, grocers_yelp) %>%
-               write_csv("data/grocers_all.csv")),
+               write_csv("data/grocers/grocers_all.csv")),
+  
+  # load the new data from students
+  tar_target(
+    grocers_student_additions,
+    
+    readxl::read_xlsx("data/grocers/Grocery Store Additions - Sheet1.xlsx") %>%
+      select(name = Name, chain, address) %>% 
+      mutate(phone = stringr::str_extract(address, "\\(\\d\\d\\d\\) \\d\\d\\d-\\d\\d\\d\\d"),
+             address = stringr::str_remove_all(address, "\\(\\d\\d\\d\\) \\d\\d\\d-\\d\\d\\d\\d"),
+             address = if_else(name == "Shoppers", paste0(address, ", Ottawa"), address)) %>%
+      onsr::geocode_gmap(address, api_key = gmap_api_key, verbose = TRUE)
+  ),
+  
+  # put the data together
+  
+  tar_target(
+    grocers_all,
+    grocers_student_additions %>%
+      rename(X = lng, Y = lat) %>%
+      bind_rows(grocers_all_scraped)
+  ),
   
   ##### SOME MAPS FOR TESTING
   

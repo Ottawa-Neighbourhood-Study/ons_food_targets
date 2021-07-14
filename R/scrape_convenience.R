@@ -37,27 +37,27 @@ library(httr)
 library(rvest)
 
 scrape_circlek <- function(max_pages = 25){
-page <- 0
-all_results <- tibble()
-
-for (page in 1:max_pages){ # note if you go up to 1000 it gives you maybe all the stores in the world
-  url <- paste0("https://www.circlek.com/stores_new.php?lat=45.421&lng=-75.69&services=&region=global&page=",page)
+  page <- 0
+  all_results <- tibble()
   
-  resp <- httr::GET(url)
+  for (page in 1:max_pages){ # note if you go up to 1000 it gives you maybe all the stores in the world
+    url <- paste0("https://www.circlek.com/stores_new.php?lat=45.421&lng=-75.69&services=&region=global&page=",page)
+    
+    resp <- httr::GET(url)
+    
+    stores <- httr::content(resp, type = "text/json", encoding = "UTF-8") %>%
+      jsonlite::fromJSON()
+    
+    stores <- stores$stores %>%
+      enframe() %>%
+      unnest_wider(value)
+    
+    all_results <- bind_rows(all_results, stores)
+  }
   
-  stores <- httr::content(resp, type = "text/json", encoding = "UTF-8") %>%
-    jsonlite::fromJSON()
-  
-  stores <- stores$stores %>%
-    enframe() %>%
-    unnest_wider(value)
-  
-  all_results <- bind_rows(all_results, stores)
-}
-
-#all_results <- 
+  #all_results <- 
   results <- all_results %>%
-  mutate(services = purrr::map_chr(services, function(x) stringr::str_flatten(x[[1]], collapse = ", "))) 
+    mutate(services = purrr::map_chr(services, function(x) stringr::str_flatten(x[[1]], collapse = ", "))) 
   
   return (results)
 }

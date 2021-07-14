@@ -49,6 +49,8 @@ Column {data-height=650}
 ### 
 
 ```{r}
+  # https://github.com/ropensci/plotly/blob/master/demo/crosstalk-highlight-leaflet.R ????
+  options(opacityDim = 0)
 
   leaflet() %>% 
   addTiles() %>% 
