@@ -87,8 +87,11 @@ list(
     grocers_all,
     grocers_student_additions %>%
       rename(X = lng, Y = lat) %>%
-      bind_rows(grocers_all_scraped)
+      bind_rows(grocers_all_scraped) %>%
+      write_csv(paste0("data/grocers/grocers_", Sys.Date()))
   ),
+  
+  
   
   ##### SOME MAPS FOR TESTING
   
