@@ -5,9 +5,63 @@ library(sf)
 library(leaflet)
 
 
-  
+# load the files for circle k, quickie, and everything on yelp
+ck <- read_csv("data/convenience/circle_k.csv") %>%
+  filter(distance < 50) %>%
+  mutate(address = sprintf("%s, %s, %s", address, city, country),
+         address = stringr::str_replace_all(address, ",,", ",")) %>%
+  select(name = display_brand,
+         address,
+         note = services)
+
+qk <- read_csv("data/convenience/quickie.csv") %>%
+  mutate(address = sprintf("%s, %s, %s", address, address2, postal_code)) %>%
+  select(name, address, phone)
+
+yp <- read_csv("data/convenience/yelp_convenience.csv") %>%
+  rename(note = categories) %>%
+  filter(!tolower(name) %in% tolower(unique(ck$name)),
+         !stringr::str_detect(name, "Quickie the"),
+         !stringr::str_detect(name, "Mac’s"))
 
 
+convenience <- bind_rows(ck, yp, qk)
+
+
+# re-geocode them
+
+api_key <- read_file("../chris_google_api/chris_google_api_key.csv")
+
+convenience <- onsr::geocode_gmap(data = convenience,
+                                  var = address,
+                                  api_key = api_key,
+                                  verbose = TRUE)
+
+convenience %>%
+  write_csv("data/convenience/convenience_geo.csv")
+
+# eliminate many duplicates automatically
+con_dedup <- convenience %>%
+  filter(!stringr::str_detect(name, "Quickie Convenience|Quickie Stores")) %>%
+  filter(!stringr::str_detect(address, "QC|Gatineau|GATINEAU")) %>%
+#  filter(!stringr::str_detect(name, "Quickie the")) %>%
+  group_by(lat, lng) %>%
+  mutate(num = n()) %>%
+  arrange(lat, lng, -num) %>%
+  filter(!(name == "Ultramar" & num == 2)) %>%
+  filter(!(stringr::str_detect(name, "Esso") & num == 2)) %>%
+  group_by(lat, lng) %>%
+  mutate(num2 = n())
+
+# ... but do a few manually
+write_csv(con_dedup, "data/convenience/convenience_geo_formanual.csv")
+
+# and load them back, remove the unnecessary columns, and save one last time
+con_manual <- read_csv("data/convenience/convenience_geo_postmanual.csv")
+
+con_manual %>%
+  select(-num, -num2) %>%
+  write_csv(paste0("data/convenience/convenience_", Sys.Date(),".csv"))
 
 
 
