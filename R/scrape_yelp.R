@@ -47,7 +47,7 @@ write_csv(yelp_convenience,
           "data/convenience/yelp_convenience.csv")
 
 
-scrape_yelp <- function(search_term, location){
+scrape_yelp <- function(search_term, location, num_pages = 24){
   # SCRAPING YELP... AGAIN
 
   find_desc <- urltools::url_encode(search_term)
@@ -61,27 +61,12 @@ scrape_yelp <- function(search_term, location){
   
   store_details <- tibble::tibble()
   
-  for (page_num in 0:23) {
-    message (paste0("Page ",page_num+1, "/24"))  
+  for (page_num in 0:(num_pages-1)) {
+    message (sprintf("Page %s/%s", page_num+1, num_pages)) #paste0("Page ",page_num+1, "/24"))  
     url <- paste0(base_url, page_num*10)
     
     html <- httr::GET(url) %>%
       httr::content()
-    # 
-    # stores2 <- html %>% httr::content() %>% rvest::html_elements(css = ".border--left__09f24__akfOa.border-color--default__09f24__3Epto")
-    # 
-    # stores2 <- html %>%
-    #   rvest::html_elements(css = ".border--left__09f24__akfOa.border-color--default__09f24__3Epto")
-    # 
-    # stores <- html %>%
-    #   rvest::html_elements(css = ".css-1pxmz4g .css-166la90")
-    # 
-    # store_urls <- stores %>%
-    #   rvest::html_attr("href")
-    # 
-    # all_urls <- c(all_urls, store_urls)
-    # 
-    
     
     # do it with more detailed data
     # get the json. we extract all the internal application/json scripts,
@@ -92,9 +77,9 @@ scrape_yelp <- function(search_term, location){
     json_data <-
       html %>%
       #html_elements(css = "[data-hypernova-key]")  %>%
-      html_elements(css = '[type*="application/json"]') %>%
-      pluck(1) %>%
-      html_text() %>%
+      rvest::html_elements(css = '[type*="application/json"]') %>%
+      purrr::pluck(1) %>%
+      rvest::html_text() %>%
       stringr::str_remove_all("<!--|-->") %>%
       jsonlite::fromJSON()
     
@@ -104,8 +89,8 @@ scrape_yelp <- function(search_term, location){
     # then we parse it
     stores <- hover_card_data %>%
       purrr::map_df( function(x) {  enframe(x) %>%
-          pivot_wider(names_from = name, values_from = value) %>%
-          mutate(categories = 
+          tidyr::pivot_wider(names_from = name, values_from = value) %>%
+          dplyr::mutate(categories = 
                    purrr::map(categories, 
                               function(x) {
                                 purrr::pluck(x, "title") %>% 
@@ -113,18 +98,19 @@ scrape_yelp <- function(search_term, location){
                               })
           )}
       ) %>%
-      mutate(across(everything(), purrr::map, 
+      dplyr::mutate(across(everything(), purrr::map, 
                     function(x) {
                       as.character(x) %>%
                         stringr::str_flatten(collapse = ", ")
                     })
       ) %>%
-      unnest(cols = everything())
+      tidyr::unnest(cols = everything())
     
     store_details <-
-      bind_rows(store_details, stores)
+      dplyr::bind_rows(store_details, stores)
     
-    Sys.sleep(10)
+    # do a precautionary pause if we have more pages to scrape
+    if (page_num < num_pages - 1) Sys.sleep(10)
   }
   
   return (store_details)

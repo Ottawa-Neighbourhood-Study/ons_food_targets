@@ -13,6 +13,8 @@ library(httr)
 library(rvest)
 
 
+api_key <- read_file("../chris_google_api/chris_google_api_key.csv")
+
 old_food <- read_csv("data/original/ONS Food Environment Mega Data - Food Env-edit.csv")
 
 # extract the old convenience stores, make sure their address includes "Ottawa, ON" if 
@@ -33,14 +35,127 @@ old_food <- read_csv("data/original/ONS Food Environment Mega Data - Food Env-ed
 con_old <- read_csv("data/convenience/conv_old_geocoded.csv")
 
 con_new <- read_csv("data/convenience/convenience_2021-07-27.csv") %>%
-#  con_manual 
-#  %>% select(-num, -num2) %>%
+  #  con_manual 
+  #  %>% select(-num, -num2) %>%
   rename(name_new = name,
          address_new = address,
          note_new = note,
          phone_new = phone)
 
-con_join <- full_join(con_old, con_new, by = c("lat", "lng"))
+# ADDING NEW ONES
+
+esso <- read_csv("data/convenience/esso.csv")
+cdn_tire_gas <- read_csv("data/convenience/cdn_tire_gas.csv")
+dollar_tree <- read_csv("data/convenience/dollar_tree.csv")
+dollarama <- read_csv("data/convenience/dollarama.csv")
+giant_tiger <- read_csv("data/convenience/giant_tiger.csv")
+macewen <- read_csv("data/convenience/macewen.csv")
+mrgas <- read_csv("data/convenience/mrgas.csv")
+petrocan <- read_csv("data/convenience/petrocan.csv")
+pioneer <- read_csv("data/convenience/pioneer.csv")
+shell <- read_csv("data/convenience/shell.csv")
+ultramar <- read_csv("data/convenience/ultramar.csv")
+drummonds_gas <- read_csv("data/convenience/drummonds_gas.csv")
+international_news <- read_csv("data/convenience/international_news.csv")
+gateway_newstand <- read_csv("data/convenience/gateway_newstand.csv")
+
+new_ones <- list(esso,
+                 cdn_tire_gas,
+                 dollar_tree,
+                 dollarama,
+                 giant_tiger,
+                 macewen,
+                 mrgas,
+                 petrocan,
+                 pioneer,
+                 shell,
+                 ultramar,
+                 drummonds_gas,
+                 international_news) %>%
+  purrr::map_dfr(function(x) mutate(x, across(everything(), as.character))) %>%
+  mutate(lat = as.numeric(lat),
+         lng = as.numeric(lng),
+         convenience_store = as.logical(convenience_store)) %>%
+  rename(name_new = name,
+         address_new= address,
+         phone_new = phone) %>%
+  select(-convenience_store)
+
+con_new <- bind_rows(con_new, new_ones) 
+
+# re-geocode...
+for_geocode <- con_new %>%
+  select(-lat, -lng) 
+
+con_newer <- for_geocode %>%
+  onsr::geocode_gmap(address_new, api_key = api_key, verbose = TRUE)
+
+con_newer_dedup <- con_newer %>% 
+  group_by(lat,lng) %>% 
+  mutate (num = n()) %>% 
+  arrange(desc(num), address_new) %>%
+  filter(!(stringr::str_detect(name_new, "ESSO") & num > 1)) %>%
+  distinct(name_new, address_new, .keep_all = TRUE)
+
+con_newer_dedup %>%
+  mutate(num2 = n()) %>%
+  arrange(desc(num2)) %>%
+  write_csv(sprintf("data/convenience/convenience-formanualedits-%s.csv", Sys.Date()))
+
+## made manual edits in excel
+
+con_new_manual <- read_csv("data/convenience/convenience-withmanualedits-2021-08-05.csv") %>%
+  rename(name = name_new,
+         address = address_new,
+         phone = phone_new,
+         note = note_new,
+         Y = lat,
+         X = lng) %>%
+  select(-num, -num2) %>%
+  bind_rows(gateway_newstand) %>%
+  distinct(name, address, .keep_all = TRUE) %>%
+  write_csv(sprintf("data/convenience/convenience-%s.csv", Sys.Date()))
+
+
+
+# put together grocers and convenience stores
+
+# t <- grocers %>% mutate(address = if_else(is.na(address2), address, sprintf("%s, %s", address, address2)))
+# tt <- t %>%
+#   mutate(address = if_else(stringr::str_detect(address, ",|Ottawa|Rockland|Stittsville|Kanata|Brockville|Orleans"),
+#                            address,
+#                            paste0(address,", Ottawa, ON")))
+#tt <- grocers
+# tt <- tt %>%
+#   filter(name != "Dollarama")
+# tt %>%
+#   write_csv("data/grocers/grocers_2021-08-05.csv")
+
+grocers <- read_csv("data/grocers/grocers_2021-08-05.csv") %>%
+  mutate(category = "grocery")
+convenience <- read_csv("data/convenience/convenience-2021-08-05.csv") %>%
+  mutate(category = "convenience")
+
+food <- bind_rows(grocers, convenience) %>%
+  select(-chain, -size) %>%
+  distinct(name, address, .keep_all = TRUE)
+
+food %>%
+  write_csv(sprintf("data/combined/foodspace_%s.csv", Sys.Date()))
+# t <- con_new_manual %>%
+#   select(-num, -num2) %>%
+#   group_by(lat, lng) %>%
+#   mutate(num = n()) %>%
+#   arrange(desc(num))
+
+for_join <- con_new_manual %>%
+  rename(lat= Y,
+         lng = X)
+
+con_join <- full_join(con_old, for_join, by = c("lat", "lng"))
+
+olds <- con_join %>%
+  filter(is.na(name))
 
 # This function loads the already-scraped results, removes some duplicates, and
 # puts them together. The next step is to compare them to the old results from
@@ -106,26 +221,82 @@ combine_convenience_results <- function() {
 }
 
 
-# ADDING NEW ONES
 
-esso <- read_csv("data/convenience/esso.csv")
-cdn_tire_gas <- read_csv("data/convenience/cdn_tire_gas.csv")
-dollar_tree <- read_csv("data/convenience/dollar_tree.csv")
-dollarama <- read_csv("data/convenience/dollarama.csv")
-giant_tiger <- read_csv("data/convenience/giant_tiger.csv")
-macewen <- read_csv("data/convenience/macewen.csv")
-mrgas <- read_csv("data/convenience/mrgas.csv")
-petrocan <- read_csv("data/convenience/petrocan.csv")
-pioneer <- read_csv("data/convenience/pioneer.csv")
-shell <- read_csv("data/convenience/shell.csv")
-ultramar <- read_csv("data/convenience/ultramar.csv")
+# Gateway Newstand
 
+scrape_gateway_newstand <- function() {
+  results <- onsr::scrape_yelp("gateway newstand", num_pages = 1)
+  
+  results <- results %>%
+    select(name,
+           address = addressLines)
+  
+  results %>%
+    write_csv("data/convenience/gateway_newstand.csv") %>%
+    return()
+  
+}
+
+
+
+# International News
+
+scrape_international_news <- function() {
+  results <- onsr::scrape_yelp("international news", num_pages = 1)
+  
+  results <- results %>%
+    select(name,
+           address = addressLines) %>%
+    filter(name == "International News")
+  
+  results %>%
+    write_csv("data/convenience/international_news.csv") %>%
+    return()
+}
+
+
+# DRUMMOND GAS
+
+scrape_drummond_gas <- function(){
+  
+  # we have to scrape a few pages so this is where all results will go
+  results <- tibble::tibble()
+  
+  urls <- c("https://www.drummondsgas.com/locations/ottawa-centre",
+            "https://www.drummondsgas.com/locations/ottawa-south",
+            "https://www.drummondsgas.com/locations/ottawa-west")
+  
+  for (url in urls){
+    
+    resp <- httr::GET(url)
+    
+    html <- httr::content(resp, encoding = "UTF-8")
+    
+    stores <- html %>%
+      #rvest::html_elements(css = ".col-lg-6 .bodytext:nth-child(1)")# %>%
+      rvest::html_elements(css = ".bodytext") %>%
+      rvest::html_text2() %>%
+      tibble::tibble(data = .) %>%
+      dplyr::filter(stringr::str_detect(data, "ON")) %>%
+      mutate(address = stringr::str_replace_all(data, "\\n", ", "),
+             address = stringr::str_remove_all(address, "\uf041 "),
+             name = "Drummond's Gas") %>%
+      select(name, address)
+    
+    results <- dplyr::bind_rows(results, stores)
+  }
+  
+  results %>%
+    write_csv("data/convenience/drummonds_gas.csv") %>%
+    return()
+  
+}
 
 # ULTRAMAR / JOURNIE
 
 scrape_ultramar <- function() {
   url <- "https://www.journie.ca/en-CA/Destinations/Find?Length=100&__RequestVerificationToken=f4EoWvkEsQegLq_BvzIJuWiNIr9vKVXAylUwXprtrA4uP8kaUW7ocCjU8I9_FJ3eSl6imUCQqyUhm05c2os3-InefzU1&UserLatitude=0&UserLongitude=0&g-recaptcha-response=03AGdBq247zgnPPFJZGnBmSJcrGJRrpYMOsLBI4u3KGitwisQI1C_13kk0osXNdb6Ypjp3rQRtmC3E3al2_dYpRbj3CmT-WIdu6YtZQVcRlHYMWsrTxVk6XsEygLl9M9siLnRCBC3vDOHb2Gckz6LwT3k6sm8e0SvVfTJNHecxyar4IhGKr5LanMwJiqVap_vzBvZMJq-VX71MAitIEI7bShSBB8TTyzdyM8GTlF7LasZiKzDSGDi4MwnuYYSU3aWcBiv70NKoAl-Zimaww_ftj2lW3Rhn2otmZ-pQE-imVBr5p5wuz3JHNbyvPJ6gooaLilPNskxJ55duqj_G_kGlCIWrggQFE1bvPuSqlXNZzcSeFvrubQuZIxX4vZPVAj9sgoh23OsowxNzms-8xP3doaJwCUX2rrBn3kojqzNBQM8cKGI7MAi3Jktwb56IfjlkMzyEhIzJPVBh&StreetAddress=Ottawa%2C%20ON%2C%20Canada&Distance=35&TwentyFourHour=false&EarnAtPump=false&EarnAtStore=false&LocationServiceIds=18&X-Requested-With=XMLHttpRequest&_=1628036336401"
-
+  
   resp <- httr::GET(url)  
   
   df <- httr::content(resp, encoding = "UTF-8")
@@ -148,17 +319,17 @@ scrape_ultramar <- function() {
   ultramar %>%
     write_csv("data/convenience/ultramar.csv") %>%
     return()
-  }
+}
 
 
 # SHELL GAS STATIONS
 
 scrape_shell <-function() {
   url <- "https://shellgsllocator.geoapp.me/api/v1/locations/nearest_to?lat=45.4&lng=-75.7&autoload=true&travel_mode=driving&avoid_tolls=false&avoid_highways=false&avoid_ferries=false&corridor_radius=50&driving_distances=true&format=json"
-
+  
   resp <- httr::GET(url)  
   
-
+  
   
   data <- httr::content(resp, type = "text/json", encoding = "UTF-8") %>%
     jsonlite::fromJSON() %>%
@@ -170,8 +341,8 @@ scrape_shell <-function() {
   data %>%
     write_csv("data/convenience/shell.csv") %>%
     return()
-
-  }
+  
+}
 
 
 # PIONEER GAS STATIONS
@@ -227,7 +398,7 @@ scrape_petro_can <- function() {
   url <- "https://www.petro-canada.ca/en/api/petrocanada/locations?fuel&hours&lat=45.3876404&limit=250&lng=-75.64942669999999&place&range=50&service"
   
   resp <- httr::GET(url)
-
+  
   data <- httr::content(resp, encoding = "UTF-8")
   
   petrocan <- tibble(df = data) %>%
@@ -239,25 +410,25 @@ scrape_petro_can <- function() {
            phone = Phone, 
            lat = Latitude,
            lng= Longitude)
-    
+  
   petrocan %>%
     write_csv("data/convenience/petrocan.csv") %>%
     return()
   
-  }
+}
 
 # MR GAS
 
 scrape_mr_gas <- function() {
   url <- "https://mrgasltd.ca/wp-admin/admin-ajax.php?action=asl_load_stores&nonce=3c8951fe27&load_all=1&layout=1"
-
+  
   resp <- httr::GET(url)
-
+  
   data <- httr::content(resp, type = "text/json", encoding = "UTF-8") %>%
     #rvest::html_text2() %>%
     jsonlite::fromJSON() %>%
     as_tibble()
-
+  
   mrgas <- data %>%
     mutate(address = sprintf("%s, %s, %s, %s", street, city, state, postal_code),
            name = "Mr. Gas",
@@ -269,18 +440,18 @@ scrape_mr_gas <- function() {
     write_csv("data/convenience/mrgas.csv") %>%
     return()
   
-  }
+}
 
 
 # MACEWEN GAS / CONVENIENCE
 
 scrape_macewen <- function() {
   url <- "https://macewen.ca/wp-content/cache/interactive-maps/station-en.json"
-
+  
   resp <- httr::GET(url)  
   
   data <- httr::content(resp)
-
+  
   mce <- tibble(mce = data$places)
   df <- mce %>%
     hoist(mce,
@@ -291,15 +462,15 @@ scrape_macewen <- function() {
           a3 = list("address", 3),
           lat = list("position", 1),
           lng = list("position", 2)
-          ) %>%
+    ) %>%
     mutate(address = sprintf("%s, %s, %s", a1, a2, a3)) %>%
     select(name, address, phone, lat, lng) %>%
     filter(lat > 0)
-
+  
   df %>%
     write_csv("data/convenience/macewen.csv") %>%
     return()
-    
+  
   # mce %>%
   #   unnest_wider(col = mce)
   #   data$places[[1]]$position
@@ -317,8 +488,8 @@ scrape_giant_tiger <- function() {
   gt_resp <- httr::GET(url,
                        httr::add_headers(.headers = c("cookie" = header_cookie)),
                        httr::user_agent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36")
-                       )
-
+  )
+  
   gt <- gt_resp %>%
     httr::content(encoding = "UTF-8")
   
@@ -339,19 +510,19 @@ scrape_giant_tiger <- function() {
           geo2 = list("geo", 2L)
     ) %>%
     # location_type and attributes aren't interesting
-          #location_type = "locationTypes",
-          #attributes = "attributes") %>%
+    #location_type = "locationTypes",
+    #attributes = "attributes") %>%
     #mutate(a = purrr::map_chr(attributes, function(x) unlist(x) %>% as.character() %>% stringr::str_flatten(collapse= ", ")))
-  mutate(address = sprintf("%s, %s, %s, %s", a1, a2, a3, a4),
-         name = "Giant Tiger") %>%
+    mutate(address = sprintf("%s, %s, %s, %s", a1, a2, a3, a4),
+           name = "Giant Tiger") %>%
     select(name, address, phone, lat = geo1, lng = geo2)
-    
+  
   
   gt %>%
     write_csv("data/convenience/giant_tiger.csv") %>%
     return()
   
-  }
+}
 
 
 ## DOLLARAMA
@@ -366,37 +537,37 @@ scrape_dollarama <- function(){
     units = "kilometers"
   )
   dollarama_resp <- httr::POST(url,
-             body = req_body,
-             encoding = "form",
-             httr::add_headers(.headers = c(accept = "json")))
+                               body = req_body,
+                               encoding = "form",
+                               httr::add_headers(.headers = c(accept = "json")))
   
   dol_data <- dollarama_resp %>%
     httr::content() %>%
     rvest::html_text2() %>%
     jsonlite::fromJSON()
   
- df <- dol_data$StoreLocations %>%
+  df <- dol_data$StoreLocations %>%
     as_tibble() %>%
-   mutate(phone = ExtraData$Phone,
-          address = sprintf("%s, %s, %s, %s",
-                            ExtraData$Address$AddressNonStruct_Line1,
-                            ExtraData$Address$Locality,
-                            ExtraData$Address$Region,
-                            ExtraData$Address$PostalCode),
-          location = Location$coordinates) %>%
-   hoist(location, 
-         lat = 2L,
-         lng = 1L) %>%
-   select(name = Name,
-          address,
-          phone,
-          lat,
-          lng)
- 
+    mutate(phone = ExtraData$Phone,
+           address = sprintf("%s, %s, %s, %s",
+                             ExtraData$Address$AddressNonStruct_Line1,
+                             ExtraData$Address$Locality,
+                             ExtraData$Address$Region,
+                             ExtraData$Address$PostalCode),
+           location = Location$coordinates) %>%
+    hoist(location, 
+          lat = 2L,
+          lng = 1L) %>%
+    select(name = Name,
+           address,
+           phone,
+           lat,
+           lng)
+  
   df %>%
     write_csv("data/convenience/dollarama.csv") %>%
     return()
-
+  
 }
 
 
@@ -420,11 +591,11 @@ scrape_dollar_tree <- function() {
     select(name, address, phone,
            lat = latitude,
            lng = longitude)
-
+  
   dt_data %>%
     write_csv("data/convenience/dollar_tree.csv") %>%
     return()
-
+  
 }
 
 
@@ -461,7 +632,7 @@ scrape_cdn_tire_gas <- function(){
     mutate(address = sprintf("%s, %s, %s, %s", storeAddress1, storeCityName, storeProvince, storePostalCode)) %>%
     mutate(name = "Canadian Tire Gas Bar")  %>%
     select(name, address, phone = storeTelephone, lat = storeLatitude, lng = storeLongitude)
-
+  
   cdn_gas %>%
     write_csv("data/convenience/cdn_tire_gas.csv") %>%
     return(cdn_gas)
@@ -560,17 +731,17 @@ scrape_quickie <- function(write_to_file = FALSE){
   html <- rvest::read_html(url)  
   
   stores <- rvest::html_nodes(html, css = "p:nth-child(1)") %>%
-#    as.character() %>%
+    #    as.character() %>%
     stringr::str_replace_all("<br>", "\\\n") %>%
     stringr::str_remove_all("<.*?>")
-    
+  
   # remove first and last, which are website junk
   stores <- stores[c(-1, -length(stores))]
   
   results <- tibble(stores = stores, name = "Quickie") %>%
     mutate(stores = stringr::str_trim(stores)) %>%
     tidyr::separate(col = stores, into = c("address", "address2", "postal_code", "phone"), sep = "\\n")
-
+  
   if (write_to_file) write_csv(results, "data/convenience/quickie.csv")
   
   results    
@@ -633,28 +804,28 @@ scrape_quickie <- function(write_to_file = FALSE){
 #   onsr::print_md_table()
 # 
 #   leaflet() %>% addTiles() %>%addMarkers()
-  
-  
-  
-  
-  
-  ### OPENSTREETMAPS 
-  
-  
-  # ons_shp <- onsr::get_ons_shp()
-  # 
-  # query <- osmdata::opq(bbox = sf::st_bbox(ons_shp),nodes_only = TRUE) %>%
-  #   osmdata::add_osm_feature("shop", "convenience")
-  # 
-  # df <- osmdata::osmdata_sf(query)
-  # 
-  # osmdata::available_features()
-  # 
-  #   osmdata::available_tags("shop")
-  #   
-  #   
-  # df$osm_points %>%
-  #   leaflet() %>%
-  #   addTiles() %>%
-  #   addMarkers(label = ~ name)
-  #     
+
+
+
+
+
+### OPENSTREETMAPS 
+
+
+# ons_shp <- onsr::get_ons_shp()
+# 
+# query <- osmdata::opq(bbox = sf::st_bbox(ons_shp),nodes_only = TRUE) %>%
+#   osmdata::add_osm_feature("shop", "convenience")
+# 
+# df <- osmdata::osmdata_sf(query)
+# 
+# osmdata::available_features()
+# 
+#   osmdata::available_tags("shop")
+#   
+#   
+# df$osm_points %>%
+#   leaflet() %>%
+#   addTiles() %>%
+#   addMarkers(label = ~ name)
+#     

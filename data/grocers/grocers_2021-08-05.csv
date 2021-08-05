@@ -1,0 +1,570 @@
+name,chain,address,phone,Y,X,note,address2,update_date,size
+Shoppers,yes,"647 Earl Armstrong Road , Ottawa",(613) 822-6746,45.2693834,-75.6981271,NA,NA,NA,NA
+Shoppers,yes,"322 Rideau Street , Ottawa",(613) 789-9700,45.4288897,-75.6847071,NA,NA,NA,NA
+Shoppers,yes,"2446 Bank Street , Ottawa",(613) 247-9893,45.3526461,-75.64691429999999,NA,NA,NA,NA
+Shoppers,yes,"876 Montreal Road , Ottawa",(613) 741-3660,45.4457968,-75.63015639999999,NA,NA,NA,NA
+Shoppers,yes,"455 Bank Street , Ottawa",(613) 238-9041,45.4119191,-75.6931575,NA,NA,NA,NA
+Shoppers,yes,"778 Bank Street , Ottawa",(613) 234-8587,45.403274,-75.6888649,NA,NA,NA,NA
+Shoppers,yes,"4744 Bank Street, Unit 1 , Ottawa",(613) 822-0366,45.31981570000001,-75.5942266,NA,NA,NA,NA
+Shoppers,yes,"1582 Bank Street , Ottawa",(613) 523-9016,45.3791212,-75.6684444,NA,NA,NA,NA
+Shoppers,yes,"181 Greenbank Road , Ottawa",(613) 820-1306,45.3281927,-75.779573,NA,NA,NA,NA
+Shoppers,yes,"1642 Merivale Rd , Ottawa",(613) 226-1155,45.3455841,-75.732034,NA,NA,NA,NA
+Shoppers,yes,"1559 Alta Vista Dr , Ottawa",(613) 738-1445,45.4087609,-75.6571787,NA,NA,NA,NA
+Shoppers,yes,"2515 Bank St , Ottawa",(613) 523-9999,45.3542812,-75.64597119999999,NA,NA,NA,NA
+Shoppers,yes,"50 Rideau St. , Ottawa",(613) 236-2533,45.4250234,-75.6909652,NA,NA,NA,NA
+Shoppers,yes,"3310 Mccarthy Rd , Ottawa",(613) 523-2835,45.35065729999999,-75.6719591,NA,NA,NA,NA
+Shoppers,yes,"888 Meadowlands Dr E , Ottawa",(613) 225-6204,45.36712490000001,-75.7025045,NA,NA,NA,NA
+Shoppers,yes,"1180 Walkley Road , Ottawa",(613) 737-3344,45.3697843,-75.66364639999999,NA,NA,NA,NA
+Shoppers,yes,"3080 Carling Avenue , Ottawa",(613) 820-5350,45.3548434,-75.8044638,NA,NA,NA,NA
+Shoppers,yes,"702 Bank Street, Unit 700 , Ottawa",(613) 233-3202,45.4048452,-75.6897472,NA,NA,NA,NA
+Shoppers,yes,"150 Montreal Rd. , Ottawa",(613) 842-7544,45.4343364,-75.6646177,NA,NA,NA,NA
+Shoppers,yes,"174 Bank St , Ottawa",(613) 232-5723,45.4181889,-75.6992434,NA,NA,NA,NA
+Shoppers,yes,"1309 Carling Ave , Ottawa",(613) 722-4277,45.3867692,-75.7355233,NA,NA,NA,NA
+Shoppers,yes,"1469 Merivale Road , Ottawa",(613) 224-7270,45.3604808,-75.7343684,NA,NA,NA,NA
+Shoppers,yes,"2339 Ogilvie Rd , Ottawa",(613) 741-6465,45.4516814,-75.5979131,NA,NA,NA,NA
+Shoppers,yes,"2148 Carling Ave, Unit #1 , Ottawa",(613) 725-9990,45.3694167,-75.7687714,NA,NA,NA,NA
+Shoppers,yes,"410 Richmond Road , Ottawa",(613) 761-5575,45.3902682,-75.7569456,NA,NA,NA,NA
+Shoppers,yes,"1080 Bank Street , Ottawa",(613) 526-9537,45.3943503,-75.6838382,NA,NA,NA,NA
+Shoppers,yes,"1460 Richmond Road , Ottawa",(613) 596-0509,45.3628466,-75.78961199999999,NA,NA,NA,NA
+Shoppers,yes,"541 Montreal Road , Ottawa",(613) 740-0616,45.4418209,-75.646244,NA,NA,NA,NA
+Shoppers,yes,"111 Albert Street, Unit #110 , Ottawa",(613) 235-5139,45.421018,-75.698194,NA,NA,NA,NA
+Shoppers,yes,"1821 Robertson Road , Ottawa",(613) 828-4487,45.3290888,-75.81920219999999,NA,NA,NA,NA
+Shoppers,yes,"1200 St. Laurent Blvd , Ottawa",(613) 745-7015,45.4219466,-75.6387057,NA,NA,NA,NA
+Rexall,yes,"1615 Orl√©ans Blvd, Orl√©ans, ON K1C 7E2",NA,45.4604249,-75.52472089999999,NA,NA,NA,NA
+Rexall,yes,"900 Greenbank Rd, Nepean, ON K2J 4P6",NA,45.2847264,-75.7564617,NA,NA,NA,NA
+Rexall,yes,"200 Rideau Pl #216, Ottawa, ON K1N 5Y1",NA,45.4274754,-75.68830369999999,NA,NA,NA,NA
+Rexall,yes,"1595 Merivale Rd #1A, Nepean, ON K2G 3J4",NA,45.3524148,-75.7327639,NA,NA,NA,NA
+Rexall,yes,"1910 St Laurent Blvd, Ottawa, ON K1G 1A4",NA,45.3990561,-75.62391310000001,NA,NA,NA,NA
+Rexall,yes,"S1363B Woodroffe Avenue, Nepean, ON K2G 1V7",NA,45.3503289,-75.7621932,NA,NA,NA,NA
+Rexall,yes,"1980 Ogilvie Road Unit #144, Gloucester, ON K1J 9L3",NA,45.4325275,-75.6098258,NA,NA,NA,NA
+Rexall,yes,"430 Ottawa Street, Almonte, ON K0A 1A0",NA,45.23603809999999,-76.1831924,NA,NA,NA,NA
+Rexall,yes,"4048 Carling Ave, Kanata, ON K2K 1Y1",NA,45.3371417,-75.9072525,NA,NA,NA,NA
+Rexall,yes,"2269 Riverside Dr E, Ottawa, ON K1H 8K2",NA,45.3858045,-75.6783143,NA,NA,NA,NA
+Rexall,yes,"2121 Carling Ave, Ottawa, ON K2A 1H2",NA,45.3731497,-75.76867940000001,NA,NA,NA,NA
+Rexall,yes,"1620 Scott Street, Unit 29, Ottawa, ON K1Y 4S7",NA,45.4033619,-75.7338284,NA,NA,NA,NA
+Rexall,yes,"2950 Carling Avenue, Ottawa, ON K2B 7J7",NA,45.3559371,-75.8021607,NA,NA,NA,NA
+Rexall,yes,"1415 Carling Avenue, Ottawa, ON K1Z 7L6",NA,45.386315,-75.739747499999993,NA,NA,NA,NA
+Rexall,yes,"1725 Walkley Road Unit C, Ottawa, ON K1V 2P6",NA,45.3778586,-75.6459656,NA,NA,NA,NA
+Rexall,yes,"2116 Montreal Road, Ottawa, ON K1J 6M7",NA,45.4479777,-75.5918655,NA,NA,NA,NA
+Rexall,yes,"22 Baskin Drive East, Arnprior, ON K7S 3G8",NA,45.42394849999999,-76.3669273,NA,NA,NA,NA
+Rexall,yes,"2144 Robertson Road, Nepean, ON K2H 5Z1",NA,45.320755,-75.8358271,NA,NA,NA,NA
+Rexall,yes,"753 Montreal Road, Ottawa, ON K1K 0T1",NA,45.4450941,-75.6365507,NA,NA,NA,NA
+Rexall,yes,"407 Laurier Avenue West Unit #24, 25 & 26, Ottawa, ON K1R 7Y7",NA,45.4174617,-75.7025069,NA,NA,NA,NA
+Rexall,yes,"832 March Road, Kanata, ON K2W 0C9",NA,45.3568278,-75.9334925,NA,NA,NA,NA
+Costco,yes,"1900 Cyrville Rd, K1B 1A5 Ottawa",NA,45.4151698,-75.6033867,NA,NA,NA,NA
+Costco,yes,"1849 Merivale Rd, K2G 1E3 Ottawa",NA,45.3377624,-75.72242609999999,NA,NA,NA,NA
+Costco,yes,"4315 Strandherd Dr, K2J 6E5 Ottawa",NA,45.2684597,-75.7843783,NA,NA,NA,NA
+Costco,yes,"770 Silver Seven Rd, K2V 0A1 Kanata",NA,45.3026258,-75.91311639999999,NA,NA,NA,NA
+Mergi Shop,no,"382 Rideau St, Ottawa, ON K1N 5Y8",NA,45.4297893,-75.6827599,NA,NA,NA,NA
+Fairway Trading Co,no,"9 Byward Market Square, Ottawa, ON K1N 9B8",NA,45.4284911,-75.6933351,NA,NA,NA,NA
+Wedel - Touch of Europe,no,"5 Byward Market Square, Ottawa, ON K1N 9B8",NA,45.4286004,-75.69343889999999,NA,NA,NA,NA
+Lapointe Fish,no,"46 Byward Market Square, Ottawa, ON K1N 7A2",NA,45.427458,-75.6928445,NA,NA,NA,NA
+Athena Gourmet Greek imports,no,"368 Bank St, Ottawa, ON K2P 1Y4",NA,45.4138564,-75.695289,NA,NA,NA,NA
+Food Frenz,yes,"275 Laurier Ave. E, Ottawa, ON K1N 6P7",NA,45.4266821,-75.6800434,NA,NA,NA,NA
+Olly's Freshco Market,no,"90 Elgin St, Ottawa, ON K1P 0C6",NA,45.4220487,-75.69469099999999,NA,NA,NA,NA
+Le Boulanger Fran√ßais,no,"119 Murray St, Ottawa, ON K1N 5M5",NA,45.430235,-75.69263269999999,NA,NA,NA,NA
+Donna's Friendly Store,no,"157 Cathcart St, Ottawa, ON K1N 5C1",NA,45.4336358,-75.69502299999999,NA,NA,NA,NA
+NU Grocery Store,yes,"143 Main St, Ottawa, ON K1S 5V9",NA,45.4100902,-75.67840249999999,NA,NA,NA,NA
+Ottawa South Groceteria,no,"431 Sunnyside Ave, Ottawa, ON K1S 0S6",NA,45.3916938,-75.68986199999999,NA,NA,NA,NA
+INS Market,no,"2277 Riverside Dr. Unit 216, Ottawa, ON K1H 7X6",NA,45.3856281,-75.6774777,NA,NA,NA,NA
+Glebe Meat Market,no,"869 Bank St., Ottawa ON K1S3W4",NA,45.400959,-75.6869613,NA,NA,NA,NA
+Hogan's Food Store,no,"315 Powell Ave, Ottawa, ON K1S 2A6",NA,45.4021862,-75.7017407,NA,NA,NA,NA
+L'Esplanade Laurier Market,no,"181 Bank St, Ottawa, ON K2P 1W5",NA,45.4187923,-75.6975272,NA,NA,NA,NA
+Marcello's Market and Deli,no,"150 Slater St., Ottawa, ON K1P 5H3",NA,45.4201613,-75.6974389,NA,NA,NA,NA
+Pronto Foodmart,no,"5303 Canotek Rd Unit #1, Gloucester, ON K1J 9M1",NA,45.4529502,-75.5885048,NA,NA,NA,NA
+Sam‚Äôs Convenience,no,"1565 Alta Vista Dr, Ottawa, ON K1G 0E9",NA,45.4086185,-75.6573288,NA,NA,NA,NA
+MF Foodmart,no,"850 Merivale Rd, Ottawa, ON K1Z 5Z4",NA,45.38524169999999,-75.73267799999999,NA,NA,NA,NA
+"22 Antares Drive, Unit J,",no,"22 Antares Dr Unit J, Ottawa, ON",NA,45.3342893,-75.7090259,NA,NA,NA,NA
+Fire of God Ministries,no,"212 Murray St, Ottawa, ON K1N 5N1",NA,45.4311839,-75.6895026,NA,NA,NA,NA
+Carson Fresh Grocer | Halal Meat and Bangladeshi Fish,no,"876 Montreal Rd, Ottawa, ON K1K 4L3",NA,45.4457968,-75.63015639999999,NA,NA,NA,NA
+Mr. beef halal meat,no,"2335 St. Laurent Blvd, Ottawa, ON K1G 5G6",NA,45.383079,-75.6206065,NA,NA,NA,NA
+Baghlan Market,no,"385 Tompkins Ave unit 2a, Orl√©ans, ON K1E 3H4",NA,45.4774353,-75.49853019999999,NA,NA,NA,NA
+Al Waha Grocery,no,"2851 Dumaurier Ave #2839, Ottawa, ON K2B 7W3",NA,45.3504349,-75.7930756,NA,NA,NA,NA
+Slater Street Market,no,"350 Slater St., Ottawa, ON K1A 0K1",NA,45.4177623,-75.70327449999999,NA,NA,NA,NA
+Bayscorner,no,"245 Bay St, Ottawa, ON K1R 5Z4",NA,45.4154673,-75.7040931,NA,NA,NA,NA
+Oriental Charm,no,"653 Somerset St W, Ottawa, ON K1R 5K3",NA,45.4117953,-75.705349,NA,NA,NA,NA
+Nature's Care Health Products,no,"115 Bank St, Ottawa, ON K2P 5N5",NA,45.4197748,-75.6999616,NA,NA,NA,NA
+Arum Korean Market (Downtown),no,"300 Laurier Ave W, Ottawa, ON K1A 1J2",NA,45.4186128,-75.69795119999999,NA,NA,NA,NA
+Hasty Market,yes,"596 Rideau St, Ottawa, ON K1N 6A2",NA,45.43291240000001,-75.6754193,NA,NA,NA,NA
+Gigi's Market Lalanne Multi-services,no,"23 Montreal Rd, Vanier, ON K1L 6E8",NA,45.43333029999999,-75.6690121,NA,NA,NA,NA
+Mini Confectionery,no,"273 Montfort St, Vanier, ON K1L 5N8",NA,45.4389471,-75.6615451,NA,NA,NA,NA
+Ste Anne Convenience,no,"308 Shakespeare St, Vanier, ON K1L 5M4",NA,45.4395184,-75.6592304,NA,NA,NA,NA
+Boutique La Lumi√®re,no,"267 Chemin, Montreal Rd, Vanier, ON K1L 6C4",NA,45.4367652,-75.6604753,NA,NA,NA,NA
+Barada Mart,no,"105 Shuttleworth Dr., Ottawa, ON K1T 0W7",NA,45.31827819999999,-75.5925853,NA,NA,NA,NA
+Kabul Food Market,no,"355 Montreal Rd, Vanier, ON K1L 6B1",NA,45.4387791,-75.65506119999999,NA,NA,NA,NA
+New Quill Convience Store,no,"6 Quill St, Ottawa, ON K1K 3S8",NA,45.4265898,-75.65785439999999,NA,NA,NA,NA
+Dumouchel Meat & Deli,no,"351 Donald St, Ottawa, ON K1K 1M4",NA,45.4281847,-75.65305049999999,NA,NA,NA,NA
+M&M Food Market,yes,"536 Montreal Rd, Ottawa, ON K1K 0T9",NA,45.4407432,-75.6455791,NA,NA,NA,NA
+GB Carribean Grocery,no,"609-A Center St, Ottawa, ON K1K 2N8",NA,45.4418747,-75.64274759999999,NA,NA,NA,NA
+Brittany Grocery,no,"230 Brittany Dr, Ottawa, ON K1K 0R6",NA,45.4455455,-75.6487248,NA,NA,NA,NA
+St-Charles Food Market,no,"46 St Charles St, Vanier, ON K1L 7Z1",NA,45.4395935,-75.6722276,NA,NA,NA,NA
+Beechwood Farmers Market,no,"131b Beechwood Av., Ottawa, ON K1M 1L5",NA,45.442133,-75.672062,NA,NA,NA,NA
+Beechwood Outdoor Farmers Market,no,"Optimiste Park, 43 Ste-C√©cile St, Ottawa, ON",NA,45.4425216,-75.6693763,NA,NA,NA,NA
+Lesuq,yes,"141 Beechwood Av., Ottawa, ON K1M 1L4",NA,45.44240180000001,-75.6715224,NA,NA,NA,NA
+Fresh Grocer,no,"40 Jolliet Av, Vanier, ON K1L 5H5",NA,45.4431425,-75.6687168,NA,NA,NA,NA
+Jasmin Market,no,"335 Lacasse Ave, Vanier, ON K1L 7A8",NA,45.4344553,-75.6565371,NA,NA,NA,NA
+New Olympia Market Centre,no,"590 Gladstone Ave, Ottawa, ON K1R 5P3",NA,45.4090052,-75.70082409999999,NA,NA,NA,NA
+Tia Mart,no,"3560 Strandherd Dr, Ottawa, ON",NA,45.2751422,-75.736756,NA,NA,NA,NA
+Silver City Food Market Two,yes,"289 Queen Mary St, Ottawa, ON K1K 1X1",NA,45.42528009999999,-75.6530463,NA,NA,NA,NA
+Maurice Grocery Store,no,"1755 Frobisher Ln, Ottawa, ON K1G 3T6",NA,45.4020236,-75.6652683,NA,NA,NA,NA
+Bashayer Convience Store,no,"1785 Frobisher Ln, Ottawa, ON K1G 3T7 unit, 302",NA,45.4012676,-75.6653883,NA,NA,NA,NA
+Bilal Farms Butcher Shop,yes,"2953 Carling Ave, Ottawa, ON K2B 8K6",NA,45.3565128,-75.8025693,NA,NA,NA,NA
+Shafie Food Centre,no,"1990 Russell Rd, Ottawa, ON K1G 4J6",NA,45.4008336,-75.62418199999999,NA,NA,NA,NA
+Uncle Ali's Super Market,no,"3059 Carling Ave b, Ottawa, ON K2B 7K4",NA,45.3545778,-75.8074306,NA,NA,NA,NA
+Ottawa Meat Plus Inc,no,"2535 Blackwell St, Ottawa, ON K1B 4E4",NA,45.4059454,-75.6092273,NA,NA,NA,NA
+Matar Meat Shop,no,"1077 Cyrville Rd, Gloucester, ON K1J 7S6",NA,45.4246534,-75.6349292,NA,NA,NA,NA
+Cot√© Poultry Incorporated,no,"2770 Lancaster Rd, Ottawa, ON K1B 4H3",NA,45.395577,-75.60627699999999,NA,NA,NA,NA
+Afro-Caribbean Groceries,no,"1737 St. Laurent Blvd, Ottawa, ON K1G 3S7",NA,45.40495809999999,-75.6257207,NA,NA,NA,NA
+Best Beef Butchery,no,"2335 St. Laurent Blvd, Ottawa, ON K1G 5G6",NA,45.383079,-75.6206065,NA,NA,NA,NA
+"India Cafe, ByWard Market",no,"30 Byward Market Square, Ottawa, ON K1N 7A2",NA,45.4277431,-75.69308769999999,NA,NA,NA,NA
+"Al Basha Foods: Groceries, Meats & Take Out Foods",no,"2434 St Joseph Blvd, Ottawa, ON K1C 1H6",NA,45.4690807,-75.5278639,NA,NA,NA,NA
+Al-Manara Food Centre,no,"4 Lorry Greenberg Dr, Ottawa, ON K1G 5H6",NA,45.3691281,-75.6209221,NA,NA,NA,NA
+Moroccan Market Center,no,"2249 Carling Ave Suite 102, Ottawa, ON K2B 7E9",NA,45.3692691,-75.7744008,NA,NA,NA,NA
+The Scottish and Irish Store,no,"1717 St. Laurent Blvd, Ottawa, ON K1G 3V4",NA,45.4060741,-75.6263867,NA,NA,NA,NA
+African Food Market,no,"1392 Cyrville Rd, Ottawa, ON K1L 3M9",NA,45.4204663,-75.6218781,NA,NA,NA,NA
+Barwaaqo Food Centre,no,"385 Tompkins Ave, Orl√©ans, ON K1E 3H4",NA,45.4774353,-75.49853019999999,NA,NA,NA,NA
+The Indian Supermarket,no,"1547 Merivale Rd Unit-6, Nepean, ON K2G 4V3",NA,45.3545247,-75.7335934,NA,NA,NA,NA
+Zak's produce plus Inc,no,"2700 Lancaster Rd, Ottawa, ON K1B 4T7",NA,45.3971808,-75.6087017,NA,NA,NA,NA
+Motar Co,no,"2595 Blackwell St, Ottawa, ON K1B 4E4",NA,45.40425330000001,-75.6087204,NA,NA,NA,NA
+Aqua Fuchsia Foods,no,"1325 Humber Pl, Ottawa, ON K1B 5K9",NA,45.4026674,-75.60588550000001,NA,NA,NA,NA
+Gloucester Fine Foods,no,"303-1228 Old Innes Rd, Ottawa, ON K1B 3V3",NA,45.410138,-75.61799900000001,NA,NA,NA,NA
+Orleans Fresh Fruits,no,"3150 Hawthorne Rd, Ottawa, ON K1G 5H5",NA,45.385374,-75.6043151,NA,NA,NA,NA
+Summersweet Foods Ottawa,no,"2309 Stevenage Dr, Ottawa, ON K1G 3W1",NA,45.37971100000001,-75.611289,NA,NA,NA,NA
+farm 2 fork,no,"3150 Hawthorne Rd, Ottawa, ON K1G 5H5",NA,45.385374,-75.6043151,NA,NA,NA,NA
+Around the Block Butcher Shop,no,"1117 Cobden Rd, Ottawa, ON K2C 2Z1",NA,45.3527102,-75.7779049,NA,NA,NA,NA
+SAM A FRUITS,no,"1183 Hunt Club Rd #111, Ottawa, ON K1V 8S4",NA,45.3529772,-75.6505394,NA,NA,NA,NA
+Albion Meat Shop,no,"3515 Albion Rd S, Gloucester, ON K1T 1P1",NA,45.3543089,-75.6428,NA,NA,NA,NA
+Mr. Beef,no,"223 Mcwatty Rd, Pakenham, ON K0A 2X0",NA,45.3218881,-76.2969384,NA,NA,NA,NA
+Bilal Farms Butcher Shop,yes,"1741 Cyrville Rd Unit C, Gloucester, ON K1B 3K8",NA,45.41714899999999,-75.60478320000001,NA,NA,NA,NA
+Africa World Market,no,"1392 Cyrville Rd, Ottawa, ON K1L 3M9",NA,45.4204663,-75.6218781,NA,NA,NA,NA
+The Hill Butcher Shop,no,"2339 Ogilvie Rd, Gloucester, ON K1J 8M6",NA,45.4516814,-75.5979131,NA,NA,NA,NA
+Quality Meat and Foods,no,"1411 Triole St, Gloucester, ON K1B 4T4",NA,45.4161756,-75.6304703,NA,NA,NA,NA
+Rhema's African And Caribbean Market,no,"4380 Innes Rd, Orl√©ans, ON K4A 3W3",NA,45.45990279999999,-75.49015080000001,NA,NA,NA,NA
+Afrimarketplace,no,"269 Greenbank Rd, Nepean, ON K2H 8K9",NA,45.3243768,-75.7778245,NA,NA,NA,NA
+Geeland,no,"1020 St. Laurent Blvd, Ottawa, ON K1K 4S2",NA,45.4277621,-75.63989769999999,NA,NA,NA,NA
+GB Caribbean Grocery,no,"609-A Center St, Ottawa, ON K1K 2N8",NA,45.4418747,-75.64274759999999,NA,NA,NA,NA
+Food Africana Shop,no,"1848 Carling Ave, Ottawa, ON K2A 2P5",NA,45.3758925,-75.7565765,NA,NA,NA,NA
+Spice Divine Indian Grocery Store,no,"1619 Carling Ave, Ottawa, ON K2A 1C4",NA,45.38042249999999,-75.7477074,NA,NA,NA,NA
+Natural Food Pantry - Billings Bridge,no,"2277 Riverside Dr., Ottawa, ON K1H 7X6",NA,45.3856281,-75.6774777,NA,NA,NA,NA
+Al Najah Meats,no,"2335 St. Laurent Blvd #106, Ottawa, ON K1G 5G6",NA,45.3834488,-75.6205782,NA,NA,NA,NA
+Fresh Start Foods Inc,no,"2072 Walkley Rd, Ottawa, ON K1G 3V3",NA,45.3847588,-75.6258196,NA,NA,NA,NA
+Aenos Food Services Inc,no,"2455 Kaladar Av, Ottawa, ON K1V 8B9",NA,45.3762222,-75.6706779,NA,NA,NA,NA
+A&M Confectionery,no,"1499 Clementine Blvd, Ottawa, ON K1H 8E8",NA,45.38287440000001,-75.6739243,NA,NA,NA,NA
+Mooney's Bay Grocerteria,no,"2660 Norberry Crescent, Ottawa, ON K1V 6N2",NA,45.3683529,-75.6832697,NA,NA,NA,NA
+Fiesta Manila bakery and Filipino Store,no,"1800 Bank St, Ottawa, ON K1V 0W3",NA,45.3715892,-75.6643203,NA,NA,NA,NA
+Wheat Sales,no,"2211 Thurston Dr, Ottawa, ON K1G 6C9",NA,45.3816766,-75.6193048,NA,NA,NA,NA
+The Grocer's shop,no,"2190 B Thurston Dr, Ottawa, ON K1G 6E1",NA,45.3794672,-75.62019959999999,NA,NA,NA,NA
+Ottawa's Organic Farmers' Market,no,"Riverside United Church, 3191 Riverside Dr., Ottawa, ON K1V 8N8",NA,45.3590554,-75.6879909,NA,NA,NA,NA
+TeemJ's,no,"132F Twyford St, Ottawa, ON K1V 0V7",NA,45.3489201,-75.6706513,NA,NA,NA,NA
+Al Furat meat shop&BBq,no,"4lorry Greenberg dr,ottawa, Ottawa, ON K1G 5H6",NA,45.3691281,-75.6209221,NA,NA,NA,NA
+Kardish Health Food Centre - Orleans,yes,"3712 Innes Rd, Orl√©ans, ON K1W 0C8",NA,45.4501454,-75.5174796,NA,NA,NA,NA
+Kardish Health Food Centre - Blossom Park,yes,"2950 Bank St, Gloucester, ON K1T 1N8",NA,45.344538,-75.622643,NA,NA,NA,NA
+Kardish Health Food Centre - Westgate,yes,"1309 Carling Ave, Ottawa, ON K1Z 7K8",NA,45.3856355,-75.7353195,NA,NA,NA,NA
+Kardish Health Food Centre - Merivale,yes,"1701 Merivale Rd, Nepean, ON K2G 3K2",NA,45.3461431,-75.7288509,NA,NA,NA,NA
+Kardish Health Food Centre - Barrhaven,yes,"3101 Strandherd Dr, Nepean, ON K2J 4R9",NA,45.2755704,-75.7173602,NA,NA,NA,NA
+Kardish Health Food Centre - Kanata,yes,"499 Terry Fox Dr, Kanata, ON K2T 1H7",NA,45.3108116,-75.91996859999999,NA,NA,NA,NA
+Kiwan Farms,no,"3485 Hawthorne Rd, Ottawa, ON K1G 3N4",NA,45.3733273,-75.5967455,NA,NA,NA,NA
+Mike's Garden Harvest,no,"436 River Rd, Gloucester, ON K1V 1E7",NA,45.3017972,-75.6968555,NA,NA,NA,NA
+County Line,no,"685 River Rd, Gloucester, ON K1V 2G2",NA,45.2701673,-75.6978273,NA,NA,NA,NA
+Solfarmers,no,"2413 Holly Ln, Ottawa, ON K1V 7P2",NA,45.3784615,-75.63920949999999,NA,NA,NA,NA
+Rene's Corner,no,"685 River Rd, Gloucester, ON K1V 2G2",NA,45.2701673,-75.6978273,NA,NA,NA,NA
+Nick's General Store,no,"5352 Bank St, Gloucester, ON K1X 1H1",NA,45.2859373,-75.57436679999999,NA,NA,NA,NA
+Wellington Butchery,no,"1333 Wellington St. W, Ottawa, ON K1Y 3B6",NA,45.3987556,-75.7372322,NA,NA,NA,NA
+Gateway Newstand,no,"99 Metcalfe St, Ottawa, ON K1P 6L7",NA,45.4208809,-75.6952365,NA,NA,NA,NA
+Greely Convenience Store,no,"1341 Meadow Dr, Greely, ON K4P 1N3",NA,45.265382,-75.562133,NA,NA,NA,NA
+Kellgreen Farm,no,"2325 River Rd, Manotick, ON K4M 1B4",NA,45.1843684,-75.6277102,NA,NA,NA,NA
+Saslove's,no,"50 Byward Market Square, Ottawa, ON K1N 7A2",NA,45.4273608,-75.6927851,NA,NA,NA,NA
+Awami Bazaar,no,"26 Northside Rd Unit 18, Nepean, ON K2H 5Z3",NA,45.3295166,-75.8138026,NA,NA,NA,NA
+Arum Korean Market (Centertown),yes,"508 Bank St, Ottawa, ON K2P 1Z4",NA,45.410256,-75.6926398,NA,NA,NA,NA
+SunTech Greenhouses Ltd,no,"5541 Doyle Rd, Manotick, ON K4M 1B4",NA,45.1727472,-75.6222462,NA,NA,NA,NA
+March√© Bonichoix Alain Viau,no,"1244 St Augustin Rd, Embrun, ON K0A 1W0",NA,45.274131,-75.275381,NA,NA,NA,NA
+OK Mart,no,"141 Bentley Ave Unit #G, Nepean, ON K2E 6T7",NA,45.337172,-75.71130579999999,NA,NA,NA,NA
+Bombay Spices Ottawa,no,"565 W Hunt Club Rd unit-3, Nepean, ON K2G 5W5",NA,45.3358623,-75.7285727,NA,NA,NA,NA
+wholesale club,yes,"1435 Cyrville Rd, Gloucester, ON K1B 3L7",NA,45.4206865,-75.6177447,NA,NA,NA,NA
+Foster Family Farm,no,"2345 Roger Stevens Dr, North Gower, ON K0A 2T0",NA,45.1312747,-75.7178534,NA,NA,NA,NA
+Millers' Farm and Market,no,"6158 Rideau Valley Dr N, Manotick, ON K4M 1B3",NA,45.1950474,-75.6437272,NA,NA,NA,NA
+Mac's,yes,"5511 Manotick Main St, Manotick, ON K4M 1A7",NA,45.2271049,-75.6861776,NA,NA,NA,NA
+Ozan Turkish Market,no,"500 Eagleson Rd Unit 60, Kanata, ON K2M 1H4",NA,45.2908396,-75.8706811,NA,NA,NA,NA
+The Fancy Farm Girl,no,"3282 9th Line Rd, Metcalfe, ON K0A 2P0",NA,45.215696,-75.44560539999999,NA,NA,NA,NA
+Rideau Pines Farm and Market,no,"5714 Fourth Line Rd, North Gower, ON K0A 2T0",NA,45.1761956,-75.774174,NA,NA,NA,NA
+Mama Cora Latin Market,no,"274 Montreal Rd, Vanier, ON K1L 6C3",NA,45.4366197,-75.6598836,NA,NA,NA,NA
+Munster Farm,no,"2535 Munster Rd, Stittsville, ON K2S 1B8",NA,45.1791782,-75.95095,NA,NA,NA,NA
+Christopher's Meat Market,no,"6146 Perth St, Richmond, ON K0A 2Z0",NA,45.1935776,-75.8394527,NA,NA,NA,NA
+Bell Family Farm,no,"7321 Flewellyn Rd, Stittsville, ON K2S 1B6",NA,45.2074577,-75.95432199999999,NA,NA,NA,NA
+Ottawa Farm Fresh Inc.,no,"2811 Ramsayville Rd, Gloucester, ON K1G 3N2",NA,45.3893024,-75.5778562,NA,NA,NA,NA
+La ferme d‚ÄôOrl√©ans ‚Äì Orl√©ans Fruit Farm,no,"1399 St Joseph Blvd, Orl√©ans, ON K1C 7K9",NA,45.4575196,-75.5675579,NA,NA,NA,NA
+METRO,NA,"375 Daniel St. S, Arnprior, ON K7S 3K6",613-623-6273,45.42471,-76.36742,Metro Arnprior,"Arnprior, ON K7S 3K6",2021-05-01,large
+METRO,NA,"50 Beechwood Avenue, Ottawa, ON K1L 8B3",613-744-6676,45.43953,-75.67625,Metro Beechwood,"Ottawa, ON K1L 8B3",2021-05-01,large
+METRO,NA,"2636 Innes Road, Gloucester, ON K1B 4Z8",613-837-1845,45.43201,-75.56378,Metro Blackburn Shoppes,"Gloucester, ON K1B 4Z8",2021-05-01,large
+METRO,NA,"237 King Street West, Brockville, ON K6V 3S2",613-345-4260,44.58642,-75.689940000000007,Metro Brockville,"Brockville, ON K6V 3S2",2021-05-01,large
+METRO,NA,"21 Richer Circle, Casselman, ON K0A 1M0",613-764-3882,45.30572,-75.08333,Metro Casselman,"Casselman, ON K0A 1M0",2021-05-01,large
+METRO,NA,"3201 Strandherd Drive, Nepean, ON K2J 5N1",613-823-8825,45.27445,-75.72107,Metro Chapman Mills,"Nepean, ON K2J 5N1",2021-05-01,large
+METRO,NA,"6509 Jeane D'Arc Blvd., Orleans, ON K1C 2R1",613-837-1170,45.48076,-75.53611,Metro Convent Glen Mall,"Orleans, ON K1C 2R1",2021-05-01,large
+METRO,NA,"4510 Innes Road, Ottawa, ON K4A 4C5",613-824-8850,45.46232,-75.48299,Metro Cumberland,"Ottawa, ON K4A 4C5",2021-05-01,large
+METRO,NA,"10 Cope Drive, Kanata, ON K2M 0N2",613-271-7020,45.28236,-75.86516,Metro Eagleson Road,"Kanata, ON K2M 0N2",2021-05-01,large
+METRO,NA,"2261 Walkley Road, Ottawa, ON K1G 3G8",613-526-5994,45.38935,-75.6193,Metro Elmvale,"Ottawa, ON K1G 3G8",2021-05-01,large
+METRO,NA,"1675 Tenth Line Road, Orleans, ON K1E 3P6",613-837-2614,45.46971,-75.49086,Metro Fallingbrook,"Orleans, ON K1E 3P6",2021-05-01,large
+METRO,NA,"754 Bank Street, Ottawa, ON K1S 3V6",613-232-9466,45.40364,-75.6887,Metro Glebe,"Ottawa, ON K1S 3V6",2021-05-01,large
+METRO,NA,"250 Greenbank Road, Nepean, ON K2H 8P3",613-828-9321,45.32454,-75.78059,Metro Greenbank Square,"Nepean, ON K2H 8P3",2021-05-01,large
+METRO,NA,"345 Carleton Avenue, Ottawa, ON K1Y 0K3",613-725-3065,45.39797,-75.74072,Metro Island Park,"Ottawa, ON K1Y 0K3",2021-05-01,large
+METRO,NA,"1360 Richmond Road, Ottawa, ON K2B 8L4",613-828-4207,45.36518,-75.78665,Metro Lincoln Fields Mall,"Ottawa, ON K2B 8L4",2021-05-01,large
+METRO,NA,"4048 Carling Avenue, Kanata, ON K2K 1Y1",613-599-0470,45.33802,-75.90768,Metro March Rd.,"Kanata, ON K2K 1Y1",2021-05-01,large
+METRO,NA,"3310 McCarthy Rd., Ottawa, ON K1V 9S1",613-523-2774,45.35156,-75.67112,Metro McCarthy Rd.,"Ottawa, ON K1V 9S1",2021-05-01,large
+METRO,NA,"1705 Merivale Road, Ottawa, ON K2G 3K2",613-274-7274,45.345,-75.72985,Metro Merivale Rd.,"Ottawa, ON K2G 3K2",2021-05-01,large
+METRO,NA,"1930 Montreal Road, Gloucester, ON K1J 6N2",613-744-2961,45.44658,-75.59552,Metro Ogilvie Square,"Gloucester, ON K1J 6N2",2021-05-01,large
+METRO,NA,"50 Wilson Street West, Perth, ON K7H 2H4",613-267-4921,44.90269,-76.25527,Metro Perth,"Perth, ON K7H 2H4",2021-05-01,large
+METRO,NA,"83 Raglan Street South, Renfrew, ON K7V 1P8",613-432-3013,45.47357,-76.68618,Metro Renfrew,"Renfrew, ON K7V 1P8",2021-05-01,large
+METRO,NA,"2515 Bank Street, Ottawa, ON K1V 8R9",613-731-7410,45.35492,-75.64511,Metro Southgate,"Ottawa, ON K1V 8R9",2021-05-01,large
+METRO,NA,"#2 - 1811 Robertson Road, Nepean, ON K2H 8X3",613-721-7028,45.32872,-75.81759,Metro Stafford Centre,"Nepean, ON K2H 8X3",2021-05-01,large
+YIG,NA,"753 Notre-Dame St, Embrun, Ontario, K0A 1W0",6134433064,45.268383,-75.303271,Racine's Your Independent Grocer Embrun (Colleague Testing),"Embrun, Ontario, K0A 1W0",2021-05-01,large
+YIG,NA,"296 Bank St, Ottawa, Ontario, K2P 1X8",6132348692,45.414883,-75.697015,Massine's Your Independent Grocer Ottawa (Colleague Testing),"Ottawa, Ontario, K2P 1X8",2021-05-01,large
+YIG,NA,"80 Dufferin St, Perth, Ontario, K7H 3A7",6132676763,44.908145,-76.265697,Barnabe's Your Independent Grocer Perth (Colleagyue Testing),"Perth, Ontario, K7H 3A7",2021-05-01,large
+YIG,NA,"5911 Perth St, Richmond, Ontario, K0A 2Z0",6138387255,45.201432,-75.828786,Your Independent Grocer Perth Street (Colleague Testing),"Richmond, Ontario, K0A 2Z0",2021-05-01,large
+YIG,NA,"596 Montreal Road, Ottawa, Ontario, K1K 0T9",NA,45.441785,-75.643898,Bissonnette's YIG,"Ottawa, Ontario, K1K 0T9",2021-05-01,large
+YIG,NA,"Hwy 43 W Kemptville Mall, Kemptville, Ontario, K0G 1J0",6132585966,45.017446,-75.658531,Jonssons' Your Independent Grocer Kemptville(Colleague testing),"Kemptville, Ontario, K0G 1J0",2021-05-01,large
+YIG,NA,"401 Ottawa St Rr 4, Almonte, Ontario, K0A 1A0",6132562080,45.234038,-76.182098,Patrice's Your Independent Grocer,"Almonte, Ontario, K0A 1A0",2021-05-01,large
+YIG,NA,"596 Montreal Rd, Ottawa, Ontario, K1K 0T9",6137450778,45.440969,-75.643562,Hess' Your Independent Grocer Ottawa,"Ottawa, Ontario, K1K 0T9",2021-05-01,large
+YIG,NA,"25 Ferrara Dr, Smiths Falls, Ontario, K7A 5K6",6132832999,44.892473,-76.026759,Andress' Your Independent Grocer Smiths Falls,"Smiths Falls, Ontario, K7A 5K6",2021-05-01,large
+YIG,NA,"2241 Riverside Dr, Ottawa, Ontario, K1H 7X5",6137331590,45.38642,-75.676506,McDonough's Your Independent Grocer,"Ottawa, Ontario, K1H 7X5",2021-05-01,large
+YIG,NA,"5911 Perth St, Richmond, Ontario, K0A 2Z0",6138387255,45.203211,-75.829066,King's Your Independent Grocer,"Richmond, Ontario, K0A 2Z0",2021-05-01,large
+YIG,NA,"1160 Beaverwood Rd, Manotick, Ontario, K4M 1A5",6136922828,45.223079,-75.683632,McDonoughÕs YIG - (Colleague Testing),"Manotick, Ontario, K4M 1A5",2021-05-01,large
+YIG,NA,"3777 Strandherd Dr, Nepean, Ontario, K2J 4B1",6138439413,45.26866,-75.7472,Ross' Your Independent Grocer Nepean (Colleague Testing),"Nepean, Ontario, K2J 4B1",2021-05-01,large
+YIG,NA,"300 Eagleson Rd, Kanata, Ontario, K2M 1C9",6135923850,45.301498,-75.877672,Laura's Your Independent Grocer,"Kanata, Ontario, K2M 1C9",2021-05-01,large
+YIG,NA,"1160 Beaverwood Rd, Manotick, Ontario, K4M 1A5",6136922828,45.223079,-75.683632,McDonoughÕs YIG - Online Grocery Coming SoonÉ,"Manotick, Ontario, K4M 1A5",2021-05-01,large
+YIG,NA,"671 River Rd, Ottawa, Ontario, K1V 2G2",6138224749,45.270859,-75.699001,Moncion's Your Independent Grocer,"Ottawa, Ontario, K1V 2G2",2021-05-01,large
+YIG,NA,"3777 Strandherd Dr, Nepean, Ontario, K2J 4B1",6138439413,45.268477,-75.74916,McDonough's Your Independent Grocer Nepean,"Nepean, Ontario, K2J 4B1",2021-05-01,large
+YIG,NA,"455 Mcneely Ave, Carleton Place, Ontario, K7C 4S6",6132536206,45.13428,-76.121158,Mitchell's Your Independent Grocer,"Carleton Place, Ontario, K7C 4S6",2021-05-01,large
+YIG,NA,"420 Main St S RR 6, Alexandria, Ontario, K0C 1A0",6135250021,45.299501,-74.629632,Chartrand's Your Independent Grocer,"Alexandria, Ontario, K0C 1A0",2021-05-01,large
+YIG,NA,"401 Ottawa St Rr 4, Almonte, Ontario, K0A 1A0",6132562080,45.23502,-76.18179,Guido & Tanya's Your Independent Grocer Almonte (Colleague Testing),"Almonte, Ontario, K0A 1A0",2021-05-01,large
+YIG,NA,"150 Prescott Centre Dr, Prescott, Ontario, K0E 1T0",6139254625,44.724367,-75.520613,O'Reilly's Your Independent Grocer Prescott (Colleague Testing),"Prescott, Ontario, K0E 1T0",2021-05-01,large
+YIG,NA,"1619 Orleans Ave, Ottawa, Ontario, K1C 7E2",6138306880,45.459603,-75.524128,Dessureault’s Your Independent Grocer Orleans,"Ottawa, Ontario, K1C 7E2",2021-05-01,large
+YIG,NA,"150 Prescott Centre Dr, Prescott, Ontario, K0E 1T0",6139254625,44.724896,-75.520655,O'Reilly's Your Independent Grocer Prescott,"Prescott, Ontario, K0E 1T0",2021-05-01,large
+YIG,NA,"420 Main St S RR 6, Alexandria, Ontario, K0C 1A0",6135250021,45.299965,-74.62859,Chartrand's Your Independent Grocer Alexandria (Colleague Testing),"Alexandria, Ontario, K0C 1A0",2021-05-01,large
+YIG,NA,"2737 Laurier Street, Rockland, Ontario, K4K 1A3",NA,45.54184,-75.29986,"2737 Laurier Street, Rockland","Rockland, Ontario, K4K 1A3",2021-05-01,large
+YIG,NA,"1160 Beaverwood Rd, Manotick, Ontario, K4M 1A5",6136922828,45.223079,-75.683632,McDonoughÕs YIG (Colleague Testing),"Manotick, Ontario, K4M 1A5",2021-05-01,large
+YIG,NA,"25 Ferrara Dr, Smiths Falls, Ontario, K7A 5K6",6132832999,44.892638,-76.027133,Andress' Your Independent Grocer Smiths Falls (Colleague Testing),"Smiths Falls, Ontario, K7A 5K6",2021-05-01,large
+YIG,NA,"455 Mcneely Ave, Carleton Place, Ontario, K7C 4S6",6132536206,45.13386,-76.12029,Mitchell's Your Independent Grocer Carleton Place (Colleague Testing),"Carleton Place, Ontario, K7C 4S6",2021-05-01,large
+YIG,NA,"1160 Beaverwood Rd, Manotick, Ontario, K4M 1A5",6136922828,45.223596,-75.684723,McDonough's Your Independent Grocer,"Manotick, Ontario, K4M 1A5",2021-05-01,large
+YIG,NA,"296 Bank St, Ottawa, Ontario, K2P 1X8",6132348692,45.414988,-75.696337,Massine's Your Independent Grocer Ottawa,"Ottawa, Ontario, K2P 1X8",2021-05-01,large
+YIG,NA,"2241 Riverside Dr, Ottawa, Ontario, K1H 7X5",6137331590,45.38642,-75.676506,McDonough's Your Independent Grocer Ottawa (Colleague Testing),"Ottawa, Ontario, K1H 7X5",2021-05-01,large
+YIG,NA,"596 Montreal Rd, Ottawa, Ontario, K1K 0T9",6137450778,45.441785,-75.643898,Hess' Your Independent Grocer Ottawa (Colleague Testing),"Ottawa, Ontario, K1K 0T9",2021-05-01,large
+YIG,NA,"1251 Main St, Stittsville, Ontario, K2S 2E5",6138319235,45.268999,-75.928971,Browns YIG (Colleague Testing),"Stittsville, Ontario, K2S 2E5",2021-05-01,large
+YIG,NA,"200 Grant Carman, Nepean, Ontario, K2E 7Z8",6137271672,45.35212,-75.72997,McDanielÕs Independent Grocer (Colleague Testing),"Nepean, Ontario, K2E 7Z8",2021-05-01,large
+YIG,NA,"80 Dufferin St, Perth, Ontario, K7H 3A7",6132676763,44.907622,-76.264913,Barnabe's Your Independent Grocer,"Perth, Ontario, K7H 3A7",2021-05-01,large
+YIG,NA,"200 Grant Carman, Nepean, Ontario, K2E 7Z8",6137271672,45.351331,-75.730712,McDaniel's Your Independent Grocer,"Nepean, Ontario, K2E 7Z8",2021-05-01,large
+YIG,NA,"2681 Alta Vista Dr, Ottawa, Ontario, K1V 7T5",6137333311,45.372392,-75.664113,Wilson's Your Independent Grocer Ottawa (Colleague Testing),"Ottawa, Ontario, K1V 7T5",2021-05-01,large
+YIG,NA,"1160 Beaverwood Road PO Box 517, Manotick, Ontario, K4M 1A5",NA,45.223079,-75.683632,Robinson's YIG,"Manotick, Ontario, K4M 1A5",2021-05-01,large
+YIG,NA,"2681 Alta Vista Dr, Ottawa, Ontario, K1V 7T5",6137332311,45.372213,-75.663048,Wilson's Your Independent Grocer,"Ottawa, Ontario, K1V 7T5",2021-05-01,large
+YIG,NA,"3777 Strandherd Dr, Nepean, Ontario, K2J 4B1",6138439413,45.268477,-75.74916,Ross' Your Independent Grocer,"Nepean, Ontario, K2J 4B1",2021-05-01,large
+YIG,NA,"2737 Laurier St, Rockland, Ontario, K4K 1A3",6134467273,45.541698,-75.299258,Parent's Your Independent Grocer Rockland,"Rockland, Ontario, K4K 1A3",2021-05-01,large
+YIG,NA,"300 Eagleson Rd, Kanata, Ontario, K2M 1C9",6135923850,45.302952,-75.877469,Laura's Your Independent Grocer Kanata (Colleague Testing),"Kanata, Ontario, K2M 1C9",2021-05-01,large
+YIG,NA,"2241 Riverside Dr, Ottawa, Ontario, K1H 7X5",6137331590,45.386836,-75.679227,Riley's Your Independent Grocer,"Ottawa, Ontario, K1H 7X5",2021-05-01,large
+YIG,NA,"1251 Main St, Stittsville, Ontario, K2S 2E5",6138319235,45.268974,-75.928403,Brown's Your Independent Grocer,"Stittsville, Ontario, K2S 2E5",2021-05-01,large
+YIG,NA,"Hwy 43 W Kemptville Mall, Kemptville, Ontario, K0G 1J0",6132585966,45.018737,-75.655671,Jonssons' Your Independent Grocer Kemptville,"Kemptville, Ontario, K0G 1J0",2021-05-01,large
+YIG,NA,"671 River Rd, Ottawa, Ontario, K1V 2G2",6138224749,45.27006,-75.6977,Moncion's Your Independent Grocer Ottawa (Colleague Testing),"Ottawa, Ontario, K1V 2G2",2021-05-01,large
+YIG,NA,"1619 Orleans Ave, Ottawa, Ontario, K1C 7E2",6138306880,45.461576,-75.526199,Carl & Nathalie's Your Independent Grocer Gloucester (Colleague Testing),"Ottawa, Ontario, K1C 7E2",2021-05-01,large
+YIG,NA,"753 Notre-Dame St, Embrun, Ontario, K0A 1W0",6134433064,45.268338,-75.303469,Co-Op Your Independent Grocer Embrun,"Embrun, Ontario, K0A 1W0",2021-05-01,large
+YIG,NA,"2737 Laurier St, Rockland, Ontario, K4K 1A3",6134467273,45.541698,-75.299258,Parent's Your Independent Grocer Rockland (Colleague Testing),"Rockland, Ontario, K4K 1A3",2021-05-01,large
+LOBLAWS,NA,"1460 Merivale Rd, Nepean, Ontario, K2E 5P2",6132266001,45.361929,-75.735351,Merivale Road,"Nepean, Ontario, K2E 5P2",2021-05-01,large
+LOBLAWS,NA,"2085 Carling Ave, Ottawa, Ontario, K2A 1H2",6137223227,45.372308,-75.767572,Carling Avenue,"Ottawa, Ontario, K2A 1H2",2021-05-01,large
+LOBLAWS,NA,"1460 Merivale Rd, Nepean, Ontario, K2E 5P2",6132266001,45.362876,-75.734611,Loblaws - Merivale Road (Colleague Testing),"Nepean, Ontario, K2E 5P2",2021-05-01,large
+LOBLAWS,NA,"2210 Bank St, Ottawa, Ontario, K1V 1J5",6137895252,45.354899,-75.654754,Bank Street,"Ottawa, Ontario, K1V 1J5",2021-05-01,large
+LOBLAWS,NA,"3201 Greenbank Rd, Ottawa, Ontario, K2J 4H9",6138256262,45.268051,-75.74346,Greenbank Road,"Ottawa, Ontario, K2J 4H9",2021-05-01,large
+LOBLAWS,NA,"100 McArthur Rd, Ottawa, Ontario, K1L 8H5",6137442003,45.429341,-75.66486,McArthur Avenue,"Ottawa, Ontario, K1L 8H5",2021-05-01,large
+LOBLAWS,NA,"363 Rideau St, Ottawa, Ontario, K1N 5Y6",6137893330,45.430155,-75.683814,Rideau Street,"Ottawa, Ontario, K1N 5Y6",2021-05-01,large
+LOBLAWS,NA,"200 Earl Grey Dr, Ottawa, Ontario, K2T 1B6",6135993840,45.309942,-75.916618,Earl Grey Drive,"Ottawa, Ontario, K2T 1B6",2021-05-01,large
+LOBLAWS,NA,"1980 Baseline Rd, Ottawa, Ontario, K2C 0C6",6137232455,45.351968,-75.759467,Baseline Road (Colleague Testing),"Ottawa, Ontario, K2C 0C6",2021-05-01,large
+LOBLAWS,NA,"1910 St Laurent Blvd, Ottawa, Ontario, K1G 1A4",6135210880,45.398075,-75.623798,Loblaws - St. Laurent Blvd (Colleague Testing),"Ottawa, Ontario, K1G 1A4",2021-05-01,large
+LOBLAWS,NA,"64 Isabella St, Ottawa, Ontario, K1S 1V4",6132324128,45.410461,-75.685897,Isabella Street,"Ottawa, Ontario, K1S 1V4",2021-05-01,large
+LOBLAWS,NA,"2065A Robertson Rd, Ottawa, Ontario, K2H 5H9",6138299770,45.324403,-75.832437,Robertson Road,"Ottawa, Ontario, K2H 5H9",2021-05-01,large
+LOBLAWS,NA,"64 Isabella St, Ottawa, Ontario, K1S 1V4",6132324128,45.410496,-75.685933,Loblaws - Isabella Street (Colleague Testing),"Ottawa, Ontario, K1S 1V4",2021-05-01,large
+LOBLAWS,NA,"2065A Robertson Rd, Ottawa, Ontario, K2H 5H9",6138299770,45.3251,-75.8321,Loblaws - Robertson Road (Colleague Testing),"Ottawa, Ontario, K2H 5H9",2021-05-01,large
+LOBLAWS,NA,"1980 Ogilvie Rd, Ottawa, Ontario, K1J 9L3",6137463487,45.432527,-75.609825,Ogilvie Road,"Ottawa, Ontario, K1J 9L3",2021-05-01,large
+LOBLAWS,NA,"363 Rideau St, Ottawa, Ontario, K1N 5Y6",6137893330,45.43039,-75.68375,"Loblaws - Rideau Street (Colleague Testing) - Order online, walk in or call for pick up","Ottawa, Ontario, K1N 5Y6",2021-05-01,large
+LOBLAWS,NA,"100 McArthur Rd, Ottawa, Ontario, K1L 8H5",6137442003,45.429342,-75.66486,McArthur Avenue (Test Collégial),"Ottawa, Ontario, K1L 8H5",2021-05-01,large
+LOBLAWS,NA,"1980 Ogilvie Rd, Ottawa, Ontario, K1J 9L3",6137463487,45.432527,-75.609825,Ogilvie Road (Test Collégial),"Ottawa, Ontario, K1J 9L3",2021-05-01,large
+LOBLAWS,NA,"200 Earl Grey Dr, Ottawa, Ontario, K2T 1B6",6135993840,45.309942,-75.916618,Earl Grey Drive (Colleague Testing),"Ottawa, Ontario, K2T 1B6",2021-05-01,large
+LOBLAWS,NA,"1980 Baseline Rd, Ottawa, Ontario, K2C 0C6",6137232455,45.352074,-75.759558,Baseline Road,"Ottawa, Ontario, K2C 0C6",2021-05-01,large
+LOBLAWS,NA,"3201 Greenbank Rd, Ottawa, Ontario, K2J 4H9",6138256262,45.267849,-75.744219,Greenbank Road (Test Collégial),"Ottawa, Ontario, K2J 4H9",2021-05-01,large
+LOBLAWS,NA,"2085 Carling Ave, Ottawa, Ontario, K2A 1H2",6137223227,45.371671,-75.769587,Loblaws - Carling Avenue (Colleague Testing),"Ottawa, Ontario, K2A 1H2",2021-05-01,large
+LOBLAWS,NA,"2210 Bank St, Ottawa, Ontario, K1V 1J5",6137895252,45.357238,-75.656398,Loblaws - Bank Street (Colleague Testing),"Ottawa, Ontario, K1V 1J5",2021-05-01,large
+LOBLAWS,NA,"1910 St Laurent Blvd, Ottawa, Ontario, K1G 1A4",6135210880,45.399412,-75.623844,St. Laurent Boulevard,"Ottawa, Ontario, K1G 1A4",2021-05-01,large
+WALMART,NA,"450 Terminal Ave, Ottawa, ON, K1G 0Z3",613-562-0500,45.413726,-75.651251,Trainyards Supercentre,"Ottawa, ON, K1G 0Z3",2021-05-01,large
+WALMART,NA,"2277 Riverside Dr, Ottawa, ON, K1H 7X6",613-737-6897,45.384757,-75.679865,Ottawa Billings Bridge,"Ottawa, ON, K1H 7X6",2021-05-01,large
+WALMART,NA,"1980 Ogilvie Rd, Gloucester, ON, K1J 9L3",613-842-0111,45.43177,-75.610321,Gloucester City Centre Store,"Gloucester, ON, K1J 9L3",2021-05-01,large
+WALMART,NA,"1375 Baseline Rd, Ottawa, ON, K2C 3G1",613-224-2664,45.363806,-75.737554,Ottawa Baseline Supercentre,"Ottawa, ON, K2C 3G1",2021-05-01,large
+WALMART,NA,"2210 Bank St, Ottawa, ON, K1V 1J5",613-247-1184,45.355491,-75.654259,Ottawa Supercentre,"Ottawa, ON, K1V 1J5",2021-05-01,large
+WALMART,NA,"100 Bayshore Dr, Ottawa, ON, K2B 8C1",613-828-5482,45.347884,-75.807461,Ottawa West Store,"Ottawa, ON, K2B 8C1",2021-05-01,large
+WALMART,NA,"3900 Innes Rd, Orleans, ON, K1W 1K9",613-837-9399,45.452382,-75.507931,Orleans Supercentre,"Orleans, ON, K1W 1K9",2021-05-01,large
+WALMART,NA,"3651 Strandherd Dr, Barrhaven, ON, K2J 4G8",613-823-8714,45.271118,-75.741444,Barrhaven Supercentre,"Barrhaven, ON, K2J 4G8",2021-05-01,large
+WALMART,NA,"500 Earl Grey Dr, Kanata, ON, K2T 1B6",613-599-6765,45.310865,-75.913884,Kanata Store,"Kanata, ON, K2T 1B6",2021-05-01,large
+WALMART,NA,"5357 Fernbank Rd, Stittsville, ON, K2S 0T7",613-831-2636,45.274329,-75.872296,Kanata South Supercentre,"Stittsville, ON, K2S 0T7",2021-05-01,large
+WALMART,NA,"3001 Richelieu St, Rockland, ON, K4K 0B5",613-446-5730,45.53257,-75.306828,Rockland Supercentre,"Rockland, ON, K4K 0B5",2021-05-01,large
+WALMART,NA,"340 Colonnade Dr, Kemptville, ON, K0G 1J0",613-258-6295,45.028284,-75.629408,Kemptville Supercentre,"Kemptville, ON, K0G 1J0",2021-05-01,large
+WALMART,NA,"450 Mcneely Ave, Carleton Place, ON, K7C 0A6",613-253-1319,45.134036,-76.124826,Carleton Place Supercentre,"Carleton Place, ON, K7C 0A6",2021-05-01,large
+WALMART,NA,"114 Lombard St, Smiths Falls, ON, K7A 5B8",613-284-0838,44.892097,-76.030459,Smiths Falls Supercentre,"Smiths Falls, ON, K7A 5B8",2021-05-01,large
+WALMART,NA,"980 O'brien Rd, Renfrew, ON, K7V 0B4",613-432-4676,45.4846,-76.7096,Renfrew Supercentre,"Renfrew, ON, K7V 0B4",2021-05-01,large
+REAL CANADIAN SUPERSTORE,NA,"760 Eagleson Rd, Kanata, Ontario, K2M 0A7",6135925701,45.282909,-75.866059,"South Kanata, Ottawa, ON (Colleague Testing)","Kanata, Ontario, K2M 0A7",2021-05-01,large
+REAL CANADIAN SUPERSTORE,NA,"760 Eagleson Rd, Kanata, Ontario, K2M 0A7",6135925701,45.282945,-75.866724,South Kanata,"Kanata, Ontario, K2M 0A7",2021-05-01,large
+REAL CANADIAN SUPERSTORE,NA,"1972 Parkedale Ave, Brockville, Ontario, K6V 7N4",6134989889,44.614024,-75.688765,Brockville,"Brockville, Ontario, K6V 7N4",2021-05-01,large
+REAL CANADIAN SUPERSTORE,NA,"190 Richmond Rd, Ottawa, Ontario, K1Z 6W6",6137229635,45.394305,-75.747729,"Westboro, Ottawa, ON (Colleague Testing)","Ottawa, Ontario, K1Z 6W6",2021-05-01,large
+REAL CANADIAN SUPERSTORE,NA,"190 Richmond Rd, Ottawa, Ontario, K1Z 6W6",6137229635,45.394265,-75.747343,Westboro,"Ottawa, Ontario, K1Z 6W6",2021-05-01,large
+REAL CANADIAN SUPERSTORE,NA,"4270 Innes Rd, Ottawa, Ontario, K4A 5E6",6138377887,45.456634,-75.495482,"Innes Road, Ottawa, ON (Colleague Testing)","Ottawa, Ontario, K4A 5E6",2021-05-01,large
+REAL CANADIAN SUPERSTORE,NA,"4270 Innes Rd, Ottawa, Ontario, K4A 5E6",6138377887,45.457124,-75.495225,South Orleans,"Ottawa, Ontario, K4A 5E6",2021-05-01,large
+REAL CANADIAN SUPERSTORE,NA,"1972 Parkedale Ave, Brockville, Ontario, K6V 7N4",6134989889,44.613905,-75.68912,"Brockville, ON (Colleague Testing)","Brockville, Ontario, K6V 7N4",2021-05-01,large
+FOOD BASICS,NA,3049 Jefferson Dr Brockville K6V6N7,613-345-0272,44.599033,-75.7040659,NA,NA,2021-05-01,large
+FOOD BASICS,NA,150 Katimavik Road Kanata K2L 2N2,613-592-2942,45.3124188,-75.8958402,NA,NA,2021-05-01,large
+FOOD BASICS,NA,"2615 Highway #43, R.R. #5 Kemptville K0G 1J0",613-258-1266,45.0199425,-75.65948999999999,NA,NA,2021-05-01,large
+FOOD BASICS,NA,3712 Innes Road Orleans K1W 0C8,613-837-0650,45.4501454,-75.5174796,NA,NA,2021-05-01,large
+FOOD BASICS,NA,667 Kirkwood Avenue Ottawa K1Z 8N7,613-722-7412,45.3863658,-75.7388344,NA,NA,2021-05-01,large
+FOOD BASICS,NA,1670 Heron Road Ottawa K1V 0C2,613-731-0066,45.37920829999999,-75.644858,NA,NA,2021-05-01,large
+FOOD BASICS,NA,"1021 Cyrville Road, Unit 1 Ottawa K1J 7S3",613-842-4445,45.42578750000001,-75.6359037,NA,NA,2021-05-01,large
+FOOD BASICS,NA,900 Greenbank Road Ottawa K2J 1S8,613-823-4458,45.2847264,-75.7564617,NA,NA,2021-05-01,large
+FOOD BASICS,NA,"1465 Merivale Road, Unit 13 Ottawa K2E 5N9",613-224-1544,45.3609612,-75.7340239,NA,NA,2021-05-01,large
+FOOD BASICS,NA,9030 County Road 17 Rockland K4K 1V5,613-446-2825,45.5481786,-75.301749,NA,NA,2021-05-01,large
+FOOD BASICS,NA,5703 Hazeldean Road Stittsville K2S 0P6,613-831-3394,45.2852452,-75.9135878,NA,NA,2021-05-01,large
+SOBEY'S,NA,"2276 - Tenth Line Road, Orleans, on, K4A 0X4",613-590-9179,45.45176,-75.48502,Sobeys Orleans,"Orleans, on, K4A 0X4",2021-05-01,large
+SOBEY'S,NA,"5150 Innes Road, Orleans, on, K4A 0G4",613-590-2205,45.46942,-75.45648,Sobeys Trim and Innes,"Orleans, on, K4A 0G4",2021-05-01,large
+SOBEY'S,NA,"700 Terry Fox Drive, Kanata, on, K2L 4H4",613-831-1444,45.292704,-75.895607,Sobeys Kanata,"Kanata, on, K2L 4H4",2021-05-01,large
+SOBEY'S,NA,"840 March Road, Kanata, on, K2W 0C9",613-599-8965,45.356598,-75.93446,Sobeys March Road,"Kanata, on, K2W 0C9",2021-05-01,large
+FRESHCO,NA,"4750 Bank Street, Ottawa, on, K1J 0K8",613-822-4549,45.31869,-75.59575,FreshCo Bank & Findley Creek,"Ottawa, on, K1J 0K8",2021-05-01,large
+FRESHCO,NA,"110 Lansdowne Avenue, Carleton Place, on, K7C 2T7",613-253-6141,45.13387,-76.1393,FreshCo Carleton Place Lans,"Carleton Place, on, K7C 2T7",2021-05-01,large
+FRESHCO,NA,"320 McArthur Avenue, Ottawa, on, K1L 5G2",613-744-4343,45.43002,-75.65384,FreshCo McArthur & LaFontaine,"Ottawa, on, K1L 5G2",2021-05-01,large
+FRESHCO,NA,"2150 Robertson Road, Nepean, on, K2H 9S1",613-726-8038,45.31919,-75.83553,FreshCo Robertson & Moodie,"Nepean, on, K2H 9S1",2021-05-01,large
+FRESHCO,NA,"2480 Strandherd Dr., Building A, Ottawa, on, K2G 4S4",613-823-7269,45.27412,-75.70968,FreshCo Strandherd & Crestha,"Ottawa, on, K2G 4S4",2021-05-01,large
+FRESHCO,NA,"1595 Merivale Road, Unit # 5, Ottawa, on, K2G 3J4",613-226-1651,45.35288,-75.73224,FreshCo Merivale & Meadowla,"Ottawa, on, K2G 3J4",2021-05-01,large
+FOODLAND,NA,"1349 Meadow Drive, Greely, on, K4P 1N3",613-821-3016,45.265635,-75.563013,Foodland Greely,"Greely, on, K4P 1N3",2021-05-01,large
+FOODLAND,NA,"5669 Main Street, Osgoode, on, K0A 2W0",613-826-2282,45.14989,-75.60212,Foodland Osgoode,"Osgoode, on, K0A 2W0",2021-05-01,large
+FOODLAND,NA,"37 Plaza Drive, Iroquois, on, K0E 1K0",613-652-4814,44.84904,-75.3161,Foodland Iroquois,"Iroquois, on, K0E 1K0",2021-05-01,large
+FOODLAND,NA,"11 Thorold Lane, Ingleside, on, K0C 1M0",613-537-2049,44.99745,-74.98971,Foodland Ingleside,"Ingleside, on, K0C 1M0",2021-05-01,large
+FOODLAND,NA,"101-6045 Bank Street, Greely, on, K4P 0G5",613-821-3016,45.263939,-75.553599,Foodland Greely,"Greely, on, K4P 0G5",2021-05-01,large
+FOODLAND,NA,"12015 Main Street West, Winchester, on, K0C 2K0",613-774-1958,45.0877,-75.37288,Foodland Winchester,"Winchester, on, K0C 2K0",2021-05-01,large
+FOODLAND,NA,"148 Craig Street, Russell, on, K4R 1A1",613-445-0468,45.25696,-75.37441,Foodland Russell,"Russell, on, K4R 1A1",2021-05-01,large
+FOODLAND,NA,"101-6045 Bank Street, Greely, on, K4P 0G5",613-821-3016,45.26334,-75.55429,Foodland Greely,"Greely, on, K4P 0G5",2021-05-01,large
+NO FRILLS,NA,"39 Winner's Circle Dr Rr 3, Arnprior, Ontario, K7S 3G9",NA,45.421907,-76.369324,Jack & Faith's NOFRILLS Arnprior,"Arnprior, Ontario, K7S 3G9",2021-05-01,large
+NO FRILLS,NA,"680 O'Brien Rd, Renfrew, Ontario, K7V 3Z4",18442958219,45.476501,-76.66007,Chris & Tanya’s NOFRILLS Renfrew,"Renfrew, Ontario, K7V 3Z4",2021-05-01,large
+NO FRILLS,NA,"30 Iber Road, Stittsville, Ontario, K2S 2R1",NA,45.280904,-75.912797,Brandon & Megan's No Frills (Colleague Testing),"Stittsville, Ontario, K2S 2R1",2021-05-01,large
+NO FRILLS,NA,"680 O'Brien Rd, Renfrew, Ontario, K7V 3Z4",18442958219,45.476501,-76.66007,Sterling's NOFRILLS Renfrew,"Renfrew, Ontario, K7V 3Z4",2021-05-01,large
+NO FRILLS,NA,"1226 Place d'Orleans Dr., Ottawa, Ontario, K1C 7K3",NA,45.476686,-75.522756,"1226 Place d'Orleans Dr., Ottawa","Ottawa, Ontario, K1C 7K3",2021-05-01,large
+NO FRILLS,NA,"726 Principale St Rr 3, Casselman, Ontario, K0A 1M0",NA,45.313438,-75.086489,Daniel's NOFRILLS Casselman,"Casselman, Ontario, K0A 1M0",2021-05-01,large
+NO FRILLS,NA,"1226 Place D'Orleans Dr, Ottawa, Ontario, K1C 7K3",8002962332,45.476686,-75.522756,Brandon & Megan's NOFRILLS (Colleague Testing),"Ottawa, Ontario, K1C 7K3",2021-05-01,large
+NO FRILLS,NA,"39 Winner's Circle Dr Rr 3, Arnprior, Ontario, K7S 3G9",NA,45.421563,-76.369423,Mark's NOFRILLS Arnprior,"Arnprior, Ontario, K7S 3G9",2021-05-01,large
+NO FRILLS,NA,"680 O'Brien Rd, Renfrew, Ontario, K7V 3Z4",8002962332,45.4765055,-76.6622594,Sterling's NOFRILLS Renfrew (Colleague Testing),"Renfrew, Ontario, K7V 3Z4",2021-05-01,large
+NO FRILLS,NA,"1226 Place D'Orleans Dr, Ottawa, Ontario, K1C 7K3",18442958219,45.476991,-75.520017,"Brandon & Megan's NOFRILLS - Ends July 25, 2020","Ottawa, Ontario, K1C 7K3",2021-05-01,large
+NO FRILLS,NA,"680 O'Brien Rd, Renfrew, Ontario, K7V 3Z4",18442958219,45.476501,-76.66007,Chris & Tanya’s NOFRILLS Renfrew (Colleague Testing),"Renfrew, Ontario, K7V 3Z4",2021-05-01,large
+NO FRILLS,NA,"30 Iber Rd, Stittsville, Ontario, K2S 2R1",18442958219,45.281055,-75.910072,Brandon & Megan's NOFRILLS Stittsville,"Stittsville, Ontario, K2S 2R1",2021-05-01,large
+NO FRILLS,NA,"39 Winner's Circle Dr Rr 3, Arnprior, Ontario, K7S 3G9",NA,45.421563,-76.369423,Mark's NOFRILLS Arnprior (Colleague Testing),"Arnprior, Ontario, K7S 3G9",2021-05-01,large
+NO FRILLS,NA,"1226 Place D'Orleans Dr, Ottawa, Ontario, K1C 7K3",18442958219,45.476991,-75.520017,Joe & Lily's No Frills,"Ottawa, Ontario, K1C 7K3",2021-05-01,large
+T&T,NA,"224 Hunt Club Road  Ottawa, ON. K1V 1C1",613-731-8113,45.3339133,-75.6905898,Ottawa Store,NA,2021-05-01,large
+Whole Foods Market,NA,"951 Bank St, Ottawa, ON K1S 3W7",(613) 565-7150,45.39930330800007,-75.68596079499997,Lansdowne Park,"Ottawa, ON K1S 3W7",2021-05-14,large
+Farm Boy,NA,"3033 Woodroffe Avenue
+, Ottawa, ON
+K2G 6H2",613-823-8835,45.288468255000055,-75.72440586499994,NA,"Ottawa, ON
+K2G 6H2",2021-05-14,large
+Farm Boy,NA,"2950 Bank Street
+, Ottawa ON
+K1T 1N8",613-260-7330,45.346069697000075,-75.62625940799995,NA,"Ottawa ON
+K1T 1N8",2021-05-14,large
+Farm Boy,NA,"1500 Bank St.
+, Ottawa, ON
+K1H 7Z1",613-739-7199,45.380945868000026,-75.67010168099995,NA,"Ottawa, ON
+K1H 7Z1",2021-05-14,large
+Farm Boy,NA,"1495 Richmond Road
+, Ottawa, ON
+K2B 6R9",613-688-2882,45.36296767600004,-75.79098620099995,NA,"Ottawa, ON
+K2B 6R9",2021-05-14,large
+Farm Boy,NA,"585 Montreal Road
+, Ottawa, ON
+K1K 4K3",613-744-3463,45.44270963800005,-75.64447540799995,NA,"Ottawa, ON
+K1K 4K3",2021-05-14,large
+Farm Boy,NA,"457 Hazeldean Road
+, Ottawa, ON
+K2L 1V1",613-836-8085,45.30008008500005,-75.88621156099998,NA,"Ottawa, ON
+K2L 1V1",2021-05-14,large
+Farm Boy,NA,"499 Terry Fox Drive
+, Ottawa, ON
+K2T 1H7",613-271-8727,45.31007508700003,-75.92214241199997,NA,"Ottawa, ON
+K2T 1H7",2021-05-14,large
+Farm Boy,NA,"193 Metcalfe Street
+, Ottawa, ON
+K2P 0S5",613-598-0257,45.41888821500004,-75.69320164899995,NA,"Ottawa, ON
+K2P 0S5",2021-05-14,large
+Farm Boy,NA,"1642 Merivale Road
+, Ottawa, ON
+K2G 4A1",613-228-7417,45.34529598700004,-75.73150069299999,NA,"Ottawa, ON
+K2G 4A1",2021-05-14,large
+Farm Boy,NA,"3035 St. Joseph Boulevard
+, Ottawa, ON
+K1E 1E1",613-590-1830,45.47773410100007,-75.51327685599995,NA,"Ottawa, ON
+K1E 1E1",2021-05-14,large
+Farm Boy,NA,"2030 Tenth Line Road
+, Ottawa, ON
+K4A 4X4",613-841-4221,45.45973535600007,-75.48826728399996,NA,"Ottawa, ON
+K4A 4X4",2021-05-14,large
+Farm Boy,NA,"50 Rideau Street
+, Ottawa, ON
+K1N 9J7",613-244-1033,45.42571081400007,-75.69199548799998,NA,"Ottawa, ON
+K1N 9J7",2021-05-14,large
+Farm Boy,NA,"1250 Stittsville Main St.
+, Ottawa, ON
+K2S 1S9",613-836-4594,45.268400919000044,-75.93116173999994,NA,"Ottawa, ON
+K2S 1S9",2021-05-14,large
+Farm Boy,NA,"830 Belfast Rd
+, Ottawa Train Yards
+830 Belfast Rd
+Ottawa, ON
+K1G 0Z4",613-288-0616,45.41367831600007,-75.64620646699996,NA,"Ottawa Train Yards
+830 Belfast Rd
+Ottawa, ON
+K1G 0Z4",2021-05-14,large
+Farm Boy,NA,"317 McRae Avenue
+, Ottawa, ON
+K1Z 8P4",613-722-7300,45.396026437000046,-75.74964055099997,NA,"Ottawa, ON
+K1Z 8P4",2021-05-14,large
+Luciano Foods,NA,"114 Preston St, Ottawa, ON",(613) 233-1972,45.40855589600005,-75.71470521899994,"Delis, Sandwiches, Grocery",NA,2021-07-06,small
+Pot & Pantry,NA,"244 Elgin Street, Ottawa, ON",(613) 565-1212,45.418221638000034,-75.69096712099997,"Kitchen Supplies, Grocery",NA,2021-07-06,small
+Bienvenidos,NA,"1731 St Laurent Boulevard, Ottawa, ON",(613) 618-7239,45.406123953000076,-75.62555153199997,International Grocery,NA,2021-07-06,small
+Seoul Mart,NA,"22 Pretoria Avenue, Ottawa, ON",(613) 567-9988,45.41026500400005,-75.68504557899996,Grocery,NA,2021-07-06,small
+Adonis,NA,"1055 St Laurent Boulevard, Ottawa, ON",(613) 778-8883,45.42782690700005,-75.63775619299997,International Grocery,NA,2021-07-06,small
+LeSuq | Preston,NA,"352 Preston St, Ottawa, ON",(855) 285-3787,45.40196739900006,-75.71059664999996,"Cafes, Grocery",NA,2021-07-06,small
+Noor Food Market,NA,"332 Richmond Rd, Ottawa, ON",(613) 627-8820,45.39207142600003,-75.75341444299994,Grocery,NA,2021-07-06,small
+Best Price Oriental Market,NA,"484 Hazeldean Road, Ottawa, ON",(613) 836-2831,45.29625875600004,-75.89000576499996,Grocery,NA,2021-07-06,small
+Produce Depot,NA,"1855 Av Carling, Ottawa, ON",(613) 722-6106,45.37693302000008,-75.75660853299996,"Grocery, Fruits & Veggies",NA,2021-07-06,small
+Shiraz Market,NA,"725 Somerset Street W, Ottawa, ON",(613) 563-1207,45.41067032500007,-75.70851196599995,Grocery,NA,2021-07-06,small
+Grocery G3,NA,"399b Dalhousie Street, Ottawa, ON",(343) 988-1177,45.43473362300006,-75.69611409099997,Grocery,NA,2021-07-06,small
+Win Tai Market,NA,"1137 Ogilvie Road, Ottawa, ON",(613) 744-2880,45.42676189600007,-75.63140357399999,"Specialty Food, Grocery",NA,2021-07-06,small
+Kowloon Market,NA,"712 Somerset Street W, Ottawa, ON",(613) 233-1108,45.410265157000026,-75.70764022299994,"Grocery, Imported Food",NA,2021-07-06,small
+Ottawa South Groceteria,NA,"435 Sunnyside Avenue, Ottawa, ON",(613) 730-8667,45.39175546200005,-75.68991012199996,Grocery,NA,2021-07-06,small
+Green Fresh Supermarket,NA,"29 Selkirk Street, Ottawa, ON",(613) 748-1038,45.432274860000064,-75.66852792699996,Grocery,NA,2021-07-06,small
+Al Jazeerah Food and Meat Market,NA,"1101 Wellington Street W, Ottawa, ON",(613) 321-6113,45.40295530100008,-75.72592307699995,Grocery,NA,2021-07-06,small
+Di Rienzo’s,NA,"111 Beech Street, Ottawa, ON",(613) 729-4037,45.40005426000005,-75.71209606099995,"Sandwiches, Grocery, Delis",NA,2021-07-06,small
+Shirin Market,NA,"700 March Road, Ottawa, ON",(613) 591-7000,45.349611425000035,-75.92517578599995,"Halal, International Grocery",NA,2021-07-06,small
+Geeland International Grocery,NA,"1620 Walkley Road, Ottawa, ON",(613) 680-4282,45.377324283000064,-75.64515965799995,International Grocery,NA,2021-07-06,small
+Marché Hintonburg Market,NA,"1059 Wellington Street, Ottawa, ON",(613) 722-2777,45.404012917000045,-75.72464819399994,"Butcher, Cheese Shops, Grocery",NA,2021-07-06,small
+Banaue Sari Sari Store,NA,"3023 Cedarview Road, Ottawa, ON",(613) 440-0273,45.266091051000046,-75.77170123899998,"Grocery, Caribbean, Vietnamese",NA,2021-07-06,small
+Nehles Meat Shop Grocery & BBQ,NA,"2026 Lanthier Dr, Ottawa, ON",(613) 824-3737,45.457633214000055,-75.49296427799999,"Meat Shops, Grocery, Barbeque",NA,2021-07-06,small
+Sherwood Supermarket,NA,"111 Sherwood Drive, Ottawa, ON",(613) 729-6011,45.39616896600006,-75.71321040499998,"Grocery, Delis",NA,2021-07-06,small
+Savannah Afro Caribbean Products,NA,"1838 Bank Street, Ottawa, ON",(613) 731-7878,45.37081718300004,-75.66461282499995,Grocery,NA,2021-07-06,small
+Dutch Groceries and Giftware,NA,"1400 Clyde Avenue, Ottawa, ON",(613) 226-1002,45.35843905200005,-75.73875757499997,International Grocery,NA,2021-07-06,small
+La Tiendita,NA,"848 Merivale Rd, Ottawa, ON",NA,45.38528715600006,-75.73269075799999,Grocery,NA,2021-07-06,small
+Divisoria Market,NA,"1743 Carling Avenue, Ottawa, ON",(613) 722-8461,45.378244788000075,-75.75284945499999,International Grocery,NA,2021-07-06,small
+Bakker’s General Store,NA,"1004 Manotick Station Road, Ottawa, ON",(613) 822-1659,45.25575936800004,-75.62477276499999,"Imported Food, Delis, International Grocery",NA,2021-07-06,small
+Arum Restaurant and Market,NA,"512 Bank St, Ottawa, ON",(613) 230-8488,45.40971784700008,-75.69252116299998,"Grocery, Korean",NA,2021-07-06,small
+Fresh Co,NA,"320 McArthur Avenue, Ottawa, ON",NA,45.43071900700005,-75.65393297399999,Grocery,NA,2021-07-06,small
+Mid-East Food Centre,NA,"1010 Belfast Road, Ottawa, ON",(613) 244-2525,45.41059424200006,-75.63088990199998,Grocery,NA,2021-07-06,small
+Loblaws Supermarkets Limited,NA,"3201 Greenbank Rd, Ottawa, ON",(613) 825-0812,45.26808265200003,-75.74332563499996,Grocery,NA,2021-07-06,small
+Kitchen Hut Houseware,NA,"1558 Merivale Road, Ottawa, ON",(613) 225-8888,45.35291494100005,-75.73544697799997,Kitchen & Bath,NA,2021-07-06,small
+The Piggy Market,NA,"400 Winston Avenue, Ottawa, ON",(613) 371-6124,45.39128067000007,-75.75653162599997,"Butcher, Grocery",NA,2021-07-06,small
+Farmer’s Pick,NA,"1430 Prince of Wales Drive, Ottawa, ON",(613) 225-1240,45.36861396900008,-75.70280091499995,Fruits & Veggies,NA,2021-07-06,small
+La Bottega Nicastro Fine Food Shop,NA,"64 George St, Ottawa, ON",(613) 789-7575,45.42681870500007,-75.69180420299995,"Delis, Sandwiches, Specialty Food",NA,2021-07-06,small
+Nature’s Buzz Organic Food Market,NA,"55 Beechwood Ave, Ottawa, ON",(613) 842-0280,45.440277070000036,-75.67573216899996,Health Food Store,NA,2021-07-06,small
+Manphong Supermarket,NA,"775 Somerset St W, Ottawa, ON",(613) 230-9934,45.41019456200007,-75.70966555499996,Grocery,NA,2021-07-06,small
+Stolichni Deli,NA,"2280 Carling Avenue, Ottawa, ON",(613) 828-4163,45.36799189800007,-75.77436702099999,"Delis, Grocery",NA,2021-07-06,small
+L & F Montego Place,NA,"2211 Saint Joseph Boulevard, Ottawa, ON",(613) 830-8377,45.46776157800008,-75.53328517599994,International Grocery,NA,2021-07-06,small
+Nasa Food Centre,NA,"3050 Woodroffe Ave, Ottawa, ON",(613) 823-8225,45.28452069600007,-75.72419332699997,Grocery,NA,2021-07-06,small
+Lakomka Delicatessen,NA,"1127 Baxter Rd, Ottawa, ON",(613) 596-4666,45.35085391400003,-75.78212353799995,"Grocery, Imported Food",NA,2021-07-06,small
+Continental Delicatessen,NA,"57 York Street, Ottawa, ON",(613) 241-7025,45.42856222100005,-75.69308099599994,"Delis, Meat Shops, Polish",NA,2021-07-06,small
+International Cheese & Deli,NA,"40 ByWard Market Sq, Ottawa, ON",(613) 241-5411,45.42763294400004,-75.69304089199994,"Caterers, Cheese Shops",NA,2021-07-06,small
+Healthy Planet Trainyards,NA,"590 Industrial Avenue, Ottawa, ON",(613) 730-2020,45.41045151000003,-75.64169854899995,"Vitamins & Supplements, Health Food Store, Grocery",NA,2021-07-06,small
+Cedars & Co,NA,"1255 Bank St, Ottawa, ON",(613) 288-2797,45.39105197100008,-75.67988303899995,Grocery,NA,2021-07-06,small
+Herb & Spice Shop,NA,"375 Bank Street, Ottawa, ON",(613) 232-4087,45.41391571400004,-75.69478482799997,"Health Food Store, Herbs & Spices, Cosmetics & Beauty Supply",NA,2021-07-06,small
+Domestic Foods,NA,"595 Gladstone Ave, Ottawa, ON",(613) 230-5427,45.40921331800007,-75.70100789999998,"Grocery, Convenience Stores",NA,2021-07-06,small
+Lim Bangkok Grocery,NA,"794 Somerset St W, Ottawa, ON",(613) 594-4673,45.409508748000064,-75.71019690599996,Grocery,NA,2021-07-06,small
+Charlies Groceteria,NA,"220 Carruthers Avenue, Ottawa, ON",(613) 722-3535,45.404223770000044,-75.72824175499994,"Grocery, Delis, Laundromat",NA,2021-07-06,small
+Abbas Grocery,NA,"344 Bell Street, Ottawa, ON",NA,45.40197094300004,-75.70336211199998,Grocery,NA,2021-07-06,small
+Baltyk Delicatessen,NA,"935 Carling Avenue, Ottawa, ON",(613) 761-7450,45.39555511000003,-75.71340395499993,"Delis, Sandwiches",NA,2021-07-06,small
+Mario’s Food Centre,NA,"381 McArthur Ave, Ottawa, ON",(613) 749-1247,45.43232361200006,-75.65049524599993,Grocery,NA,2021-07-06,small
+Beirut Boulangerie Et Traiteur,NA,"269 Rue Laramee, Ottawa, ON",(819) 778-3532,45.241404654000064,-75.72645320099997,"Bakeries, Grocery",NA,2021-07-06,small
+Casa Nicastro Delicatessen,NA,"304 Preston St, Ottawa, ON",(613) 238-2018,45.40305228200003,-75.71217116699995,"Delis, Sandwiches, Specialty Food",NA,2021-07-06,small
+New Thana Market,NA,"386 Bank St, Ottawa, ON",(613) 567-2963,45.41345130600007,-75.69508178799998,Grocery,NA,2021-07-06,small
+Kanata Kash N Karry,NA,"60 Colchester Square, Ottawa, ON",(613) 435-5355,45.32099027100003,-75.88973712299997,Grocery,NA,2021-07-06,small
+European Delicatessen,NA,"1568 Merivale Road, Ottawa, ON",(613) 228-0394,45.351680799000064,-75.73470785099994,Delis,NA,2021-07-06,small
+Damas Supermarket,NA,"3033 Carling Avenue, Ottawa, ON",(613) 726-1792,45.35495417300007,-75.80635164099994,"Bakeries, Butcher, International Grocery",NA,2021-07-06,small
+Kool Runnings Caribbean Groceries & Restaurant,NA,"2200 Montreal Rd, Ottawa, ON",(613) 741-9101,45.44968270000004,-75.58707829399998,Grocery,NA,2021-07-06,small
+Vaishali’s Super Store,NA,"62 Wylie Ave, Ottawa, ON",(613) 721-0318,45.354752234000046,-75.80687010099996,Grocery,NA,2021-07-06,small
+Muckleston & Brockwell,NA,"127 Beechwood Avenue, Ottawa, ON",(613) 745-2244,45.44203349400004,-75.67224815699996,"Butcher, Meat Shops",NA,2021-07-06,small
+Silk Road Foods,NA,"1618 Merivale Road, Ottawa, ON",(613) 695-3631,45.347391135000066,-75.73245471799999,Grocery,NA,2021-07-06,small
+Barrhaven Market,NA,"2900 Woodroffe Avenue, Ottawa, ON",(613) 825-6276,45.29239053300006,-75.72870210499997,International Grocery,NA,2021-07-06,small
+Ottawa Farmers’ Market,NA,"1000 Exhibition Way, Ottawa, ON",(613) 239-4955,45.39986429100003,-75.68329119399993,Farmers' Market,NA,2021-07-06,small
+Cedars & Co,NA,"1255 Bank St, Ottawa, ON",(613) 288-2797,45.39105197100008,-75.67988303899995,Grocery,NA,2021-07-06,small
+Al-Oumara Meat Shop & Grill,NA,"25 Tapiola Crescent, Ottawa, ON",(613) 523-1800,45.363935414000025,-75.64682264999993,"Meat Shops, Lebanese",NA,2021-07-06,small
+Adams Sausages,NA,"1437 Michael Street, Ottawa, ON",(613) 749-3336,45.41588759700005,-75.62819068699997,"Butcher, Meat Shops, Imported Food",NA,2021-07-06,small
+Nu Grocery Store,NA,"1130 Wellington Street West, Ottawa, ON",(613) 792-1995,45.401854738000054,-75.72655412799998,Grocery,NA,2021-07-06,small
+Fruits Express,NA,"5310 Canotek Road, Ottawa, ON",(613) 695-3436,45.45196812900008,-75.58743590099994,Fruits & Veggies,NA,2021-07-06,small
+Colonia Grocery La,NA,"345 Av Richelieu, Ottawa, ON",(613) 745-2274,45.435501060000036,-75.65497708299995,Grocery,NA,2021-07-06,small
+M&M Food Market,NA,"197 Trainyards Drive, Ottawa, ON",(613) 241-9054,45.411785664000035,-75.63916622899995,Grocery,NA,2021-07-06,small
+Byward Market News,NA,"55 ByWard Market Sq, Ottawa, ON",(613) 562-3325,45.427628895000055,-75.69242588199995,Grocery,NA,2021-07-06,small
+Eating Well Ottawa,NA,"1169 Parisien Street, Ottawa, ON",(613) 695-7200,45.420296689000054,-75.62789980999997,"Organic Stores, Food Delivery Services",NA,2021-07-06,small
+Sandy Hill Pet and People Food Co-op,NA,"304 Wilbrod Street, Ottawa, ON",(613) 321-5915,45.42742443800006,-75.68044094799995,"Pet Stores, Health Food Store",NA,2021-07-06,small
+Kaz’s Kitchen & Grocery,NA,"207 Guigues Ave, Ottawa, ON",(613) 789-3210,45.432762335000064,-75.69117963099995,Grocery,NA,2021-07-06,small
+San Jose Mexican Foods,NA,"1017B Carp Road, Ottawa, ON",(613) 413-2295,45.31381938900006,-75.99754027099993,"International Grocery, Mexican, Food Trucks",NA,2021-07-06,small
+Ottawa Bagelshop & Deli,NA,"1321 Wellington St W, Ottawa, ON",(613) 722-8753,45.398947932000056,-75.73678610999997,"Delis, Bagels",NA,2021-07-06,small
+Costco,NA,"1405 Blair Towers Place, Ottawa, ON",(613) 691-7607,45.43506555500005,-75.60338392699998,Grocery,NA,2021-07-06,small
+Ottawa Organics and Natural Foods,NA,"858 Campbell Avenue, Ottawa, ON",(613) 234-1515,45.37640848800004,-75.75005171199996,"Organic Stores, Food Delivery Services",NA,2021-07-06,small
+Pelican Seafood Market & Grill,NA,"1500 Bank Street, Ottawa, ON",(613) 526-5229,45.380945868000026,-75.67010168099995,"Seafood, Seafood Markets",NA,2021-07-06,small
+Moncion’s Your Independant Grocer,NA,"671 River Road, Ottawa, ON",(613) 822-4749,45.269989579000026,-75.69875730299998,"Grocery, Pharmacy",NA,2021-07-06,small
+Afro Diva,NA,"1315 Richmond Rd, Ottawa, ON",(613) 680-0082,45.368095915000026,-75.78576473299995,"Cosmetics & Beauty Supply, Wigs, International Grocery",NA,2021-07-06,small
+Natural Food Pantry,NA,"1487 Richmond Rd, Ottawa, ON",(613) 726-9200,45.36296767600004,-75.79098620099995,Health Food Store,NA,2021-07-06,small
+Mimi’s Food Market Express,NA,"549 Gladstone Ave, Ottawa, ON",(613) 216-7355,45.409935132000044,-75.69936639199994,Convenience Stores,NA,2021-07-06,small
+Provigo,NA,"22 Rue Des Flandres, Ottawa, ON",(819) 568-5545,45.27011293900006,-75.77191947799997,Grocery,NA,2021-07-06,small
+Misto Fine Food Emporium,NA,"1387 Carling Avenue, Ottawa, ON",(613) 798-9367,45.38605223400003,-75.74102906899998,"Delis, Italian",NA,2021-07-06,small
+Natural Food Pantry,NA,"4325 Strandherd Drive, Ottawa, ON",(613) 755-2295,45.270522355000026,-75.78386061199996,Health Food Store,NA,2021-07-06,small
+Wah Shing Grocery Store,NA,"835 Somerset Street W, Ottawa, ON",(613) 232-6100,45.409225528000036,-75.71182312199994,Grocery,NA,2021-07-06,small
+ByWard Fruit Market,NA,"36 ByWard Market Sq, Ottawa, ON",(613) 241-6542,45.42763294400004,-75.69304089199994,"Fruits & Veggies, Farmers' Market",NA,2021-07-06,small
+Kardish Health Food Centre,NA,"2950 Bank Street, Ottawa, ON",(613) 224-1414,45.346069697000075,-75.62625940799995,"Grocery, Health Food Store",NA,2021-07-06,small
+Healthy Planet Kanata,NA,"400 Earl Grey Dr, Ottawa, ON",(613) 366-5117,45.311620496000046,-75.91534720399994,"Vitamins & Supplements, Grocery, Health Food Store",NA,2021-07-06,small
+Slater Street Market,NA,"427 Laurier West, Ottawa, ON",NA,45.41760390400003,-75.70255694999997,Convenience Stores,NA,2021-07-06,small
+Kardish Health Food Centre,NA,"1831 Robertson Road, Ottawa, ON",(613) 224-1414,45.32880748100007,-75.81927725999998,"Health Food Store, Grocery",NA,2021-07-06,small
+Johnny Farina Restaurant,NA,"216 Elgin Street, Ottawa, ON",(613) 565-5155,45.41885653300005,-75.69157581499996,"Italian, Pizza, Delis",NA,2021-07-06,small
+Le Quick Pick,NA,"71 Rue Laval, Ottawa, ON",(819) 771-7307,45.43822687000005,-75.67540497899995,Grocery,NA,2021-07-06,small
+Metro Plus,NA,"910 Boulevard Maloney E, Ottawa, ON",(819) 643-2353,45.34894636300004,-75.78272778799999,Grocery,NA,2021-07-06,small
+Maxi,NA,"300 Saint-Joseph Blvd, Ottawa, ON",(819) 777-6551,45.35294434600007,-75.35530437799997,Grocery,NA,2021-07-06,small
+Melrose Grocery Store,NA,"1082 Wellington St W, Ottawa, ON",(613) 728-2566,45.40307205000005,-75.72504218099994,Convenience Stores,NA,2021-07-06,small
+North Bestone,NA,"190 Lees Avenue, Ottawa, ON",NA,45.41510730500005,-75.66995174099998,Convenience Stores,NA,2021-07-06,small
+Bulk Barn,NA,"2210 Bank St, Ottawa, ON",(613) 247-8618,45.35520583200008,-75.65448136199996,Grocery,NA,2021-07-06,small
+Preston Food Market,NA,"71 Preston St, Ottawa, ON",(613) 238-2448,45.409646905000045,-75.71469537099995,Grocery,NA,2021-07-06,small
+Dunn’s Famous Deli,NA,"355 Dalhousie Street, Ottawa, ON",(613) 562-4966,45.428156924000064,-75.69021502099997,"Delis, Diners",NA,2021-07-06,small
+Village Food,NA,"888 Meadowlands Dr, Ottawa, ON",(613) 228-1026,45.36729044900005,-75.70204730199998,Grocery,NA,2021-07-06,small
+M&M Food Market,NA,"990 River Rd, Ottawa, ON",(613) 692-6202,45.233980520000046,-75.67730623599994,Grocery,NA,2021-07-06,small
+O’connor Grocery,NA,"41 Third Ave, Ottawa, ON",(613) 232-5540,45.404659052000056,-75.68480600499998,Grocery,NA,2021-07-06,small
+Blue Nile Grocery Store,NA,"168 King Edward Ave, Ottawa, ON",(613) 562-1532,45.43382462900007,-75.69050488799996,Convenience Stores,NA,2021-07-06,small
+Europa Food Centre,NA,"77 Beechwood Ave, Ottawa, ON",(613) 749-9935,45.44077818200003,-75.67479028499997,Grocery,NA,2021-07-06,small
+Thyme & Again,NA,"1845 Carling Avenue, Ottawa, ON",(613) 702-4424,45.37693302000008,-75.75660853299996,"Caterers, Specialty Food, Desserts",NA,2021-07-06,small
+Il Negozio Nicastro,NA,"1355 Wellington Street W, Ottawa, ON",(613) 729-9100,45.39859780300003,-75.73880043399998,"Delis, Sandwiches, Italian",NA,2021-07-06,small
+Ottawa Halal Market,NA,"2833 Dumaurier Avenue, Ottawa, ON",(613) 274-7040,45.350883200000055,-75.79369200499997,"International Grocery, Meat Shops",NA,2021-07-06,small
+Ogilvie Grocery Store,NA,"1137 Ogilvie Rd, Ottawa, ON",(613) 744-2880,45.42676189600007,-75.63140357399999,Grocery,NA,2021-07-06,small
+Bulk Barn,NA,"3161 Greenbank Rd, Ottawa, ON",(613) 823-6623,45.26997490100007,-75.74531007199994,Grocery,NA,2021-07-06,small
+Hasty Market,NA,"1565 Alta Vista Drive, Ottawa, ON",(613) 733-5773,45.40848811400008,-75.65748116599997,Grocery,NA,2021-07-06,small
+Franks,NA,"283 Greenbank Road, Ottawa, ON",(613) 421-6661,45.32429705000004,-75.77770071099997,"Bakeries, Sandwiches, Delis",NA,2021-07-06,small
+Midori Market,NA,"3689 Navan Rd, Ottawa, ON",(613) 837-3000,45.42660941100007,-75.48910623499995,"Pizza, Convenience Stores",NA,2021-07-06,small
+Quick Way Food Market,NA,"326 Somerset St E, Ottawa, ON",(613) 565-3500,45.42442731800003,-75.67397734699995,Grocery,NA,2021-07-06,small
+Shoppers Drug Mart,NA,"2515 Bank Street, Ottawa, ON",(613) 523-9999,45.354621448000046,-75.64491335999998,Drugstores,NA,2021-07-06,small
+LITTLE ITALY FINE FOODS,NA,"178 MAIN ST, Ottawa, ON",(613) 233-2124,45.409092014000066,-75.67835193999997,"Delis, Desserts, Coffee & Tea",NA,2021-07-06,small
+Hasty Market,NA,"1224 Wellington St W, Ottawa, ON",(613) 761-6033,45.399758761000044,-75.73111119399994,"Convenience Stores, Grocery",NA,2021-07-06,small
+Manor Park Grocy,NA,"179 St Laurent Blvd, Ottawa, ON",(613) 746-1023,45.454118968000046,-75.65390975799994,Grocery,NA,2021-07-06,small
+Maison,NA,"4750 Bank Street, Ottawa, ON",(613) 822-4549,45.31912119000003,-75.59572514599995,"Grocery, Bakeries, Delis",NA,2021-07-06,small
+Al Sham Food & Meat Market,NA,"275 Montreal Rd, Ottawa, ON",(613) 745-2477,45.43690570200005,-75.66009649099993,Grocery,NA,2021-07-06,small
+J.T. Bradley’s,NA,"1220 Colonial Road, Ottawa, ON",(613) 835-3781,45.42175695200007,-75.42545864399995,Grocery,NA,2021-07-06,small
+Merivale Fish Market,NA,"1480 Merivale Road, Ottawa, ON",(613) 723-7203,45.36008123200003,-75.73587272199995,Seafood Markets,NA,2021-07-06,small
+Pantry Plus,NA,"2433 St Joseph Boulevard, Ottawa, ON",(613) 830-5790,45.469813111000065,-75.52865506399996,"Health Food Store, Grocery",NA,2021-07-06,small
+Kardish Health Food Centre,NA,"499 Terry Fox Drive, Ottawa, ON",(613) 224-1414,45.31007508700003,-75.92214241199997,Grocery,NA,2021-07-06,small
+Corner Store,NA,"395 Montreal Road, Ottawa, ON",(613) 742-5004,45.439000587000066,-75.65400640299998,Convenience Stores,NA,2021-07-06,small
+Bulk Barn,NA,"197 Trainyards Drive, Ottawa, ON",(613) 244-0103,45.411785664000035,-75.63916622899995,"Herbs & Spices, Grocery",NA,2021-07-06,small
+Allspice Superstore,NA,"194 Robertson Rd, Ottawa, ON",(613) 829-3395,45.304072346000055,-75.87677744299998,Grocery,NA,2021-07-06,small
+Upland Heights Grocery,NA,"3360 Paul Anka Dr, Ottawa, ON",(613) 521-5993,45.35006899500007,-75.67503124999996,Grocery,NA,2021-07-06,small
+Place Cartier Iga Laflamme,NA,"425 Saint-Joseph Boul, Ottawa, ON",(819) 770-9131,45.35294434600007,-75.35530437799997,Grocery,NA,2021-07-06,small
+Tazij House,NA,"1620 Merivale Rd, Ottawa, ON",NA,45.347391135000066,-75.73245471799999,"Cafes, Specialty Food, Middle Eastern",NA,2021-07-06,small
+Asian Grocer,NA,"1581 Bank Street, Ottawa, ON",(613) 321-0773,45.37936971600004,-75.66742268099995,Grocery,NA,2021-07-06,small
+Shafie Food Centre,NA,"1655 Kilborn Ave, Ottawa, ON",(613) 523-1980,45.38805329300004,-75.65208154899994,Grocery,NA,2021-07-06,small
+Cote Poultry,NA,"2770 Lancaster Road, Ottawa, ON",(613) 247-7721,45.39588627300003,-75.60659176699994,Meat Shops,NA,2021-07-06,small
+Barakat Market,NA,"1656 Bank Street, Ottawa, ON",(613) 737-7722,45.376466976000074,-75.66688832999995,"Meat Shops, International Grocery",NA,2021-07-06,small
+Richmond Food Market,NA,"1315 Richmond Rd, Ottawa, ON",(613) 726-6548,45.368095915000026,-75.78576473299995,Grocery,NA,2021-07-06,small
+Jaguar Groceries,NA,"465 Parkdale Ave, Ottawa, ON",(613) 722-1022,45.398850494000044,-75.72759130699995,Grocery,NA,2021-07-06,small
+Epicerie Jocelyn Claire Fournier,NA,"29 Rue Morin, Ottawa, ON",(819) 777-1094,45.43999322900004,-75.64619532199998,Grocery,NA,2021-07-06,small
+Quickie the Convenience Stores,NA,"1670 Heron Rd, Ottawa, ON",(613) 731-7849,45.379355315000055,-75.64322292299994,Convenience Stores,NA,2021-07-06,small
+Kowloon Foods,NA,"4095 Belgreen Dr, Ottawa, ON",(613) 738-5125,45.38199844500008,-75.59524181199998,Grocery,NA,2021-07-06,small
+Natural Food Pantry,NA,"4325 Strandherd Dr, Ottawa, ON",(613) 737-9330,45.270522355000026,-75.78386061199996,Health Food Store,NA,2021-07-06,small
+M & J Tropical Super Market,NA,"1509 Merivale Road, Ottawa, ON",(613) 224-3204,45.357056373000034,-75.73634046499996,Grocery,NA,2021-07-06,small
+Greenbank Foods,NA,"806 Greenbank Rd, Ottawa, ON",(613) 825-3246,45.28702317600005,-75.75683360699998,Grocery,NA,2021-07-06,small
+Russell Foodland,NA,"148 Craig Street, Ottawa, ON",(613) 445-5308,45.399427639000066,-75.69298519899996,Grocery,NA,2021-07-06,small
+Moussa Mini Market & Meat Shop,NA,"300 McArthur Ave, Ottawa, ON",(613) 745-7900,45.431353570000056,-75.65587598399998,Grocery,NA,2021-07-06,small
