@@ -1,0 +1,5 @@
+
+* foodspace_2021-08-05.csv
+  * This combines convenience and grocery data.
+  * I manually reviewed and removed tricky duplicates that it would be tough to find programmatically -- e.g. with slightly different but substantially identical names & addresses.
+  * So this is the result of MANUAL PROCESSES combined with automated collection. There's no easy traceability here!

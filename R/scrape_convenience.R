@@ -13,9 +13,121 @@ library(httr)
 library(rvest)
 
 
-api_key <- read_file("../chris_google_api/chris_google_api_key.csv")
 
+
+
+
+api_key <- read_file("../chris_google_api/chris_google_api_key.csv")
 old_food <- read_csv("data/original/ONS Food Environment Mega Data - Food Env-edit.csv")
+
+new_food <- read_csv("data/combined/foodspace_2021-08-05.csv")
+
+old_food %>%
+  filter(Category2 %in% c("convenience store", "grocery"))
+
+old_food %>%
+  filter(Category2 == "specialty") %>%
+  pull(Category3) %>%
+  unique()
+
+add_specialties <- function(){
+  foods <- read_csv("data/combined/foodspace_2021-08-05.csv")
+  healthstores <- read_csv("data/grocers/health-store-2021-08-20.csv")
+  farmers_market <- read_csv("data/grocers/farmers-market-2021-08-20.csv")
+  bakery <- read_csv("data/grocers/bakery-2021-08-20.csv")
+  deli_cheese <- read_csv("data/grocers/deli-meat-cheese-2021-08-20.csv")
+  
+  foods_all <- bind_rows(foods, 
+                         healthstores,
+                         farmers_market,
+                         bakery,
+                         deli_cheese) %>%
+    distinct(name,address, .keep_all = TRUE)
+  
+  foods_all %>%
+    write_csv(sprintf("data/combined/foodspace_%s.csv", Sys.Date()))
+}
+
+
+scrape_farmers_market <- function(){
+  farmers_market <- healthstores <- onsr::scrape_yelp("farmers market", num_pages = 3)
+  
+  
+  dont_want <- c("POTATO", "CARP FARMERS", "PRODUCE DEPOT") %>%
+    stringr::str_flatten(collapse = "|")
+  
+  results_filter <- farmers_market %>%
+    filter(!stringr::str_detect(toupper(name), dont_want)) %>%
+    select(name,
+           address = addressLines,
+           note = categories) %>%
+    mutate(category = "farmers market") %>%
+    write_csv(sprintf("data/grocers/farmers-market-%s.csv", Sys.Date()))
+  
+}
+
+scrape_health_stores <- function(){
+  healthstores <- onsr::scrape_yelp("health store", num_pages = 13)
+  
+  dont_want <- c("SHOPPING CENTRE", "BOOSTER JUICE", "FARM BOY", "FOOD BASICS",
+                 "INDEPENDENT GROCER", "LOBLAWS", "PHARMA", "SHOPPERS",
+                 "REAL CANADIAN") %>%
+    stringr::str_flatten(collapse = "|")
+  
+  results_filter <- healthstores %>%
+    filter(!stringr::str_detect(toupper(name), dont_want)) %>%
+    select(name,
+           address = addressLines,
+           note = categories) %>%
+    mutate(category = "health store") %>%
+    write_csv(sprintf("data/grocers/health-store-%s.csv", Sys.Date()))
+  
+}
+
+
+
+scrape_bakeries <- function(){
+  results <- onsr::scrape_yelp("bakery")
+  
+  dont_want <- c("HORTON", "BRIDGEHEAD") %>%
+    stringr::str_flatten(collapse = "|")
+  
+  results_filter <- results %>%
+    filter(!stringr::str_detect(toupper(name), dont_want)) %>%
+    select(name,
+           address = addressLines,
+           note = categories) %>%
+    mutate(category = "bakery") %>%
+    write_csv(sprintf("data/grocers/bakery-%s.csv", Sys.Date()))
+
+}
+
+scrape_deli_meat_cheese <- function(){
+  deli <- onsr::scrape_yelp("deli", num_pages = 15)
+  cheese <- onsr::scrape_yelp("cheese shops", num_pages = 2)
+  
+  results <- bind_rows(deli, cheese) %>%
+    distinct()
+  
+  dont_want <- c("LOBLAW", "METRO", "PRODUCE DEPOT", "REAL CANADIAN", "SOBEYS", 
+                 "SUBWAY", "FARMBOY", "YOUR INDEPENDENT", "OUTAOUAIS") %>%
+    stringr::str_flatten(collapse = "|")
+  
+  results_filter <- results %>%
+    filter(!stringr::str_detect(toupper(name), dont_want)) %>%
+    select(name,
+           address = addressLines,
+           note = categories) %>%
+    distinct() %>%
+    mutate(category = "deli meat cheese") %>%
+    #group_by(address) %>%
+    #mutate(num = n())
+    write_csv(sprintf("data/grocers/deli-meat-cheese-%s.csv", Sys.Date()))
+  
+}
+
+
+
 
 # extract the old convenience stores, make sure their address includes "Ottawa, ON" if 
 # there is no comma in the address (which here means no other city provided)
@@ -32,130 +144,141 @@ old_food <- read_csv("data/original/ONS Food Environment Mega Data - Food Env-ed
 #          note_old = Category3)
 
 #write_csv(con_old, "data/convenience/conv_old_geocoded.csv")
-con_old <- read_csv("data/convenience/conv_old_geocoded.csv")
+create_new_foodspace_v1 <- function() {
+  
+  old_food <- read_csv("data/original/ONS Food Environment Mega Data - Food Env-edit.csv")
+  stop("Do not run this manually. I put these commands into a function
+       to keep them all together.
+       Just load the file 'data/combined/foodspace-ymd.csv'")
+  
+  con_old <- read_csv("data/convenience/conv_old_geocoded.csv")
+  
+  
+  con_new <- read_csv("data/convenience/convenience_2021-07-27.csv") %>%
+    #  con_manual 
+    #  %>% select(-num, -num2) %>%
+    rename(name_new = name,
+           address_new = address,
+           note_new = note,
+           phone_new = phone)
+  
+  # ADDING NEW ONES
+  
+  esso <- read_csv("data/convenience/esso.csv")
+  cdn_tire_gas <- read_csv("data/convenience/cdn_tire_gas.csv")
+  dollar_tree <- read_csv("data/convenience/dollar_tree.csv")
+  dollarama <- read_csv("data/convenience/dollarama.csv")
+  giant_tiger <- read_csv("data/convenience/giant_tiger.csv")
+  macewen <- read_csv("data/convenience/macewen.csv")
+  mrgas <- read_csv("data/convenience/mrgas.csv")
+  petrocan <- read_csv("data/convenience/petrocan.csv")
+  pioneer <- read_csv("data/convenience/pioneer.csv")
+  shell <- read_csv("data/convenience/shell.csv")
+  ultramar <- read_csv("data/convenience/ultramar.csv")
+  drummonds_gas <- read_csv("data/convenience/drummonds_gas.csv")
+  international_news <- read_csv("data/convenience/international_news.csv")
+  gateway_newstand <- read_csv("data/convenience/gateway_newstand.csv")
+  
+  new_ones <- list(esso,
+                   cdn_tire_gas,
+                   dollar_tree,
+                   dollarama,
+                   giant_tiger,
+                   macewen,
+                   mrgas,
+                   petrocan,
+                   pioneer,
+                   shell,
+                   ultramar,
+                   drummonds_gas,
+                   international_news) %>%
+    purrr::map_dfr(function(x) mutate(x, across(everything(), as.character))) %>%
+    mutate(lat = as.numeric(lat),
+           lng = as.numeric(lng),
+           convenience_store = as.logical(convenience_store)) %>%
+    rename(name_new = name,
+           address_new= address,
+           phone_new = phone) %>%
+    select(-convenience_store)
+  
+  con_new <- bind_rows(con_new, new_ones) 
+  
+  # re-geocode...
+  for_geocode <- con_new %>%
+    select(-lat, -lng) 
+  
+  con_newer <- for_geocode %>%
+    onsr::geocode_gmap(address_new, api_key = api_key, verbose = TRUE)
+  
+  con_newer_dedup <- con_newer %>% 
+    group_by(lat,lng) %>% 
+    mutate (num = n()) %>% 
+    arrange(desc(num), address_new) %>%
+    filter(!(stringr::str_detect(name_new, "ESSO") & num > 1)) %>%
+    distinct(name_new, address_new, .keep_all = TRUE)
+  
+  con_newer_dedup %>%
+    mutate(num2 = n()) %>%
+    arrange(desc(num2)) %>%
+    write_csv(sprintf("data/convenience/convenience-formanualedits-%s.csv", Sys.Date()))
+  
+  ## made manual edits in excel
+  
+  con_new_manual <- read_csv("data/convenience/convenience-withmanualedits-2021-08-05.csv") %>%
+    rename(name = name_new,
+           address = address_new,
+           phone = phone_new,
+           note = note_new,
+           Y = lat,
+           X = lng) %>%
+    select(-num, -num2) %>%
+    bind_rows(gateway_newstand) %>%
+    distinct(name, address, .keep_all = TRUE) %>%
+    write_csv(sprintf("data/convenience/convenience-%s.csv", Sys.Date()))
+  
+  
+  
+  # put together grocers and convenience stores
+  
+  # t <- grocers %>% mutate(address = if_else(is.na(address2), address, sprintf("%s, %s", address, address2)))
+  # tt <- t %>%
+  #   mutate(address = if_else(stringr::str_detect(address, ",|Ottawa|Rockland|Stittsville|Kanata|Brockville|Orleans"),
+  #                            address,
+  #                            paste0(address,", Ottawa, ON")))
+  #tt <- grocers
+  # tt <- tt %>%
+  #   filter(name != "Dollarama")
+  # tt %>%
+  #   write_csv("data/grocers/grocers_2021-08-05.csv")
+  
+  grocers <- read_csv("data/grocers/grocers_2021-08-05.csv") %>%
+    mutate(category = "grocery")
+  convenience <- read_csv("data/convenience/convenience-2021-08-05.csv") %>%
+    mutate(category = "convenience")
+  
+  food <- bind_rows(grocers, convenience) %>%
+    select(-chain, -size) %>%
+    distinct(name, address, .keep_all = TRUE)
+  
+  food %>%
+    write_csv(sprintf("data/combined/foodspace_%s.csv", Sys.Date()))
+  # t <- con_new_manual %>%
+  #   select(-num, -num2) %>%
+  #   group_by(lat, lng) %>%
+  #   mutate(num = n()) %>%
+  #   arrange(desc(num))
+}
+# for_join <- con_new_manual %>%
+#   rename(lat= Y,
+#          lng = X)
+# 
+# con_join <- full_join(con_old, for_join, by = c("lat", "lng"))
+# 
+# olds <- con_join %>%
+#   filter(is.na(name))
 
-con_new <- read_csv("data/convenience/convenience_2021-07-27.csv") %>%
-  #  con_manual 
-  #  %>% select(-num, -num2) %>%
-  rename(name_new = name,
-         address_new = address,
-         note_new = note,
-         phone_new = phone)
-
-# ADDING NEW ONES
-
-esso <- read_csv("data/convenience/esso.csv")
-cdn_tire_gas <- read_csv("data/convenience/cdn_tire_gas.csv")
-dollar_tree <- read_csv("data/convenience/dollar_tree.csv")
-dollarama <- read_csv("data/convenience/dollarama.csv")
-giant_tiger <- read_csv("data/convenience/giant_tiger.csv")
-macewen <- read_csv("data/convenience/macewen.csv")
-mrgas <- read_csv("data/convenience/mrgas.csv")
-petrocan <- read_csv("data/convenience/petrocan.csv")
-pioneer <- read_csv("data/convenience/pioneer.csv")
-shell <- read_csv("data/convenience/shell.csv")
-ultramar <- read_csv("data/convenience/ultramar.csv")
-drummonds_gas <- read_csv("data/convenience/drummonds_gas.csv")
-international_news <- read_csv("data/convenience/international_news.csv")
-gateway_newstand <- read_csv("data/convenience/gateway_newstand.csv")
-
-new_ones <- list(esso,
-                 cdn_tire_gas,
-                 dollar_tree,
-                 dollarama,
-                 giant_tiger,
-                 macewen,
-                 mrgas,
-                 petrocan,
-                 pioneer,
-                 shell,
-                 ultramar,
-                 drummonds_gas,
-                 international_news) %>%
-  purrr::map_dfr(function(x) mutate(x, across(everything(), as.character))) %>%
-  mutate(lat = as.numeric(lat),
-         lng = as.numeric(lng),
-         convenience_store = as.logical(convenience_store)) %>%
-  rename(name_new = name,
-         address_new= address,
-         phone_new = phone) %>%
-  select(-convenience_store)
-
-con_new <- bind_rows(con_new, new_ones) 
-
-# re-geocode...
-for_geocode <- con_new %>%
-  select(-lat, -lng) 
-
-con_newer <- for_geocode %>%
-  onsr::geocode_gmap(address_new, api_key = api_key, verbose = TRUE)
-
-con_newer_dedup <- con_newer %>% 
-  group_by(lat,lng) %>% 
-  mutate (num = n()) %>% 
-  arrange(desc(num), address_new) %>%
-  filter(!(stringr::str_detect(name_new, "ESSO") & num > 1)) %>%
-  distinct(name_new, address_new, .keep_all = TRUE)
-
-con_newer_dedup %>%
-  mutate(num2 = n()) %>%
-  arrange(desc(num2)) %>%
-  write_csv(sprintf("data/convenience/convenience-formanualedits-%s.csv", Sys.Date()))
-
-## made manual edits in excel
-
-con_new_manual <- read_csv("data/convenience/convenience-withmanualedits-2021-08-05.csv") %>%
-  rename(name = name_new,
-         address = address_new,
-         phone = phone_new,
-         note = note_new,
-         Y = lat,
-         X = lng) %>%
-  select(-num, -num2) %>%
-  bind_rows(gateway_newstand) %>%
-  distinct(name, address, .keep_all = TRUE) %>%
-  write_csv(sprintf("data/convenience/convenience-%s.csv", Sys.Date()))
 
 
-
-# put together grocers and convenience stores
-
-# t <- grocers %>% mutate(address = if_else(is.na(address2), address, sprintf("%s, %s", address, address2)))
-# tt <- t %>%
-#   mutate(address = if_else(stringr::str_detect(address, ",|Ottawa|Rockland|Stittsville|Kanata|Brockville|Orleans"),
-#                            address,
-#                            paste0(address,", Ottawa, ON")))
-#tt <- grocers
-# tt <- tt %>%
-#   filter(name != "Dollarama")
-# tt %>%
-#   write_csv("data/grocers/grocers_2021-08-05.csv")
-
-grocers <- read_csv("data/grocers/grocers_2021-08-05.csv") %>%
-  mutate(category = "grocery")
-convenience <- read_csv("data/convenience/convenience-2021-08-05.csv") %>%
-  mutate(category = "convenience")
-
-food <- bind_rows(grocers, convenience) %>%
-  select(-chain, -size) %>%
-  distinct(name, address, .keep_all = TRUE)
-
-food %>%
-  write_csv(sprintf("data/combined/foodspace_%s.csv", Sys.Date()))
-# t <- con_new_manual %>%
-#   select(-num, -num2) %>%
-#   group_by(lat, lng) %>%
-#   mutate(num = n()) %>%
-#   arrange(desc(num))
-
-for_join <- con_new_manual %>%
-  rename(lat= Y,
-         lng = X)
-
-con_join <- full_join(con_old, for_join, by = c("lat", "lng"))
-
-olds <- con_join %>%
-  filter(is.na(name))
 
 # This function loads the already-scraped results, removes some duplicates, and
 # puts them together. The next step is to compare them to the old results from
