@@ -14,21 +14,120 @@ library(rvest)
 
 
 
+ff <- food %>%
+  group_by(lat, lng) %>%
+  mutate(num = n())
+
+geocode_food <- function(food) {
+  api_key <- read_file("../chris_google_api/chris_google_api_key.csv")
+  
+  food_geocoded <- food %>%
+    onsr::geocode_gmap(address, api_key = api_key, verbose = TRUE, wait_nicely = FALSE)
+  
+  others <- food %>%
+    filter(is.na(lat)) %>%
+    select(-lat, -lng) %>%
+    onsr::geocode_gmap(address, api_key = api_key, verbose = TRUE, wait_nicely = FALSE)
+  
+  ff <- food_geocoded %>%
+    filter(!is.na(lat))
+  
+  bind_rows (ff, others) %>%
+  write_csv("data/combined/foodspace_2021-08-25.csv")
+  
+}
 
 
 
-api_key <- read_file("../chris_google_api/chris_google_api_key.csv")
 old_food <- read_csv("data/original/ONS Food Environment Mega Data - Food Env-edit.csv")
 
-new_food <- read_csv("data/combined/foodspace_2021-08-05.csv")
+food <- read_csv("data/combined/foodspace_2021-08-25.csv")
+
+t <- food %>%
+  group_by(address) %>%
+  mutate(num = n()) %>%
+  arrange(num) %>%
+  select(name, address, phone, category, num)
+
 
 old_food %>%
-  filter(Category2 %in% c("convenience store", "grocery"))
+  filter(Category2 %in% c("grocery", "specialty", "convenience"))
 
-old_food %>%
-  filter(Category2 == "specialty") %>%
-  pull(Category3) %>%
-  unique()
+
+names_not_found <- old_food %>%
+  filter(Category2 %in% c("grocery", "specialty", "convenience")) %>%
+  filter(!toupper(Name) %in% toupper(food$name))
+
+names_not_found %>%
+  write_csv("data/collecting/names_not_found_grocers_2021-08-24.csv")
+# new_food <- read_csv("data/combined/foodspace_2021-08-05.csv")
+# 
+# old_food %>%
+#   filter(Category2 %in% c("convenience store", "grocery"))
+# 
+# old_food %>%
+#   filter(Category2 == "specialty") %>%
+#   pull(Category3) %>%
+#   unique()
+
+
+scrape_mm_meat_shops <- function(){
+  library(RSelenium)
+  library(wdman)
+  
+  # Start Selenium using Firefox on port 4567
+  rD <- rsDriver(browser = "firefox", port = 4568L)
+  
+  # For convenience, get a variable pointing to the client
+  rDC <- rD$client
+  
+  
+  # Navigate our RSelenium browser session to the Governmente of Ontario Newsroom
+  rDC$navigate("https://www.mmfoodmarket.com/en/store-locator")
+  
+  
+  mm_html <- rDC$getPageSource() 
+  
+  mm_html <- mm_html[[1]] %>%
+    rvest::read_html()
+  
+  address <- mm_html %>%
+    rvest::html_elements(css = ".data div:nth-child(2)") %>%
+    rvest::html_text2()
+  
+  phone1 <- address %>%
+    stringr::str_extract("\\d\\d\\d-\\d\\d\\d-\\d\\d\\d\\d")
+  
+  phone2 <- address %>%
+    stringr::str_extract("\\d\\d\\d\\d\\d\\d\\d\\d\\d\\d\\d")
+  
+  city <- mm_html %>%
+    rvest::html_elements(css = ".data div:nth-child(3)") %>%
+    rvest::html_text2()
+  
+  result <- tibble::tibble(address = address,
+                           phone1 = phone1,
+                           phone2 = phone2,
+                           city = city) %>%
+    mutate(phone = if_else(!is.na(phone1), phone1, phone2),
+           address = stringr::str_remove(address, "\\d\\d\\d-\\d\\d\\d-\\d\\d\\d\\d|\\d\\d\\d\\d\\d\\d\\d\\d\\d\\d\\d"),
+           city = stringr::str_remove(city, "City: "),
+           address = stringr::str_remove(address, ".*(?=\\n)"),
+           address = stringr::str_trim(address),
+           address = sprintf("%s, %s, ON", address, city),
+           name = "M&M Food Market",
+           category = "deli meat cheese") %>%
+    select(-phone1, -phone2)
+
+  result %>%
+    write_csv(sprintf("data/grocers/mm_food_market_%s.csv", Sys.Date()))
+  
+  rDC$quit()
+  rD$client$quit()
+  rD$server$stop()
+  rD$server$process
+}
+
 
 add_specialties <- function(){
   foods <- read_csv("data/combined/foodspace_2021-08-05.csv")
