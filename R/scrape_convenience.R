@@ -5,18 +5,100 @@
 # the results in a timestamped file for further processing.
 
 library(tidyverse)
-library(osmdata)
+#library(osmdata)
 library(onsr)
 library(sf)
 library(leaflet)
-library(httr)
-library(rvest)
+#library(httr)
+#library(rvest)
+
+food <-read_csv("data/combined/foodspace_2021-08-26.csv")
 
 
+# f %>%
+#   select(-X, -Y, -address2, -category, -num, -geometry) %>%
+#   write_csv("data/combined/foodspace_2021-08-26.csv")
 
-ff <- food %>%
-  group_by(lat, lng) %>%
-  mutate(num = n())
+leaflet_food <- function(food){
+  
+  circle_pal <- function(category){
+    colour <- case_when(
+      category == "farmer's market" ~ "lightgreen",
+      category == "grocery" ~ "darkgreen",
+      category == "convenience" ~ "blue",
+      category == "specialty" ~ "pink",
+      TRUE ~ "grey"
+    )
+    
+  }
+  
+  #labels <- s
+  
+  leaflet() %>%
+    addTiles() %>%
+    addCircleMarkers(data = food,
+                     color = ~ circle_pal(category2)
+                     #,clusterOptions = leaflet::markerClusterOptions()  
+                     , label = ~name
+                     )
+  
+  
+}
+
+
+ggmap_food <- function(food){
+  food %>%
+    sf::st_as_sf(coords = c("lng", "lat"), crs = "WGS84", remove = FALSE) %>%
+    ggplot() +
+    geom_sf(aes(colour = category2)) +
+    theme_minimal()
+  
+}
+
+
+# putting category2 and category3 in to line up with the previous dataset
+categorize_food <- function(food){
+  f <- food %>%
+    group_by(name) %>%
+    mutate(num = n(),
+           chain = num>1,
+           category2 = category,
+           category3 = category,
+           category3 = if_else(category2 == "grocery" & chain, "large", category2),
+           category3 = if_else(category2 == "grocery" & !chain, "small", category2),
+           category2 = if_else(category2 %in% c("deli meat cheese", "bakery", "health store"), "specialty", category2),
+         category3 = if_else(category2 == "convenience" & (stringr::str_detect(toupper(name), "GAS|ESSO|PETRO|ULTRAMAR|MACEWEN|MOBIL|PIONEER|TRUCK STOP|SHELL|FUEL") | 
+                                                            stringr::str_detect(toupper(note), "GAS")), 
+                              "gas station", "regular"),
+         category3 = if_else(is.na(category3) & category2 == "convenience", "regular", category3),
+         update_date = if_else(is.na(update_date), Sys.Date(), update_date)
+           )
+  
+  return(f)
+  
+}
+
+
+spatial_filter_food <- function(food){
+  food %>%
+    mutate(across(everything(), iconv, to = "UTF-8")) %>%
+    mutate(lat = as.numeric(lat),
+           lng = as.numeric(lng)) %>%
+    sf::st_as_sf(coords = c("lng", "lat"), remove = FALSE, crs = "WGS84") %>%
+    sf::st_transform(crs = 32189)
+  
+  ons_shp <- onsr::get_ons_shp() %>%
+    sf::st_transform(crs = 32189)
+  
+  ons_buffer <- ons_shp %>%
+    sf::st_buffer(dist = 10000)
+  
+  sf::st_filter( food, ons_buffer) %>%
+    sf::st_transform(geometry = NULL) %>%
+    write_csv(sprintf("../data/combined/foodspace_filtered_%s.csv", Sys.Date()))
+  
+}
+
 
 geocode_food <- function(food) {
   api_key <- read_file("../chris_google_api/chris_google_api_key.csv")

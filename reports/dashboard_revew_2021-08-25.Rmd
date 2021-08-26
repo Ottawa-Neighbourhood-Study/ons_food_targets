@@ -1,0 +1,136 @@
+---
+title: "Untitled"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(crosstalk)
+library(leaflet)
+
+
+food <- read_csv("../data/combined/foodspace_filtered_2021-08-25.csv")
+
+
+shared_food <- crosstalk::SharedData$new(food)
+
+```
+
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+crosstalk::filter_checkbox("category",  "Category", shared_food, ~category)
+
+```
+
+### Chart C
+
+```{r}
+reactable::reactable(shared_food,
+                     filterable = TRUE,
+                       selection = "multiple",
+  onClick = "select",
+  rowStyle = list(cursor = "pointer"),
+  #defaultColDef = reactable::colDef(show = FALSE),
+  columns = list(
+    name = reactable::colDef(name = "Name", show = TRUE),
+    address = reactable::colDef(name = "Address", show = TRUE),
+    category = reactable::colDef(name = "Category", show = TRUE),
+    phone = reactable::colDef(show= FALSE),
+    X = reactable::colDef(show = FALSE),
+    Y = reactable::colDef(show = FALSE),
+    address2 = reactable::colDef(show = FALSE),
+    update_date = reactable::colDef(show = FALSE),
+    lat = reactable::colDef(show = FALSE),
+    lng = reactable::colDef(show = FALSE),
+    geometry = reactable::colDef(show = FALSE),
+    note = reactable::colDef(show = FALSE)
+    
+  ))
+
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+
+# https://github.com/rstudio/leaflet/issues/691
+
+icon_carrot <- leaflet::makeAwesomeIcon(text = fontawesome::fa("fas fa-carrot"),
+                                        markerColor = "red")
+
+# health food store
+icon_leaf <- icon_carrot <- leaflet::makeAwesomeIcon(text = fontawesome::fa("fas fa-leaf"),
+                                                     markerColor = "lightgreen")
+
+# bakery
+icon_bread <- icon_carrot <- leaflet::makeAwesomeIcon(text = fontawesome::fa("fas fa-bread-slice"),
+                                                      markerColor = "beige")
+
+# convenience store
+icon_cookie <- icon_carrot <- leaflet::makeAwesomeIcon(text = fontawesome::fa("fas fa-cookie"),
+                                                       markerColor = "blue")
+
+# meat deli cheese
+icon_cheese <- icon_carrot <- leaflet::makeAwesomeIcon(text = fontawesome::fa("fas fa-cheese"),
+                                                       markerColor = "orange")
+
+# farmer's market
+icon_seedling <- icon_carrot <- leaflet::makeAwesomeIcon(text = fontawesome::fa("fas fa-seedling"),
+                                                         markerColor = "darkgreen")
+icon_list <- leaflet::awesomeIconList(
+  "grocery" = icon_carrot,
+  "farmer's market" = icon_seedling,
+  "deli meat cheese" = icon_cheese,
+  "convenience" = icon_cookie,
+  "bakery" = icon_bread,
+  "health store" = icon_leaf
+
+)
+
+test <- icon_list[food$category]
+
+labs <-  sprintf("<b>%s</b><br>%s<br>%s", food$name, food$category, food$address) %>%
+  purrr::map(htmltools::HTML)
+
+leaflet() %>%
+  addTiles() %>%
+  addAwesomeMarkers(data = shared_food,
+                    
+                    icon = ~ icon_list[category]
+                      # ,
+                      # category == "health store" ~ icon_leaf,
+                      # category == "bakery" ~ icon_bread,
+                      # category == "convenience" ~ icon_cookie,
+                      # category == "deli meat cheese" ~ icon_cheese,
+                      # category == "farmer's market" ~ icon_seedling
+                    
+                    #, clusterOptions = markerClusterOptions()
+                    , label = labs
+                    )
+                    
+                    #   awesomeIcons(
+                    #   library = "fa",
+                    #   icon = case_when(
+                    #   TRUE ~ "fas fa-carrot"
+                    # )
+                    #)
+                    #)
+# 
+# leaflet() %>%
+#   addTiles() %>%
+#   addMarkers(data = shared_food
+#              #,             clusterOptions = markerClusterOptions()
+#              )
+```

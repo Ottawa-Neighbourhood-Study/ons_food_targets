@@ -26,7 +26,7 @@ Giant Tiger,"171 Alexander Street, Pembroke, ON, K8A 4L8",613-635-7614,45.826001
 Hamilton's Convenience & Propane Centre,"11536 Round Lake Rd, Pembroke, ON",613-735-5784,45.7975904,-77.1703509,NA,NA,NA,convenience,45.7975904,-77.1703509
 Giant Tiger,"1950, boul. du Curé-Labelle, Saint-Jérôme, QC, J7Y 1S1",450-438-7799,45.7947495,-74.0108615,NA,NA,NA,convenience,45.7947495,-74.0108615
 Giant Tiger,"312, rue Saint-Georges, Saint-Jérôme, QC, J7Z 5A5",450-565-9171,45.7764903,-74.0034925,NA,NA,NA,convenience,45.7764903,-74.0034925
-Ferme Lève-Tôt,"460 Chemin Kalalla, Alcove, QC J0X 1A0",NA,NA,NA,Fruits &amp; Veggies,NA,NA,farmers market,45.766001,-76.026962
+Ferme Lève-Tôt,"460 Chemin Kalalla, Alcove, QC J0X 1A0",NA,NA,NA,Fruits &amp; Veggies,NA,NA,farmer's market,45.766001,-76.026962
 Giant Tiger,"86, boul. Sainte-Anne, Ste-Anne-des-Plaines, QC, J0N 1H0",450-838-7039,45.7560968,-73.8175207,NA,NA,NA,convenience,45.7560968,-73.8175207
 Saar's Store,"40020 Hwy 41, Pembroke, ON",613-732-2711,45.7541157,-77.1138733,NA,NA,NA,convenience,45.7541157,-77.1138733
 MARCHE ALIMENTAIRE R. TESSIER,"1019 PRINCIPALE, VAL DES MONTS, QC",NA,45.6829435,-75.723618,NA,NA,NA,convenience,45.6829435,-75.723618
@@ -40,7 +40,7 @@ Pipolinka Bakery,"757 Riverside Drive, Wakefield, QC J0X 3G0",NA,NA,NA,Bakeries,
 Giant Tiger,"156, rue Turgeon, Sainte-Thérèse, QC, J7E 3J3",450-979-1980,45.6336782,-73.8343058,NA,NA,NA,convenience,45.6336782,-73.8343058
 Giant Tiger,"153, chemin Valley, Wakefield (La Pêche), QC, J0X 3G0",819-459-1628,45.624671,-75.9334291,NA,NA,NA,convenience,45.624671,-75.9334291
 County Line L'Orignal,"1065 King St, L'Orignal, ON",613-675-2121,45.6191975,-74.692579,NA,NA,NA,convenience,45.6191975,-74.692579
-Giant Tiger,"277 Regent Street, Hawkesbury, ON, K6A 1G1",613-632-7699,45.608890100000004,-74.6087917,NA,NA,NA,convenience,45.608890100000004,-74.6087917
+Giant Tiger,"277 Regent Street, Hawkesbury, ON, K6A 1G1",613-632-7699,45.6088901,-74.6087917,NA,NA,NA,convenience,45.6088901,-74.6087917
 Shell,"235 MCGILL STREET, Hawkesbury, Ontario, K6A 1P7",+1 613 632 0061,45.6086062,-74.6134527,NA,NA,NA,convenience,45.6086062,-74.6134527
 Giant Tiger,"473, route 148, Shawville, QC, J0X 2Y0",819-647-6320,45.6020451,-76.5021907,NA,NA,NA,convenience,45.6020451,-76.5021907
 Mr. Gas,"901 McGill Street, Hawkesbury, Ontario, K6A 3K8",(613) 632-1569,45.6001354,-74.6185783,NA,NA,NA,convenience,45.6001354,-74.6185783
@@ -51,7 +51,7 @@ Dollar Tree,"400 Spence Street, Hawkesbury Mall, Hawkesbury, ON, K6A 2Y3",613-63
 DEPANNEUR MONT-VALOIS,"1777 RTE DU CARREFOUR, VAL DES MONTS, QC",NA,45.5957967,-75.6169073,NA,NA,NA,convenience,45.5957967,-75.6169073
 Giant Tiger,"385, avenue de Buckingham, Buckingham, QC, J8L 2G8",819-986-8533,45.5898658,-75.4179833,NA,NA,NA,convenience,45.5898658,-75.4179833
 MacEwen Hawkesbury,"414 County Rd 17, Hawkesbury, ON",613-632-0332,45.5894048,-74.5876634,NA,NA,NA,convenience,45.5894048,-74.5876634
-Boulangerie Patisserie Buckingham,"415 Av De Buckingham, Gatineau, QC J8L 2G8",NA,NA,NA,Bakeries,NA,NA,bakery,45.588877600000004,-75.4172159
+Boulangerie Patisserie Buckingham,"415 Av De Buckingham, Gatineau, QC J8L 2G8",NA,NA,NA,Bakeries,NA,NA,bakery,45.5888776,-75.4172159
 Golden Lake Variety,"11199 ON-60, Golden Lake, ON",613-625-2654,45.5808399,-77.2452905,NA,NA,NA,convenience,45.5808399,-77.2452905
 JR COUNTRY STORE,"462 CHENAUX RD, FORESTERS FALLS, ON",NA,45.5778034,-76.6983139,NA,NA,NA,convenience,45.5778034,-76.6983139
 Couche-Tard,"175 Avenue Lépine, Buckingham, CA",NA,45.5758929,-75.400335,"car_wash, diesel, public_restrooms, roller_grill, redbull_shop, ca_coffee",NA,NA,convenience,45.5758929,-75.400335
@@ -82,8 +82,8 @@ Biscotti & Cie,"6 Scott, Chelsea, QC J9B 1R5",NA,NA,NA,"Breakfast &amp; Brunch, 
 Proxim Isabelle Menard,"87 Chemin Old Chelsea, Chelsea, QC J9B 1K9",NA,NA,NA,Pharmacy,NA,NA,health store,45.5035525,-75.7948719
 Ultramar,"700 MONTEE PAIEMENT , GATINEAU, QC, J8R1L3",(819) 669-1626,45.5020951,-75.6767605,NA,NA,NA,convenience,45.5020951,-75.6767605
 Deli Du Marche,"425 La Verendrye Blvd E, Gatineau, QC J8R 2W8",NA,NA,NA,Delis,NA,NA,deli meat cheese,45.5019607,-75.641189
-Canaan Blueberries,"2351 Canaan Rd, Rockland, ON K4K 1K9",NA,NA,NA,Farmers' Market,NA,NA,farmers market,45.4952138,-75.3171513
-Bouchée Vintage Bite,"35 De Villebois, Gatineau, QC J8T",NA,NA,NA,Bakeries,NA,NA,bakery,45.4926583,-75.705792400000007
+Canaan Blueberries,"2351 Canaan Rd, Rockland, ON K4K 1K9",NA,NA,NA,Farmers' Market,NA,NA,farmer's market,45.4952138,-75.3171513
+Bouchée Vintage Bite,"35 De Villebois, Gatineau, QC J8T",NA,NA,NA,Bakeries,NA,NA,bakery,45.4926583,-75.7057924
 Lavoie Line Herboriste,"1134 Maloney Blvd E, Gatineau, QC J8P 1H9",NA,NA,NA,Health Food Store,NA,NA,health store,45.49232,-75.5864712
 Ultramar,"253 ST-RENE OUEST, GATINEAU, QC, J8P2V7",(819) 669-7619,45.492008,-75.6572815,NA,NA,NA,convenience,45.491934,-75.6572693
 Mr. Gas,"1270 Trim Road, Orleans, Ontario, K4A 3P7",(613) 824-7126,45.4910181,-75.4799664,NA,NA,NA,convenience,45.4910181,-75.4799664
@@ -144,7 +144,7 @@ RENFREW ESSO,"9 RAGLAN STREET SOUTH, RENFREW, ON",NA,45.4748567,-76.6870242,NA,N
 ESSO COUCHE-TARD,"725 BOUL DES HAUTES-PLAINES, GATINEAU, QC",NA,45.474538,-75.7719339,NA,NA,NA,convenience,45.474538,-75.7719339
 METRO,"83 Raglan Street South, Renfrew, ON K7V 1P8",613-432-3013,45.47357,-76.68618,Metro Renfrew,"Renfrew, ON K7V 1P8",2021-05-01,grocery,45.4739374,-76.6858223
 Mac's,"8 Raglan Street South, RENFREW, Canada",613-433-5808,45.4729179,-76.6855897,"gas, atm, coffee, polar_pop, froster",NA,NA,convenience,45.4729179,-76.6855897
-Ottawa Farmers' Market Orleans,"1585 Tenth Line Rd, Orléans, ON K1E 3E8",NA,NA,NA,Farmers' Market,NA,NA,farmers market,45.4719618,-75.4919287
+Ottawa Farmers' Market Orleans,"1585 Tenth Line Rd, Orléans, ON K1E 3E8",NA,NA,NA,Farmers' Market,NA,NA,farmer's market,45.4719618,-75.4919287
 Hyperforme Nutrition,"178 Boulevard Gréber, Gatineau, QC J8T 6Z6",NA,NA,NA,Health Food Store,NA,NA,health store,45.471695,-75.701866
 Pioneer Gas,"2688 ST. JOSEPH BLVD., ORLEANS, ON",NA,45.4716751,-75.5228412,NA,NA,NA,convenience,45.4716751,-75.5228412
 Pronto Food Marts,"2688 St Joseph Blvd, Orleans, ON K1C 1G3",NA,45.4716751,-75.5228412,Convenience Stores,NA,NA,convenience,45.4716751,-75.5228412
@@ -153,7 +153,7 @@ Provigo,"22 Rue Des Flandres, Ottawa, ON",(819) 568-5545,45.27011294,-75.7719194
 Shell,"1050 BOUL SAINT-JOSEPH, GATINEAU, Quebec, J8Z 1T3",+1 819 772 4194,45.4701334,-75.7376715,NA,NA,NA,convenience,45.4701334,-75.7376715
 Pantry Plus,"2433 St Joseph Boulevard, Ottawa, ON",(613) 830-5790,45.46981311,-75.52865506,"Health Food Store, Grocery",NA,2021-07-06,grocery,45.4699453,-75.5284842
 Circle K,"367 Raglan St. S., RENFREW, Canada",+1 613 432 7433,45.4697778,-76.680566,"gas, diesel, atm, coffee, polar_pop, froster, roller_grill, redbull_shop",NA,NA,convenience,45.4697778,-76.680566
-SOBEY'S,"5150 Innes Road, Orleans, on, K4A 0G4",613-590-2205,45.46942,-75.45648,Sobeys Trim and Innes,"Orleans, on, K4A 0G4",2021-05-01,grocery,45.469773000000004,-75.4553161
+SOBEY'S,"5150 Innes Road, Orleans, on, K4A 0G4",613-590-2205,45.46942,-75.45648,Sobeys Trim and Innes,"Orleans, on, K4A 0G4",2021-05-01,grocery,45.469773,-75.4553161
 "Al Basha Foods: Groceries, Meats & Take Out Foods","2434 St Joseph Blvd, Ottawa, ON K1C 1H6",NA,45.4690807,-75.5278639,NA,NA,NA,grocery,45.4690807,-75.5278639
 METRO,"1675 Tenth Line Road, Orleans, ON K1E 3P6",613-837-2614,45.46971,-75.49086,Metro Fallingbrook,"Orleans, ON K1E 3P6",2021-05-01,grocery,45.4690176,-75.4912331
 Yalla Yalla Bakery & Lebanese Food,"2010 Trim Road, Ottawa, ON K1C 1T1",NA,NA,NA,"Lebanese, Bakeries, Imported Food",NA,NA,bakery,45.4685869,-75.4545687
@@ -257,10 +257,10 @@ Mickey Tran Dba All Convenience,"200 Rideau Ter, Ottawa, ON K1M 0Z3",NA,45.44339
 Fresh Grocer,"40 Jolliet Av, Vanier, ON K1L 5H5",NA,45.4431425,-75.6687168,NA,NA,NA,grocery,45.4431425,-75.6687168
 Vanier Convenience Food Mart,"101 Rue Lavergne, Vanier, ON K1L 5E6",NA,45.4431274,-75.6652425,Convenience Stores,NA,NA,convenience,45.4431274,-75.6652425
 Canadian Tire Gas Bar,"355, boul. de la Carriere, Gatineau, QC, J8Y 6W4",8197774381,45.4430168,-75.729778,NA,NA,NA,convenience,45.4430168,-75.729778
-Beechwood Outdoor Farmers Market,"Optimiste Park, 43 Ste-C√©cile St, Ottawa, ON",NA,45.4425216,-75.6693763,NA,NA,NA,grocery,45.4425216,-75.6693763
+Beechwood Outdoor farmer's market,"Optimiste Park, 43 Ste-C√©cile St, Ottawa, ON",NA,45.4425216,-75.6693763,NA,NA,NA,grocery,45.4425216,-75.6693763
 Lesuq,"141 Beechwood Av., Ottawa, ON K1M 1L4",NA,45.4424018,-75.6715224,NA,NA,NA,grocery,45.4424018,-75.6715224
 Shell,"1668 CHEMIN PINK., GATINEAU, Quebec, J9J 3N7",+1 819 771 0653,45.4422245,-75.8153943,NA,NA,NA,convenience,45.4422245,-75.8153943
-Beechwood Farmers Market,"131b Beechwood Av., Ottawa, ON K1M 1L5",NA,45.442133,-75.672062,NA,NA,NA,grocery,45.442133,-75.672062
+Beechwood farmer's market,"131b Beechwood Av., Ottawa, ON K1M 1L5",NA,45.442133,-75.672062,NA,NA,NA,grocery,45.442133,-75.672062
 Circle K,"598 Montreal Road, OTTAWA, Canada",NA,45.4421259,-75.6429469,"atm, coffee, polar_pop, froster",NA,NA,convenience,45.4421259,-75.6429469
 Muckleston & Brockwell,"127 Beechwood Avenue, Ottawa, ON",(613) 745-2244,45.44203349,-75.67224816,"Butcher, Meat Shops",NA,2021-07-06,grocery,45.441975,-75.672293
 Johanne Verdon Espace Sante Beaute,"341 Saint-Joseph Blvd, Gatineau, QC J8Y 3Z3",NA,NA,NA,Health Food Store,NA,NA,health store,45.4418753,-75.7330508
@@ -351,7 +351,7 @@ Madina City Market,"1136 Cadboro Rd, Ottawa, ON K1J 7R1",(613) 842-7578,NA,NA,NA
 Min-A-Mart,"158 McArthur Ave, Ottawa, ON K1L 8C9",NA,45.4306706,-75.6632267,Convenience Stores,NA,NA,convenience,45.4306706,-75.6632267
 La p'tite épicerie,"158 rue Notre Dame de l'Ile, Gatineau, QC J8X 3T3",NA,NA,NA,Sandwiches,NA,NA,deli meat cheese,45.4305882,-75.7107256
 Giant Tiger,"144, rue Papineau, Gatineau, QC",819-427-8163,45.6171419,-75.0054659,NA,NA,NA,convenience,45.4305529,-75.7182779
-Chez Lucien,"137 Murray St, Ottawa, ON K1N 5M7",NA,NA,NA,"Bars, French, Burgers",NA,NA,bakery,45.4304809,-75.692001200000007
+Chez Lucien,"137 Murray St, Ottawa, ON K1N 5M7",NA,NA,NA,"Bars, French, Burgers",NA,NA,bakery,45.4304809,-75.6920012
 La Maison Bisson,"2 Boulevard Louise-Champagna, Gatineau, QC J9A 2X1",NA,NA,NA,"Delicatessen, Meat Shops",NA,NA,deli meat cheese,45.4304611,-75.7630584
 FRESHCO,"320 McArthur Avenue, Ottawa, on, K1L 5G2",613-744-4343,45.43002,-75.65384,FreshCo McArthur & LaFontaine,"Ottawa, on, K1L 5G2",2021-05-01,grocery,45.4302588,-75.653843
 The French Baker / Le Boulanger Français,"119 Murray St, Ottawa, ON K1N 5M5",NA,NA,NA,"Bakeries, Desserts",NA,NA,bakery,45.430235,-75.6926327
@@ -387,14 +387,14 @@ Geeland,"1020 St. Laurent Blvd, Ottawa, ON K1K 4S2",NA,45.4277621,-75.6398977,NA
 Aux Délices Boulangerie Et Patisserie / Bakery & Pastry Shop,"32 Byward Market Sq, Ottawa, ON K1N 7A2",NA,NA,NA,"Bakeries, Desserts",NA,NA,bakery,45.4276884,-75.6930478
 Bell Pastry & Deli Place Du Portage,"50 Rue Victoria, Gatineau, QC J8X 3X1",NA,NA,NA,Caterers,NA,NA,deli meat cheese,45.4276446,-75.7127143
 The House of Cheese,"34 Byward Market Sq, Ottawa, ON K1N 7A2",NA,NA,NA,Cheese Shops,NA,NA,deli meat cheese,45.4276427,-75.6930259
-ByWard Fruit Market,"36 ByWard Market Sq, Ottawa, ON",(613) 241-6542,45.42763294,-75.69304089,"Fruits & Veggies, Farmers' Market",NA,2021-07-06,farmers market,45.4275991,-75.6929651
+ByWard Fruit Market,"36 ByWard Market Sq, Ottawa, ON",(613) 241-6542,45.42763294,-75.69304089,"Fruits & Veggies, Farmers' Market",NA,2021-07-06,farmer's market,45.4275991,-75.6929651
 International Cheese & Deli,"40 ByWard Market Sq, Ottawa, ON",(613) 241-5411,45.42763294,-75.69304089,"Caterers, Cheese Shops",NA,2021-07-06,deli meat cheese,45.427558,-75.6929392
 Dollarama,"183 Rideau St, Ottawa, ON, K1N5X8",16132881364,45.4275353,-75.6891985,NA,NA,NA,convenience,45.4275353,-75.6891985
 Rexall,"200 Rideau Pl #216, Ottawa, ON K1N 5Y1",NA,45.4274754,-75.6883037,NA,NA,NA,grocery,45.4274754,-75.6883037
 Lapointe Fish,"46 Byward Market Square, Ottawa, ON K1N 7A2",NA,45.427458,-75.6928445,NA,NA,NA,grocery,45.427458,-75.6928445
 Maverick Donuts,"46 Byward Market Square, Ottawa, ON K1N 7A2",NA,NA,NA,Doughnuts,NA,NA,bakery,45.427458,-75.6928445
 Byward Market News,"55 ByWard Market Sq, Ottawa, ON K1N 9C3",(613) 562-3325,45.4276289,-75.69242588,Grocery,NA,2021-07-06,grocery,45.427449,-75.6923646
-ByWard Market Square,"55 ByWard Market Square, Ottawa, ON K1N 1K1",NA,NA,NA,Farmers' Market,NA,NA,farmers market,45.427449,-75.6923646
+ByWard Market Square,"55 ByWard Market Square, Ottawa, ON K1N 1K1",NA,NA,NA,Farmers' Market,NA,NA,farmer's market,45.427449,-75.6923646
 Farm House,"55 Byward Market Sq, Ottawa, ON K1N 9C3",NA,NA,NA,Bakeries,NA,NA,bakery,45.427449,-75.6923646
 Le Moulin de Provence,"55 Byward Market Square, Ottawa, ON K1N 9C3",NA,NA,NA,"Cafes, Bakeries, Sandwiches",NA,NA,bakery,45.427449,-75.6923646
 BeaverTails,"69 George Street, Ottawa, ON K1N 1K1",NA,NA,NA,"Desserts, Chocolatiers &amp; Shops, Hot Dogs",NA,NA,bakery,45.4274347,-75.6916759
@@ -405,13 +405,13 @@ Circle K,"2063 Meadowbrook Rd., GLOUCESTER, Canada",NA,45.427358,-75.6013072,"at
 Budapest Delicatessen,"54 Byward Market Sq, Ottawa, ON K1N 7A2",NA,NA,NA,"Delis, Sandwiches",NA,NA,deli meat cheese,45.4273124,-75.6926693
 Working Title Kitchen,"330 Laurier Avenue E, Ottawa, ON K1N 6R4",NA,NA,NA,"Bakeries, Cafes, Barbeque",NA,NA,bakery,45.4272878,-75.6774935
 Sports Supplement Experts,"384 Dalhousie Street, Ottawa, ON K1N 7G3",NA,NA,NA,Health Food Store,NA,NA,health store,45.4272707,-75.6900211
-M & A Convenience Store,"178 Rideau Street, Ottawa, ON K1N 5X6",NA,45.427146,-75.689152000000007,Convenience Stores,NA,NA,convenience,45.427146,-75.689152000000007
+M & A Convenience Store,"178 Rideau Street, Ottawa, ON K1N 5X6",NA,45.427146,-75.689152,Convenience Stores,NA,NA,convenience,45.427146,-75.689152
 Adonis,"1055 St Laurent Boulevard, Ottawa, ON",(613) 778-8883,45.42782691,-75.63775619,International Grocery,NA,2021-07-06,grocery,45.427054,-75.6383701
 Maison Oddo,"260 Boulevard Saint-Raymond, Gatineau, QC J9A 3G7",NA,NA,NA,"Bakeries, Coffee &amp; Tea, Sandwiches",NA,NA,bakery,45.4270446,-75.7628713
 Grocery G3,"399b Dalhousie Street, Ottawa, ON",(343) 988-1177,45.43473362,-75.69611409,Grocery,NA,2021-07-06,grocery,45.4269988,-75.6893633
 Le Deli,"200 Promenade Du Portage, Gatineau, QC J8X 4H4",NA,NA,NA,"Sandwiches, Delis",NA,NA,deli meat cheese,45.4268934,-75.7134941
 Quelque Chose P�tisserie,"70 George St, Ottawa, ON K1N 5V9",(613) 680-4563,NA,NA,NA,NA,NA,bakery,45.4268619,-75.6917088
-La Bottega Nicastro Fine Food Shop,"64 George St, Ottawa, ON",(613) 789-7575,45.42681871,-75.691804200000007,"Delis, Sandwiches, Specialty Food",NA,2021-07-06,grocery,45.4268387,-75.691821
+La Bottega Nicastro Fine Food Shop,"64 George St, Ottawa, ON",(613) 789-7575,45.42681871,-75.6918042,"Delis, Sandwiches, Specialty Food",NA,2021-07-06,grocery,45.4268387,-75.691821
 Le Pain d'Alain,"53 Boulevard Saint-Joseph, Gatineau, QC J8Y 3W1",NA,NA,NA,Bakeries,NA,NA,bakery,45.4268064,-75.7336841
 Ogilvie Grocery Store,"1137 Ogilvie Rd, Ottawa, ON",(613) 744-2880,45.4267619,-75.63140357,Grocery,NA,2021-07-06,grocery,45.4267387,-75.6312669
 Win Tai Market,"1137 Ogilvie Road, Ottawa, ON",(613) 744-2880,45.4267619,-75.63140357,"Specialty Food, Grocery",NA,2021-07-06,grocery,45.4267387,-75.6312669
@@ -613,7 +613,7 @@ Lunch,"60 A Lebreton Street, Ottawa, ON K1R 7H3",NA,NA,NA,Delis,NA,NA,deli meat 
 Luciano Foods,"114 Preston St, Ottawa, ON",(613) 233-1972,45.4085559,-75.71470522,"Delis, Sandwiches, Grocery",NA,2021-07-06,grocery,45.4085215,-75.714604
 MD Tuck Shop,"1551 Riverside Dr, Ottawa, ON K1G 4B5",NA,45.408483,-75.6627191,Convenience Stores,NA,NA,convenience,45.408483,-75.6627191
 Art Is In Bakery,"250 City Centre Avenue, Ottawa, ON K1R 1C7",NA,NA,NA,"Bakeries, Sandwiches",NA,NA,bakery,45.4081821,-75.7181931
-Main Farmers' Market,"210 Main Street, Ottawa, ON K1S 1C6",NA,NA,NA,Farmers' Market,NA,NA,farmers market,45.4080462,-75.6775902
+Main Farmers' Market,"210 Main Street, Ottawa, ON K1S 1C6",NA,NA,NA,Farmers' Market,NA,NA,farmer's market,45.4080462,-75.6775902
 Olga's Delights,"588 Bank Street, Ottawa, ON K1S 3T3",NA,NA,NA,"Sandwiches, Delis",NA,NA,deli meat cheese,45.407787,-75.6912697
 Seed to Sausage General Store,"729 Gladstone Avenue, Ottawa, ON K1R 7B1",(613) 422-5202,NA,NA,NA,NA,NA,deli meat cheese,45.4077548,-75.7044625
 Petro-Canada,"470 Bronson Ave., Ottawa, Ontario, K1R6J9",6133211264,45.4073978,-75.703867,NA,NA,NA,convenience,45.4073978,-75.703867
@@ -689,8 +689,8 @@ Pastry & Bakery La Brioche,"866 Bank St, Ottawa, ON K1S 3W3",NA,NA,NA,Bakeries,N
 Glebe Meat Market,"869 Bank St., Ottawa ON K1S3W4",NA,45.400959,-75.6869613,NA,NA,NA,grocery,45.400959,-75.6869613
 Petro-Canada,"390 Parkdale Ave, Ottawa, Ontario, K1Y1G6",6137291091,45.4009191,-75.7296495,NA,NA,NA,convenience,45.4009191,-75.7296495
 Shafie Food Centre,"1990 Russell Rd, Ottawa, ON K1G 4J6",NA,45.4008336,-75.624182,NA,NA,NA,grocery,45.4008336,-75.624182
-Parkdale Market,"Parkdale Ave &amp; Wellington St W, Ottawa, ON K1Y",NA,NA,NA,Farmers' Market,NA,NA,farmers market,45.400493,-75.728961
-Kulture Foods,"Ottawa Farmers Market, Brewers Park, Old Ottawa South, ON K1S",NA,NA,NA,Bakeries,NA,NA,bakery,45.400214,-75.6830385
+Parkdale Market,"Parkdale Ave &amp; Wellington St W, Ottawa, ON K1Y",NA,NA,NA,Farmers' Market,NA,NA,farmer's market,45.400493,-75.728961
+Kulture Foods,"Ottawa farmer's market, Brewers Park, Old Ottawa South, ON K1S",NA,NA,NA,Bakeries,NA,NA,bakery,45.400214,-75.6830385
 The Cake Shop,"1200 Wellington Street W, Ottawa, ON K1Y 2Z8",NA,NA,NA,Bakeries,NA,NA,bakery,45.400136,-75.7303658
 Ottawa Farmers' Market,"1000 Exhibition Way, Ottawa, ON",(613) 239-4955,45.39986429,-75.68329119,Farmers' Market,NA,2021-07-06,grocery,45.4000555,-75.6827317
 Di Rienzo's,"111 Beech Street, Ottawa, ON K1S 4P1",NA,45.4000201,-75.7120537,"Sandwiches, Grocery, Delis",NA,NA,convenience,45.4000201,-75.7120537
@@ -760,14 +760,14 @@ Ottawa South Groceteria,"435 Sunnyside Avenue, Ottawa, ON K1S 0S6",(613) 730-866
 Darvesh Gas Grocery LCBO & Beer Store,"3084 Kinburn Side Road, Kinburn, ON K0A 2H0",NA,45.391489,-76.1885617,"Gas Stations, Beer, Wine &amp; Spirits, Convenience Stores",NA,NA,convenience,45.391489,-76.1885617
 Malak Lebanese Pastry,"1216 Bank Street, Ottawa, ON K1S 3Y1",NA,NA,NA,"Bakeries, Desserts, Ice Cream &amp; Frozen Yogurt",NA,NA,bakery,45.3914804,-75.6811092
 Quelque Chose Macaron Boutique,"379 Richmond Road, Ottawa, ON K2A 0E7",NA,NA,NA,"Bakeries, Macarons",NA,NA,bakery,45.3914251,-75.7557367
-The Piggy Market,"400 Winston Avenue, Ottawa, ON",(613) 371-6124,45.39128067,-75.75653163,"Butcher, Grocery",NA,2021-07-06,grocery,45.391254000000004,-75.756554
-Cedars & Co. Food Market,"1255 Bank St, Ottawa, ON",(613) 288-2797,45.39105197,-75.679883040000007,Grocery,NA,2021-07-06,grocery,45.3909623,-75.6798999
+The Piggy Market,"400 Winston Avenue, Ottawa, ON",(613) 371-6124,45.39128067,-75.75653163,"Butcher, Grocery",NA,2021-07-06,grocery,45.391254,-75.756554
+Cedars & Co. Food Market,"1255 Bank St, Ottawa, ON",(613) 288-2797,45.39105197,-75.67988304,Grocery,NA,2021-07-06,grocery,45.3909623,-75.6798999
 Giant Tiger,"15, boul. Don Quichotte, L'Île-Perrot, QC, J7V 7X4",514-425-1650,45.3909424,-73.9644673,NA,NA,NA,convenience,45.3909424,-73.9644673
 Mamie Clafoutis,"400 Richmond Road, Ottawa, ON K2A 3X9",NA,NA,NA,Bakeries,NA,NA,bakery,45.390509,-75.7564147
 Shoppers,"410 Richmond Road , Ottawa",(613) 761-5575,45.3902682,-75.7569456,NA,NA,NA,grocery,45.3902682,-75.7569456
 Giant Tiger,"2480 Walkley Road, Ottawa, ON, K1G 6A9",613-526-2416,45.3902453,-75.6101515,NA,NA,NA,convenience,45.3902453,-75.6101515
 Chez François - Plaisirs de Provence,"427 Richmond Road, Ottawa, ON K2A 0G2",NA,NA,NA,"Gift Shops, Cosmetics &amp; Beauty Supply, Bakeries",NA,NA,bakery,45.390155,-75.7580499
-Ottawa Farmers' Market,"575 Byron Avenue, Ottawa, ON K2A 1H4",NA,NA,NA,"Farmers' Market, Fruits &amp; Veggies",NA,NA,farmers market,45.3901289,-75.756893
+Ottawa Farmers' Market,"575 Byron Avenue, Ottawa, ON K2A 1H4",NA,NA,NA,"Farmers' Market, Fruits &amp; Veggies",NA,NA,farmer's market,45.3901289,-75.756893
 3 Sisters Bakeshop,"2211 Arch Street, Ottawa, ON K1G",NA,NA,NA,"Cafes, Bakeries, Sandwiches",NA,NA,bakery,45.3895561,-75.6304427
 METRO,"2261 Walkley Road, Ottawa, ON K1G 3G8",613-526-5994,45.38935,-75.6193,Metro Elmvale,"Ottawa, ON K1G 3G8",2021-05-01,grocery,45.3895383,-75.6192521
 Circle K,"2213 Arch St., OTTAWA, Canada",NA,45.3895238,-75.6304321,"atm, coffee, polar_pop, froster, roller_grill",NA,NA,convenience,45.3895238,-75.6304321
@@ -782,7 +782,7 @@ Extreme Pita,"1125 Colonel By Dr, Ottawa, ON K1S 5B6",NA,NA,NA,Sandwiches,NA,NA,
 Kardish Health Food Centre,"1309 Carling Avenue, Ottawa, ON K1Z 7L3",NA,NA,NA,Health Food Store,NA,NA,health store,45.3867692,-75.7355233
 Shoppers,"1309 Carling Ave , Ottawa",(613) 722-4277,45.3867692,-75.7355233,NA,NA,NA,grocery,45.3867692,-75.7355233
 Misto Fine Food Emporium,"1387 Carling Avenue, Ottawa, ON",(613) 798-9367,45.38605223,-75.74102907,"Delis, Italian",NA,2021-07-06,grocery,45.3863565,-75.7395389
-Rexall,"1415 Carling Avenue, Ottawa, ON K1Z 7L6",NA,45.386315,-75.739747499999993,NA,NA,NA,grocery,45.386315,-75.739747499999993
+Rexall,"1415 Carling Avenue, Ottawa, ON K1Z 7L6",NA,45.386315,-75.7397475,NA,NA,NA,grocery,45.386315,-75.7397475
 YIG,"2241 Riverside Dr, Ottawa, Ontario, K1H 7X5",6137331590,45.38642,-75.676506,McDonough's Your Independent Grocer,"Ottawa, Ontario, K1H 7X5",2021-05-01,grocery,45.3861802,-75.676197
 Ladles Deli,"2323 Riverside Dr, Ottawa, ON K1H 8L5",NA,NA,NA,"Delis, Sandwiches",NA,NA,deli meat cheese,45.3859586,-75.6795206
 Rexall,"2269 Riverside Dr E, Ottawa, ON K1H 8K2",NA,45.3858045,-75.6783143,NA,NA,NA,grocery,45.3858045,-75.6783143
@@ -798,7 +798,7 @@ Orleans Fresh Fruits,"3150 Hawthorne Rd, Ottawa, ON K1G 5H5",NA,45.385374,-75.60
 MF Foodmart,"850 Merivale Rd, Ottawa, ON K1Z 5Z4",NA,45.3852417,-75.732678,NA,NA,NA,grocery,45.3852417,-75.732678
 One Stop Convenience,"850 Merivale Rd, Ottawa, ON K1Z 5Z4",NA,45.3852417,-75.732678,Convenience Stores,NA,NA,convenience,45.3852417,-75.732678
 FOOD BASICS,667 Kirkwood Avenue Ottawa K1Z 8N7,613-722-7412,45.3863658,-75.7388344,NA,NA,2021-05-01,grocery,45.3852151,-75.7406076
-Première Moisson,"120 University Drive, Ottawa, ON K1N 6N5",NA,NA,NA,Bakeries,NA,NA,bakery,45.3851669,-75.694789599999993
+Première Moisson,"120 University Drive, Ottawa, ON K1N 6N5",NA,NA,NA,Bakeries,NA,NA,bakery,45.3851669,-75.6947896
 Pipeline Truck Stop,"Glenfield Road, Ottawa, ON K1G 5N3",NA,45.3838331,-75.600742,"Gas Stations, Convenience Stores",NA,NA,convenience,45.3848372,-75.6003191
 Fresh Start Foods Inc,"2072 Walkley Rd, Ottawa, ON K1G 3V3",NA,45.3847588,-75.6258196,NA,NA,NA,grocery,45.3847588,-75.6258196
 Al Najah Meats,"2335 St. Laurent Blvd #106, Ottawa, ON K1G 5G6",NA,45.3834488,-75.6205782,NA,NA,NA,grocery,45.3834488,-75.6205782
@@ -855,7 +855,7 @@ Nat's Bread Company,"857 Boyd Ave, Ottawa, ON K2A 2C9",NA,NA,NA,Bakeries,NA,NA,b
 Barakat Market,"1656 Bank Street, Ottawa, ON",(613) 737-7722,45.37646698,-75.66688833,"Meat Shops, International Grocery",NA,2021-07-06,grocery,45.3764222,-75.6669651
 Circle K,"1859 Carling Ave., OTTAWA, Canada",NA,45.3762849,-75.7573774,"car_wash, gas, atm, coffee",NA,NA,convenience,45.3762849,-75.7573774
 Aenos Food Services Inc,"2455 Kaladar Av, Ottawa, ON K1V 8B9",NA,45.3762222,-75.6706779,NA,NA,NA,grocery,45.3762222,-75.6706779
-Kaladar Produce Market,"2455 Kaladar Ave, Ottawa, ON K1V",NA,NA,NA,Farmers' Market,NA,NA,farmers market,45.3762222,-75.6706779
+Kaladar Produce Market,"2455 Kaladar Ave, Ottawa, ON K1V",NA,NA,NA,Farmers' Market,NA,NA,farmer's market,45.3762222,-75.6706779
 Babi's Restaurant,"21 Nadolny Sachs Private, Ottawa, ON K2A 1R9",NA,NA,NA,"Kosher, Bakeries",NA,NA,bakery,45.3759104,-75.7517995
 United Kosher Deli & Catering,"21 Nadolny Sachs Private, Ottawa, ON K2A 2E1",NA,NA,NA,"Specialty Food, Caterers",NA,NA,deli meat cheese,45.3759104,-75.7517995
 Food Africana Shop,"1848 Carling Ave, Ottawa, ON K2A 2P5",NA,45.3758925,-75.7565765,NA,NA,NA,grocery,45.3758925,-75.7565765
@@ -938,7 +938,7 @@ Shoppers,"1469 Merivale Road , Ottawa",(613) 224-7270,45.3604808,-75.7343684,NA,
 Quickie,"1661 HUNT CLUB ROAD, Ottawa, Ontario, K1T 3Z3",613-248-9160,45.3603146,-75.6315224,NA,NA,NA,convenience,45.3603146,-75.6315224
 Merivale Fish Market,"1480 Merivale Road, Ottawa, ON",(613) 723-7203,45.36008123,-75.73587272,Seafood Markets,NA,2021-07-06,grocery,45.3601589,-75.7359322
 ARTISTIC CAKE DESIGN,"1390 Clyde Ave. #106, Nepean, ON K2G 3H0",NA,NA,NA,NA,NA,NA,bakery,45.359221,-75.7392358
-Ottawa Organic Farmers Market,"3191 Riverside Drive, Ottawa, ON K1V 8N8",NA,NA,NA,Farmers' Market,NA,NA,farmers market,45.3591058,-75.6879836
+Ottawa Organic farmer's market,"3191 Riverside Drive, Ottawa, ON K1V 8N8",NA,NA,NA,Farmers' Market,NA,NA,farmer's market,45.3591058,-75.6879836
 Ottawa's Organic Farmers' Market,"Riverside United Church, 3191 Riverside Dr., Ottawa, ON K1V 8N8",NA,45.3590554,-75.6879909,NA,NA,NA,grocery,45.3590554,-75.6879909
 Dutch Groceries and Giftware,"1400 Clyde Avenue, Ottawa, ON",(613) 226-1002,45.35843905,-75.73875757,International Grocery,NA,2021-07-06,grocery,45.3583259,-75.7389182
 SOBEY'S,"840 March Road, Kanata, on, K2W 0C9",613-599-8965,45.356598,-75.93446,Sobeys March Road,"Kanata, on, K2W 0C9",2021-05-01,grocery,45.3579397,-75.9337228
@@ -1065,10 +1065,10 @@ Bombay Spices Ottawa,"565 W Hunt Club Rd unit-3, Nepean, ON K2G 5W5",NA,45.33586
 Dollarama,"565 West Hunt Club Rd, Nepean, ON, K2G 5W5",16132247204,45.3358623,-75.7285727,NA,NA,NA,convenience,45.3358623,-75.7285727
 Uplands Minimart,"20 Curtis Private, Gloucester, ON K1V 7M1",NA,45.3358568,-75.6677476,Convenience Stores,NA,NA,convenience,45.3358568,-75.6677476
 Shell,"1857 MERIVALE ROAD, NEPEAN, Ontario, K2G 1E3",+1 613 727 8774,45.3356254,-75.7239147,NA,NA,NA,convenience,45.3356254,-75.7239147
-Dollar Tree,"525 West Hunt Club Road, Nepean Crossroads Center, Nepean, ON, K2G 5W5",613-224-6990,45.3351046,-75.727479399999993,NA,NA,NA,convenience,45.3351046,-75.727479399999993
+Dollar Tree,"525 West Hunt Club Road, Nepean Crossroads Center, Nepean, ON, K2G 5W5",613-224-6990,45.3351046,-75.7274794,NA,NA,NA,convenience,45.3351046,-75.7274794
 Circle K,"1545 Woodroffe Ave., NEPEAN, Canada",NA,45.3343192,-75.7517676,"car_wash, gas, diesel, atm, coffee, polar_pop, froster",NA,NA,convenience,45.3343192,-75.7517676
 Ottawa Valley Meats,"22 Antares Dr Unit J, Ottawa, ON",613-402-8898,45.3342893,-75.7090259,NA,NA,NA,deli meat cheese,45.3342893,-75.7090259
-Pinewood Orchards,"101 Herzberg Road, Nepean, ON K2K 2Y3",NA,NA,NA,Farmers' Market,NA,NA,farmers market,45.3341227,-75.8900789
+Pinewood Orchards,"101 Herzberg Road, Nepean, ON K2K 2Y3",NA,NA,NA,Farmers' Market,NA,NA,farmer's market,45.3341227,-75.8900789
 T&T,"224 Hunt Club Road  Ottawa, ON. K1V 1C1",613-731-8113,45.3339133,-75.6905898,Ottawa Store,NA,2021-05-01,grocery,45.3339133,-75.6905898
 Petro-Canada,"4000 Riverside Drive, Ottawa, Ontario, K1V2E8",6132499089,45.3338503,-75.6939619,NA,NA,NA,convenience,45.3338503,-75.6939619
 Dollarama,"228 Hunt Club Rd, Ottawa, ON, K1V1C1",16132472138,45.3335674,-75.6913084,NA,NA,NA,convenience,45.3335674,-75.6913084
@@ -1090,7 +1090,7 @@ Awami Bazaar,"26 Northside Rd Unit 18, Nepean, ON K2H 5Z3",NA,45.3295166,-75.813
 Barleygreen Aim Distributor,"57 Sherry Ln, Nepean, ON K2G 3L4",NA,NA,NA,Health Food Store,NA,NA,health store,45.3294278,-75.7558268
 Shoppers,"1821 Robertson Road , Ottawa",(613) 828-4487,45.3290888,-75.8192022,NA,NA,NA,grocery,45.3290888,-75.8192022
 The Butchery,"1821 Robertson Road, Ottawa, ON K2H 8X3",NA,NA,NA,"Meat Shops, Delis, Burgers",NA,NA,deli meat cheese,45.3290888,-75.8192022
-Maple Hill Urban Farm,"200 Moodie Drive, Ottawa, ON K2H 8K6",NA,NA,NA,Farmers' Market,NA,NA,farmers market,45.3290301,-75.8440551
+Maple Hill Urban Farm,"200 Moodie Drive, Ottawa, ON K2H 8K6",NA,NA,NA,Farmers' Market,NA,NA,farmer's market,45.3290301,-75.8440551
 Kardish Health Food Centre,"1831 Robertson Road, Ottawa, ON K2H 8X3",NA,NA,NA,"Health Food Store, Grocery",NA,NA,health store,45.3282713,-75.8194738
 Shoppers,"181 Greenbank Road , Ottawa",(613) 820-1306,45.3281927,-75.779573,NA,NA,NA,grocery,45.3281927,-75.779573
 Giant Tiger,"1861 Robertson Road, Ottawa, ON, K2H 9N5",613-828-2281,45.3280758,-75.8210352,NA,NA,NA,convenience,45.3280758,-75.8210352
@@ -1112,7 +1112,7 @@ WO Stinson & Son,"4728 Bank Street, Ottawa, ON K1T 3W7",NA,45.3241221,-75.596577
 Circle K,"299 Greenbank Rd., NEPEAN, Canada",NA,45.3237882,-75.7773955,"gas, diesel, atm, coffee, polar_pop, froster, roller_grill, redbull_shop",NA,NA,convenience,45.3237882,-75.7773955
 Mr. Beef,"223 Mcwatty Rd, Pakenham, ON K0A 2X0",NA,45.3218881,-76.2969384,NA,NA,NA,grocery,45.3218881,-76.2969384
 Canadian Tire Gas Bar,"2135 Robertson Road, Nepean, ON, K2H 5Z2",6138299580,45.3218168,-75.8362395,NA,NA,NA,convenience,45.3218168,-75.8362395
-Rochon Garden,"1101 York's Corners Road, Edwards, ON K0A 1V0",NA,NA,NA,Farmers' Market,NA,NA,farmers market,45.321304,-75.464271
+Rochon Garden,"1101 York's Corners Road, Edwards, ON K0A 1V0",NA,NA,NA,Farmers' Market,NA,NA,farmer's market,45.321304,-75.464271
 Kanata Kash N Karry,"60 Colchester Square, Ottawa, ON",(613) 435-5355,45.32099027,-75.88973712,Grocery,NA,2021-07-06,grocery,45.320946,-75.8896096
 Circle K,"418 Moodie Drive, NEPEAN, Canada",NA,45.3208341,-75.8331709,"atm, coffee, polar_pop, froster, roller_grill, redbull_shop",NA,NA,convenience,45.3208341,-75.8331709
 Rexall,"2144 Robertson Road, Nepean, ON K2H 5Z1",NA,45.320755,-75.8358271,NA,NA,NA,grocery,45.320755,-75.8358271
@@ -1137,7 +1137,7 @@ FOOD BASICS,150 Katimavik Road Kanata K2L 2N2,613-592-2942,45.3124188,-75.895840
 General Nutrition,"400 Earl Grey Drive, Kanata, ON K2T 1B9",NA,NA,NA,"Shopping, Health Food Store",NA,NA,health store,45.3114428,-75.9142711
 Healthy Planet Kanata,"400 Earl Grey Dr, Ottawa, ON",(613) 366-5117,45.3116205,-75.9153472,"Vitamins & Supplements, Grocery, Health Food Store",NA,2021-07-06,health store,45.3114428,-75.9142711
 WALMART,"500 Earl Grey Dr, Kanata, ON, K2T 1B6",613-599-6765,45.310865,-75.913884,Kanata Store,"Kanata, ON, K2T 1B6",2021-05-01,grocery,45.3112546,-75.9127711
-Kanata Farmers' Market,"745 Kanata Ave, Ottawa, ON K2T 1H9",NA,NA,NA,Farmers' Market,NA,NA,farmers market,45.3109367,-75.909642
+Kanata Farmers' Market,"745 Kanata Ave, Ottawa, ON K2T 1H9",NA,NA,NA,Farmers' Market,NA,NA,farmer's market,45.3109367,-75.909642
 Maguro Cafe & Bakery,"745 Kanata Ave, Ottawa, ON K2T 1H9",NA,NA,NA,"Bakeries, Specialty Food, Japanese",NA,NA,bakery,45.3109367,-75.909642
 Farm Boy,"499 Terry Fox Drive, Ottawa, ON K2T 1H7",613-271-8727,45.31007509,-75.92214241,NA,"Ottawa, ON
 K2T 1H7",2021-05-14,grocery,45.3108116,-75.9199686
@@ -1179,7 +1179,7 @@ Sweets Cupcakes Candy And More,"462 Hazeldean Road, Kanata, ON K2L 1V3",NA,NA,NA
 Petro-Canada,"3320 Fallowfield Road, Nepean, Ontario, K2J4P5",6138251557,45.2979737,-75.7318443,NA,NA,NA,convenience,45.2979737,-75.7318443
 Circle K,"44 Edgewater ST, KANATA, Canada",NA,45.2975093,-75.9009396,"car_wash, gas, coffee, redbull_shop",NA,NA,convenience,45.2975093,-75.9009396
 MacEwen Rideau Road,"5026 Bank Street, Gloucester, ON K1X 1G8",613-822-9923,45.2971137,-75.5807549,NA,NA,NA,convenience,45.2971137,-75.5807549
-The Log Farm,"670 Cedarview Road, Nepean, ON K2R 1E5",NA,NA,NA,"Farms, Farmers' Market",NA,NA,farmers market,45.2964053,-75.7917806
+The Log Farm,"670 Cedarview Road, Nepean, ON K2R 1E5",NA,NA,NA,"Farms, Farmers' Market",NA,NA,farmer's market,45.2964053,-75.7917806
 Best Price Oriental Market,"484 Hazeldean Road, Ottawa, ON",(613) 836-2831,45.29625876,-75.89000576,Grocery,NA,2021-07-06,grocery,45.2959208,-75.8900792
 Oui8 Bakery,"501 Hazeldean Road, Kanata, ON K2L 1V6",NA,NA,NA,Bakeries,NA,NA,bakery,45.295788,-75.8934843
 Giant Tiger,"595 Alexandria Main St. South, Alexandria, ON, K0C 1A0",613-525-2291,45.2947601,-74.6267887,NA,NA,NA,convenience,45.2947601,-74.6267887
@@ -1277,7 +1277,7 @@ Café Cristal,"240 Kennevale Drive, Ottawa, ON K2J 6B6",NA,NA,NA,Cafes,NA,NA,bak
 Mac's,"1 Hobin St., STITTSVILLE, Canada",NA,45.2647162,-75.9292944,"atm, coffee, polar_pop, froster, roller_grill, redbull_shop",NA,NA,convenience,45.2647162,-75.9292944
 FOODLAND,"101-6045 Bank Street, Greely, on, K4P 0G5",613-821-3016,45.263939,-75.553599,Foodland Greely,"Greely, on, K4P 0G5",2021-05-01,grocery,45.2633793,-75.5549986
 The Sweet Room,"1408 Stittsville Main Street, Ottawa, ON K2S 1V7",NA,NA,NA,"Bakeries, Custom Cakes, Patisserie/Cake Shop",NA,NA,bakery,45.2617637,-75.925402
-The Barn,"6154 Abbott Street E, Stittsville, ON K2S 1V2",NA,NA,NA,"Nutritionists, Farmers' Market",NA,NA,farmers market,45.2591182,-75.9196397
+The Barn,"6154 Abbott Street E, Stittsville, ON K2S 1V2",NA,NA,NA,"Nutritionists, Farmers' Market",NA,NA,farmer's market,45.2591182,-75.9196397
 Ivan's Meat and Deli,"1496 Stittsville Main Street, Stittsville, ON K2S 1B2",NA,NA,NA,"Delis, Meat Shops",NA,NA,deli meat cheese,45.258902,-75.9214893
 MacEwen Russell,"1112 Concession Street, Russell, ON",613-445-5332,45.2581067,-75.3591107,NA,NA,NA,convenience,45.2581067,-75.3591107
 Quitters,"1523 Stittsville Main Street, Stittsville, ON K2S 1A6",NA,NA,NA,"Coffee &amp; Tea, Bars",NA,NA,bakery,45.2580192,-75.9202362
@@ -1313,7 +1313,7 @@ Kellgreen Farm,"2325 River Rd, Manotick, ON K4M 1B4",NA,45.1843684,-75.6277102,N
 Munster Farm,"2535 Munster Rd, Stittsville, ON K2S 1B8",NA,45.1791782,-75.95095,NA,NA,NA,grocery,45.1791782,-75.95095
 Rideau Pines Farm and Market,"5714 Fourth Line Rd, North Gower, ON K0A 2T0",NA,45.1761956,-75.774174,NA,NA,NA,grocery,45.1761956,-75.774174
 SunTech Greenhouses Ltd,"5541 Doyle Rd, Manotick, ON K4M 1B4",NA,45.1727472,-75.6222462,NA,NA,NA,grocery,45.1727472,-75.6222462
-Log Cabin Orchard,"6121 Cabin Road, Ottawa, ON K0A 2W0",NA,NA,NA,Farmers' Market,NA,NA,farmers market,45.1699211,-75.5809559
+Log Cabin Orchard,"6121 Cabin Road, Ottawa, ON K0A 2W0",NA,NA,NA,Farmers' Market,NA,NA,farmer's market,45.1699211,-75.5809559
 Hobbs Meats and Bakery,"2394 Dwyer Hill Road, Ottawa, ON",NA,NA,NA,Meat Shops,NA,NA,bakery,45.1605236,-75.9883083
 MacEwen Carleton Place,"322 Townline Road East, Carleton Place, ON",613-257-8826,45.1500151,-76.1414177,NA,NA,NA,convenience,45.1500151,-76.1414177
 FOODLAND,"5669 Main Street, Osgoode, on, K0A 2W0",613-826-2282,45.14989,-75.60212,Foodland Osgoode,"Osgoode, on, K0A 2W0",2021-05-01,grocery,45.1486903,-75.6009866
@@ -1332,7 +1332,7 @@ Pioneer Gas,"10418 HIGHWAY 7 RR 2, CARLETON PLACE, ON",NA,45.131334,-76.121428,N
 Foster Family Farm,"2345 Roger Stevens Dr, North Gower, ON K0A 2T0",NA,45.1312747,-75.7178534,NA,NA,NA,grocery,45.1312747,-75.7178534
 Mac's,"355 Franktown Rd., CARLETON PLACE, Canada",NA,45.1309426,-76.1287832,"atm, coffee, polar_pop, froster, redbull_shop",NA,NA,convenience,45.1309426,-76.1287832
 DollyDoll Cupcake Co,"2333 Church St., North Gower, ON K0A 2T0",NA,NA,NA,Bakeries,NA,NA,bakery,45.1306724,-75.7161944
-Anderson Farm,"8435 Franktown Road, Ashton, ON K0A 1B0",NA,NA,NA,"Farmers' Market, Specialty Food",NA,NA,farmers market,45.1293511,-75.9533593
+Anderson Farm,"8435 Franktown Road, Ashton, ON K0A 1B0",NA,NA,NA,"Farmers' Market, Specialty Food",NA,NA,farmer's market,45.1293511,-75.9533593
 MacEwen Chesterville,"38 Main St N, Chesterville, ON",613-448-1333,45.103069,-75.2302649,NA,NA,NA,convenience,45.103069,-75.2302649
 Circle K,"542 St. Lawrence St., WINCHESTER, Canada",NA,45.0905082,-75.3523885,"atm, coffee, polar_pop, froster, redbull_shop",NA,NA,convenience,45.0905082,-75.3523885
 Pioneer Gas,"2140 HWY #31, WINCHESTER, ON",NA,45.0884372,-75.377765,NA,NA,NA,convenience,45.0884372,-75.377765
@@ -1411,8 +1411,8 @@ Quickie,"16 CENTRAL Avenue East, Brockville, Ontario, K6V 1W4",613-345-5710,44.6
 Canadian Tire Gas Bar,"355 Stewart Blvd., Brockville, ON, K6V 4W9",6133456440,44.6011937,-75.7054175,NA,NA,NA,convenience,44.6011937,-75.7054175
 Giant Tiger,"300 Park Street, Brockville, ON, K6V 2J1",613-498-2624,44.6009302,-75.6906365,NA,NA,NA,convenience,44.6009302,-75.6906365
 FOOD BASICS,3049 Jefferson Dr Brockville K6V6N7,613-345-0272,44.599033,-75.7040659,NA,NA,2021-05-01,grocery,44.5998576,-75.7038909
-Quickie,"60 WILLIAM STREET, Brockville, Ontario, K6V 4V5",613-342-8482,44.5921906,-75.688447300000007,NA,NA,NA,convenience,44.5921906,-75.688447300000007
-METRO,"237 King Street West, Brockville, ON K6V 3S2",613-345-4260,44.58642,-75.689940000000007,Metro Brockville,"Brockville, ON K6V 3S2",2021-05-01,grocery,44.5863676,-75.689628
+Quickie,"60 WILLIAM STREET, Brockville, Ontario, K6V 4V5",613-342-8482,44.5921906,-75.6884473,NA,NA,NA,convenience,44.5921906,-75.6884473
+METRO,"237 King Street West, Brockville, ON K6V 3S2",613-345-4260,44.58642,-75.68994,Metro Brockville,"Brockville, ON K6V 3S2",2021-05-01,grocery,44.5863676,-75.689628
 Canadian Tire Gas Bar,"680 Highway 401 Eastbound, Mallorytown, ON, K0E 1R0",6139231610,44.5056195,-75.8355051,NA,NA,NA,convenience,44.5056195,-75.8355051
 MacEwen Collingwood,"7618 Poplar Sideroad, Collingwood, ON",705-445-6645,44.478974,-80.213053,NA,NA,NA,convenience,44.478974,-80.213053
 MacEwen Norwood-Asphodel,"2239 Asphodel 8th Line, Norwood, ON",705-639-5383,44.3712917,-77.989187,NA,NA,NA,convenience,44.3712917,-77.989187
@@ -1436,16 +1436,16 @@ Clarke's Food Mart,"33406 Richmond Street, Lucan, ON",519-227-0059,43.1853251,-8
 MacEwen Strathroy,"28508 Centre Rd, Strathroy, ON",519-245-9669,42.9799092,-81.6302288,NA,NA,NA,convenience,42.9799092,-81.6302288
 Kitley Grocery & Service Centre,"74 Main St, Toledo, ON",613-275-2834,41.6528052,-83.5378674,NA,NA,NA,convenience,41.6528052,-83.5378674
 La Brioche Pastry & Bakery,866 Bank St,(613) 565-0002,NA,NA,NA,NA,NA,bakery,41.0779291,-81.4892318
-Carp Farmers Market,NA,NA,NA,NA,NA,NA,NA,farmer's market,32.8156943,-117.1176051
-Cumberland Farmers Market,NA,NA,NA,NA,NA,NA,NA,farmer's market,32.8156943,-117.1176051
-By Grace Food Market,"183 Montreal Rd #6e2, Vanier, ON K1L 6E2",NA,NA,NA,NA,NA,NA,grocery,45.435266,-75.66410020000001
+Carp farmer's market,NA,NA,NA,NA,NA,NA,NA,farmer's market,32.8156943,-117.1176051
+Cumberland farmer's market,NA,NA,NA,NA,NA,NA,NA,farmer's market,32.8156943,-117.1176051
+By Grace Food Market,"183 Montreal Rd #6e2, Vanier, ON K1L 6E2",NA,NA,NA,NA,NA,NA,grocery,45.435266,-75.6641002
 Desi Food Market Orleans,"2580 St Joseph Blvd, Orleans, ON K1C 1G3",(613) 590-7381,NA,NA,NA,NA,NA,grocery,45.4706222,-75.5251418
 Farm Boy,"1495 Richmond Road, Ottawa, ON, K2B 6R9",613-688-2882,45.36296768,-75.7909862,NA,"Ottawa, ON
-K2B 6R9",2021-05-14,grocery,45.362791,-75.79129340000001
+K2B 6R9",2021-05-14,grocery,45.362791,-75.7912934
 Farm Boy,"1642 Merivale Road, Ottawa, ON K2G 4A1",613-228-7417,45.34529599,-75.73150069,NA,"Ottawa, ON
 K2G 4A1",2021-05-14,grocery,45.3455841,-75.732034
 Farm Boy,"585 Montreal Road, Ottawa, ON K1K 4K3",613-744-3463,45.44270964,-75.64447541,NA,"Ottawa, ON
 K1K 4K3",2021-05-14,grocery,45.4426297,-75.6443967
 Mercado Latino,"67 Montreal Rd, Vanier, ON K1L 6E8",(613) 747-3795,NA,NA,NA,NA,NA,grocery,45.4337466,-75.6680196
-Patisserie Fine Delice Royal,"1600 Forest Valley Dr, Orleans, ON K1C 6X7",(613) 834-8838,NA,NA,NA,NA,NA,bakery,45.4488546,-75.53598199999999
+Patisserie Fine Delice Royal,"1600 Forest Valley Dr, Orleans, ON K1C 6X7",(613) 834-8838,NA,NA,NA,NA,NA,bakery,45.4488546,-75.535982
 Quelque Chose Patisserie,"274 Montreal Rd, Vanier, ON K1L 6C4",(613) 742-7722,NA,NA,NA,NA,NA,bakery,45.4366197,-75.6598836
