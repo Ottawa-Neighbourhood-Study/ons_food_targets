@@ -14,10 +14,32 @@ library(leaflet)
 
 food <-read_csv("data/combined/foodspace_2021-08-26.csv")
 
-
+#food <-read_csv("data/combined/foodspace_filtered_2021-08-25.csv")
+# 
 # f %>%
-#   select(-X, -Y, -address2, -category, -num, -geometry) %>%
-#   write_csv("data/combined/foodspace_2021-08-26.csv")
+# #   select(-X, -Y, -address2, -category, -num, -geometry) %>%
+#   select(-category) %>%
+#    write_csv("data/combined/foodspace_2021-08-26.csv")
+
+
+get_hoods <- function(food){
+  
+  ons_shp <- onsr::get_ons_shp() %>%
+    sf::st_transform(crs = 32189)
+  
+  f <- food %>%
+    sf::st_as_sf(coords = c("lng", "lat"), crs = "WGS84", remove = FALSE)
+
+  f <- onsr::get_pts_neighbourhood(f, ons_shp)    
+  
+  f %>%
+    rename(Nbhd = Name,
+           Nbhd_FR = Name_FR) %>%
+  # # f %>%
+  #   sf::st_set_geometry(NULL) %>%
+  #    write_csv("data/combined/foodspace_2021-08-26.csv")
+}
+
 
 leaflet_food <- function(food){
   
@@ -26,20 +48,23 @@ leaflet_food <- function(food){
       category == "farmer's market" ~ "lightgreen",
       category == "grocery" ~ "darkgreen",
       category == "convenience" ~ "blue",
-      category == "specialty" ~ "pink",
+      category == "specialty" ~ "red",
       TRUE ~ "grey"
     )
     
   }
   
-  #labels <- s
+  labels <- sprintf("<b>%s</b><br>
+                    <i>%s: %s</i><br>
+                    %s", food$name, food$category2, food$category3, food$address) %>%
+    purrr::map(htmltools::HTML)
   
   leaflet() %>%
     addTiles() %>%
     addCircleMarkers(data = food,
                      color = ~ circle_pal(category2)
-                     #,clusterOptions = leaflet::markerClusterOptions()  
-                     , label = ~name
+                     ,clusterOptions = leaflet::markerClusterOptions()  
+                     , label = labels
                      )
   
   
@@ -48,9 +73,11 @@ leaflet_food <- function(food){
 
 ggmap_food <- function(food){
   food %>%
+    mutate(category = sprintf("%s: %s", category2, category3)) %>%
     sf::st_as_sf(coords = c("lng", "lat"), crs = "WGS84", remove = FALSE) %>%
     ggplot() +
-    geom_sf(aes(colour = category2)) +
+    geom_sf(data = ons_shp) +
+    geom_sf(aes(colour = category)) +
     theme_minimal()
   
 }
@@ -64,15 +91,18 @@ categorize_food <- function(food){
            chain = num>1,
            category2 = category,
            category3 = category,
-           category3 = if_else(category2 == "grocery" & chain, "large", category2),
-           category3 = if_else(category2 == "grocery" & !chain, "small", category2),
            category2 = if_else(category2 %in% c("deli meat cheese", "bakery", "health store"), "specialty", category2),
+           category3 = if_else(category2 == "grocery" & chain, "large", category3),
+           category3 = if_else(category2 == "grocery" & !chain, "small", category3),
          category3 = if_else(category2 == "convenience" & (stringr::str_detect(toupper(name), "GAS|ESSO|PETRO|ULTRAMAR|MACEWEN|MOBIL|PIONEER|TRUCK STOP|SHELL|FUEL") | 
-                                                            stringr::str_detect(toupper(note), "GAS")), 
-                              "gas station", "regular"),
+                                                            stringr::str_detect(toupper(note), "GAS|FUEL|DIESEL")), 
+                              "gas station", category3),
          category3 = if_else(is.na(category3) & category2 == "convenience", "regular", category3),
+         category3 = if_else(category3 == "convenience", "regular", category3),
+         category3 = if_else(name == "T&T", "large", category3),
          update_date = if_else(is.na(update_date), Sys.Date(), update_date)
-           )
+           ) %>%
+    select(-X, -Y, -address2, -geometry, -num)
   
   return(f)
   
@@ -80,7 +110,7 @@ categorize_food <- function(food){
 
 
 spatial_filter_food <- function(food){
-  food %>%
+  food <- food %>%
     mutate(across(everything(), iconv, to = "UTF-8")) %>%
     mutate(lat = as.numeric(lat),
            lng = as.numeric(lng)) %>%
@@ -1034,6 +1064,17 @@ scrape_quickie <- function(write_to_file = FALSE){
   
   html <- rvest::read_html(url)  
   
+  # extract notes from the names of the little images for each store
+  notes <- html %>%
+    rvest::html_nodes(css = ".store") %>%
+    purrr::map(rvest::html_elements, "img") %>%
+    purrr::map(rvest::html_attr, "title") %>%
+    purrr::map(paste0) %>%
+    purrr::map(stringr::str_flatten, collapse = ", ") %>%
+    unlist() %>%
+    stringr::str_remove_all("NA") %>%
+    stringr::str_remove_all("^, ")
+  
   stores <- rvest::html_nodes(html, css = "p:nth-child(1)") %>%
     #    as.character() %>%
     stringr::str_replace_all("<br>", "\\\n") %>%
@@ -1042,7 +1083,7 @@ scrape_quickie <- function(write_to_file = FALSE){
   # remove first and last, which are website junk
   stores <- stores[c(-1, -length(stores))]
   
-  results <- tibble(stores = stores, name = "Quickie") %>%
+  results <- tibble(stores = stores, name = "Quickie", note = notes) %>%
     mutate(stores = stringr::str_trim(stores)) %>%
     tidyr::separate(col = stores, into = c("address", "address2", "postal_code", "phone"), sep = "\\n")
   

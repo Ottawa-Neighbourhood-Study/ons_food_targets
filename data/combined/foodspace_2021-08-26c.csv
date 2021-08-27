@@ -1,0 +1,1257 @@
+rowid,name,address,category2,category3,Nbhd,lat,lng
+1,180 Food Market,"180 Lees Ave, Ottawa, ON K1S 5P3",convenience,regular,Old Ottawa East,45.4153548,-75.6708025
+2,2 Broke Girls Bakery,"360 Albert Street, Ottawa, ON K1R",specialty,bakery,Centretown,45.4181744,-75.7035661
+3,3 Sisters Bakeshop,"2211 Arch Street, Ottawa, ON K1G",specialty,bakery,Elmvale - Canterbury,45.3895561,-75.6304427
+4,3cents2,"3-1940 Bank Street, Ottawa, ON K1V 7Z8",specialty,bakery,Hunt Club Woods - Quintarra - Revelstoke,45.3675274,-75.6623477
+5,A&M Confectionery,"1499 Clementine Blvd, Ottawa, ON K1H 8E8",grocery,small,Billings Bridge - Alta Vista,45.3828744,-75.6739243
+6,A&M Mart,"580 Montreal Rd, Ottawa, ON K1K",convenience,gas station,Overbrook - McArthur,45.4409854,-75.6440071
+7,A2Z Food Centre,"489 Rideau St, Ottawa, ON K1N 5Z5",convenience,regular,Lowertown,45.4317166,-75.6792161
+8,Abbas Grocery,"344 Bell Street, Ottawa, ON",grocery,small,Glebe - Dows Lake,45.4020648,-75.7032878
+9,Accacia Fine Pastries & Desserts,"1020 St Laurent Blvd, Ottawa, ON K1K 4S2",specialty,bakery,Overbrook - McArthur,45.4277621,-75.6398977
+10,Adam's Sausages,"1437 Michael Street, Ottawa, ON",grocery,small,East Industrial,45.4159116,-75.6281825
+11,Adonis,"1055 St Laurent Boulevard, Ottawa, ON",grocery,small,Overbrook - McArthur,45.427054,-75.6383701
+12,Aenos Food Services Inc,"2455 Kaladar Av, Ottawa, ON K1V 8B9",grocery,small,Billings Bridge - Alta Vista,45.3762222,-75.6706779
+13,Africa World Market,"1392 Cyrville Rd, Ottawa, ON K1L 3M9",grocery,small,East Industrial,45.4204663,-75.6218781
+14,AFRICAN QUEEN SUPERMARKET,"2430 Bank St., Ottawa, ON K1V-0T7",grocery,small,South Keys - Greenboro West,45.3537723,-75.6491647
+15,Afrimarketplace,"269 Greenbank Rd, Nepean, ON K2H 8K9",grocery,small,Woodvale - Craig Henry - Manordale - Estates of Arlington Woods,45.3243768,-75.7778245
+16,Afro-Caribbean Groceries,"1737 St. Laurent Blvd, Ottawa, ON K1G 3S7",grocery,small,East Industrial,45.4049581,-75.6257207
+17,Afro Diva,"1315 Richmond Rd, Ottawa, ON",grocery,small,Britannia Village,45.3681702,-75.7858283
+18,Agop's Bakery,"304 McArthur Avenue, Ottawa, ON K1L 6P2",specialty,bakery,Overbrook - McArthur,45.4314616,-75.6559226
+19,Al-Manara Food Centre,"4 Lorry Greenberg Dr, Ottawa, ON K1G 5H6",grocery,small,Hunt Club Park,45.3691281,-75.6209221
+20,Al-Noor Bakery Halal,"70 Wylie Ave, Ottawa, ON K2B 6M4",grocery,small,Bayshore - Belltown,45.3545843,-75.806847
+21,Al-Oumara Meat Shop & Grill,"25 Tapiola Crescent, Ottawa, ON",specialty,deli meat cheese,South Keys - Greenboro West,45.3640092,-75.6466335
+22,"Al Basha Foods: Groceries, Meats & Take Out Foods","2434 St Joseph Blvd, Ottawa, ON K1C 1H6",grocery,small,Orléans Village - Chateauneuf,45.4690807,-75.5278639
+23,Al Furat meat shop&BBq,"4 Lorry Greenberg Dr, Ottawa, ON K1G 5H6",grocery,small,Hunt Club Park,45.3691281,-75.6209221
+24,Al Jabal Bakery,"6469 Jeanne D'arc Boulevard, Ottawa, ON K1C 2R1",specialty,bakery,Convent Glen - Orléans Woods,45.4803399,-75.5370229
+25,Al Jazeerah Food and Meat Market,"1101 Wellington Street W, Ottawa, ON",grocery,small,Hintonburg - Mechanicsville,45.4028466,-75.7257886
+26,Al Najah Meats,"2335 St. Laurent Blvd #106, Ottawa, ON K1G 5G6",grocery,small,East Industrial,45.3834488,-75.6205782
+27,Al Sham Food & Meat Market,"275 Montreal Rd, Ottawa, ON",grocery,small,Vanier North,45.4368769,-75.6600995
+28,Al Waha Grocery,"2833 Dumaurier Ave, Ottawa, ON K2B 7W3",grocery,small,Whitehaven - Queensway Terrace North,45.3507333,-75.7937212
+29,Aladdin Bakery,"2020 Lanthier Drive, OrlÃƒÂ©ans, ON K4A 3V4",specialty,bakery,Portobello South,45.4582181,-75.4930905
+30,Aladdin Bakery,"1020 St Laurent Boulevard, Ottawa, ON K1K",specialty,bakery,Overbrook - McArthur,45.4277621,-75.6398977
+31,Aladdin Convenience & Bakery,"1801 Carling Ave, Ottawa, ON K2A 1E4",specialty,bakery,Laurentian,45.3774493,-75.7549106
+32,Albion Meat Shop,"3515 Albion Rd S, Gloucester, ON K1T 1P1",grocery,small,Hunt Club Upper -Blossom Park - Timbermill,45.3543089,-75.6428
+33,Ali Baba Bakery,"200 Vanguard Drive, OrlÃƒÂ©ans, ON K4A 0T8",specialty,bakery,Portobello South,45.4578239,-75.4871421
+34,Alice's Village Cafe,"3773 Carp Road, Ottawa, ON K0A 1L0",specialty,bakery,Carp,45.3458412,-76.0377719
+35,ALL AFRICA MARKET,"411 McArthur Ave., Ottawa, ON K1K 1G7",grocery,small,Vanier South,45.432316,-75.6485199
+36,Allspice Superstore,"194 Robertson Rd, Ottawa, ON",grocery,small,Bells Corners West,45.3173858,-75.8444531
+37,ALMONTE GAS AND GROCERY CORP,"234 CHRISTIAN ST, ALMONTE, ON",convenience,gas station,(None),45.2206138,-76.204693
+38,Alta Juba Supermarket,"2925 Albion Road N, Ottawa, ON K1V 8Z3",convenience,regular,Ledbury - Heron Gate - Ridgemont,45.3732236,-75.6537531
+39,Amjad Syed,"1016 Pleasant Park Rd, Ottawa, ON K1G 2A1",convenience,regular,Elmvale - Canterbury,45.3952009,-75.6223817
+40,Anabia Cupcakery CafÃƒÂ©,"3570 Strandherd Drive, Ottawa, ON K2J 5L4",specialty,bakery,Old Barrhaven East,45.2751492,-75.7375557
+41,Anderson Farm,"8435 Franktown Road, Ashton, ON K0A 1B0",farmer's market,farmer's market,Munster - Ashton,45.1293511,-75.9533593
+42,Andy's Variety Store,"178 Meadowlands Dr W, Nepean, ON K2G 2S6",convenience,regular,Cityview - Crestview - Meadowlands,45.3422601,-75.7555122
+43,Anna Mae's Cakery,"40 Zokol Cres, Ottawa, ON K2K 2K4",specialty,bakery,Kanata Lakes - Arcardia,45.3253371,-75.9160943
+44,Apos Convenience,"2143 Carp Road RR 3, Carp, ON K0A 1L0",convenience,regular,Stittsville,45.2732931,-75.953511
+45,Aqua Fuchsia Foods,"1325 Humber Pl, Ottawa, ON K1B 5K9",grocery,small,East Industrial,45.4026674,-75.6058855
+46,Aramark,"285 Coventry Road, Ottawa, ON K1K 4G5",specialty,deli meat cheese,Overbrook - McArthur,45.4216785,-75.6536112
+47,Arlington Five,"5 Arlington Avenue, Ottawa, ON K2P 1C1",specialty,deli meat cheese,Centretown,45.4101361,-75.6929269
+48,AromessÃƒÂ¶ CafÃƒÂ©,"8555 Campeau Drive, Ottawa, ON K2T 0K5",specialty,bakery,Kanata Lakes - Arcardia,45.3058837,-75.923067
+49,Around the Block Butcher Shop,"1117 Cobden Rd, Ottawa, ON K2C 2Z1",grocery,small,Iris - Queensway Terrance South,45.3527102,-75.7779049
+50,Art Is In Bakery,"250 City Centre Avenue, Ottawa, ON K1R 1C7",specialty,bakery,West Centretown,45.4081821,-75.7181931
+51,ARTISTIC CAKE DESIGN,"1390 Clyde Ave. #106, Nepean, ON K2G 3H0",specialty,bakery,Cityview - Crestview - Meadowlands,45.359221,-75.7392358
+52,Arturo's Ristorante,"94 Beechwood Ave, Ottawa, ON K1M 1L9",specialty,deli meat cheese,Vanier North,45.4406877,-75.6742567
+53,Arum Korean Market (Centertown),"508 Bank St, Ottawa, ON K2P 1Z4",grocery,small,Centretown,45.410256,-75.6926398
+54,Arum Korean Market (Downtown),"300 Laurier Ave W, Ottawa, ON K1A 1J2",grocery,small,Centretown,45.4186067,-75.6979476
+55,Arum Restaurant and Market,"512 Bank St, Ottawa, ON",grocery,small,Centretown,45.4098726,-75.69262
+56,ARYA FOOD MARKET,"508 Gladstone Ave, Ottawa, ON K1R 5P1",grocery,small,Centretown,45.4099336,-75.6982053
+57,Asian Grocer,"1581 Bank Street, Ottawa, ON",grocery,small,Billings Bridge - Alta Vista,45.3794058,-75.6674463
+58,Athena Gourmet Greek imports,"368 Bank St, Ottawa, ON K2P 1Y4",grocery,small,Centretown,45.4138564,-75.695289
+59,Aux Délices Boulangerie Et Patisserie / Bakery & Pastry Shop,"32 Byward Market Sq, Ottawa, ON K1N 7A2",specialty,bakery,Byward Market,45.4276884,-75.6930478
+60,Awami Bazaar,"26 Northside Rd Unit 18, Nepean, ON K2H 5Z3",grocery,small,Bells Corners East,45.3295166,-75.8138026
+61,B & B Foods,"2825 Sheffield Rd, Ottawa, ON K1B 3V8",specialty,health store,East Industrial,45.3968609,-75.6000744
+62,Babi's Restaurant,"21 Nadolny Sachs Private, Ottawa, ON K2A 1R9",specialty,bakery,Carlingwood West - Glabar Park - McKellar Heights,45.3759104,-75.7517995
+63,Bagel Bagel,"1616 Michael Street, Ottawa, ON K1B 3T7",specialty,bakery,East Industrial,45.4094299,-75.6255254
+64,Baghlan Market,"385 Tompkins Ave unit 2a, OrlÃ¢Ë†Å¡Ã‚Â©ans, ON K1E 3H4",grocery,small,Queenswood Heights,45.4774353,-75.4985302
+65,Bakker's General Store,"1004 Manotick Station Road, Ottawa, ON",grocery,small,Manotick,45.2557894,-75.6246552
+66,Baltyk Delicatessen,"935 Carling Avenue, Ottawa, ON",grocery,small,West Centretown,45.3955891,-75.7132488
+67,Bambeeno's Tuck Shop,"2201 Riverside Dr, Ottawa, ON K1H 8K9",convenience,regular,Billings Bridge - Alta Vista,45.38841,-75.6745825
+68,Banaue Sari Sari Store,"3023 Cedarview Road, Ottawa, ON",grocery,small,Old Barrhaven West,45.2660293,-75.7713906
+69,Barada Mart,"105 Shuttleworth Dr., Ottawa, ON K1T 0W7",grocery,small,Findlay Creek,45.3182782,-75.5925853
+70,Barakat Market,"1656 Bank Street, Ottawa, ON",grocery,small,Billings Bridge - Alta Vista,45.3764222,-75.6669651
+71,Barleygreen Aim Distributor,"57 Sherry Ln, Nepean, ON K2G 3L4",specialty,health store,Woodvale - Craig Henry - Manordale - Estates of Arlington Woods,45.3294278,-75.7558268
+72,Barrhaven Market,"2900 Woodroffe Avenue, Ottawa, ON",grocery,small,Old Barrhaven East,45.2922857,-75.7289418
+73,Barwaaqo Food Centre,"385 Tompkins Ave, OrlÃ¢Ë†Å¡Ã‚Â©ans, ON K1E 3H4",grocery,large,Queenswood Heights,45.4774353,-75.4985302
+74,Barwaaqo Food Centre,"1439 Ogilvie Rd, Gloucester, ON K1J 7P3",grocery,large,Carson Grove - Carson Meadows,45.4319267,-75.618418
+75,Bashayer Convience Store,"1785 Frobisher Ln, Ottawa, ON K1G 3T7 unit, 302",grocery,small,Riverview,45.4012676,-75.6653883
+76,Batter Up Bakery,"396 Athlone Avenue, Ottawa, ON K1Z 5M5",specialty,bakery,Westboro,45.3930798,-75.7509123
+77,Bayscorner,"245 Bay St, Ottawa, ON K1R 5Z4",grocery,small,Centretown,45.4154673,-75.7040931
+78,BB GÃƒÂ¢teaux,"395 Boulevard Alexandre-TachÃƒÂ©, Gatineau, QC J9A 1M6",specialty,bakery,(None),45.4215108,-75.7460044
+79,BEARBROOK GAME MEATS INC,"5396 Dunning Rd, Navan, ON K4B 1J1",specialty,deli meat cheese,Vars,45.3731249,-75.3288301
+80,BeaverTails,"69 George Street, Ottawa, ON K1N 1K1",specialty,bakery,Byward Market,45.4274347,-75.6916759
+81,Beechwood farmer's market,"131b Beechwood Av., Ottawa, ON K1M 1L5",grocery,small,Lindenlea - New Edinburgh,45.442133,-75.672062
+82,Beechwood Outdoor farmer's market,"Optimiste Park, 43 Ste-CÃ¢Ë†Å¡Ã‚Â©cile St, Ottawa, ON",grocery,small,Vanier North,45.4425216,-75.6693763
+83,Beirut Boulangerie Et Traiteur,"269 Rue Laramee, Ottawa, ON",specialty,bakery,(None),45.4317772,-75.7360091
+84,Bell Family Farm,"7321 Flewellyn Rd, Stittsville, ON K2S 1B6",grocery,small,Munster - Ashton,45.2074577,-75.954322
+85,Bell Pastry & Deli Place Du Portage,"50 Rue Victoria, Gatineau, QC J8X 3X1",specialty,deli meat cheese,(None),45.4276446,-75.7127143
+86,Benny's All day Resto Bar,"2370 Laurier Street, Clarence-Rockland, ON K4K 1L5",specialty,deli meat cheese,(None),45.5460039,-75.295356
+87,Best Beef Butchery,"2335 St. Laurent Blvd, Ottawa, ON K1G 5G6",grocery,small,East Industrial,45.383079,-75.6206065
+88,Best Price Oriental Market,"484 Hazeldean Road, Ottawa, ON",grocery,small,Glen Cairn - Kanata South Business Park,45.2959208,-75.8900792
+89,Bienvenidos,"1731 St Laurent Boulevard, Ottawa, ON",grocery,small,East Industrial,45.4056346,-75.6261407
+90,Bigg's Deli & Bar,"1099 St Laurent Boulevard, Ottawa, ON K1K 3B1",specialty,deli meat cheese,Overbrook - McArthur,45.4260615,-75.6376717
+91,Bilal Farms Butcher Shop,"1741 Cyrville Rd Unit C, Gloucester, ON K1B 3K8",grocery,large,Pineview,45.417149,-75.6047832
+92,Bilal Farms Butcher Shop,"2953 Carling Ave, Ottawa, ON K2B 8K6",grocery,large,Bayshore - Belltown,45.3565128,-75.8025693
+93,Black Forest Deli & Cheese,"1500 Bank St, Ottawa, ON K1H 7Z2",specialty,deli meat cheese,Billings Bridge - Alta Vista,45.3809813,-75.6701018
+94,Black Walnut Bakery,"979 Cameron Street, Ottawa, ON K4C 1A1",specialty,bakery,Cumberland,45.5179599,-75.4106861
+95,Blooming Bundles - Diaper Cakes,"1466 Comfrey Crescent, Ottawa -Orleans, ON K4A 0L8",specialty,bakery,Portobello South,45.4568506,-75.4576171
+96,Blue Nile Grocery Store,"168 King Edward Ave, Ottawa, ON K1N 7L3",grocery,small,Byward Market,45.433828,-75.6904511
+97,Bobbie's Pizza & Subs,"1443 Ogilvie Road, Gloucester, ON K1J 7P3",specialty,deli meat cheese,Carson Grove - Carson Meadows,45.4319532,-75.6183487
+98,Bombay Spices Ottawa,"565 W Hunt Club Rd unit-3, Nepean, ON K2G 5W5",grocery,small,Tanglewood,45.3358623,-75.7285727
+99,BouchÃƒÂ©e Vintage Bite,"35 De Villebois, Gatineau, QC J8T",specialty,bakery,(None),45.4926583,-75.705792400000007
+100,Boulangerie aux Deux FrÃƒÂ¨res,"146 Rue Principale, Aylmer, QC J9H 3M4",specialty,bakery,(None),45.3949408,-75.8419287
+101,Boulangerie Estoril,"89 Rue Eddy, Gatineau, QC J8X 2W3",specialty,bakery,(None),45.4278785,-75.7202969
+102,Boulangerie Patisserie Buckingham,"415 Av De Buckingham, Gatineau, QC J8L 2G8",specialty,bakery,(None),45.588877600000004,-75.4172159
+103,Boutique La LumiÃ¢Ë†Å¡Ã‚Â®re,"267 Chemin, Montreal Rd, Vanier, ON K1L 6C4",grocery,small,Vanier North,45.4367652,-75.6604753
+104,Bravo Corner,"312 Bank St, Ottawa, ON K2P 1Y1",convenience,regular,Centretown,45.4145679,-75.6958437
+105,Bread & Roses Bakery,"323 St Laurent Blvd, Ottawa, ON K1K 2Z5",specialty,bakery,Manor Park,45.4501697,-75.6515709
+106,Bread & Sons Bakery,"195 Bank Street, Ottawa, ON K2P 1W7",specialty,bakery,Centretown,45.417717,-75.6981892
+107,Bread By Us,"1065 Wellington West, Ottawa, ON K1Y 2K2",specialty,bakery,Hintonburg - Mechanicsville,45.4038105,-75.7251502
+108,Britannia Coffeehouse,"273 Britannia Road, Ottawa, ON K2B 6W7",specialty,bakery,Britannia Village,45.3656178,-75.7960952
+109,Brittany Grocery,"230 Brittany Dr, Ottawa, ON K1K 0R6",grocery,small,Manor Park,45.4455455,-75.6487248
+110,Brookfield Restaurant & Catering,"704 Brookfield Road, Ottawa, ON K1V 6J4",convenience,regular,Riverside Park,45.372897,-75.6894821
+111,Brownloaf Bakery,"268 Elgin St, Ottawa, ON K2P 1M2",specialty,bakery,Centretown,45.417615,-75.6903145
+112,Budapest Delicatessen,"54 Byward Market Sq, Ottawa, ON K1N 7A2",specialty,deli meat cheese,Byward Market,45.4273124,-75.6926693
+113,Bulk Barn,"197 Trainyards Drive, Ottawa, ON",grocery,large,East Industrial,45.413763,-75.64364
+114,Bulk Barn,"2210 Bank St, Ottawa, ON",grocery,large,South Keys - Greenboro West,45.3556337,-75.6546138
+115,Bulk Barn,"3161 Greenbank Rd, Ottawa, ON",grocery,large,Chapman Mills,45.2695671,-75.7453866
+116,By Grace Food Market,"183 Montreal Rd #6e2, Vanier, ON K1L 6E2",grocery,small,Vanier North,45.435266,-75.6641002
+117,ByWard Fruit Market,"36 ByWard Market Sq, Ottawa, ON",farmer's market,farmer's market,Byward Market,45.4275991,-75.6929651
+118,Byward Market News,"55 ByWard Market Sq, Ottawa, ON K1N 9C3",grocery,small,Byward Market,45.427449,-75.6923646
+119,ByWard Market Square,"55 ByWard Market Square, Ottawa, ON K1N 1K1",farmer's market,farmer's market,Byward Market,45.427449,-75.6923646
+120,C & J Houkayem Honey Bars,"6384 Fortune Dr, Orleans, ON K1C 1Y9",specialty,health store,Convent Glen - Orléans Woods,45.4755541,-75.5356656
+121,CafÃƒÂ© Cristal,"240 Kennevale Drive, Ottawa, ON K2J 6B6",specialty,bakery,Old Barrhaven West,45.2648524,-75.7773376
+122,Cambridge Food Mart,"72 Cambridge St N, Ottawa, ON K1R 7A7",convenience,regular,West Centretown,45.4127557,-75.7077981
+123,Canaan Blueberries,"2351 Canaan Rd, Rockland, ON K4K 1K9",farmer's market,farmer's market,(None),45.4952138,-75.3171513
+124,Canadian Tire Gas Bar,"9040 County Road 17, Rockland, ON, K4K 1V5",convenience,gas station,(None),45.546828,-75.3023562
+125,Canadian Tire Gas Bar,"9020 County Road 17, Rockland, ON, K4K 1V5",convenience,gas station,(None),45.5463729,-75.303034
+126,Canadian Tire Gas Bar,"399, boul. Maloney Ouest, Gatineau, QC, J8P 3W1",convenience,gas station,(None),45.4847617,-75.6649555
+127,Canadian Tire Gas Bar,"1775 Tenth Line Road, Orleans, ON, K1E 3X2",convenience,gas station,Fallingbrook,45.4673466,-75.4910892
+128,Canadian Tire Gas Bar,"355, boul. de la Carriere, Gatineau, QC, J8Y 6W4",convenience,gas station,(None),45.4430168,-75.729778
+129,Canadian Tire Gas Bar,"255, boul. de la Carriere, Gatineau, QC, J8Y 6W4",convenience,gas station,(None),45.4417629,-75.729061
+130,Canadian Tire Gas Bar,"2006 Ogilvie Road, Gloucester, ON, K1J 8X3",convenience,gas station,Beacon Hill South - Cardinal Heights,45.435946,-75.6057919
+131,Canadian Tire Gas Bar,"2010 Ogilvie Road, Gloucester, ON, K1J 8X3",convenience,gas station,Beacon Hill South - Cardinal Heights,45.435066,-75.606445
+132,Canadian Tire Gas Bar,"245 Daniel Street South, Arnprior, ON, K7S 3K5",convenience,gas station,(None),45.4260424,-76.3653663
+133,Canadian Tire Gas Bar,"375 Daniel Street South, Arnprior, ON, K7S 3K6",convenience,gas station,(None),45.4257504,-76.3679176
+134,Canadian Tire Gas Bar,"225 Chemin d'Aylmer, Gatineau, QC, J9H 1A3",convenience,gas station,(None),45.3961707,-75.8300042
+135,Canadian Tire Gas Bar,"1176 Heron Road, Ottawa, ON, K1V 6B2",convenience,gas station,Billings Bridge - Alta Vista,45.3777065,-75.6685725
+136,Canadian Tire Gas Bar,"1170 Heron Road, Ottawa, ON, K1V 6B2",convenience,gas station,Billings Bridge - Alta Vista,45.3776183,-75.66841
+137,Canadian Tire Gas Bar,"1660 Merivale Road, Nepean, ON, K2G 3K4",convenience,gas station,Tanglewood,45.3434663,-75.729508
+138,Canadian Tire Gas Bar,"2135 Robertson Road, Nepean, ON, K2H 5Z2",convenience,gas station,Bells Corners West,45.3218168,-75.8362395
+139,Canadian Tire Gas Bar,"4776 Bank Street, Gloucester, ON, K1T 0K8",convenience,gas station,Findlay Creek,45.3185859,-75.5945576
+140,Canadian Tire Gas Bar,"4778 Bank Street, Gloucester, ON, K1T 0K8",convenience,gas station,Findlay Creek,45.3180646,-75.5927572
+141,Canadian Tire Gas Bar,"500 Terry Fox Drive, Kanata, ON, K2T 1C3",convenience,gas station,Kanata Lakes - Arcardia,45.3086126,-75.916439
+142,Canadian Tire Gas Bar,"2201 Greenbank Road, Nepean, ON, K2J 4Y6",convenience,gas station,Old Barrhaven East,45.2725923,-75.7468452
+143,Canadian Tire Gas Bar,"2501 Greenbank Road, Nepean, ON, K2J 4Y6",convenience,gas station,Old Barrhaven East,45.272268,-75.7457082
+144,Canal Ritz Restaurant,"375 Queen Elizabeth Drive, Ottawa, ON K1S 5M5",specialty,deli meat cheese,Glebe - Dows Lake,45.4017693,-75.6803244
+145,Cantors Bakery & Delicatessen,"255 Albert St, Ottawa, ON K1P 6A9",specialty,bakery,Centretown,45.4197984,-75.7011578
+146,Capital Buns Bakery,"2440 Bank Street, Ottawa, ON K1V 8S1",specialty,bakery,South Keys - Greenboro West,45.3535284,-75.6481363
+147,Capital Diner,"164 Laurier Avenue W, Ottawa, ON K1P 5J4",specialty,deli meat cheese,Centretown,45.4203023,-75.6942268
+148,Carb Free Baking Co.,"52 Antares Dr, Ottawa, ON K2E 7Z1",specialty,bakery,Hunt Club South Industrial,45.3310377,-75.7103622
+149,Cards & Mags Plus,"25 McArthur Ave, Vanier, ON K1L 6R3",convenience,regular,Vanier South,45.4313724,-75.667942
+150,Carmelito,"354 Preston Street, Ottawa, ON K1S 4M7",specialty,bakery,West Centretown,45.4017854,-75.7105634
+151,Carmelito Cafe,"605 Longfields Drive, Ottawa, ON K2J 4X1",specialty,bakery,Old Barrhaven East,45.2849643,-75.7448265
+152,Carp Bakery,"461 Donald B Munro Drive, Ottawa, ON K0A 1L0",specialty,bakery,Carp,45.3447291,-76.0380015
+153,Carson Fresh Grocer | Halal Meat and Bangladeshi Fish,"876 Montreal Rd, Ottawa, ON K1K 4L3",grocery,small,Carson Grove - Carson Meadows,45.4457968,-75.6301564
+154,Casa Dei Panini,"52 Antares Drive, Ottawa, ON K2E 7Z1",specialty,deli meat cheese,Hunt Club South Industrial,45.3310377,-75.7103622
+155,Casa Nicastro Delicatessen,"304 Preston St, Ottawa, ON",grocery,small,West Centretown,45.4034261,-75.7113838
+156,Cassis Gelato et Sorbet Maison,"68 Rue Principale, Gatineau, QC J9H 3M6",specialty,bakery,(None),45.3945144,-75.8478468
+157,Ceci Cela Convenient Store,"50 O'connor St, Ottawa, ON K1P 6L2",convenience,regular,Centretown,45.4208307,-75.6989356
+158,Cedars & Co. Food Market,"1255 Bank St, Ottawa, ON",grocery,large,Old Ottawa South,45.3909623,-75.6798999
+159,Cedars & Co. Food Market,"1793 Kilborn Ave, Ottawa, ON K1H 6N2",grocery,large,Playfair Park - Lynda Park - Guildwood Estates,45.3880921,-75.6452686
+160,Centrale Bergham,"2208 St Joseph Boulevard, Ottawa, ON K1C 1E8",specialty,deli meat cheese,Orléans Village - Chateauneuf,45.4671816,-75.5324357
+161,Centrepointe Cafe & Deli,"117 Centrepointe Drive, Nepean, ON K2G 5X3",specialty,deli meat cheese,Centrepointe,45.3429403,-75.7624942
+162,ChÃƒÂ¢teau Pastry,"1600 Walkley Road, Ottawa, ON K1V 6P5",specialty,bakery,Ledbury - Heron Gate - Ridgemont,45.3768759,-75.645979
+163,Charlies Groceteria,"220 Carruthers Avenue, Ottawa, ON",grocery,small,Hintonburg - Mechanicsville,45.4043024,-75.7281375
+164,Chateau Bakery & Pastry,"87 Sparks Street, Ottawa, ON K1P 5A5",specialty,bakery,Centretown,45.4230608,-75.6971851
+165,Cheesecake Factory,"8555 Campeau Drive, Ottawa, ON K2T 0K5",specialty,bakery,Kanata Lakes - Arcardia,45.3058837,-75.923067
+166,Chenoy's,"120 Blvd De L'hopital, Gatineau, QC J8T 8M2",specialty,deli meat cheese,(None),45.4810589,-75.6866854
+167,Chez FranÃƒÂ§ois - Plaisirs de Provence,"427 Richmond Road, Ottawa, ON K2A 0G2",specialty,bakery,Westboro,45.390155,-75.7580499
+168,Chez Lucien,"137 Murray St, Ottawa, ON K1N 5M7",specialty,bakery,Byward Market,45.4304809,-75.692001200000007
+169,Chocolats Favoris,"180 Vanguard Drive, Orleans, ON K4A 0T8",specialty,bakery,Portobello South,45.4575587,-75.48667
+170,Christopher's Meat Market,"6146 Perth St, Richmond, ON K0A 2Z0",grocery,small,Richmond,45.1935776,-75.8394527
+171,Chuck's Deli & Convenience,"100 Trainyards Drive, Ottawa, ON K1G 3S5",convenience,regular,East Industrial,45.4125374,-75.6466372
+172,Cinnabon,"100 Bayshore Drive, Nepean, ON K2B 8C1",specialty,bakery,Bayshore - Belltown,45.347237,-75.8068316
+173,Cinnaholic,"900 Exhibition Way, Ottawa, ON K1S 5J3",specialty,bakery,Glebe - Dows Lake,45.3990284,-75.6847387
+174,Circle K,"9061 County Road 17, ROCKLAND, Canada",convenience,gas station,(None),45.5454896,-75.3017648
+175,Circle K,"385 Tompkins Ave., ORLEANS, Canada",convenience,regular,Queenswood Heights,45.4774353,-75.4985302
+176,Circle K,"1980 St. Joseph Blvd., ORLEANS, Canada",convenience,gas station,Chapel Hill North,45.4635594,-75.5404122
+177,Circle K,"1600 Forest Valley Drive, ORLEANS, Canada",convenience,gas station,Chapel Hill North,45.4488546,-75.535982
+178,Circle K,"2075 Montreal RD, OTTAWA, Canada",convenience,gas station,Rothwell Heights - Beacon Hill North,45.4480417,-75.5939711
+179,Circle K,"437 St. Laurent Blvd., OTTAWA, Canada",convenience,regular,Manor Park,45.4473684,-75.6498646
+180,Circle K,"598 Montreal Road, OTTAWA, Canada",convenience,regular,Overbrook - McArthur,45.4421259,-75.6429469
+181,Circle K,"80 Madawaska Street, ARNPRIOR, Canada",convenience,regular,(None),45.4347485,-76.3555146
+182,Circle K,"2672 Innes Rd., GLOUCESTER, Canada",convenience,regular,Blackburn Hamlet,45.4320149,-75.56268
+183,Circle K,"2063 Meadowbrook Rd., GLOUCESTER, Canada",convenience,regular,Pineview,45.427358,-75.6013072
+184,Circle K,"395 Daniel St, South, ARNPRIOR, Canada",convenience,gas station,(None),45.423815,-76.3692219
+185,Circle K,"1494 Innes RD, GLOUCESTER, Canada",convenience,gas station,East Industrial,45.4146989,-75.6045069
+186,Circle K,"1023 Wellington Street, OTTAWA, Canada",convenience,regular,Hintonburg - Mechanicsville,45.4047842,-75.723925
+187,Circle K,"256 Richmond Rd., OTTAWA, Canada",convenience,gas station,Westboro,45.393417,-75.750335
+188,Circle K,"2213 Arch St., OTTAWA, Canada",convenience,regular,Elmvale - Canterbury,45.3895238,-75.6304321
+189,Circle K,"1970 Walkley RD, OTTAWA, Canada",convenience,gas station,South Keys - Greenboro West,45.3829499,-75.6307122
+190,Circle K,"1600 Bank ST, OTTAWA, Canada",convenience,gas station,Billings Bridge - Alta Vista,45.3781328,-75.6677458
+191,Circle K,"1859 Carling Ave., OTTAWA, Canada",convenience,gas station,Laurentian,45.3762849,-75.7573774
+192,Circle K,"1420 Walkley Road, OTTAWA, Canada",convenience,regular,Ledbury - Heron Gate - Ridgemont,45.3734543,-75.6535618
+193,Circle K,"780 Baseline Rd., OTTAWA, Canada",convenience,regular,Skyline - Fisher Heights,45.3705807,-75.7172098
+194,Circle K,"2100 Hunt Club RD, OTTAWA, Canada",convenience,gas station,Greenboro East,45.3640141,-75.6196172
+195,Circle K,"1827 Baseline Rd., OTTAWA, Canada",convenience,regular,Braemar Park - Bel Air Heights - Copeland Park,45.3548571,-75.7559696
+196,Circle K,"1584 Merivale RD, NEPEAN, Canada",convenience,gas station,Cityview - Crestview - Meadowlands,45.3502812,-75.7336488
+197,Circle K,"1402 Highgate Street, OTTAWA, Canada",convenience,regular,Iris - Queensway Terrance South,45.3489085,-75.7698565
+198,Circle K,"4000 Bridle Path, GLOUCESTER, Canada",convenience,regular,Emerald Woods - Sawmill Creek,45.3483871,-75.6457041
+199,Circle K,"3705 Riverside DR, OTTAWA, Canada",convenience,gas station,Hunt Club Woods - Quintarra - Revelstoke,45.3426999,-75.6904138
+200,Circle K,"479 March RD, KANATA, Canada",convenience,gas station,Brookside - Briarbrook - Morgan's Grant,45.3423152,-75.9171222
+201,Circle K,"2545 Baseline RD, OTTAWA, Canada",convenience,gas station,Iris - Queensway Terrance South,45.3421276,-75.7863083
+202,Circle K,"1545 Woodroffe Ave., NEPEAN, Canada",convenience,gas station,Tanglewood,45.3343192,-75.7517676
+203,Circle K,"2162 Prince Of Wales DR, NEPEAN, Canada",convenience,gas station,Hunt Club South Industrial,45.3333553,-75.7018235
+204,Circle K,"1856 Robertson RD, OTTAWA, Canada",convenience,gas station,Bells Corners East,45.3271403,-75.8197411
+205,Circle K,"299 Greenbank Rd., NEPEAN, Canada",convenience,gas station,Woodvale - Craig Henry - Manordale - Estates of Arlington Woods,45.3237882,-75.7773955
+206,Circle K,"418 Moodie Drive, NEPEAN, Canada",convenience,regular,Bells Corners West,45.3208341,-75.8331709
+207,Circle K,"715 Limoges Road, LIMOGES, Canada",convenience,gas station,(None),45.3184163,-75.2443258
+208,Circle K,"501 Terry Fox DR, KANATA, Canada",convenience,gas station,Kanata Lakes - Arcardia,45.3100283,-75.918045
+209,Circle K,"401 Hazeldean RD, KANATA, Canada",convenience,gas station,Katimavik - Hazeldean,45.3041528,-75.8776654
+210,Circle K,"44 Edgewater ST, KANATA, Canada",convenience,gas station,Katimavik - Hazeldean,45.2975093,-75.9009396
+211,Circle K,"62 Stonehaven, KANATA, Canada",convenience,regular,Bridlewood - Emerald Meadows,45.2923085,-75.8578066
+212,Circle K,"4184 Spratt Road, Unit 1, OTTAWA, Canada",convenience,regular,Riverside South - Leitrim,45.2831629,-75.6855826
+213,Circle K,"3580 Strandherd RD, OTTAWA, Canada",convenience,gas station,Old Barrhaven East,45.2746008,-75.7385337
+214,Circle K,"5525 Appleton Side Road, ALMONTE, Canada",convenience,gas station,(None),45.2367095,-76.1792507
+215,Circle K,"86 Bridge St., ALMONTE, Canada",convenience,regular,(None),45.2243153,-76.1950639
+216,Circle K,"6138 Perth Street, RICHMOND, Canada",convenience,regular,Richmond,45.1938724,-75.8389807
+217,Circle K,"324 COLEMAN ST, OTTAWA, US",convenience,gas station,(None),45.1395484,-76.1276438
+218,Circle K,"10483 HWY 7, CALETON PLACE, Canada",convenience,gas station,(None),45.1324077,-76.1211595
+219,Circle K,"542 St. Lawrence St., WINCHESTER, Canada",convenience,regular,(None),45.0905082,-75.3523885
+220,Cobs Bread,"3161 Strandherd Crossing, Ottawa, ON K2J 5N1",specialty,bakery,Chapman Mills,45.274029,-75.719344
+221,COBS Bread,"4-3890 Innes Road, Ottawa, ON K1W 1K9",specialty,bakery,Chapel Hill South,45.4535451,-75.5084902
+222,Continental Delicatessen,"57 York Street, Ottawa, ON K1N 9B7",grocery,small,Byward Market,45.4283345,-75.6927514
+223,Convenience Store Best Service,"2249 Carling Ave, Ottawa, ON K2B 7E9",convenience,regular,Carlingwood West - Glabar Park - McKellar Heights,45.3692691,-75.7744008
+224,Convenience Store Remac,"487 Cumberland Street, Ottawa, ON K1N 7K1",convenience,regular,Sandy Hill,45.4262919,-75.6859216
+225,Convinience Maximum,"11 Springfield Road, Ottawa, ON K1M 1C8",convenience,regular,Lindenlea - New Edinburgh,45.4402613,-75.6765958
+226,Corner Kitchen,"200 Kent Street, Ottawa, ON K2P 2J8",specialty,bakery,Centretown,45.41714,-75.7014594
+227,Costco,"1405 Blair Towers Place, Ottawa, ON",grocery,large,Beacon Hill South - Cardinal Heights,45.4349421,-75.6034548
+228,Costco,"1900 Cyrville Rd, K1B 1A5 Ottawa",grocery,large,East Industrial,45.4151698,-75.6033867
+229,Costco,"1849 Merivale Rd, K2G 1E3 Ottawa",grocery,large,Hunt Club South Industrial,45.3377624,-75.7224261
+230,Costco,"770 Silver Seven Rd, K2V 0A1 Kanata",grocery,large,Katimavik - Hazeldean,45.3026258,-75.9131164
+231,Costco,"4315 Strandherd Dr, K2J 6E5 Ottawa",grocery,large,Stonebridge - Half Moon Bay - Heart's Desire,45.2684597,-75.7843783
+232,Cote Poultry,"2770 Lancaster Road, Ottawa, ON",grocery,small,East Industrial,45.395577,-75.606277
+233,Couche-Tard,"175 Avenue LÃƒÂ©pine, Buckingham, CA",convenience,gas station,(None),45.5758929,-75.400335
+234,Country Style,"340 Laurier Ave W, Ottawa, ON K1P 5K3",convenience,regular,Centretown,45.4179829,-75.6998984
+235,County Line,"685 River Rd, Gloucester, ON K1V 2G2",grocery,small,Riverside South - Leitrim,45.2701673,-75.6978273
+236,County Line Arnprior,"150 Madawaska Boulevard, Arnprior, ON",convenience,regular,(None),45.43355,-76.3432962
+237,Crosswinds Convenience,"641 Bathgate Dr, Ottawa, ON K1K 3Y3",convenience,regular,Carson Grove - Carson Meadows,45.4465282,-75.6241498
+238,Cummings Convenience Store,"969 Cummings Ave, Gloucester, ON K1J 7R9",convenience,regular,Overbrook - McArthur,45.4320779,-75.6344962
+239,Cupcake Lounge,"6 Byward Market Square, Ottawa, ON K1N 9B8",specialty,bakery,Byward Market,45.4285137,-75.6937187
+240,D'Cake,"2054 Baffin Avenue, Ottawa, ON K1H 5X3",specialty,bakery,Billings Bridge - Alta Vista,45.3916697,-75.6530232
+241,DÃƒÂ©lice Royal,"1600 Forest Valley Drive, Ottawa, ON K1C 6X7",specialty,bakery,Chapel Hill North,45.4488546,-75.535982
+242,Daily Convenience,"1220 Merivale Rd, Ottawa, ON K1Z 8P2",convenience,regular,Civic Hospital-Central Park,45.3717162,-75.7335133
+243,Daisy Mart Beckers,"906 Shefford Road, Gloucester, ON K1J 6X4",convenience,regular,Rothwell Heights - Beacon Hill North,45.4523899,-75.5899417
+244,Damas Supermarket,"3033 Carling Avenue, Ottawa, ON",grocery,small,Bayshore - Belltown,45.3550822,-75.8063329
+245,Dao Bake & Sip Cafe,"1558 Merivale Road, Ottawa, ON K2G 3J9",specialty,bakery,Cityview - Crestview - Meadowlands,45.3528521,-75.7354312
+246,Darvesh Gas Grocery LCBO & Beer Store,"3084 Kinburn Side Road, Kinburn, ON K0A 2H0",convenience,gas station,Kinburn,45.391489,-76.1885617
+247,Deli Du Marche,"425 La Verendrye Blvd E, Gatineau, QC J8R 2W8",specialty,deli meat cheese,(None),45.5019607,-75.641189
+248,Deli Du Marche,"320 Saint-Joseph Blvd, Gatineau, QC J8Y 3Y8",specialty,deli meat cheese,(None),45.4414769,-75.7319311
+249,Deli Express,"177 Saint-Joseph Blvd, Gatineau, QC J8Y 3X1",specialty,deli meat cheese,(None),45.4328434,-75.7333682
+250,Deli Kat Cafe,"277 Sparks St, Ottawa, ON K1R 7X9",specialty,deli meat cheese,Centretown,45.4202413,-75.7037713
+251,Deli Nicolas,"1100 Maloney Blvd W, Gatineau, QC J8T 6G3",specialty,deli meat cheese,(None),45.4756531,-75.6972849
+252,Delightful Tastes,"8-250 Greenbank Road, Ottawa, ON K2H 1E9",specialty,bakery,Briar Green - Leslie Park,45.3402934,-75.7880089
+253,Delightfully Delicious Desserts,"1355 Bakker Court, Ottawa, ON K1C 2K5",specialty,bakery,Convent Glen - Orléans Woods,45.4657273,-75.539795
+254,DEPANNEUR 9 NEUF,"9 RUE THERIEN, GATINEAU, QC",convenience,regular,(None),45.4540293,-75.7520168
+255,DEPANNEUR AMIGOS ENRG,"296 BOUL MALONEY E, GATINEAU, QC",convenience,regular,(None),45.4842112,-75.6449367
+256,Depanneur Miron,"723 Notre Dame Rue, Embrun, ON K0A 1W1",convenience,regular,(None),45.2700628,-75.2933863
+257,DEPANNEUR TACHE,"376 BOUL ALEXANDRE TACHE, GATINEAU, QC",convenience,regular,(None),45.4218749,-75.7459196
+258,Desh Grocery,"103 Mann Ave, Ottawa, ON K1N 5Y8",convenience,regular,Sandy Hill,45.4211628,-75.6724142
+259,Desi Food Market Orleans,"2580 St Joseph Blvd, Orleans, ON K1C 1G3",grocery,small,Orléans Village - Chateauneuf,45.4706222,-75.5251418
+260,Desi Price Club,"1950 Merivale Rd Unit-13, Nepean, ON K2G 5T5",grocery,small,Merivale Gardens - Grenfell Glen - Pineglen - Country Place,45.326052,-75.7198339
+261,Di Rienzo's,"111 Beech Street, Ottawa, ON K1S 4P1",convenience,regular,West Centretown,45.4000201,-75.7120537
+262,Discount Tobacco & Grocery Shop,"5646 Manotick Main Street, Manotick, ON K4M 1B3",convenience,regular,Manotick,45.2201635,-75.6768404
+263,Divisoria Market,"1743 Carling Avenue, Ottawa, ON",grocery,small,Laurentian,45.3782045,-75.752689
+264,Dollar Tree,"2756 Chamberland Street Unit 2, Rockland Plaza, Rockland, ON, K4K 0B2",convenience,regular,(None),45.5441947,-75.3027572
+265,Dollar Tree,"Unit 8 - 3722 Innes Road, Riocan Center, Orleans, ON, K1W 0C8",convenience,regular,Chapel Hill South,45.4496516,-75.5170968
+266,Dollar Tree,"Unit 2 -1021 Cyrville Rd, Riocan St Laurent Shopping Center, Ottawa, ON, K1J 7S3",convenience,regular,Overbrook - McArthur,45.4265482,-75.6371528
+267,Dollar Tree,"1750 Innes Road, Silver City Center, Ottawa, ON, K1B 3K5",convenience,regular,East Industrial,45.4162282,-75.6005309
+268,Dollar Tree,"1460 Merivale Rd, Loblaws Plaza, Nepean, ON, K2E 5P2",convenience,regular,Skyline - Fisher Heights,45.361929,-75.7353509
+269,Dollar Tree,"Unit 2  2950 Bank Street, Blossom Pk Plaza, Ottawa (Gloucester), ON, K1T 1N8",convenience,regular,Hunt Club Upper -Blossom Park - Timbermill,45.344538,-75.622643
+270,Dollar Tree,"525 West Hunt Club Road, Nepean Crossroads Center, Nepean, ON, K2G 5W5",convenience,regular,Tanglewood,45.3351046,-75.727479399999993
+271,Dollar Tree,"#1-5703 Hazeldean Rd., Shoppes at Fairwinds, Stittsville, ON, K2S 0P6",convenience,regular,Stittsville,45.2854021,-75.9131451
+272,Dollar Tree,"25 Landsdowne Avenue, Carleton Place Mews, Carleton Place, ON, K7C 3S9",convenience,regular,(None),45.1363362,-76.1406411
+273,Dollar Tree,"2970 County Rd 43, Kemptville Crossing, Kemptville, ON, K0G 1J0",convenience,regular,(None),45.0288613,-75.6363201
+274,Dollarama,"425 boul St-Joseph, Gatineau, QC, J8Y3Z8",convenience,regular,(None),45.4456609,-75.7340534
+275,Dollarama,"594 Montreal Rd, Ottawa, ON, K1K0T9",convenience,regular,Overbrook - McArthur,45.4414064,-75.6442188
+276,Dollarama,"1980 Ogilvie Rd, Gloucester, ON, K1J9L3",convenience,regular,Carson Grove - Carson Meadows,45.4325275,-75.6098258
+277,Dollarama,"2640 Innes Rd, Ottawa, ON, K1B4Z5",convenience,regular,Blackburn Hamlet,45.4313633,-75.5623379
+278,Dollarama,"1239 Donald St, Ottawa, ON, K1J8W3",convenience,regular,Overbrook - McArthur,45.4295001,-75.6398084
+279,Dollarama,"305 Rideau St, Ottawa, ON, K1N 9E5",convenience,regular,Lowertown,45.429285,-75.6855887
+280,Dollarama,"183 Rideau St, Ottawa, ON, K1N5X8",convenience,regular,Byward Market,45.4275353,-75.6891985
+281,Dollarama,"1200 St Laurent Blvd, Ottawa, ON, K1K3B8",convenience,regular,Overbrook - McArthur,45.4219466,-75.6387057
+282,Dollarama,"255 Elgin St, Ottawa, ON, K2P 1L8",convenience,regular,Centretown,45.4183701,-75.6906583
+283,Dollarama,"500 Terminal Ave., Ottawa, ON, K1G0Z3",convenience,regular,East Industrial,45.4144745,-75.6471402
+284,Dollarama,"1050 Somerset St W, Ottawa, ON, K1Y3C5",convenience,regular,Hintonburg - Mechanicsville,45.4065044,-75.7195173
+285,Dollarama,"1910 St. Laurent Blvd, Ottawa, ON, K1G 1A4",convenience,regular,Elmvale - Canterbury,45.3990561,-75.6239131
+286,Dollarama,"2277 Riverside Dr, Ottawa, ON, K1H 7X6",convenience,regular,Billings Bridge - Alta Vista,45.3856281,-75.6774777
+287,Dollarama,"1670 Heron Rd, Ottawa, ON, K1V0C2",convenience,regular,Ledbury - Heron Gate - Ridgemont,45.379825,-75.644557
+288,Dollarama,"2121 Carling Ave., Ottawa, ON, K2A 1H2",convenience,regular,Laurentian,45.3731497,-75.7686794
+289,Dollarama,"2679 Alta Vista Dr, Ottawa, ON, K1V7T5",convenience,regular,Ledbury - Heron Gate - Ridgemont,45.372543,-75.6631
+290,Dollarama,"2515 Bank St, Ottawa, ON, K1V0Y4",convenience,regular,South Keys - Greenboro West,45.3544223,-75.6451719
+291,Dollarama,"1009 Daze St, Ottawa, ON, K1V 2G3",convenience,regular,South Keys - Greenboro West,45.3538452,-75.6517844
+292,Dollarama,"1363 Woodroffe Ave, Nepean, ON, K2G 1V7",convenience,regular,Cityview - Crestview - Meadowlands,45.3508168,-75.7584962
+293,Dollarama,"1651 Merivale Rd, Nepean, ON, K2G3K2",convenience,regular,Borden Farm - Fisher Glen,45.3502756,-75.7312492
+294,Dollarama,"565 West Hunt Club Rd, Nepean, ON, K2G 5W5",convenience,regular,Tanglewood,45.3358623,-75.7285727
+295,Dollarama,"228 Hunt Club Rd, Ottawa, ON, K1V1C1",convenience,regular,Hunt Club - Ottawa Airport,45.3335674,-75.6913084
+296,DollyDoll Cupcake Co,"2333 Church St., North Gower, ON K0A 2T0",specialty,bakery,North Gower - Kars,45.1306724,-75.7161944
+297,Domestic Foods,"595 Gladstone Ave, Ottawa, ON K1R 5P2",grocery,small,Centretown,45.4092318,-75.7010511
+298,Donna's Friendly Store,"157 Cathcart St, Ottawa, ON K1N 5C1",grocery,small,Byward Market,45.4336358,-75.695023
+299,Drip House,"340B Parkdale Avenue, Ottawa, ON K1Y 2W5",specialty,bakery,Hintonburg - Mechanicsville,45.4023214,-75.7307914
+300,Drummond's Gas,"635 Bronson Ave, Ottawa, ON K1S 4E7",convenience,gas station,Glebe - Dows Lake,45.4036335,-75.7009458
+301,Drummond's Gas,"1925 Merivale Road, Nepean, ON K2G 1E7",convenience,gas station,Hunt Club South Industrial,45.3296415,-75.7205072
+302,Drummond's Gas,"5501 Bank Street, Gloucester, ON K1X 1G9",convenience,gas station,Edwards - Carlsbad Springs,45.2814668,-75.5707625
+303,Drummond's Gas,"5220 Mitch Owens Road, Manotick, ON K4M 1B2",convenience,gas station,Manotick,45.233935,-75.675158
+304,Drummond's Gas,"5789 Perth, Richmond, ON K0A 2Z0",convenience,gas station,Richmond,45.2046343,-75.8233229
+305,Druxy's Famous Deli Sandwiches,"100 Metcalfe St, Ottawa, ON K1P 5M1",specialty,deli meat cheese,Centretown,45.4207709,-75.6958446
+306,Dumouchel Meat & Deli,"351 Donald St, Ottawa, ON K1K 1M4",specialty,deli meat cheese,Overbrook - McArthur,45.4281847,-75.6530505
+307,Dunn's Famous Deli,"355 Dalhousie Street, Ottawa, ON",specialty,deli meat cheese,Byward Market,45.4281632,-75.6902091
+308,Dunn's Famous Deli,"203 Queen St, Ottawa, ON K1P 5C9",specialty,deli meat cheese,Centretown,45.4208664,-75.7005441
+309,Durocher Market,"200 Durocher Street, Vanier, ON K1L 7S4",convenience,regular,Vanier North,45.4364772,-75.6664526
+310,Dutch Groceries and Giftware,"1400 Clyde Avenue, Ottawa, ON",grocery,small,Cityview - Crestview - Meadowlands,45.3583259,-75.7389182
+311,Dynes Express,"890 Dynes Rd, Ottawa, ON K2C 0G8",convenience,regular,Carleton Heights - Rideauview,45.3699579,-75.7046893
+312,Eating Well Ottawa,"1169 Parisien Street, Ottawa, ON",grocery,small,East Industrial,45.4201195,-75.6273123
+313,Econo-Medical,"3234 Hawthorne Road, Ottawa, ON K1G 3W9",specialty,health store,East Industrial,45.3817889,-75.6017695
+314,Eden 2,"1869 walkley Road, Ottawa, ON K1H 6X9",specialty,health store,Playfair Park - Lynda Park - Guildwood Estates,45.3821101,-75.6353459
+315,Edgar,"60 Rue BÃƒÂ©gin, Gatineau, QC J9A 1E2",specialty,bakery,(None),45.4208108,-75.7452017
+316,Encore Deli-cious Sandwiches,"58 Antares Dr, Ottawa, ON K2E 7W6",specialty,deli meat cheese,Hunt Club South Industrial,45.3303677,-75.7098027
+317,Epicerie Jocelyn Claire Fournier,"29 Rue Morin, Ottawa, ON",grocery,small,(None),45.4293178,-75.7249381
+318,Epicuria,"357 St Laurent Boulevard, Ottawa, ON K1K 2Z7",specialty,bakery,Manor Park,45.448773,-75.6506923
+319,ESSO CIRCLE K,"3869 INNES RD, ORLEANS, ON",convenience,gas station,Orléans Village - Chateauneuf,45.4531593,-75.5120415
+320,ESSO CIRCLE K,"120 MONTREAL RD, VANIER, ON",convenience,gas station,Vanier South,45.4340001,-75.6660956
+321,ESSO CIRCLE K,"450 BANK ST, OTTAWA, ON",convenience,gas station,Centretown,45.4118113,-75.6937908
+322,ESSO COUCHE-TARD,"101 RUE GEORGES, GATINEAU, QC",convenience,gas station,(None),45.5540846,-75.4363994
+323,ESSO COUCHE-TARD,"1225 RUE DE NEUVILLE, GATINEAU, QC",convenience,gas station,(None),45.5310494,-75.4960703
+324,ESSO COUCHE-TARD,"348 BOUL LORRAIN, GATINEAU, QC",convenience,gas station,(None),45.5069413,-75.6089149
+325,ESSO COUCHE-TARD,"882 BOUL ST-RENE O, GATINEAU, QC",convenience,gas station,(None),45.4892103,-75.6893638
+326,ESSO COUCHE-TARD,"725 BOUL DES HAUTES-PLAINES, GATINEAU, QC",convenience,gas station,(None),45.474538,-75.7719339
+327,ESSO COUCHE-TARD,"480 BOUL SAINT-JOSEPH, GATINEAU, QC",convenience,gas station,(None),45.4464211,-75.7323619
+328,ESSO COUCHE-TARD,"51 BOUL FOURNIER, GATINEAU, QC",convenience,gas station,(None),45.4463463,-75.7130504
+329,ESSO COUCHE-TARD,"585 BOUL DES GRIVES, GATINEAU, QC",convenience,gas station,(None),45.4435358,-75.7859961
+330,Europa Food Centre,"77 Beechwood Ave, Ottawa, ON",grocery,small,Lindenlea - New Edinburgh,45.4406892,-75.6747722
+331,European Delicatessen,"1568 Merivale Road, Ottawa, ON",grocery,small,Cityview - Crestview - Meadowlands,45.3516443,-75.7347403
+332,Extreme Pita,"1125 Colonel By Dr, Ottawa, ON K1S 5B6",specialty,deli meat cheese,Carleton University,45.3874831,-75.6959835
+333,Fairway Trading Co,"9 Byward Market Square, Ottawa, ON K1N 9B8",grocery,small,Byward Market,45.4284911,-75.6933351
+334,Farhat's Bakery,"1119 Meadowlands Drive, Ottawa, ON K2C 0K5",specialty,bakery,Parkwood Hills - Stewart Farm,45.3629646,-75.7121133
+335,farm 2 fork,"3150 Hawthorne Rd, Ottawa, ON K1G 5H5",grocery,small,East Industrial,45.385374,-75.6043151
+336,Farm Boy,"3035 St. Joseph Boulevard, Ottawa, ON K1E 1E1",grocery,large,Convent Glen - Orléans Woods,45.4776536,-75.5132978
+337,Farm Boy,"2030 Tenth Line Road, Ottawa, ON K4A 4X4",grocery,large,Portobello South,45.4584073,-75.4877257
+338,Farm Boy,"50 Rideau Street, Ottawa, ON K1N 9J7",grocery,large,Sandy Hill,45.4252795,-75.6929819
+339,Farm Boy,"193 Metcalfe Street, Ottawa, ON K2P 0S5",grocery,large,Centretown,45.4187946,-75.6929885
+340,Farm Boy,"830 Belfast Rd, Ottawa, ON K1G 0Z4",grocery,large,East Industrial,45.412515,-75.6380428
+341,Farm Boy,"317 McRae Avenue, Ottawa, ON K1Z 8P4",grocery,large,Westboro,45.3960489,-75.7498115
+342,Farm Boy,"1500 Bank St., Ottawa, ON, K1H 7Z1",grocery,large,Billings Bridge - Alta Vista,45.3809813,-75.6701018
+343,Farm Boy,"1642 Merivale Road, Ottawa, ON K2G 4A1",specialty,deli meat cheese,Cityview - Crestview - Meadowlands,45.3455841,-75.732034
+344,Farm Boy,"2950 Bank Street, Ottawa ON K1T 1N8",grocery,large,Hunt Club Upper -Blossom Park - Timbermill,45.344538,-75.622643
+345,Farm Boy,"499 Terry Fox Drive, Ottawa, ON K2T 1H7",grocery,large,Kanata Lakes - Arcardia,45.3108116,-75.9199686
+346,Farm Boy,"457 Hazeldean Road, Ottawa, ON K2L 1V1",grocery,large,Katimavik - Hazeldean,45.3001758,-75.8857221
+347,Farm Boy,"3033 Woodroffe Avenue, Ottawa, ON K2G 6H2",grocery,large,Rideau Crest - Davidson Heights,45.2881771,-75.7251596
+348,Farm Boy,"1250 Stittsville Main St., Ottawa, ON, K2S 1S9",grocery,large,Stittsville,45.2683251,-75.9311153
+349,Farm Boy,"1495 Richmond Road, Ottawa, ON, K2B 6R9",grocery,large,Britannia Village,45.362791,-75.7912934
+350,Farm Boy,"1642 Merivale Road, Ottawa, ON K2G 4A1",grocery,large,Cityview - Crestview - Meadowlands,45.3455841,-75.732034
+351,Farm Boy,"585 Montreal Road, Ottawa, ON K1K 4K3",grocery,large,Manor Park,45.4426297,-75.6443967
+352,Farm House,"55 Byward Market Sq, Ottawa, ON K1N 9C3",specialty,bakery,Byward Market,45.427449,-75.6923646
+353,Farmer's Pick,"1430 Prince of Wales Drive, Ottawa, ON",grocery,small,Carleton Heights - Rideauview,45.3685302,-75.7027863
+354,Fas Gas & Crystal Wash,"1111 Ogilvie Road, Ottawa, ON K1J 7P7",convenience,gas station,Overbrook - McArthur,45.426329,-75.6323658
+355,FidÃƒÂ©lice,"262 Saint-Joseph Blvd, Gatineau, QC J8Y 3X8",specialty,bakery,(None),45.4372481,-75.7326373
+356,Fiesta Manila bakery and Filipino Store,"1800 Bank St, Ottawa, ON K1V 0W3",grocery,small,Billings Bridge - Alta Vista,45.3715892,-75.6643203
+357,Firehouse Subs,"3838 Innes Rd, Ottawa, ON K1W 1K9",specialty,deli meat cheese,Chapel Hill South,45.4522275,-75.5126743
+358,Firehouse Subs,"2014 Ogilvie Rd., Gloucester, ON K1J 7N9",specialty,deli meat cheese,Beacon Hill South - Cardinal Heights,45.4369307,-75.6037275
+359,Firehouse Subs,"280 West Hunt Club Rd, Nepean, ON K2E 0B7",specialty,deli meat cheese,Hunt Club South Industrial,45.3395459,-75.711934
+360,Firehouse Subs,"41 Marketplace Ave, Nepean, ON K2J 5G4",specialty,deli meat cheese,Chapman Mills,45.2690589,-75.7442837
+361,Fitness Warehouse,"2095 St Joseph Blvd, Orleans, ON K1C 1E7",specialty,health store,Convent Glen - Orléans Woods,45.4666127,-75.5357775
+362,Food Africana Shop,"1848 Carling Ave, Ottawa, ON K2A 2P5",grocery,small,Carlingwood West - Glabar Park - McKellar Heights,45.3758925,-75.7565765
+363,FOOD BASICS,9030 County Road 17 Rockland K4K 1V5,grocery,large,(None),45.5481786,-75.301749
+364,FOOD BASICS,3712 Innes Road Orleans K1W 0C8,grocery,large,Chapel Hill South,45.4501454,-75.5174796
+365,FOOD BASICS,"1021 Cyrville Road, Unit 1 Ottawa K1J 7S3",grocery,large,Overbrook - McArthur,45.4257875,-75.6359037
+366,FOOD BASICS,667 Kirkwood Avenue Ottawa K1Z 8N7,grocery,large,Westboro,45.3852151,-75.7406076
+367,FOOD BASICS,1670 Heron Road Ottawa K1V 0C2,grocery,large,Ledbury - Heron Gate - Ridgemont,45.379825,-75.644557
+368,FOOD BASICS,"1465 Merivale Road, Unit 13 Ottawa K2E 5N9",grocery,large,Skyline - Fisher Heights,45.3609612,-75.7340239
+369,FOOD BASICS,150 Katimavik Road Kanata K2L 2N2,grocery,large,Katimavik - Hazeldean,45.3124188,-75.8958402
+370,FOOD BASICS,5703 Hazeldean Road Stittsville K2S 0P6,grocery,large,Stittsville,45.2852452,-75.9135878
+371,FOOD BASICS,900 Greenbank Road Ottawa K2J 1S8,grocery,large,Old Barrhaven West,45.2847264,-75.7564617
+372,FOOD BASICS,"2615 Highway #43, R.R. #5 Kemptville K0G 1J0",grocery,large,(None),45.0199425,-75.65949
+373,Food Frenz,"275 Laurier Ave. E, Ottawa, ON K1N 6P7",grocery,large,Sandy Hill,45.4266821,-75.6800434
+374,Food Frenz,"2910 Carling Avenue, Ottawa, ON K2B 7J7",convenience,regular,Whitehaven - Queensway Terrace North,45.3566719,-75.8006858
+375,FOODLAND,"1349 Meadow Drive, Greely, on, K4P 1N3",grocery,large,Greely,45.2657496,-75.5632462
+376,FOODLAND,"101-6045 Bank Street, Greely, on, K4P 0G5",grocery,large,Greely,45.2633793,-75.5549986
+377,FOODLAND,"148 Craig Street, Russell, on, K4R 1A1",grocery,large,(None),45.2570873,-75.3722076
+378,FOODLAND,"5669 Main Street, Osgoode, on, K0A 2W0",grocery,large,Osgoode - Vernon,45.1486903,-75.6009866
+379,FOODLAND,"12015 Main Street West, Winchester, on, K0C 2K0",grocery,large,(None),45.0875094,-75.3722924
+380,Forever Living Products,"58 Promenade Ave, Nepean, ON K2E 5X8",specialty,health store,Merivale Gardens - Grenfell Glen - Pineglen - Country Place,45.3276785,-75.7039663
+381,Foster Family Farm,"2345 Roger Stevens Dr, North Gower, ON K0A 2T0",grocery,small,North Gower - Kars,45.1312747,-75.7178534
+382,Frank's Catering & Baked Goods,"283 Greenbank Road, Ottawa, ON",specialty,bakery,Woodvale - Craig Henry - Manordale - Estates of Arlington Woods,45.3242692,-75.7776888
+383,Frankie's Deli,"58 Antares Drive, Ottawa, ON K2E 7W6",specialty,deli meat cheese,Hunt Club South Industrial,45.3303677,-75.7098027
+384,Franktown Grocery Gas and Pizza,"9645 Highway 15, Smiths Falls, ON K7A 4S7",convenience,gas station,(None),45.0388419,-76.0594753
+385,Free Range Meat & Deli,"194 Robertson Rd, Ottawa, ON K2H 9J5",specialty,deli meat cheese,Bells Corners West,45.3176435,-75.843842
+386,Fresh Grocer,"40 Jolliet Av, Vanier, ON K1L 5H5",grocery,small,Vanier North,45.4431425,-75.6687168
+387,Fresh Start Foods Inc,"2072 Walkley Rd, Ottawa, ON K1G 3V3",grocery,small,East Industrial,45.3847588,-75.6258196
+388,FRESHCO,"320 McArthur Avenue, Ottawa, on, K1L 5G2",grocery,large,Overbrook - McArthur,45.4302588,-75.653843
+389,FRESHCO,"1595 Merivale Road, Unit # 5, Ottawa, on, K2G 3J4",grocery,large,Skyline - Fisher Heights,45.3524148,-75.7327639
+390,FRESHCO,"2150 Robertson Road, Nepean, on, K2H 9S1",grocery,large,Bells Corners West,45.3194282,-75.8366715
+391,FRESHCO,"4750 Bank Street, Ottawa, on, K1J 0K8",grocery,large,Findlay Creek,45.3191181,-75.5957883
+392,FRESHCO,"2480 Strandherd Dr., Building A, Ottawa, on, K2G 4S4",grocery,large,Rideau Crest - Davidson Heights,45.2738887,-75.7100224
+393,FRESHCO,"110 Lansdowne Avenue, Carleton Place, on, K7C 2T7",grocery,large,(None),45.1340916,-76.1395226
+394,Fruits Express,"5310 Canotek Road, Ottawa, ON",grocery,small,Rothwell Heights - Beacon Hill North,45.4520762,-75.5875447
+395,GÃƒÂ¢teaux Gourmands 3D,"865 Maloney E, Gatineau, QC J8P 1H3",specialty,bakery,(None),45.4870022,-75.6042904
+396,Gagne en SantÃƒÂ©,"224 Rue Bellehumeur, Gatineau, QC J8T 8N6",specialty,health store,(None),45.4800691,-75.6933375
+397,Gateway Newstand,"50 Rideau St, Ottawa, ON K1N 9J1",convenience,regular,Sandy Hill,45.4250234,-75.6909652
+398,Gateway Newstand,"90 Sparks Street, Ottawa, ON K1P 5B4",convenience,regular,Centretown,45.4226531,-75.6964906
+399,Gateway Newstand,"99 Metcalfe St, Ottawa, ON K1P 6L7",grocery,large,Centretown,45.4208809,-75.6952365
+400,Gateway Newstand Blair Bus Terminal,"1980 Ogilvie Road, Gloucester, ON K1J 9L3",convenience,regular,Carson Grove - Carson Meadows,45.4325275,-75.6098258
+401,GB Carribean Grocery,"609-A Center St, Ottawa, ON K1K 2N8",grocery,small,Overbrook - McArthur,45.4418747,-75.6427476
+402,Geeland,"1020 St. Laurent Blvd, Ottawa, ON K1K 4S2",grocery,small,Overbrook - McArthur,45.4277621,-75.6398977
+403,Geeland International Grocery,"1620 Walkley Road, Ottawa, ON",grocery,small,Ledbury - Heron Gate - Ridgemont,45.3773624,-75.6450154
+404,Geenie Bakery,"209 Glen Park Drive, Ottawa, ON K1B 5B8",specialty,bakery,Blackburn Hamlet,45.4309451,-75.5646104
+405,General Nutrition,"110 Place D'orleans Dr, Orleans, ON K1C 2L9",specialty,health store,Convent Glen - Orléans Woods,45.4781702,-75.5155571
+406,General Nutrition,"400 Earl Grey Drive, Kanata, ON K2T 1B9",specialty,health store,Kanata Lakes - Arcardia,45.3114428,-75.9142711
+407,General Nutrition Centre,"1200 St Laurent Blvd, Ottawa, ON K1K 3B8",specialty,health store,Overbrook - McArthur,45.4219466,-75.6387057
+408,General Nutrition Centre,"160 Bank St, Ottawa, ON K1P 5N8",specialty,health store,Centretown,45.4187593,-75.699408
+409,George's Meat Shop,"3681 Innes Road, Ottawa, ON K1C 1T1",specialty,bakery,Orléans Village - Chateauneuf,45.4502459,-75.5189877
+410,Giant Tiger,"385, avenue de Buckingham, Buckingham, QC, J8L 2G8",convenience,regular,(None),45.5898658,-75.4179833
+411,Giant Tiger,"1657 Laurier Street PO Box 719, Rockland, ON, K4K 1L4",convenience,regular,(None),45.5490373,-75.2899322
+412,Giant Tiger,"715, boul. Maloney Est, Gatineau, QC, J8P 1G3",convenience,regular,(None),45.4841844,-75.6236107
+413,Giant Tiger,"900 Watters Road, OrlÃƒÂ©ans, ON, K4A 0B4",convenience,regular,Cardinal Creek,45.4820643,-75.4734004
+414,Giant Tiger,"2396 St.Joseph Blvd., Orleans, ON, K1C 1G1",convenience,regular,Orléans Village - Chateauneuf,45.4684687,-75.5286254
+415,Giant Tiger,"55,  boul. GrÃƒÂ©ber, Gatineau, QC, J8T 3P7",convenience,regular,(None),45.4625432,-75.6994492
+416,Giant Tiger,"80 Elgin Street West, Arnprior, ON, K7S 1N5",convenience,regular,(None),45.4339729,-76.3560647
+417,Giant Tiger,"144, rue Papineau, Gatineau, QC",convenience,regular,(None),45.4305529,-75.7182779
+418,Giant Tiger,"1021 St. Laurent Boulevard, Ottawa, ON, K1K 3B1",convenience,regular,Overbrook - McArthur,45.4284564,-75.6379081
+419,Giant Tiger,"98 George Street, Ottawa, ON, K1N 5W2",convenience,regular,Byward Market,45.427402,-75.6905046
+420,Giant Tiger,"1085 Wellington Street West, Ottawa, ON, K1Y 2Y4",convenience,regular,Hintonburg - Mechanicsville,45.4032036,-75.7255198
+421,Giant Tiger,"210, chemin Aylmer, Gatineau (Aylmer), QC, J9H 1A2",convenience,regular,(None),45.3947103,-75.8331176
+422,Giant Tiger,"2480 Walkley Road, Ottawa, ON, K1G 6A9",convenience,regular,East Industrial,45.3902453,-75.6101515
+423,Giant Tiger,"1512 Merivale Road, Ottawa, ON, K2G 3J6",convenience,regular,Cityview - Crestview - Meadowlands,45.3567334,-75.7378655
+424,Giant Tiger,"2950 Bank Street, Blossom Park, ON, K1T 1N8",convenience,regular,Hunt Club Upper -Blossom Park - Timbermill,45.344538,-75.622643
+425,Giant Tiger,"1861 Robertson Road, Ottawa, ON, K2H 9N5",convenience,regular,Bells Corners East,45.3280758,-75.8210352
+426,Giant Tiger,"6081 Hazeldean Road, Stittsville, ON, K2S 1B8",convenience,regular,Stittsville,45.2724542,-75.9329283
+427,Giant Tiger,"654 Notre Dame Street, Embrun, ON, K0A 1W0",convenience,regular,(None),45.2679279,-75.3096731
+428,Giant Tiger,"1168 Maple Street, Manotick, ON, K4M 1A5",convenience,regular,Manotick,45.2242374,-75.6859436
+429,Giant Tiger,"320 Coleman Street, Carleton Place, ON, K7C 0B5",convenience,regular,(None),45.1400487,-76.1286808
+430,Giant Tiger,"2970 County Road 43, Kemptville, ON, K0G 1J0",convenience,regular,(None),45.0286904,-75.6366503
+431,Gigi's Market Lalanne Multi-services,"23 Montreal Rd, Vanier, ON K1L 6E8",grocery,small,Vanier North,45.4333303,-75.6690121
+432,Glebe Meat Market,"869 Bank St., Ottawa ON K1S3W4",grocery,small,Glebe - Dows Lake,45.400959,-75.6869613
+433,Glitz Cupcakes Company,"11 Murray Street, Ottawa, ON K1N 9M5",specialty,bakery,Byward Market,45.429079,-75.6956117
+434,Gloucester Fine Foods,"303-1228 Old Innes Rd, Ottawa, ON K1B 3V3",grocery,small,East Industrial,45.410138,-75.617999
+435,Golden Baguette Bakery,"242 Bank Street, Ottawa, ON K2P 1X4",specialty,bakery,Centretown,45.416355,-75.6974384
+436,GOODIES,"103 Fourth Avenue, Ottawa, ON K1S 2L1",specialty,bakery,Glebe - Dows Lake,45.402666,-75.6875304
+437,Grace in the Kitchen,"442 Hazeldean Rd, Ottawa, ON K2L 1V2",grocery,small,Glen Cairn - Kanata South Business Park,45.2995219,-75.885129
+438,Grant Crossing,"5537 Hazeldean Road, Stittsville, ON K2L",specialty,health store,Stittsville,45.2883048,-75.904716
+439,Greely Convenience Store,"1341 Meadow Dr, Greely, ON K4P 1N3",grocery,small,Greely,45.265382,-75.562133
+440,Green Fresh Supermarket,"29 Selkirk Street, Ottawa, ON",grocery,small,Vanier South,45.4321785,-75.6681141
+441,Greenbank Foods,"806 Greenbank Rd, Ottawa, ON",grocery,small,Old Barrhaven West,45.2870325,-75.756814
+442,Grill Master Restaurant & Catering,"30 Colonnade Rd, Ottawa, ON K2E 7J6",specialty,deli meat cheese,Hunt Club South Industrial,45.3428914,-75.7195024
+443,Grocery G3,"399b Dalhousie Street, Ottawa, ON",grocery,small,Sandy Hill,45.4269988,-75.6893633
+444,H & A Energy Bar,"850 Industrial Ave, Ottawa, ON K1G 4K2",specialty,health store,East Industrial,45.4065214,-75.6324418
+445,Hadalyna Bakery,"117 Rue Front, Gatineau, QC J9H 5S9",specialty,bakery,(None),45.404186,-75.8554512
+446,Hanna's Bakery Pita Perfect,"1228 Old Innes Rd Unit 312, Ottawa, ON K1B 3V3",specialty,bakery,East Industrial,45.4098512,-75.6178268
+447,Happy Goat Coffee Company,"35 Laurel Street, Ottawa, ON K1Y 2E6",specialty,bakery,Hintonburg - Mechanicsville,45.4052342,-75.7172898
+448,Harry Deli,"320 Queen Street, Ottawa, ON K1R 5A3",specialty,deli meat cheese,Centretown,45.4190809,-75.7034734
+449,Hasi Bakery,"250 Greenbank Road, Ottawa, ON K2H 8X4",specialty,bakery,Trend-Arlington,45.3244028,-75.7795626
+450,Hasty Market,"596 Rideau St, Ottawa, ON K1N 6A2",grocery,large,Sandy Hill,45.4329124,-75.6754193
+451,Hasty Market,"1565 Alta Vista Drive, Ottawa, ON",grocery,large,Riverview,45.4086185,-75.6573288
+452,Hasty Market,"1224 Wellington St W, Ottawa, ON K1Y 3A1",grocery,large,Hintonburg - Mechanicsville,45.3997284,-75.7312123
+453,Hasty Market,"1234 Merivale Rd, Ottawa, ON K2C 4C3",convenience,regular,Civic Hospital-Central Park,45.3705594,-75.7332882
+454,Hasty Market,"2361 Carling Avenue, Ottawa, ON K2B 8E5",convenience,regular,Carlingwood West - Glabar Park - McKellar Heights,45.367192,-75.7790651
+455,Hasty Market,"1896 Prince Of Wales Drive, Ottawa, ON K2C 3W9",convenience,regular,Carleton Heights - Rideauview,45.3538415,-75.7048504
+456,HAWTHORNE ESSO,"3500 HAWTHORNE RD, OTTAWA, ON",convenience,gas station,Hunt Club Park,45.3741719,-75.597868
+457,Health Keg,"53 Broadway Ave, Ottawa, ON K1S 2V4",specialty,health store,Glebe - Dows Lake,45.3965781,-75.6907086
+458,Health Sciences Book Store,"501 Smyth Rd, Ottawa, ON K1H 8L6",specialty,health store,Riverview,45.4028386,-75.6481867
+459,Healthy Planet Kanata,"400 Earl Grey Dr, Ottawa, ON",specialty,health store,Kanata Lakes - Arcardia,45.3114428,-75.9142711
+460,Healthy Planet Trainyards,"590 Industrial Avenue, Ottawa, ON",specialty,health store,East Industrial,45.4107468,-75.6425309
+461,Herb & Spice Shop,"375 Bank Street, Ottawa, ON",grocery,large,Centretown,45.4139145,-75.6948505
+462,Herb & Spice Shop,"1310 Wellington St, Ottawa, ON K1Y 3B2",grocery,large,Island Park - Wellington Village,45.3984898,-75.7365031
+463,Hobbs Meats and Bakery,"2394 Dwyer Hill Road, Ottawa, ON",specialty,bakery,Munster - Ashton,45.1605236,-75.9883083
+464,Hogan's Food Store,"315 Powell Ave, Ottawa, ON K1S 2A6",grocery,small,Glebe - Dows Lake,45.4021862,-75.7017407
+465,Holistic Health Shop,"2211 Riverside Dr, Ottawa, ON K1H 7X5",specialty,health store,Billings Bridge - Alta Vista,45.3882199,-75.6777893
+466,Honey,"1564 Stittsville Main St, Stittsville, ON K2S 1P1",specialty,bakery,Stittsville,45.2562575,-75.9190103
+467,Hung Phat Grocery,"139 Rochester St, Ottawa, ON K1R 7M2",grocery,small,West Centretown,45.4088823,-75.7117215
+468,HUNTMAR,"225 HUNTMAR DR, KANATA, ON",convenience,regular,Stittsville,45.2942842,-75.9276597
+469,Hyperforme Nutrition,"178 Boulevard GrÃƒÂ©ber, Gatineau, QC J8T 6Z6",specialty,health store,(None),45.471695,-75.701866
+470,I Deal Coffee,"176 Dalhousie Street, Ottawa, ON K1N 7C6",specialty,bakery,Byward Market,45.432541,-75.6944843
+471,Ichiban Bakery,"825 Bank Street, Ottawa, ON K1S 3V9",specialty,bakery,Glebe - Dows Lake,45.4022073,-75.687772
+472,Ichiban Bakery,"1500 Bank Street, Ottawa, ON K1H 7Z2",specialty,bakery,Billings Bridge - Alta Vista,45.3809813,-75.6701018
+473,IGA Extra,"203 Boulevard des Grive, Gatineau, QC J9A 0C7",specialty,deli meat cheese,(None),45.4321316,-75.7793383
+474,Il Negozio Nicastro,"792 Bank St, Ottawa, ON K1S 3V8",specialty,bakery,Glebe - Dows Lake,45.402908,-75.6884398
+475,Il Negozio Nicastro,"1355 Wellington Street W, Ottawa, ON",grocery,large,Island Park - Wellington Village,45.3985223,-75.7387545
+476,Il Perugino Caffe & Bar,"277 Dalhousie St, Ottawa, ON K1N 7E5",specialty,deli meat cheese,Byward Market,45.4301133,-75.6920154
+477,"India Cafe, ByWard Market","30 Byward Market Square, Ottawa, ON K1N 7A2",grocery,small,Byward Market,45.4277431,-75.6930877
+478,India Food Centre & Convenience,"1433 Wellington Street W, Ottawa, ON K1Y 2X4",convenience,regular,Island Park - Wellington Village,45.3978516,-75.7413481
+479,INS Market,"2277 Riverside Dr. Unit 216, Ottawa, ON K1H 7X6",grocery,small,Billings Bridge - Alta Vista,45.3856281,-75.6774777
+480,International Cheese & Deli,"40 ByWard Market Sq, Ottawa, ON",specialty,deli meat cheese,Byward Market,45.427558,-75.6929392
+481,International News,"110 Place D'orleans Drive, Orleans, ON K1C 2L9",convenience,regular,Convent Glen - Orléans Woods,45.4781702,-75.5155571
+482,International News,"1980 Ogilvie Rd, Ottawa, ON K1J 9L3",convenience,regular,Carson Grove - Carson Meadows,45.4325275,-75.6098258
+483,International News,"11 Colonel by Dr, Ottawa, ON K1N 9H4",convenience,regular,Sandy Hill,45.4247211,-75.6923995
+484,International News,"111 Albert Street, Ottawa, ON K1P 1A5",convenience,regular,Centretown,45.421646,-75.6974294
+485,International News,"269 Av Laurier O, Ottawa, ON K1P 5J9",convenience,regular,Centretown,45.4191565,-75.6984744
+486,International News,"2277 Riverside Dr, Ottawa, ON K1H 7X6",convenience,regular,Billings Bridge - Alta Vista,45.3856281,-75.6774777
+487,International News,"2121 Avenue Carling, Ottawa, ON K2A 1H2",convenience,regular,Laurentian,45.3731497,-75.7686794
+488,International News,"1642 Merivale Rd, Ottawa, ON K2G 4A1",convenience,regular,Cityview - Crestview - Meadowlands,45.3455841,-75.732034
+489,ISLAND PARK ESSO,"369 ISLAND PARK DR, OTTAWA, ON",convenience,gas station,Island Park - Wellington Village,45.3972391,-75.7416991
+490,Ivan's Meat and Deli,"1496 Stittsville Main Street, Stittsville, ON K2S 1B2",specialty,deli meat cheese,Stittsville,45.258902,-75.9214893
+491,J.T. Bradley's,"1220 Colonial Road, Ottawa, ON",grocery,small,Navan - Sarsfield,45.421605,-75.425327
+492,Jacob's Deli,"75 Albert St, Ottawa, ON K1P 5E7",specialty,deli meat cheese,Centretown,45.422344,-75.695243
+493,Jacobsons,"103 Beechwood Ave., Ottawa, ON K1M 1L4",grocery,small,Lindenlea - New Edinburgh,45.4414221,-75.6736113
+494,Jaguar Groceries,"465 Parkdale Ave, Ottawa, ON",grocery,small,Hintonburg - Mechanicsville,45.3988122,-75.7277585
+495,Jasmin Market,"335 Lacasse Ave, Vanier, ON K1L 7A8",grocery,small,Vanier South,45.4344553,-75.6565371
+496,JJ's Market,"380 Laurier Ave W, Ottawa, ON K1P 5K3",grocery,small,Centretown,45.4173464,-75.700451
+497,JnJ Bakery Cafe,"26 Caesar Avenue, Ottawa, ON K2G 0B2",specialty,bakery,Merivale Gardens - Grenfell Glen - Pineglen - Country Place,45.32658,-75.7241403
+498,Joe & Lily's No Frills,"1226 Place D'Orleans Drive, Ottawa, ON K1C 7K3",specialty,health store,Convent Glen - Orléans Woods,45.4764991,-75.5228439
+499,Johanne Verdon Espace Sante Beaute,"341 Saint-Joseph Blvd, Gatineau, QC J8Y 3Z3",specialty,health store,(None),45.4418753,-75.7330508
+500,Johnny Farina Restaurant,"216 Elgin Street, Ottawa, ON",specialty,deli meat cheese,Centretown,45.4188788,-75.6915905
+501,Kabul Food Market,"355 Montreal Rd, Vanier, ON K1L 6B1",grocery,small,Vanier North,45.4387791,-75.6550612
+502,Kaladar Produce Market,"2455 Kaladar Ave, Ottawa, ON K1V",farmer's market,farmer's market,Billings Bridge - Alta Vista,45.3762222,-75.6706779
+503,Kanata Farmers' Market,"745 Kanata Ave, Ottawa, ON K2T 1H9",farmer's market,farmer's market,Kanata Lakes - Arcardia,45.3109367,-75.909642
+504,Kanata Kash N Karry,"60 Colchester Square, Ottawa, ON",grocery,small,Beaverbrook,45.320946,-75.8896096
+505,Kara's Convenience Stores,"475 Elgin St, Ottawa, ON K2P 2E6",convenience,regular,Centretown,45.4126854,-75.6852682
+506,Kardish Health Food Centre,"3712 Innes Road, Orleans, ON K1W 0C8",specialty,health store,Chapel Hill South,45.4501454,-75.5174796
+507,Kardish Health Food Centre,"1309 Carling Avenue, Ottawa, ON K1Z 7L3",specialty,health store,Civic Hospital-Central Park,45.3867692,-75.7355233
+508,Kardish Health Food Centre,"1701 Merivale Road, Nepean, ON K2G 3K2",specialty,health store,Borden Farm - Fisher Glen,45.3461431,-75.7288509
+509,Kardish Health Food Centre,"2950 Bank Street, Ottawa, ON",specialty,health store,Hunt Club Upper -Blossom Park - Timbermill,45.344538,-75.622643
+510,Kardish Health Food Centre,"1831 Robertson Road, Ottawa, ON K2H 8X3",specialty,health store,Bells Corners East,45.3282713,-75.8194738
+511,Kardish Health Food Centre,"499 Terry Fox Drive, Ottawa, ON",specialty,health store,Kanata Lakes - Arcardia,45.3108116,-75.9199686
+512,Kardish Health Food Centre,"3101 Strandherd Drive, Ottawa, ON K2J",specialty,health store,Chapman Mills,45.2755704,-75.7173602
+513,Kaz's Kitchen & Grocery,"207 Guigues Ave, Ottawa, ON",grocery,small,Byward Market,45.4326539,-75.6911401
+514,Kellgreen Farm,"2325 River Rd, Manotick, ON K4M 1B4",grocery,small,Osgoode - Vernon,45.1843684,-75.6277102
+515,Kettlemans Bagel,"912 Bank Street, Ottawa, ON K1S 3W4",specialty,bakery,Glebe - Dows Lake,45.399865,-75.6869676
+516,Keyur Tuck Shop,"33 Banner Rd, Nepean, ON K2H 8V7",convenience,regular,Trend-Arlington,45.3328836,-75.7864359
+517,Kitchen Hut Houseware,"1558 Merivale Road, Ottawa, ON",grocery,small,Cityview - Crestview - Meadowlands,45.3528521,-75.7354312
+518,Kiwan Farms,"3485 Hawthorne Rd, Ottawa, ON K1G 3N4",grocery,small,Greenbelt,45.3733273,-75.5967455
+519,Kool Runnings Caribbean Groceries & Restaurant,"2200 Montreal Rd, Ottawa, ON",grocery,small,Beacon Hill South - Cardinal Heights,45.4497115,-75.5872504
+520,Kowloon Foods,"4095 Belgreen Dr, Ottawa, ON",grocery,small,East Industrial,45.3819994,-75.5952501
+521,Kowloon Market,"712 Somerset Street W, Ottawa, ON K1R 6P8",grocery,small,West Centretown,45.4105206,-75.7076798
+522,Kowther's Tuck Shop,"1785 Riverside Dr, Ottawa, ON K1G 3T7",convenience,regular,Riverview,45.4013494,-75.6657472
+523,Kristin Mini Mart,"1090 Kristin Way, Ottawa, ON K1K 4B6",convenience,regular,Manor Park,45.4435482,-75.643072
+524,Kulture Foods,"Ottawa farmer's market, Brewers Park, Old Ottawa South, ON K1S",specialty,bakery,Glebe - Dows Lake,45.400214,-75.6830385
+525,L'Esplanade Laurier Market,"181 Bank St, Ottawa, ON K2P 1W5",grocery,small,Centretown,45.4187923,-75.6975272
+526,L & F Montego Place,"2211 Saint Joseph Boulevard, Ottawa, ON",grocery,small,Convent Glen - Orléans Woods,45.4678575,-75.5333095
+527,La BoÃƒÂ®te ÃƒÂ  Grains,"325 Boulevard GrÃƒÂ©ber, Gatineau, QC J8T 8J3",specialty,health store,(None),45.4777384,-75.700393
+528,La BoÃƒÂ®te ÃƒÂ  Grains,"581 Boulevard Saint-Joseph, Gatineau, QC J8Y 4A6",specialty,health store,(None),45.4500001,-75.7366141
+529,La BoÃƒÂ®te ÃƒÂ  Grains,"25C Boulevard du Plateau, Gatineau, QC J9A 3G1",specialty,health store,(None),45.4358672,-75.7688723
+530,La Boite ÃƒÂ  Grains,"195 Rue Principale, Gatineau, QC J9H 6J8",specialty,health store,(None),45.3960563,-75.8345888
+531,La Bottega Nicastro Fine Food Shop,"64 George St, Ottawa, ON",grocery,small,Byward Market,45.4268387,-75.691821
+532,La Brioche Pastry & Bakery,"2440 Bank Street, Ottawa, ON K1V 0T7",specialty,bakery,South Keys - Greenboro West,45.3535284,-75.6481363
+533,La Colonia Groceries,"345 Richelieu Ave, Vanier, ON K1L 6J7",grocery,small,Vanier South,45.4354843,-75.6549629
+534,La ferme dÃ¢â‚¬Å¡Ãƒâ€žÃƒÂ´OrlÃ¢Ë†Å¡Ã‚Â©ans Ã¢â‚¬Å¡Ãƒâ€žÃƒÂ¬ OrlÃ¢Ë†Å¡Ã‚Â©ans Fruit Farm,"1399 St Joseph Blvd, OrlÃ¢Ë†Å¡Ã‚Â©ans, ON K1C 7K9",grocery,small,Greenbelt,45.4582803,-75.5659271
+535,La Gourmandise,"2200 Montreal Road, Ottawa, ON K1J 6M5",specialty,bakery,Beacon Hill South - Cardinal Heights,45.4497115,-75.5872504
+536,La Maison Bisson,"2 Boulevard Louise-Champagna, Gatineau, QC J9A 2X1",specialty,deli meat cheese,(None),45.4304611,-75.7630584
+537,La Maison du Kouign-Amann,"101 Schneider Road, Ottawa, ON K2K 1Y3",specialty,bakery,Brookside - Briarbrook - Morgan's Grant,45.3392259,-75.901992
+538,La p'tite ÃƒÂ©picerie,"158 rue Notre Dame de l'Ile, Gatineau, QC J8X 3T3",specialty,deli meat cheese,(None),45.4305882,-75.7107256
+539,La Provence Bakery,"500 Hazeldean Road, Kanata, ON K2L 2B5",specialty,bakery,Glen Cairn - Kanata South Business Park,45.2933502,-75.8937131
+540,La Soyarie,"94 Rue Adrien-Robert, Gatineau, QC J8Y 3S2",specialty,health store,(None),45.4579171,-75.734558
+541,La Station,"611 Boulevard Saint Joseph, Gatineau, QC J8Y 4A6",specialty,deli meat cheese,(None),45.4501065,-75.7368611
+542,La Tiendita,"848 Merivale Rd, Ottawa, ON",grocery,small,Carlington,45.3854442,-75.7326151
+543,La Trappe ÃƒÂ  Fromage,"574 Boulevard Maloney Est, Gatineau, QC J8P 1G1",specialty,deli meat cheese,(None),45.4841701,-75.6303882
+544,La Trappe ÃƒÂ  Fromage,"200 Rue Bellehumeur, Gatineau, QC J8T 8N6",specialty,deli meat cheese,(None),45.4797008,-75.6932157
+545,La Trappe ÃƒÂ  Fromage,"114 Boulevard Saint-Raymond, Gatineau, QC J8Y 1S9",specialty,deli meat cheese,(None),45.4471133,-75.7429826
+546,La Trappe ÃƒÂ  Fromage,"425 Chemin Vanier, Gatineau, QC J9J 3H9",specialty,deli meat cheese,(None),45.4143342,-75.8078371
+547,La Vieille Alliance,"210 Chemin d'Aylmer, Gatineau, QC J9H 1A2",specialty,bakery,(None),45.3947103,-75.8331176
+548,Ladles Deli,"2323 Riverside Dr, Ottawa, ON K1H 8L5",specialty,deli meat cheese,Billings Bridge - Alta Vista,45.3859586,-75.6795206
+549,Lakomka Delicatessen,"1127 Baxter Rd, Ottawa, ON",grocery,small,Iris - Queensway Terrance South,45.3508762,-75.7821448
+550,Lapointe Fish,"46 Byward Market Square, Ottawa, ON K1N 7A2",grocery,small,Byward Market,45.427458,-75.6928445
+551,Lavergne Meat & Deli,"3971 Navan Rd, Navan, ON K4B 1H9",specialty,deli meat cheese,Navan - Sarsfield,45.4236752,-75.4757833
+552,Lavoie Line Herboriste,"1134 Maloney Blvd E, Gatineau, QC J8P 1H9",specialty,health store,(None),45.49232,-75.5864712
+553,Le Deli,"200 Promenade Du Portage, Gatineau, QC J8X 4H4",specialty,deli meat cheese,(None),45.4268934,-75.7134941
+554,Le Moulin de Provence,"55 Byward Market Square, Ottawa, ON K1N 9C3",specialty,bakery,Byward Market,45.427449,-75.6923646
+555,Le Moulin de Provence K.D,"30 Metcalfe Street, Ottawa, ON K1P 5L4",specialty,bakery,Centretown,45.4223318,-75.6972065
+556,Le Muffin Plus,"111 Albert St, Ottawa, ON K1P 5K9",specialty,deli meat cheese,Centretown,45.421646,-75.6974294
+557,Le Naturiste Jmb,"1100 Maloney Blvd W, Gatineau, QC J8T 6G3",specialty,health store,(None),45.4756531,-75.6972849
+558,Le Pain d'Alain,"53 Boulevard Saint-Joseph, Gatineau, QC J8Y 3W1",specialty,bakery,(None),45.4268064,-75.7336841
+559,Le Quick Pick,"71 Rue Laval, Ottawa, ON",grocery,small,(None),45.4278307,-75.7162813
+560,Le Roi Pasteries & Bakery,"1729 Bank Street, Ottawa, ON K1V 7Z5",specialty,bakery,Billings Bridge - Alta Vista,45.3742139,-75.6646335
+561,Le Smoked Meat a Bonnie,"137, Rue Principale, Aylmer, QC J9H 3M7",specialty,deli meat cheese,(None),45.39537,-75.8423622
+562,Lebanese Village Bakery,"2653 Alta Vista Drive, Ottawa, ON K1V 1A3",specialty,bakery,Ledbury - Heron Gate - Ridgemont,45.3723117,-75.6621991
+563,Les Moulins La Fayette,"1000 Wellington St W, Ottawa, ON K1Y 2X9",specialty,bakery,Hintonburg - Mechanicsville,45.4051191,-75.7228743
+564,Lesuq,"141 Beechwood Av., Ottawa, ON K1M 1L4",grocery,small,Lindenlea - New Edinburgh,45.4424018,-75.6715224
+565,LeSuq | Preston,"352 Preston St, Ottawa, ON",grocery,small,West Centretown,45.4020069,-75.7105487
+566,Libnan Bakery,"4 Lorry Greenberg Dr, Ottawa, ON K1G 5H6",specialty,bakery,Hunt Club Park,45.3691281,-75.6209221
+567,Life of Pie,"1134 Bank Street, Ottawa, ON K1S 3X6",specialty,bakery,Old Ottawa South,45.3933027,-75.6829911
+568,Lim Bangkok Grocery,"794 Somerset St W, Ottawa, ON",grocery,small,West Centretown,45.4096052,-75.7102294
+569,Little Euro Delicatessen,"2 Goldridge Dr, Kanata, ON K2T 1C7",grocery,small,Kanata Lakes - Arcardia,45.316109,-75.9206246
+570,Little Italy Bakery,"306 Preston street, Ottawa, ON K1R 7R6",specialty,bakery,West Centretown,45.4035067,-75.7114095
+571,LITTLE ITALY FINE FOODS,"178 MAIN ST, Ottawa, ON",grocery,small,Old Ottawa East,45.4092452,-75.678269
+572,Little Jo Berry's,"1305 Wellington Street, Ottawa, ON K1Y 3B1",specialty,bakery,Island Park - Wellington Village,45.3989748,-75.7358552
+573,Little Latin America,"764 Somerset St W, Ottawa, ON K1R 6P9",grocery,small,West Centretown,45.4101579,-75.7084932
+574,LOBLAWS,"363 Rideau St, Ottawa, Ontario, K1N 5Y6",grocery,large,Lowertown,45.4301553,-75.6838142
+575,LOBLAWS,"100 McArthur Rd, Ottawa, Ontario, K1L 8H5",grocery,large,Overbrook - McArthur,45.4293416,-75.6648604
+576,LOBLAWS,"64 Isabella St, Ottawa, Ontario, K1S 1V4",grocery,large,Glebe - Dows Lake,45.4104617,-75.6858976
+577,LOBLAWS,"1910 St Laurent Blvd, Ottawa, Ontario, K1G 1A4",grocery,large,Elmvale - Canterbury,45.3990561,-75.6239131
+578,LOBLAWS,"2085 Carling Ave, Ottawa, Ontario, K2A 1H2",grocery,large,Laurentian,45.3723082,-75.7675725
+579,LOBLAWS,"1460 Merivale Rd, Nepean, Ontario, K2E 5P2",grocery,large,Skyline - Fisher Heights,45.3619299,-75.7353516
+580,LOBLAWS,"2210 Bank St, Ottawa, Ontario, K1V 1J5",grocery,large,South Keys - Greenboro West,45.3556337,-75.6546138
+581,LOBLAWS,"1980 Baseline Rd, Ottawa, Ontario, K2C 0C6",grocery,large,Cityview - Crestview - Meadowlands,45.3520746,-75.7595588
+582,LOBLAWS,"2065A Robertson Rd, Ottawa, Ontario, K2H 5H9",grocery,large,Bells Corners East,45.3245571,-75.8330591
+583,LOBLAWS,"200 Earl Grey Dr, Ottawa, Ontario, K2T 1B6",grocery,large,Kanata Lakes - Arcardia,45.3100558,-75.9164635
+584,LOBLAWS,"3201 Greenbank Rd, Ottawa, Ontario, K2J 4H9",grocery,large,Chapman Mills,45.2680519,-75.7434605
+585,Log Cabin Orchard,"6121 Cabin Road, Ottawa, ON K0A 2W0",farmer's market,farmer's market,Osgoode - Vernon,45.1699211,-75.5809559
+586,Luciano Foods,"114 Preston St, Ottawa, ON",grocery,small,West Centretown,45.4085215,-75.714604
+587,Lunch,"121 Bank Street, Ottawa, ON K1P 5N5",specialty,deli meat cheese,Centretown,45.4196603,-75.6998674
+588,Lunch,"60 A Lebreton Street, Ottawa, ON K1R 7H3",specialty,deli meat cheese,West Centretown,45.4085651,-75.7087642
+589,Lusa Bakery,"1111 Wellington Street, Ottawa, ON K1Y 2Y6",specialty,bakery,Hintonburg - Mechanicsville,45.4025698,-75.7261541
+590,Lx & Lz Variety,"440 Gloucester St, Ottawa, ON K1R 7T8",convenience,regular,Centretown,45.4140798,-75.7067335
+591,Lyndale Corner Food Mart,"60 Lyndale Avenue, Ottawa, ON K1Y 2M8",convenience,regular,Hintonburg - Mechanicsville,45.4071673,-75.7308767
+592,M & A Convenience Store,"178 Rideau Street, Ottawa, ON K1N 5X6",convenience,regular,Sandy Hill,45.427146,-75.689152000000007
+593,M & J Tropical Super Market,"1509 Merivale Road, Ottawa, ON",grocery,small,Skyline - Fisher Heights,45.3572937,-75.7367947
+594,M&M Food Market,"536 Montreal Rd, Ottawa, ON K1K 0T9",grocery,large,Overbrook - McArthur,45.4407432,-75.6455791
+595,M&M Food Market,"197 Trainyards Drive, Ottawa, ON",grocery,large,East Industrial,45.413763,-75.64364
+596,M&M Food Market,"990 River Rd, Ottawa, ON",grocery,large,Manotick,45.2339852,-75.6774721
+597,Mac's,"6469 Jeanne D'Arc Blvd North, OTTAWA, Canada",convenience,gas station,Convent Glen - Orléans Woods,45.4803399,-75.5370229
+598,Mac's,"1985 Trim Road, OTTAWA, Canada",convenience,gas station,Cardinal Creek,45.4713098,-75.4539885
+599,Mac's,"2302 Tenth Line Road, OTTAWA, Canada",convenience,gas station,Portobello South,45.4507803,-75.4830486
+600,Mac's,"395 Montreal Road, OTTAWA, Canada",convenience,gas station,Vanier North,45.4390106,-75.6539378
+601,Mac's,"1025 Merivale Rd., OTTAWA, Canada",convenience,regular,Carlington,45.3789466,-75.7328982
+602,Mac's,"888 Meadowlands Dr. E., OTTAWA, Canada",convenience,regular,Carleton Heights - Rideauview,45.3671249,-75.7025045
+603,Mac's,"1031 Teron Rd., KANATA, Canada",convenience,regular,Beaverbrook,45.3305788,-75.9003508
+604,Mac's,"13 Kakulu Rd., KANATA, Canada",convenience,regular,Katimavik - Hazeldean,45.3094398,-75.8816581
+605,Mac's,"100 Castlefrank Rd., KANATA, Canada",convenience,regular,Glen Cairn - Kanata South Business Park,45.2936647,-75.8816465
+606,Mac's,"1 Tartan Dr., NEPEAN, Canada",convenience,regular,Old Barrhaven East,45.269884,-75.7540622
+607,Mac's,"1 Hobin St., STITTSVILLE, Canada",convenience,regular,Stittsville,45.2647162,-75.9292944
+608,Mac's,"5511 Main Street, MANOTICK, Canada",convenience,regular,Manotick,45.2271049,-75.6861776
+609,Mac's,"163 Town Line W., CARLETON PLACE, Canada",convenience,regular,(None),45.1405071,-76.1557846
+610,Mac's,"355 Franktown Rd., CARLETON PLACE, Canada",convenience,regular,(None),45.1309426,-76.1287832
+611,Mac's,"421 Rideau Street, KEMPTVILLE, Canada",convenience,gas station,(None),45.0196507,-75.6508847
+612,Mace Concenience,"876 Montreal Rd, Ottawa, ON K1K 4L3",convenience,regular,Carson Grove - Carson Meadows,45.4457968,-75.6301564
+613,MacEwen Albion,"5546 Albion Road, Gloucester, ON",convenience,gas station,Greely,45.269772,-75.5944777
+614,MacEwen Aylmer,"380 Chemin Vanier, Aylmer, Gatineau, QC",convenience,gas station,(None),45.4127014,-75.8089522
+615,MacEwen Bank & Catherine,"512a Bank Street, Ottawa, ON",convenience,gas station,Centretown,45.4096706,-75.6924399
+616,MacEwen Carleton Place,"322 Townline Road East, Carleton Place, ON",convenience,gas station,(None),45.1500151,-76.1414177
+617,MacEwen Carp Road,"2070 Carp Rd, Carp, ON",convenience,gas station,Stittsville,45.2756404,-75.9496328
+618,MacEwen Dunrobin,"1794 Dunrobin Rd, Dunrobin, ON",convenience,gas station,Dunrobin,45.3831274,-75.9694675
+619,MacEwen Fallowfield,"4564 Fallowfield Road, Ottawa, ON",convenience,gas station,Richmond,45.2689656,-75.8018053
+620,MacEwen Kemptville,"2985 County Rd 43, Kemptville, ON",convenience,gas station,(None),45.0299974,-75.6373387
+621,MacEwen Richmond,"5925 Perth St, Richmond, ON",convenience,gas station,Richmond,45.2007119,-75.8294839
+622,MacEwen Rideau Road,"5026 Bank Street, Gloucester, ON K1X 1G8",convenience,gas station,Greely,45.2971137,-75.5807549
+623,MacEwen River Road,"685 River Road, Ottawa, ON K1V 2G2",convenience,gas station,Riverside South - Leitrim,45.2701673,-75.6978273
+624,MacEwen Russell,"1112 Concession Street, Russell, ON",convenience,gas station,(None),45.2581067,-75.3591107
+625,MacEwen St. Laurent & Belfast,"1515 St Laurent Blvd, Ottawa, ON",convenience,gas station,East Industrial,45.412291,-75.6302972
+626,MacEwen Vars,"104 St Guillaume Rd, Vars, ON K0A 3H0",convenience,gas station,(None),45.3308521,-75.346099
+627,Madina City Market,"1136 Cadboro Rd, Ottawa, ON K1J 7R1",grocery,small,Carson Grove - Carson Meadows,45.4307575,-75.6211764
+628,Maggy's Mart,"8154 Jeanne D'arc Blvd N, Orleans, ON K1E 2H5",convenience,regular,Chatelaine Village,45.4875472,-75.5116649
+629,Maguro Cafe & Bakery,"745 Kanata Ave, Ottawa, ON K2T 1H9",specialty,bakery,Kanata Lakes - Arcardia,45.3109367,-75.909642
+630,Main Farmers' Market,"210 Main Street, Ottawa, ON K1S 1C6",farmer's market,farmer's market,Old Ottawa East,45.4080462,-75.6775902
+631,Maison,"4750 Bank Street, Ottawa, ON",specialty,deli meat cheese,Findlay Creek,45.3191181,-75.5957883
+632,Maison Oddo,"260 Boulevard Saint-Raymond, Gatineau, QC J9A 3G7",specialty,bakery,(None),45.4270446,-75.7628713
+633,Malak Lebanese Pastry,"1216 Bank Street, Ottawa, ON K1S 3Y1",specialty,bakery,Old Ottawa South,45.3914804,-75.6811092
+634,Mama Cora Latin Market,"274 Montreal Rd, Vanier, ON K1L 6C3",grocery,small,Vanier South,45.4366197,-75.6598836
+635,Mama Rosa,"375 Des Epinettes Avenue, OrlÃƒÂ©ans, ON K1E 3E6",specialty,deli meat cheese,Queenswood Heights,45.4661877,-75.4957745
+636,Mamie Clafoutis,"400 Richmond Road, Ottawa, ON K2A 3X9",specialty,bakery,Laurentian,45.390509,-75.7564147
+637,Mamma Teresa Ristorante,"300 Somerset St W, Ottawa, ON K2P 0J6",specialty,deli meat cheese,Centretown,45.4160858,-75.6939437
+638,"Manila Mart African, Filipino & Asian Grocery","2924 Carling Ave, Ottawa, ON K2B 7J7",grocery,small,Whitehaven - Queensway Terrace North,45.3565119,-75.8012461
+639,Manor Park Convenience Store,"293 St Laurent Blvd, Ottawa, ON K1K 2Z3",convenience,regular,Manor Park,45.4511597,-75.6522707
+640,Manor Park Grocy,"179 St Laurent Blvd, Ottawa, ON",grocery,small,Manor Park,45.4541521,-75.6539569
+641,Manotick Natural Market,"1143 Tighe Street, Manotick, ON K4M 1A8",specialty,health store,Manotick,45.2256217,-75.6840638
+642,Manphong Supermarket,"775 Somerset St W, Ottawa, ON",grocery,small,West Centretown,45.4101418,-75.7096661
+643,Maple Hill Urban Farm,"200 Moodie Drive, Ottawa, ON K2H 8K6",farmer's market,farmer's market,Greenbelt,45.3290301,-75.8440551
+644,Maple Leaf Dairy,"249 Bridge Street, Carleton Place, ON K7C 3H3",convenience,regular,(None),45.1421263,-76.1484897
+645,Maple Tuck Shop,"1150 Fisher Ave, Ottawa, ON K1Z 8M6",convenience,regular,Civic Hospital-Central Park,45.3775357,-75.7215341
+646,Marcello's,"407 Laurier Avenue W, Ottawa, ON K1R 7Y7",convenience,regular,Centretown,45.4176063,-75.7020495
+647,Marcello's Catering,"333 Preston St, Ottawa, ON K1S 5N4",specialty,bakery,West Centretown,45.4024288,-75.7084054
+648,Marcello's Deli & Market,"240 Sparks St, Ottawa, ON K1P 6C9",specialty,deli meat cheese,Centretown,45.4202971,-75.702403
+649,Marcello's Marche Et Deli,"25 Rue Eddy, Gatineau, QC J8X 4B5",specialty,deli meat cheese,(None),45.4257486,-75.7205696
+650,Marcello's Marche Et Deli,"1 Promenade Du Portage, Gatineau, QC J8X 4B1",specialty,deli meat cheese,(None),45.4251583,-75.7217569
+651,Marcello's Market & Deli,"99 Bank St, Ottawa, ON K1P 6B9",specialty,deli meat cheese,Centretown,45.4204966,-75.7000906
+652,Marcello's Market & Deli,"150 Slater St., Ottawa, ON K1P 5H3",grocery,large,Centretown,45.4201613,-75.6974389
+653,MarchÃ¢Ë†Å¡Ã‚Â© Bonichoix Alain Viau,"1244 St Augustin Rd, Embrun, ON K0A 1W0",grocery,small,(None),45.274131,-75.275381
+654,MarchÃƒÂ© Hintonburg Market,"1059 Wellington Street, Ottawa, ON",grocery,small,Hintonburg - Mechanicsville,45.4039534,-75.7247482
+655,Mario's Food Centre,"381 McArthur Ave, Ottawa, ON",grocery,small,Vanier South,45.4323227,-75.6505081
+656,Markie's Montreal Smoked Meat,"E-1679 Carling Ave, Ottawa, ON K2A 1C4",specialty,deli meat cheese,Westboro,45.3797627,-75.7502537
+657,Marsh's Gourmet Cookie Dough,"10 Belmont, Aylmer, QC J9H 6J5",specialty,bakery,(None),45.39423,-75.830209
+658,Matar Meat Shop,"1077 Cyrville Rd, Gloucester, ON K1J 7S6",grocery,small,Overbrook - McArthur,45.4246534,-75.6349292
+659,Maurice Grocery Store,"1755 Frobisher Ln, Ottawa, ON K1G 3T6",grocery,small,Riverview,45.4020236,-75.6652683
+660,Maverick's Donut,"1500 Bank Street, Ottawa, ON K1H 7Z2",specialty,bakery,Billings Bridge - Alta Vista,45.3809813,-75.6701018
+661,Maverick Donuts,"46 Byward Market Square, Ottawa, ON K1N 7A2",specialty,bakery,Byward Market,45.427458,-75.6928445
+662,Maxi,"300 Saint-Joseph Blvd, Ottawa, ON",grocery,small,Greenbelt,45.460199,-75.5555398
+663,Maya Market,"197 Norice St, Nepean, ON K2G 2Y5",grocery,small,Cityview - Crestview - Meadowlands,45.3397168,-75.7540739
+664,MC Hallal Meat & Grocery,"379 McArthur Ave., Vanier, ON K1L 6N5",grocery,small,Vanier South,45.4323187,-75.6505747
+665,MD Tuck Shop,"1551 Riverside Dr, Ottawa, ON K1G 4B5",convenience,regular,Riverview,45.408483,-75.6627191
+666,Mediterranean Bakery - Pastry & Pizza,"2698 Alta Vista Drive, Ottawa, ON K1P 5K9",specialty,bakery,Billings Bridge - Alta Vista,45.3734448,-75.6641114
+667,Melrose Grocery Store,"1082 Wellington St W, Ottawa, ON",grocery,small,Hintonburg - Mechanicsville,45.4031558,-75.7250742
+668,Meow Tea,"279 Elgin Street, Ottawa, ON K2P 1M1",specialty,bakery,Centretown,45.4175576,-75.6899254
+669,Mercado Latino,"67 Montreal Rd, Vanier, ON K1L 6E8",grocery,small,Vanier North,45.4337466,-75.6680196
+670,Mergi Shop,"382 Rideau St, Ottawa, ON K1N 5Y8",grocery,small,Sandy Hill,45.4297893,-75.6827599
+671,Merivale Fish Market,"1480 Merivale Road, Ottawa, ON",grocery,small,Skyline - Fisher Heights,45.3601589,-75.7359322
+672,Metcalfe Variety,"8196 Victoria Street, Ottawa, ON K0A 2P0",convenience,regular,Metcalfe,45.2349347,-75.4743956
+673,METRO,"6509 Jeane D'Arc Blvd., Orleans, ON K1C 2R1",grocery,large,Convent Glen - Orléans Woods,45.4807611,-75.5361128
+674,METRO,"1675 Tenth Line Road, Orleans, ON K1E 3P6",grocery,large,Fallingbrook,45.4690176,-75.4912331
+675,METRO,"4510 Innes Road, Ottawa, ON K4A 4C5",grocery,large,Portobello South,45.4613368,-75.4841125
+676,METRO,"1930 Montreal Road, Gloucester, ON K1J 6N2",grocery,large,Beacon Hill South - Cardinal Heights,45.4454303,-75.5952217
+677,METRO,"50 Beechwood Avenue, Ottawa, ON K1L 8B3",grocery,large,Vanier North,45.4394956,-75.6756442
+678,METRO,"2636 Innes Road, Gloucester, ON K1B 4Z8",grocery,large,Blackburn Hamlet,45.4314383,-75.5630346
+679,METRO,"375 Daniel St. S, Arnprior, ON K7S 3K6",grocery,large,(None),45.4257504,-76.3679176
+680,METRO,"754 Bank Street, Ottawa, ON K1S 3V6",grocery,large,Glebe - Dows Lake,45.4033564,-75.6889232
+681,METRO,"345 Carleton Avenue, Ottawa, ON K1Y 0K3",grocery,large,Island Park - Wellington Village,45.3983659,-75.7404881
+682,METRO,"2261 Walkley Road, Ottawa, ON K1G 3G8",grocery,large,Elmvale - Canterbury,45.3895383,-75.6192521
+683,METRO,"1360 Richmond Road, Ottawa, ON K2B 8L4",grocery,large,Britannia Village,45.3651759,-75.7866521
+684,METRO,"2515 Bank Street, Ottawa, ON K1V 8R9",grocery,large,South Keys - Greenboro West,45.3542812,-75.6459712
+685,METRO,"3310 McCarthy Rd., Ottawa, ON K1V 9S1",grocery,large,Hunt Club East - Western Community,45.3506573,-75.6719591
+686,METRO,"1705 Merivale Road, Ottawa, ON K2G 3K2",grocery,large,Borden Farm - Fisher Glen,45.3449939,-75.7280403
+687,METRO,"4048 Carling Avenue, Kanata, ON K2K 1Y1",grocery,large,Brookside - Briarbrook - Morgan's Grant,45.3371417,-75.9072525
+688,METRO,"#2 - 1811 Robertson Road, Nepean, ON K2H 8X3",grocery,large,Bells Corners East,45.3302476,-75.8171021
+689,METRO,"250 Greenbank Road, Nepean, ON K2H 8P3",grocery,large,Trend-Arlington,45.3253982,-75.7798765
+690,METRO,"10 Cope Drive, Kanata, ON K2M 0N2",grocery,large,Glen Cairn - Kanata South Business Park,45.2821603,-75.8652185
+691,METRO,"3201 Strandherd Drive, Nepean, ON K2J 5N1",grocery,large,Chapman Mills,45.27456,-75.7212893
+692,Metro Plus,"910 Boulevard Maloney E, Ottawa, ON",grocery,small,(None),45.4883472,-75.5975053
+693,Metropolitain Brasserie,"700 Sussex Drive, Ottawa, ON K1N 1K4",specialty,bakery,Byward Market,45.4257961,-75.6940846
+694,MF Foodmart,"850 Merivale Rd, Ottawa, ON K1Z 5Z4",grocery,small,Carlington,45.3852417,-75.732678
+695,Michael's Confectionary,"287 Somerset St E, Ottawa, ON K1N 6V7",convenience,regular,Sandy Hill,45.4237649,-75.6766297
+696,Michel's Baguette,"50 Rideau Street, Ottawa, ON K1N 9J7",specialty,bakery,Sandy Hill,45.4252795,-75.6929819
+697,Michel's Bakery Cafe,"1200 St. Laurent Blvd, Ottawa, ON K1K",specialty,bakery,Overbrook - McArthur,45.4219466,-75.6387057
+698,Mickey Tran Dba All Convenience,"200 Rideau Ter, Ottawa, ON K1M 0Z3",convenience,regular,Lindenlea - New Edinburgh,45.4433902,-75.6747098
+699,Mid-East Food Centre,"1010 Belfast Road, Ottawa, ON",grocery,small,East Industrial,45.4107723,-75.6310612
+700,Midori Market,"3689 Navan Rd, Ottawa, ON K4B 1H9",grocery,small,Chapel Hill South,45.4265805,-75.4890519
+701,Mike's Corner Store,"44 Elm St, Ottawa, ON K1R 6N1",convenience,regular,West Centretown,45.4103193,-75.7125998
+702,Mike's Garden Harvest,"436 River Rd, Gloucester, ON K1V 1E7",grocery,small,Greenbelt,45.3017972,-75.6968555
+703,Millers' Farm and Market,"6158 Rideau Valley Dr N, Manotick, ON K4M 1B3",grocery,small,North Gower - Kars,45.1950474,-75.6437272
+704,Milo's Pastry,"505 Industrial Avenue, Ottawa, ON K1G 0Z1",specialty,bakery,East Industrial,45.4121976,-75.6472274
+705,Mimi's Food Market Express,"549 Gladstone Ave, Ottawa, ON",grocery,small,Centretown,45.4099135,-75.6994313
+706,Mimi Dairy Barn and Cafe,"1088 Bridge St, Ottawa, ON K4M 1J2",specialty,bakery,Manotick,45.2292958,-75.6819243
+707,Min-A-Mart,"158 McArthur Ave, Ottawa, ON K1L 8C9",convenience,regular,Overbrook - McArthur,45.4306706,-75.6632267
+708,Mini Confectionery,"273 Montfort St, Vanier, ON K1L 5N8",grocery,small,Vanier North,45.4389471,-75.6615451
+709,Misto Fine Food Emporium,"1387 Carling Avenue, Ottawa, ON",grocery,small,Westboro,45.3863565,-75.7395389
+710,MOBIL@  - 4272,"4270 INNES ROAD, OTTAWA, ON",convenience,gas station,Portobello South,45.4572295,-75.4953166
+711,MOBIL@  - 4281,"1460 MERIVALE ROAD, OTTAWA, ON",convenience,gas station,Skyline - Fisher Heights,45.3619299,-75.7353516
+712,Moca Loca,"335 Boulevard Saint-Joseph, Gatineau, QC J8Y",specialty,bakery,(None),45.4415051,-75.733081
+713,Moca Loca Cafe,"1 Rue Victoria, Gatineau, QC J8X 1Z6",specialty,bakery,(None),45.42903,-75.7157277
+714,Moe's Convenience Store,"1665 Cyrville Road, Gloucester, ON K1B 3L7",convenience,regular,Pineview,45.418213,-75.6081073
+715,Mommy's Yummies Food,"15 Grenfell Crescent, Nepean, ON K2G 0G3",specialty,health store,Merivale Gardens - Grenfell Glen - Pineglen - Country Place,45.3104886,-75.7379324
+716,Moncion's Your Independant Grocer,"671 River Road, Gloucester, ON K1V 2G2",specialty,health store,Riverside South - Leitrim,45.2705567,-75.6974346
+717,Monty's Deli,"78 Hinton Ave N, Ottawa, ON K1Y 0Z8",specialty,deli meat cheese,Hintonburg - Mechanicsville,45.4011279,-75.7319038
+718,Mooney's Bay Grocerteria,"2660 Norberry Crescent, Ottawa, ON K1V 6N2",grocery,small,Riverside Park,45.3683529,-75.6832697
+719,Morala Specialty Coffee,"734 Bank St, Ottawa, ON K1S 3V4",specialty,bakery,Glebe - Dows Lake,45.4040279,-75.6891235
+720,Morning Owl Coffee House,"139 Bank Street, Ottawa, ON K1P 5N7",specialty,bakery,Centretown,45.4190924,-75.6993655
+721,Morning Owl Coffeehouse & Variety,"1047 Canadian Shield Avenue, Ottawa, ON K2K",specialty,bakery,Kanata Lakes - Arcardia,45.3150134,-75.9016144
+722,Moroccan Market Center,"2249 Carling Ave Suite 102, Ottawa, ON K2B 7E9",grocery,small,Carlingwood West - Glabar Park - McKellar Heights,45.3692691,-75.7744008
+723,Motar Co,"2595 Blackwell St, Ottawa, ON K1B 4E4",grocery,small,East Industrial,45.4042533,-75.6087204
+724,Moussa Mini Market & Meat Shop,"300 McArthur Ave, Ottawa, ON",grocery,small,Overbrook - McArthur,45.4314481,-75.6559184
+725,Mr Pretzel,"2277 Riverside Drive, Ottawa, ON K1H 7X6",specialty,bakery,Billings Bridge - Alta Vista,45.3856281,-75.6774777
+726,Mr Pretzels,"50 Rideau Street, Ottawa, ON K1N 9J7",specialty,bakery,Sandy Hill,45.4252795,-75.6929819
+727,Mr. Beef,"223 Mcwatty Rd, Pakenham, ON K0A 2X0",grocery,small,(None),45.3218881,-76.2969384
+728,Mr. beef halal meat,"2335 St. Laurent Blvd, Ottawa, ON K1G 5G6",grocery,small,East Industrial,45.383079,-75.6206065
+729,Mr. Gas,"297 Edwards Street, Rockland, Ontario, K4K 1H6",convenience,gas station,(None),45.5515862,-75.295229
+730,Mr. Gas,"980 Cameron Street, Cumberland, Ontario, K4C 1A1",convenience,gas station,Cumberland,45.5177895,-75.4112554
+731,Mr. Gas,"1270 Trim Road, Orleans, Ontario, K4A 3P7",convenience,gas station,Fallingbrook,45.4910181,-75.4799664
+732,Mr. Gas,"2336 Rue Saint-Louis, Gatineau, Quebec, J8V 1A2",convenience,gas station,(None),45.488509,-75.7471389
+733,Mr. Gas,"4042 Innes Road, Ottawa, Ontario, K1C 1T1",convenience,gas station,Chapel Hill South,45.4551013,-75.5051859
+734,Mr. Gas,"1970 Ogilvie Road, Gloucester, Ontario, K1J 9M8",convenience,gas station,Carson Grove - Carson Meadows,45.4334134,-75.6126406
+735,Mr. Gas,"400 Daniel Street South, Arnprior, Ontario, K7S 3G9",convenience,gas station,(None),45.4230993,-76.3688754
+736,Mr. Gas,"5899 Hazeldean Road, Stittsville, Ontario, K2S 1B9",convenience,gas station,Stittsville,45.2779141,-75.9209097
+737,Muckleston & Brockwell,"127 Beechwood Avenue, Ottawa, ON",grocery,small,Lindenlea - New Edinburgh,45.441975,-75.672293
+738,Mulligan's Grocery,"2321 Andrew St, North Gower, ON K0A 2T0",grocery,small,North Gower - Kars,45.1325067,-75.7164331
+739,Munster Farm,"2535 Munster Rd, Stittsville, ON K2S 1B8",grocery,small,Munster - Ashton,45.1791782,-75.95095
+740,Muscle Madness,"183 Preston St, Ottawa, ON K1R 7P8",specialty,health store,West Centretown,45.4064902,-75.7127802
+741,Nasa Food Centre,"3050 Woodroffe Ave, Ottawa, ON",grocery,small,Old Barrhaven East,45.2845844,-75.7241576
+742,Nat's Bread Company,"857 Boyd Ave, Ottawa, ON K2A 2C9",specialty,bakery,Carlingwood West - Glabar Park - McKellar Heights,45.3764591,-75.7506528
+743,Nate'e Deli Express,"6 Antares Drive, Ottawa, ON K2E 8A9",specialty,deli meat cheese,Hunt Club South Industrial,45.3364876,-75.7064342
+744,Nate's Deli,"152 Sparks Street, Ottawa, ON K1P 5B6",specialty,deli meat cheese,Centretown,45.4219049,-75.6990049
+745,Natural Food Pantry,"1487 Richmond Rd, Ottawa, ON",specialty,health store,Britannia Village,45.3629829,-75.791155
+746,Natural Food Pantry,"4325 Strandherd Drive, Ottawa, ON",specialty,health store,Stonebridge - Half Moon Bay - Heart's Desire,45.2710005,-75.7837894
+747,Natural Food Pantry - Billings Bridge,"2277 Riverside Dr., Ottawa, ON K1H 7X6",specialty,health store,Billings Bridge - Alta Vista,45.3856281,-75.6774777
+748,Natural Food Pantry - Kanata,"5537 Hazeldean Road, Kanata, ON K2S 0P5",specialty,health store,Stittsville,45.2883048,-75.904716
+749,Natural Food Pantry - Westboro,"205 Richmond Rd, Ottawa, ON K1Z 6W4",specialty,health store,Westboro,45.3947481,-75.7484908
+750,Nature's Buzz Organic Food Market,"55 Beechwood Ave, Ottawa, ON",grocery,small,Lindenlea - New Edinburgh,45.4402455,-75.6757886
+751,Nature's Care Health Products,"64 Beechwood Ave, Vanier, ON K1L 8B2",specialty,health store,Vanier North,45.4401226,-75.6749723
+752,Nature's Care Health Products,"115 Bank St, Ottawa, ON K2P 5N5",grocery,large,Centretown,45.4197748,-75.6999616
+753,Nature's Care Health Products,"1500 Bank St, Ottawa, ON K1H 7Z2",specialty,health store,Billings Bridge - Alta Vista,45.3809813,-75.6701018
+754,Nature's Care Health Products,"1558 Merivale Rd, Nepean, ON K2G 3J9",specialty,health store,Cityview - Crestview - Meadowlands,45.3528521,-75.7354312
+755,Nature's Care Health Products Limited,"150 Robertson Rd, Ottawa, ON K2H 9S1",specialty,health store,Bells Corners West,45.3176435,-75.843842
+756,Nature's Signature - Orleans Ottawa,"4510 Innes Road, Ottawa, ON K4A 4C5",specialty,health store,Portobello South,45.4613368,-75.4841125
+757,Nehles Meat Shop Grocery & BBQ,"2026 Lanthier Dr, Ottawa, ON",grocery,small,Portobello South,45.4577469,-75.492931
+758,New Middleast Supermarket,"1755 Bank St, Ottawa, ON K1V 7Z4",grocery,small,Billings Bridge - Alta Vista,45.3737361,-75.6644327
+759,New Olympia Market Centre,"590 Gladstone Ave, Ottawa, ON K1R 5P3",grocery,small,Centretown,45.4090052,-75.7008241
+760,New Quill Convience Store,"6 Quill St, Ottawa, ON K1K 3S8",grocery,small,Overbrook - McArthur,45.4265898,-75.6578544
+761,New Thana Market,"386 Bank St, Ottawa, ON",grocery,small,Centretown,45.413522,-75.694906
+762,Nf Nutrition,"200 Laurier Ave W, Ottawa, ON K1P 6M7",specialty,health store,Centretown,45.4197557,-75.6955437
+763,Nicastro Fine Foods,"1558 Merivale Road, Nepean, ON K2G 3J9",specialty,deli meat cheese,Cityview - Crestview - Meadowlands,45.3528521,-75.7354312
+764,NICHOLLS ESSO,"3798 DUNROBIN RD, WOODLAWN, ON",convenience,gas station,Dunrobin,45.4628437,-76.0740486
+765,Nick's General Store,"5352 Bank St, Gloucester, ON K1X 1H1",grocery,small,Greely,45.2859373,-75.5743668
+766,Nickels Deli Grillade,"78 Greber Blvd, Gatineau, QC J8T 3P8",specialty,deli meat cheese,(None),45.4640324,-75.7005194
+767,NO FRILLS,"1226 Place D'Orleans Dr, Ottawa, Ontario, K1C 7K3",grocery,large,Convent Glen - Orléans Woods,45.4764991,-75.5228439
+768,NO FRILLS,"39 Winner's Circle Dr Rr 3, Arnprior, Ontario, K7S 3G9",grocery,large,(None),45.4217625,-76.3692142
+769,NO FRILLS,"30 Iber Rd, Stittsville, Ontario, K2S 2R1",grocery,large,Stittsville,45.2809221,-75.9127492
+770,Noor Food Market,"332 Richmond Rd, Ottawa, ON",grocery,small,Westboro,45.3921771,-75.7533998
+771,Nordstrom Ebar Artisan Coffee,"500-50 Rideau Street, Ottawa, ON K1N 9J7",specialty,bakery,Sandy Hill,45.4247623,-75.6900945
+772,North & Navy,"226 Nepean Street, Ottawa, ON K2P 0B8",specialty,deli meat cheese,Centretown,45.416712,-75.6990816
+773,North Bestone,"190 Lees Avenue, Ottawa, ON",grocery,small,Old Ottawa East,45.4151826,-75.6697825
+774,Nu Grocery Store,"1130 Wellington Street West, Ottawa, ON",grocery,small,Hintonburg - Mechanicsville,45.4017855,-75.7266504
+775,NU Grocery Store,"143 Main St, Ottawa, ON K1S 5V9",grocery,small,Old Ottawa East,45.4100902,-75.6784025
+776,Nutrition by Nature,"462 Hazeldean Road, Kanata, ON K2L 1V3",specialty,health store,Glen Cairn - Kanata South Business Park,45.2981401,-75.8872192
+777,Nutrition Company,"1980 Ogilvie Rd, Ottawa, ON K1J 9L3",specialty,health store,Carson Grove - Carson Meadows,45.4325275,-75.6098258
+778,Nutrition House,"50 Rideau Ter, Ottawa, ON K1M 2A1",specialty,health store,Lindenlea - New Edinburgh,45.4437533,-75.6791709
+779,Nutrition House,"2121 Carling Ave, Ottawa, ON K2A 1H2",specialty,health store,Laurentian,45.3731497,-75.7686794
+780,Nutty Greek Bake Shop,"490 Rochester Street, Ottawa, ON K1S 4L8",specialty,bakery,West Centretown,45.4010808,-75.7074445
+781,O'connor Convenience,"110 O'connor Street, Ottawa, ON K1P 5M9",convenience,regular,Centretown,45.4197951,-75.6977346
+782,O'connor Grocery,"41 Third Ave, Ottawa, ON",grocery,small,Glebe - Dows Lake,45.4046808,-75.6847606
+783,Ogilvie Grocery Store,"1137 Ogilvie Rd, Ottawa, ON",grocery,small,Overbrook - McArthur,45.4267387,-75.6312669
+784,OK Mart,"141 Bentley Ave Unit #G, Nepean, ON K2E 6T7",grocery,small,Hunt Club South Industrial,45.337172,-75.7113058
+785,Olga's Delights,"588 Bank Street, Ottawa, ON K1S 3T3",specialty,deli meat cheese,Glebe - Dows Lake,45.407787,-75.6912697
+786,Olly Fresco's Market,"90 Elgin St, Ottawa, ON K1P 0C6",grocery,small,Centretown,45.4220487,-75.694691
+787,Olympic Tuck Shop,"1170 Fisher Ave, Ottawa, ON K1Z 5R7",convenience,regular,Civic Hospital-Central Park,45.3768531,-75.7208795
+788,One Stop Convenience,"850 Merivale Rd, Ottawa, ON K1Z 5Z4",convenience,regular,Carlington,45.3852417,-75.732678
+789,Oriental Charm,"653 Somerset St W, Ottawa, ON K1R 5K3",grocery,small,Centretown,45.4117953,-75.705349
+790,Orleans Bakery,"2122 Street Joseph Boulevard, Orleans, ON K1C 1E6",specialty,bakery,Chapel Hill North,45.4660752,-75.5348812
+791,Orleans Food Market,"3022 St. Joseph Blvd, Orleans, ON K1E 1E2",convenience,regular,Queenswood Heights,45.4767757,-75.5135279
+792,Orleans Fresh Fruits,"3150 Hawthorne Rd, Ottawa, ON K1G 5H5",grocery,small,East Industrial,45.385374,-75.6043151
+793,Ottawa's Organic Farmers' Market,"Riverside United Church, 3191 Riverside Dr., Ottawa, ON K1V 8N8",grocery,small,Hunt Club Woods - Quintarra - Revelstoke,45.3590554,-75.6879909
+794,Ottawa Bagelshop & Deli,"1321 Wellington St W, Ottawa, ON",specialty,bakery,Island Park - Wellington Village,45.3988502,-75.7366115
+795,Ottawa Farm Fresh Inc.,"2811 Ramsayville Rd, Gloucester, ON K1G 3N2",grocery,small,Greenbelt,45.3893024,-75.5778562
+796,Ottawa Farmers' Market,"1000 Exhibition Way, Ottawa, ON",grocery,large,Glebe - Dows Lake,45.4000555,-75.6827317
+797,Ottawa Farmers' Market,"575 Byron Avenue, Ottawa, ON K2A 1H4",farmer's market,farmer's market,Laurentian,45.3901289,-75.756893
+798,Ottawa Farmers' Market Orleans,"1585 Tenth Line Rd, OrlÃƒÂ©ans, ON K1E 3E8",farmer's market,farmer's market,Fallingbrook,45.4719618,-75.4919287
+799,Ottawa Halal Market,"2833 Dumaurier Avenue, Ottawa, ON",grocery,small,Whitehaven - Queensway Terrace North,45.3507333,-75.7937212
+800,Ottawa Meat Plus Inc,"2535 Blackwell St, Ottawa, ON K1B 4E4",grocery,small,East Industrial,45.4059454,-75.6092273
+801,Ottawa Organic farmer's market,"3191 Riverside Drive, Ottawa, ON K1V 8N8",farmer's market,farmer's market,Hunt Club Woods - Quintarra - Revelstoke,45.3591058,-75.6879836
+802,Ottawa Organics and Natural Foods,"858 Campbell Avenue, Ottawa, ON",grocery,small,Carlingwood West - Glabar Park - McKellar Heights,45.3764869,-75.7499893
+803,Ottawa South Groceteria,"431 Sunnyside Ave, Ottawa, ON K1S 0S6",grocery,large,Old Ottawa South,45.3916938,-75.689862
+804,Ottawa South Groceteria,"435 Sunnyside Avenue, Ottawa, ON K1S 0S6",grocery,large,Old Ottawa South,45.3916631,-75.6899175
+805,Ottawa Valley Meats,"22 Antares Dr Unit J, Ottawa, ON",specialty,deli meat cheese,Hunt Club South Industrial,45.3342893,-75.7090259
+806,Oui8 Bakery,"501 Hazeldean Road, Kanata, ON K2L 1V6",specialty,bakery,Katimavik - Hazeldean,45.295788,-75.8934843
+807,Ozan Turkish Market,"500 Eagleson Rd Unit 60, Kanata, ON K2M 1H4",grocery,small,Glen Cairn - Kanata South Business Park,45.2908396,-75.8706811
+808,OZZY Food Market,"3867 Albion Road, Ottawa, ON K1T 1B2",specialty,bakery,Hunt Club Upper -Blossom Park - Timbermill,45.3433238,-75.6365658
+809,PÃƒÂ¢tisserie Le Caramel,"200 Vanguard Dr, Ottawa, ON K4A 0T8",specialty,bakery,Portobello South,45.4578239,-75.4871421
+810,Panera Bread,"320 West Hunt Club Road, Ottawa, ON K2E 1A5",specialty,bakery,Hunt Club South Industrial,45.3389282,-75.71355
+811,Pantry Plus,"2433 St Joseph Boulevard, Ottawa, ON",grocery,small,Convent Glen - Orléans Woods,45.4699453,-75.5284842
+812,Parkdale Market,"Parkdale Ave &amp; Wellington St W, Ottawa, ON K1Y",farmer's market,farmer's market,Hintonburg - Mechanicsville,45.400493,-75.728961
+813,Parkway Cafe,"66 Slater Street, Ottawa, ON K1P 5H1",convenience,regular,Centretown,45.4213601,-75.6942895
+814,Parkway Tuck Shop,"1071 Ambleside Dr, Ottawa, ON K2B 6V4",convenience,regular,Carlingwood West - Glabar Park - McKellar Heights,45.374187,-75.7801139
+815,Parma Ravioli,"1314 Wellington St W, Ottawa, ON K1Y 3B2",specialty,deli meat cheese,Island Park - Wellington Village,45.3985082,-75.7367519
+816,Pastel & Coco,"80 Promenade du Portage, Gatineau, QC J8X 2K1",specialty,bakery,(None),45.424957,-75.7181079
+817,Pasticceria Gelateria Italiana,"200 Preston St, Ottawa, ON K1R 7P9",specialty,bakery,West Centretown,45.4057881,-75.7128132
+818,Pastry & Bakery La Brioche,"866 Bank St, Ottawa, ON K1S 3W3",specialty,bakery,Glebe - Dows Lake,45.4010002,-75.6873645
+819,Patisserie Fine Delice Royal,"1600 Forest Valley Dr, Orleans, ON K1C 6X7",specialty,bakery,Chapel Hill North,45.4488546,-75.535982
+820,Pelican Seafood Market & Grill,"1500 Bank Street, Ottawa, ON",grocery,small,Billings Bridge - Alta Vista,45.3809813,-75.6701018
+821,Perkins Restaurant & Bakery,"1130 St Laurent Blvd., Ottawa, ON K1K 3B6",specialty,bakery,Overbrook - McArthur,45.4245601,-75.6383218
+822,Pesto's Italian Delicatessen,"471 Hazeldean Road, Kanata, ON K2L 4B8",specialty,deli meat cheese,Katimavik - Hazeldean,45.2986456,-75.8894566
+823,Pete's Gluten Free,"5390 Canotek Road, Ottawa, ON K1J 1H8",specialty,bakery,Rothwell Heights - Beacon Hill North,45.4565586,-75.5806594
+824,Pete & Gus Meat Market,"1 Jockvale Rd, Ottawa, ON K2J 4J9",specialty,deli meat cheese,Old Barrhaven West,45.2755523,-75.7773356
+825,Peter's Health Foods,"2525 Carling Ave, Ottawa, ON K2B 7Z2",specialty,health store,Britannia Village,45.364982,-75.7857631
+826,Peter Tuck Shop,"1435 Prince of Wales Dr, Ottawa, ON K2C 1N5",convenience,regular,Carleton Heights - Rideauview,45.3691818,-75.7006377
+827,Petit Bill's Bistro,"1293 Wellington Street W, Ottawa, ON K1Y 3B1",specialty,bakery,Island Park - Wellington Village,45.3990721,-75.7354761
+828,Petro-Canada,"395 Montee Paiement, Gatineau, Quebec, J8P6M7",convenience,gas station,(None),45.49008,-75.6760201
+829,Petro-Canada,"255 ave Gatineau, Gatineau, Quebec, J8T4J7",convenience,gas station,(None),45.4886639,-75.7190463
+830,Petro-Canada,"151 Maloney est, Gatineau, Quebec, J8P1B9",convenience,gas station,(None),45.484042,-75.6506588
+831,Petro-Canada,"3055 St-Joseph Blvd, Orleans, Ontario, K1C1T1",convenience,gas station,Queenswood Heights,45.4783089,-75.5125556
+832,Petro-Canada,"225 de la Gappe, Gatineau, Quebec, J8T7Y3",convenience,gas station,(None),45.4756587,-75.7079356
+833,Petro-Canada,"1685 10th Line Road, Orleans, Ontario, K1E3E8",convenience,gas station,Fallingbrook,45.4680657,-75.4914231
+834,Petro-Canada,"1988 St. Joseph Blvd., Orleans, Ontario, K1C1E4",convenience,gas station,Chapel Hill North,45.4641988,-75.5394021
+835,Petro-Canada,"47 rue Greber, Gatineau, Quebec, J8T3P7",convenience,gas station,(None),45.4618626,-75.6993677
+836,Petro-Canada,"4358 Innes Road, Cumberland, Ontario, K4A3W3",convenience,gas station,Portobello South,45.4594606,-75.4911923
+837,Petro-Canada,"744, boul Saint-Joseph, Gatineau, Quebec, J8Y4A8",convenience,gas station,(None),45.4572839,-75.7421205
+838,Petro-Canada,"2180 Montreal Road, Ottawa, Ontario, K1J1G4",convenience,gas station,Beacon Hill South - Cardinal Heights,45.4494576,-75.5884049
+839,Petro-Canada,"120 St-Raymond, Gatineau, Quebec, J8Y1T1",convenience,gas station,(None),45.4471094,-75.7438292
+840,Petro-Canada,"2073 Montreal Road, Gloucester, Ontario, K1J6M1",convenience,gas station,Rothwell Heights - Beacon Hill North,45.4459441,-75.5975608
+841,Petro-Canada,"210 boulevard St-Raymond, Gatineau, Quebec, J9A3H6",convenience,gas station,(None),45.4364466,-75.7661968
+842,Petro-Canada,"42 Montreal Road, Vanier, Ontario, K1L6E7",convenience,gas station,Vanier South,45.4331463,-75.6683331
+843,Petro-Canada,"2630 Innes Road, Gloucester, Ontario, K1B4Z5",convenience,gas station,Blackburn Hamlet,45.4315804,-75.563993
+844,Petro-Canada,"292 Rideau Street, Ottawa, Ontario, K1N5Y5",convenience,gas station,Sandy Hill,45.4286644,-75.6852652
+845,Petro-Canada,"1007 St. Laurent Blvd, Ottawa, Ontario, K1K3B1",convenience,gas station,Overbrook - McArthur,45.4283766,-75.6391308
+846,Petro-Canada,"1018 Cyrville Road, Gloucester, Ontario, K1J7S4",convenience,gas station,Overbrook - McArthur,45.4252844,-75.6374316
+847,Petro-Canada,"1941 Innes Road, Gloucester, Ontario, K1B4C6",convenience,gas station,Pineview,45.4194632,-75.5960793
+848,Petro-Canada,"1960 Innes Road, Ottawa, Ontario, K1B3K5",convenience,gas station,Greenbelt,45.419071,-75.5949279
+849,Petro-Canada,"676 Somerset Street, Ottawa, Ontario, K1R6P4",convenience,gas station,West Centretown,45.4112569,-75.7059129
+850,Petro-Canada,"790 Wilfrid-Lavigne Blvd., Gatineau, Quebec, J9J2S5",convenience,gas station,(None),45.4110993,-75.8386017
+851,Petro-Canada,"470 Bronson Ave., Ottawa, Ontario, K1R6J9",convenience,gas station,West Centretown,45.4073978,-75.703867
+852,Petro-Canada,"1740 St. Laurent Blvd, Ottawa, Ontario, K1G1A2",convenience,gas station,East Industrial,45.4052824,-75.6274515
+853,Petro-Canada,"390 Parkdale Ave, Ottawa, Ontario, K1Y1G6",convenience,gas station,Hintonburg - Mechanicsville,45.4009191,-75.7296495
+854,Petro-Canada,"1856 Carling Avenue, Ottawa, Ontario, K2A1E3",convenience,gas station,Carlingwood West - Glabar Park - McKellar Heights,45.3757622,-75.7571659
+855,Petro-Canada,"3201 Conroy Road, Ottawa, Ontario, K1G3N4",convenience,gas station,East Industrial,45.3738248,-75.623971
+856,Petro-Canada,"1432 Baseline Road, Nepean, Ontario, K2C0A9",convenience,gas station,Skyline - Fisher Heights,45.3611753,-75.7390965
+857,Petro-Canada,"2471 Bank Street, Ottawa, Ontario, K1V8R9",convenience,gas station,South Keys - Greenboro West,45.3540627,-75.646459
+858,Petro-Canada,"3095 Carling Avenue, Nepean, Ontario, K2H5A5",convenience,gas station,Bayshore - Belltown,45.3537471,-75.8088174
+859,Petro-Canada,"2536 Bank St, Gloucester, Ontario, K1T1M9",convenience,gas station,Hunt Club Upper -Blossom Park - Timbermill,45.3537051,-75.6420543
+860,Petro-Canada,"1900 Prince Of Wales Dr, Ottawa, Ontario, K2C3V3",convenience,gas station,Carleton Heights - Rideauview,45.3531316,-75.7048616
+861,Petro-Canada,"5336 Boundary Road, Gloucester, Ontario, K0A1K0",convenience,gas station,Edwards - Carlsbad Springs,45.345078,-75.4436492
+862,Petro-Canada,"690 Hunt Club Road, Ottawa, Ontario, K1V1C3",convenience,gas station,Hunt Club - Ottawa Airport,45.3429899,-75.669964
+863,Petro-Canada,"1431 Woodroffe Avenue, Nepean, Ontario, K2G1V9",convenience,gas station,Cityview - Crestview - Meadowlands,45.3426229,-75.7564534
+864,Petro-Canada,"4000 Riverside Drive, Ottawa, Ontario, K1V2E8",convenience,gas station,Hunt Club Woods - Quintarra - Revelstoke,45.3338503,-75.6939619
+865,Petro-Canada,"1881 Robertson Road, Nepean, Ontario, K2H5B7",convenience,gas station,Bells Corners East,45.3273421,-75.821492
+866,Petro-Canada,"570 Terry Fox Dr, Kanata, Ontario, K2T1L2",convenience,gas station,Kanata Lakes - Arcardia,45.308046,-75.9156519
+867,Petro-Canada,"7 Carbrooke St., Kanata, Ontario, K2L1B1",convenience,gas station,Glen Cairn - Kanata South Business Park,45.3023544,-75.8791186
+868,Petro-Canada,"3320 Fallowfield Road, Nepean, Ontario, K2J4P5",convenience,gas station,Old Barrhaven East,45.2979737,-75.7318443
+869,Petro-Canada,"2222 Route 500 West, Box 959, Embrun, Ontario, K0A1W0",convenience,gas station,(None),45.290931,-75.228436
+870,Petro-Canada,"500 Eagleson Road, Kanata, Ontario, K2M1H4",convenience,gas station,Glen Cairn - Kanata South Business Park,45.2908396,-75.8706811
+871,Petro-Canada,"3766 Fallowfield Road, Nepean, Ontario, K2J1A1",convenience,gas station,Old Barrhaven West,45.2874346,-75.7571842
+872,Petro-Canada,"3300 Woodroffe Avenue, Nepean, Ontario, K2J4G5",convenience,gas station,Old Barrhaven East,45.2759127,-75.7196091
+873,Petro-Canada,"6061 Hazeldean Road, Stittsville, Ontario, K2S1B9",convenience,gas station,Stittsville,45.272694,-75.9309671
+874,Petro-Canada,"3775 C Strandherd Drive, Ottawa, Ontario, K2J4B1",convenience,gas station,Stonebridge - Half Moon Bay - Heart's Desire,45.2685841,-75.7501918
+875,Petro-Canada,"6250 Hazeldean Road, Stittsville, Ontario, K2S1B9",convenience,gas station,Stittsville,45.2681321,-75.9383774
+876,Pharmacie Shoppers Drug Mart,"1937 Boul Portobello, Orleans, ON K4A 4W9",convenience,regular,Cardinal Creek,45.4680525,-75.4657987
+877,Php Marketing,"272 Mountbatten Ave, Ottawa, ON K1H 5W3",specialty,health store,Billings Bridge - Alta Vista,45.3918671,-75.6616033
+878,Phuoc Loi,"797 Somerset St W, Ottawa, ON K1R 6R3",grocery,small,West Centretown,45.4097421,-75.7104985
+879,Phynicia Restaurant,"605 Longfields Drive, Ottawa, ON K2J 6T7",specialty,bakery,Old Barrhaven East,45.2847669,-75.7449274
+880,Pinecrest Deli,"2831 Dumaurier Ave, Ottawa, ON K2B 7W3",specialty,deli meat cheese,Whitehaven - Queensway Terrace North,45.3509485,-75.7932803
+881,Pinewood Orchards,"101 Herzberg Road, Nepean, ON K2K 2Y3",farmer's market,farmer's market,Greenbelt,45.3341227,-75.8900789
+882,Ping Fat Lee,"719 Somerset St W, Ottawa, ON K1R 6P7",specialty,health store,West Centretown,45.4107482,-75.7079527
+883,Pioneer,"590 MONTREAL RD., OTTAWA, ON, K1K0T9",convenience,gas station,Overbrook - McArthur,45.4416383,-75.6441817
+884,Pioneer,"1134 OGILVIE RD., GLOUCESTER, ON, K1J8V1",convenience,gas station,Overbrook - McArthur,45.4261393,-75.6310308
+885,Pioneer,"631 INDUSTRIAL AVE., OTTAWA, ON, K1G0Z1",convenience,gas station,East Industrial,45.4112607,-75.6407621
+886,Pioneer,"1795 BANTREE ROAD, OTTAWA, ON, K1B4G6",convenience,gas station,East Industrial,45.4066167,-75.6169468
+887,Pioneer,"2931 BANK ST., GLOUCESTER, ON, K1T1N7",convenience,gas station,Hunt Club Upper -Blossom Park - Timbermill,45.3478896,-75.6251507
+888,Pioneer Gas,"2688 ST. JOSEPH BLVD., ORLEANS, ON",convenience,gas station,Orléans Village - Chateauneuf,45.4716751,-75.5228412
+889,Pioneer Gas,"10418 HIGHWAY 7 RR 2, CARLETON PLACE, ON",convenience,gas station,(None),45.131334,-76.121428
+890,Pioneer Gas,"2140 HWY #31, WINCHESTER, ON",convenience,gas station,(None),45.0884372,-75.377765
+891,Pipeline Truck Stop,"Glenfield Road, Ottawa, ON K1G 5N3",convenience,gas station,East Industrial,45.3848372,-75.6003191
+892,Place Cartier Iga Laflamme,"425 Saint-Joseph Boul, Ottawa, ON",grocery,small,(None),45.4456609,-75.7340534
+893,Polka Delicatessen,"1576 Walkley Road, Ottawa, ON K1V 6P5",specialty,deli meat cheese,Ledbury - Heron Gate - Ridgemont,45.3767035,-75.6468216
+894,Portuguese Bakery,"48 Nelson Street, Ottawa, ON K1N 7R2",specialty,bakery,Lowertown,45.432201,-75.6865246
+895,Pot & Pantry,"244 Elgin Street, Ottawa, ON",grocery,small,Centretown,45.418373,-75.6909919
+896,PremiÃƒÂ¨re Moisson,"920 Boulevard Maloney O, Gatineau, QC J8T 3R6",specialty,bakery,(None),45.4779159,-75.6903002
+897,PremiÃƒÂ¨re Moisson,"120 University Drive, Ottawa, ON K1N 6N5",specialty,bakery,Carleton University,45.3851669,-75.694789599999993
+898,Preston Food Market,"71 Preston St, Ottawa, ON",grocery,small,West Centretown,45.4096406,-75.7148187
+899,Prince Ali Bakery,"1600 Walkey Road, Ottawa, ON K1V 6P5",specialty,bakery,Ledbury - Heron Gate - Ridgemont,45.3768759,-75.645979
+900,Prodeli,"215 Rue Bellehumeur, Gatineau, QC J8T 8H3",specialty,deli meat cheese,(None),45.4803852,-75.6926179
+901,Produce Depot,"1855 Av Carling, Ottawa, ON",grocery,small,Laurentian,45.376824,-75.7569034
+902,Pronto Food Marts,"2688 St Joseph Blvd, Orleans, ON K1C 1G3",convenience,regular,Orléans Village - Chateauneuf,45.4716751,-75.5228412
+903,Pronto Food Marts,"1119 Concession Street, Russell, ON K4R 1C8",convenience,regular,(None),45.2578739,-75.3581913
+904,Pronto Foodmart,"5303 Canotek Rd Unit #1, Gloucester, ON K1J 9M1",grocery,small,Rothwell Heights - Beacon Hill North,45.4529502,-75.5885048
+905,Provigo,"22 Rue Des Flandres, Ottawa, ON",grocery,small,(None),45.4711794,-75.7181553
+906,Proxim Isabelle Menard,"87 Chemin Old Chelsea, Chelsea, QC J9B 1K9",specialty,health store,(None),45.5035525,-75.7948719
+907,Purbany Enterprise,"1036 Merivale Road, Ottawa, ON K1Z 6A7",convenience,regular,Carlington,45.3789353,-75.7334834
+908,Quality Life Services,"2220 Gladwin Crescent, Ottawa, ON K1B 4S6",specialty,health store,East Industrial,45.4060182,-75.6246632
+909,Quality Meat and Foods,"1411 Triole St, Gloucester, ON K1B 4T4",grocery,small,East Industrial,45.4161756,-75.6304703
+910,Quelque Chose Macaron Boutique,"379 Richmond Road, Ottawa, ON K2A 0E7",specialty,bakery,Westboro,45.3914251,-75.7557367
+911,Quelque Chose PÃ¢tisserie,"70 George St, Ottawa, ON K1N 5V9",specialty,bakery,Byward Market,45.4268619,-75.6917088
+912,Quelque Chose Patisserie,"274 Montreal Rd, Vanier, ON K1L 6C4",specialty,bakery,Vanier South,45.4366197,-75.6598836
+913,Quick Way Food Market,"326 Somerset St E, Ottawa, ON",grocery,small,Sandy Hill,45.4245315,-75.6740368
+914,Quickie,"915 WATTERS STREET, Cumberland, Ontario, K4A 3K5",convenience,regular,Fallingbrook,45.4837088,-75.4756006
+915,Quickie,"375 DES EÃŒÂPINETTES AVE, Cumberland, Ontario, K1E 3E6",convenience,regular,Queenswood Heights,45.4661877,-75.4957745
+916,Quickie,"64 BEECHWOOD AVENUE, Ottawa, Ontario, K1L 8B2",convenience,regular,Vanier North,45.4401226,-75.6749723
+917,Quickie,"490 RIDEAU STREET, Ottawa, Ontario, K1N 8L4",convenience,regular,Sandy Hill,45.431362,-75.6789385
+918,Quickie,"431 DONALD STREET, Ottawa, Ontario, K1K 1L8",convenience,regular,Overbrook - McArthur,45.4284426,-75.6493299
+919,Quickie,"287A SOMERSET STREET EAST, Ottawa, Ontario, K1N 6V7",convenience,regular,Sandy Hill,45.4236943,-75.6765377
+920,Quickie,"119 MANN AVENUE, Ottawa, Ontario, K1N 5A4",convenience,regular,Sandy Hill,45.4213501,-75.67194
+921,Quickie,"435 ALBERT STREET, Ottawa, Ontario, K1R 7X4",convenience,regular,Centretown,45.4173543,-75.7067817
+922,Quickie,"348 ELGIN STREET, Ottawa, Ontario, K2P 1M6",convenience,regular,Centretown,45.4157122,-75.6886654
+923,Quickie,"326-332 BANK STREET, Ottawa, Ontario, K2P 1Y1",convenience,regular,Centretown,45.4142546,-75.6956649
+924,Quickie,"163 BELL STREET NORTH, Ottawa, Ontario, K1R 7E1",convenience,regular,West Centretown,45.4067476,-75.705678
+925,Quickie,"255 PARKDALE AVENUE, Ottawa, Ontario, K1Y 1G1",convenience,regular,Hintonburg - Mechanicsville,45.4049117,-75.731157
+926,Quickie,"655 BRONSON AVE., Ottawa, Ontario, K1S 4E7",convenience,regular,Glebe - Dows Lake,45.4034352,-75.7008307
+927,Quickie,"1034 PLEASANT PARK RD, Ottawa, Ontario, K1G 2A1",convenience,regular,Elmvale - Canterbury,45.3953221,-75.6216341
+928,Quickie,"1166 BANK STREET, Ottawa, Ontario, K1S 3X8",convenience,regular,Old Ottawa South,45.392441,-75.6825306
+929,Quickie,"1780 HERON ROAD, Ottawa, Ontario, K1V 6A1",convenience,regular,Ledbury - Heron Gate - Ridgemont,45.3802885,-75.6396287
+930,Quickie,"1435 CALDWELL AVE., Ottawa, Ontario, K1Z 8L3",convenience,regular,Carlington,45.372816,-75.7349302
+931,Quickie,"4 LORRY GREENBERG DRIVE, Ottawa, Ontario, K1G 5H6",convenience,regular,Hunt Club Park,45.3691281,-75.6209221
+932,Quickie,"1386 RICHMOND ROAD, Ottawa, Ontario, K2B 8L4",convenience,regular,Britannia Village,45.3651059,-75.7877922
+933,Quickie,"361 POULIN AVENUE, Ottawa, Ontario, K2B 5V2",convenience,regular,Britannia Village,45.3630049,-75.7917297
+934,Quickie,"1356-1366 CLYDE AVENUE, UNIT 13, Nepean, Ontario, K2C 3Z4",convenience,regular,Civic Hospital-Central Park,45.36224,-75.7407585
+935,Quickie,"1661 HUNT CLUB ROAD, Ottawa, Ontario, K1T 3Z3",convenience,regular,Greenboro East,45.3603146,-75.6315224
+936,Quickie,"3332 McCARTHY ROAD, Ottawa, Ontario, K1V 0H9",convenience,regular,Hunt Club East - Western Community,45.351192,-75.6702828
+937,Quickie,"350 VIEWMOUNT DRIVE, Ottawa, Ontario, K2E 7T5",convenience,regular,Borden Farm - Fisher Glen,45.3489862,-75.7149353
+938,Quickie,"1 CHARTWELL AVENUE, Ottawa, Ontario, K2G 4C6",convenience,regular,Woodvale - Craig Henry - Manordale - Estates of Arlington Woods,45.3323407,-75.7701227
+939,Quickie,"4505 BANK STREET, Ottawa, Ontario, K1T 3W5",convenience,regular,Greenbelt,45.331419,-75.5996245
+940,Quickie,"2 GOLDRIDGE DRIVE, Kanata, Ontario, K2T 1C7",convenience,regular,Kanata Lakes - Arcardia,45.316109,-75.9206246
+941,Quickie,"1 RIDEAUCREST DR., Nepean, Ontario, K2G 6A4",convenience,regular,Rideau Crest - Davidson Heights,45.2848746,-75.7229169
+942,Quickie,"800 STONEHAVEN DRIVE, Kanata, Ontario, K2M 2Z2",convenience,regular,Bridlewood - Emerald Meadows,45.2811972,-75.838223
+943,Quickie,"2201 JOCKVALE ROAD, Nepean, Ontario, K2J 4J9",convenience,regular,Old Barrhaven West,45.2758212,-75.7773042
+944,Quickie,"3023 CEDARVIEW ROAD, Nepean, Ontario, K2J 4A8",convenience,regular,Old Barrhaven West,45.2660293,-75.7713906
+945,Quickie,"712 NORTH RIDEAU STREET, Kemptville, Ontario, K0G 1J0",convenience,regular,(None),45.0209838,-75.6530963
+946,Quickie,"305 ST. LAWRENCE STREET, Merrickville, Ontario, K0G 1N0",convenience,regular,(None),44.9146639,-75.8363077
+947,Quickie the Convenience Stores,"1670 Heron Rd, Ottawa, ON",grocery,small,Ledbury - Heron Gate - Ridgemont,45.379825,-75.644557
+948,Quitters,"1523 Stittsville Main Street, Stittsville, ON K2S 1A6",specialty,bakery,Stittsville,45.2580192,-75.9202362
+949,Rafedain Bakery,"1920 Bank Street, Ottawa, ON K1V 7Z8",specialty,bakery,Hunt Club Woods - Quintarra - Revelstoke,45.3677105,-75.6626927
+950,Ralph & Sons Gas Station & C-Store,"3420 Carling Ave, Nepean, ON",convenience,gas station,Crystal Bay - Lakeview Park,45.352191,-75.8354632
+951,Rawflect,"84 Meadowlands Drive W, Ottawa, ON K2G 2R8",specialty,bakery,Cityview - Crestview - Meadowlands,45.3470198,-75.7428672
+952,REAL CANADIAN SUPERSTORE,"4270 Innes Rd, Ottawa, Ontario, K4A 5E6",grocery,large,Portobello South,45.4572295,-75.4953166
+953,REAL CANADIAN SUPERSTORE,"190 Richmond Rd, Ottawa, Ontario, K1Z 6W6",grocery,large,Westboro,45.3942654,-75.7473437
+954,REAL CANADIAN SUPERSTORE,"760 Eagleson Rd, Kanata, Ontario, K2M 0A7",grocery,large,Glen Cairn - Kanata South Business Park,45.2827189,-75.8665256
+955,Reliance Foods International,"644 Cooper St, Ottawa, ON K1R 5J2",specialty,health store,Centretown,45.4135771,-75.702498
+956,Rema Convenience Store,"1263 Wellington St W, Ottawa, ON K1Y 3A6",convenience,regular,Island Park - Wellington Village,45.399495,-75.7335015
+957,Rene's Corner,"4490 Anderson Road, Carlsbad Springs, ON K0A 1K0",convenience,regular,Edwards - Carlsbad Springs,45.3423997,-75.5249528
+958,Rene's Corner,"685 River Rd, Gloucester, ON K1V 2G2",grocery,large,Riverside South - Leitrim,45.2701673,-75.6978273
+959,Rexall,"1615 OrlÃ¢Ë†Å¡Ã‚Â©ans Blvd, OrlÃ¢Ë†Å¡Ã‚Â©ans, ON K1C 7E2",grocery,large,Orléans Village - Chateauneuf,45.4604249,-75.5247209
+960,Rexall,"2116 Montreal Road, Ottawa, ON K1J 6M7",grocery,large,Beacon Hill South - Cardinal Heights,45.4479777,-75.5918655
+961,Rexall,"753 Montreal Road, Ottawa, ON K1K 0T1",grocery,large,Wateridge Village,45.4450941,-75.6365507
+962,Rexall,"1980 Ogilvie Road Unit #144, Gloucester, ON K1J 9L3",grocery,large,Carson Grove - Carson Meadows,45.4325275,-75.6098258
+963,Rexall,"200 Rideau Pl #216, Ottawa, ON K1N 5Y1",grocery,large,Sandy Hill,45.4274754,-75.6883037
+964,Rexall,"22 Baskin Drive East, Arnprior, ON K7S 3G8",grocery,large,(None),45.4239485,-76.3669273
+965,Rexall,"407 Laurier Avenue West Unit #24, 25 & 26, Ottawa, ON K1R 7Y7",grocery,large,Centretown,45.4174617,-75.7025069
+966,Rexall,"1620 Scott Street, Unit 29, Ottawa, ON K1Y 4S7",grocery,large,Hintonburg - Mechanicsville,45.4033619,-75.7338284
+967,Rexall,"1910 St Laurent Blvd, Ottawa, ON K1G 1A4",grocery,large,Elmvale - Canterbury,45.3990561,-75.6239131
+968,Rexall,"1415 Carling Avenue, Ottawa, ON K1Z 7L6",grocery,large,Westboro,45.386315,-75.739747499999993
+969,Rexall,"2269 Riverside Dr E, Ottawa, ON K1H 8K2",grocery,large,Billings Bridge - Alta Vista,45.3858045,-75.6783143
+970,Rexall,"1725 Walkley Road Unit C, Ottawa, ON K1V 2P6",grocery,large,Ledbury - Heron Gate - Ridgemont,45.3778586,-75.6459656
+971,Rexall,"2121 Carling Ave, Ottawa, ON K2A 1H2",grocery,large,Laurentian,45.3731497,-75.7686794
+972,Rexall,"832 March Road, Kanata, ON K2W 0C9",grocery,large,Brookside - Briarbrook - Morgan's Grant,45.3568278,-75.9334925
+973,Rexall,"2950 Carling Avenue, Ottawa, ON K2B 7J7",grocery,large,Whitehaven - Queensway Terrace North,45.3559371,-75.8021607
+974,Rexall,"1595 Merivale Rd #1A, Nepean, ON K2G 3J4",grocery,large,Skyline - Fisher Heights,45.3524148,-75.7327639
+975,Rexall,"S1363B Woodroffe Avenue, Nepean, ON K2G 1V7",grocery,large,Cityview - Crestview - Meadowlands,45.3498598,-75.7617807
+976,Rexall,"4048 Carling Ave, Kanata, ON K2K 1Y1",grocery,large,Brookside - Briarbrook - Morgan's Grant,45.3371417,-75.9072525
+977,Rexall,"2144 Robertson Road, Nepean, ON K2H 5Z1",grocery,large,Bells Corners West,45.320755,-75.8358271
+978,Rexall,"900 Greenbank Rd, Nepean, ON K2J 4P6",grocery,large,Old Barrhaven West,45.2847264,-75.7564617
+979,Rexall,"430 Ottawa Street, Almonte, ON K0A 1A0",grocery,large,(None),45.2360381,-76.1831924
+980,Rhema's African And Caribbean Market,"4380 Innes Rd, OrlÃ¢Ë†Å¡Ã‚Â©ans, ON K4A 3W3",grocery,small,Portobello South,45.4599028,-75.4901508
+981,Richmond Food Market,"1315 Richmond Rd, Ottawa, ON",grocery,small,Britannia Village,45.3681702,-75.7858283
+982,Richmond Mart,"747 Richmond Rd, Ottawa, ON K2A 0G6",convenience,regular,Laurentian,45.382657,-75.7701135
+983,Rideau Pines Farm and Market,"5714 Fourth Line Rd, North Gower, ON K0A 2T0",grocery,small,Richmond,45.1761956,-75.774174
+984,Riverbreeze Tuck Shop,"1541 Riverside Dr, Ottawa, ON K1G 4E2",convenience,regular,Riverview,45.409144,-75.662675
+985,Riverside Mart,"1335 Bank St, Ottawa, ON K1H 7X8",convenience,regular,Billings Bridge - Alta Vista,45.3888422,-75.676649
+986,Riverside Place Tuck Shop,"1755 Riverside Dr, Ottawa, ON K1G 3T6",convenience,regular,Riverview,45.4020196,-75.6652827
+987,Riverside Service Centre,"1540 Bank St, Ottawa, ON K1H",convenience,gas station,Billings Bridge - Alta Vista,45.3805255,-75.6685385
+988,Roberto's Corner,"1034 Pleasant Park Rd, Ottawa, ON K1G 2A1",convenience,regular,Elmvale - Canterbury,45.3953221,-75.6216341
+989,Rochon Garden,"1101 York's Corners Road, Edwards, ON K0A 1V0",farmer's market,farmer's market,Edwards - Carlsbad Springs,45.321304,-75.464271
+990,Rock'N Deli,"1100 Boulevard Maloney, Gatineau, QC J8T 6G3",specialty,deli meat cheese,(None),45.4756531,-75.6972849
+991,Roma Confectionery,"258 Rochester St, Ottawa, ON K1R 7N1",convenience,regular,West Centretown,45.406023,-75.7104354
+992,Royal Food Market,"2895 Bank St, Gloucester, ON K1T 1N2",convenience,regular,Hunt Club Upper -Blossom Park - Timbermill,45.3490273,-75.626724
+993,Royal Varity,"260 Bank Street, Ottawa, ON K2P 1X4",convenience,regular,Centretown,45.4160833,-75.6971684
+994,Rudolph 2000,"120 - 2700 Lancaster Road, Ottawa, ON K1B 4T7",specialty,bakery,East Industrial,45.3971808,-75.6087017
+995,Saigon Meats & Vegetables,"777 Somerset Street W, Ottawa, ON K1R 6R3",convenience,regular,West Centretown,45.4100018,-75.7100384
+996,SAM A FRUITS,"1183 Hunt Club Rd #111, Ottawa, ON K1V 8S4",grocery,small,South Keys - Greenboro West,45.3529772,-75.6505394
+997,SamÃ¢â‚¬Å¡Ãƒâ€žÃƒÂ´s Convenience,"1565 Alta Vista Dr, Ottawa, ON K1G 0E9",grocery,small,Riverview,45.4086185,-75.6573288
+998,Sammy's Corner Confectionary,"1076 St Laurent Blvd, Ottawa, ON K1K 3B4",convenience,regular,Overbrook - McArthur,45.4263396,-75.6388927
+999,San Jose Mexican Foods,"1017B Carp Road, Ottawa, ON",grocery,small,Stittsville,45.2725019,-75.9455961
+1000,Sandy Hill Pet and People Food Co-op,"304 Wilbrod Street, Ottawa, ON K1N 6M1",specialty,health store,Sandy Hill,45.4274289,-75.6805365
+1001,Sanguiccio,"183 Preston Street, Ottawa, ON K1R 7P8",specialty,deli meat cheese,West Centretown,45.4064902,-75.7127802
+1002,Saputo Foods,"1275 Leeds Ave, Ottawa, ON K1B 3W2",specialty,health store,East Industrial,45.4034174,-75.6090004
+1003,Saslove's Meat Market,"50 Byward Market Square, Ottawa, ON K1N 7A2",specialty,deli meat cheese,Byward Market,45.4273608,-75.6927851
+1004,Savannah Afro Caribbean Products,"1838 Bank Street, Ottawa, ON",grocery,small,Billings Bridge - Alta Vista,45.370372,-75.6646426
+1005,Savoir Fare,"E135-1385 Woodroffe Avenue, Ottawa, ON K2G 3G7",specialty,bakery,Cityview - Crestview - Meadowlands,45.3470853,-75.7594786
+1006,Scrummie Scones,"5546 Manotick Main Street, Ottawa, ON K4M 1B3",specialty,bakery,Manotick,45.2248788,-75.6840936
+1007,Second Avenue Sweets,"151B Second Avenue, Ottawa, ON K1S 2H6",specialty,bakery,Glebe - Dows Lake,45.4036138,-75.6893173
+1008,Seed to Sausage General Store,"729 Gladstone Avenue, Ottawa, ON K1R 7B1",specialty,deli meat cheese,West Centretown,45.4077548,-75.7044625
+1009,Seoul Mart,"22 Pretoria Avenue, Ottawa, ON",grocery,small,Glebe - Dows Lake,45.41029,-75.6853312
+1010,Serious Cheese,"442 Hazeldean Road, Kanata, ON K2L 1V2",specialty,deli meat cheese,Glen Cairn - Kanata South Business Park,45.2995219,-75.885129
+1011,Shafie Food Centre,"1990 Russell Rd, Ottawa, ON K1G 4J6",grocery,large,Elmvale - Canterbury,45.4008336,-75.624182
+1012,Shafie Food Centre,"1655 Kilborn Ave, Ottawa, ON",grocery,large,Playfair Park - Lynda Park - Guildwood Estates,45.3877283,-75.6516525
+1013,Shawarma's King,"395 Bank Street, Ottawa, ON K2P 1Y3",specialty,bakery,Centretown,45.413402,-75.6943592
+1014,Shell,"620 BOUL MALONEY O, GATINEAU, Quebec, J8T 8K7",convenience,gas station,(None),45.48233,-75.6748739
+1015,Shell,"2975 ST. JOSEPH BLVD, ORLEANS, Ontario, K1C 7C2",convenience,gas station,Convent Glen - Orléans Woods,45.4759521,-75.5165493
+1016,Shell,"1050 BOUL SAINT-JOSEPH, GATINEAU, Quebec, J8Z 1T3",convenience,gas station,(None),45.4701334,-75.7376715
+1017,Shell,"1993 TENTH LINE RD, ORLEANS, Ontario, K4A 4H8",convenience,gas station,Fallingbrook,45.4617275,-75.487567
+1018,Shell,"1668 CHEMIN PINK., GATINEAU, Quebec, J9J 3N7",convenience,gas station,(None),45.4422245,-75.8153943
+1019,Shell,"20 BEECHWOOD AVE, VANIER, Ontario, K1L 8B3",convenience,gas station,Vanier North,45.4394218,-75.6765185
+1020,Shell,"1 MONTREAL RD, VANIER, Ontario, K1L 6E8",convenience,gas station,Vanier North,45.4331764,-75.6696308
+1021,Shell,"135 RUE MONTCALM, GATINEAU, Quebec, J8X 2M1",convenience,gas station,(None),45.4289803,-75.7263084
+1022,Shell,"420 CH VANIER, GATINEAU, Quebec, J9J 3H8",convenience,gas station,(None),45.414595,-75.8093074
+1023,Shell,"2232 ST. LAURENT BLVD, OTTAWA, Ontario, K1G 1B2",convenience,gas station,Elmvale - Canterbury,45.3890879,-75.6180771
+1024,Shell,"962 MERIVALE RD, OTTAWA, Ontario, K1Z 6A2",convenience,gas station,Carlington,45.3812484,-75.7334967
+1025,Shell,"1607 CARLING AVE, OTTAWA, Ontario, K2A 1C4",convenience,gas station,Westboro,45.3806173,-75.7474147
+1026,Shell,"2238 CARLING AVE, OTTAWA, Ontario, K2B 7G1",convenience,gas station,Whitehaven - Queensway Terrace North,45.3687677,-75.7731038
+1027,Shell,"1440 PRINCE OF WALES DR, OTTAWA, Ontario, K2C 1N6",convenience,gas station,Carleton Heights - Rideauview,45.3685855,-75.7016111
+1028,Shell,"1548 MERIVALE ROAD, NEPEAN, Ontario, K2G 3J8",convenience,gas station,Cityview - Crestview - Meadowlands,45.3542357,-75.7361925
+1029,Shell,"2498 BANK ST, OTTAWA, Ontario, K1V 8S2",convenience,gas station,Emerald Woods - Sawmill Creek,45.3534669,-75.6434228
+1030,Shell,"720 MARCH RD, KANATA, Ontario, K2K 2R9",convenience,gas station,Brookside - Briarbrook - Morgan's Grant,45.3510018,-75.9267278
+1031,Shell,"2770 IRIS ST, OTTAWA, Ontario, K2C 1E6",convenience,gas station,Iris - Queensway Terrance South,45.3474764,-75.7882572
+1032,Shell,"1857 MERIVALE ROAD, NEPEAN, Ontario, K2G 1E3",convenience,gas station,Hunt Club South Industrial,45.3356254,-75.7239147
+1033,Shell,"2653 MARCH ROAD, CARP, Ontario, K0A 1L0",convenience,gas station,Carp,45.3175498,-76.0504915
+1034,Shell,"106 EAGLESON RD, KANATA, Ontario, K2L 2P1",convenience,gas station,Katimavik - Hazeldean,45.3133439,-75.8826006
+1035,Shell,"473 TERRY FOX DR, KANATA, Ontario, K2T 1E8",convenience,gas station,Kanata Lakes - Arcardia,45.3098791,-75.9209397
+1036,Shell,"2950 WOODROFFE AVENUE., NEPEAN, Ontario, K2J 4G3",convenience,gas station,Old Barrhaven East,45.2914954,-75.7279431
+1037,Shell,"3190 PRINCE OF WALES DRIVE, NEPEAN, Ontario, K2C 3H1",convenience,gas station,Rideau Crest - Davidson Heights,45.2868549,-75.7029312
+1038,Shell,"2145 CARP RD., OTTAWA, Ontario, K0A 1L0",convenience,gas station,Stittsville,45.2792898,-75.9552931
+1039,Sherwood Supermarket,"111 Sherwood Drive, Ottawa, ON K1Y 3V1",convenience,regular,West Centretown,45.3961984,-75.7133342
+1040,Shiraz Market,"725 Somerset Street W, Ottawa, ON",grocery,small,West Centretown,45.4106348,-75.7083867
+1041,Shirin Market,"700 March Road, Ottawa, ON",grocery,small,Brookside - Briarbrook - Morgan's Grant,45.3501092,-75.9243828
+1042,Shiv Sky Store,"1833 Riverside Dr, Ottawa, ON K1G 0E8",convenience,regular,East Industrial,45.4017636,-75.6668854
+1043,Shoppers,"2339 Ogilvie Rd , Ottawa",grocery,large,Rothwell Heights - Beacon Hill North,45.4516814,-75.5979131
+1044,Shoppers,"876 Montreal Road, Ottawa, ON",grocery,large,Carson Grove - Carson Meadows,45.4457968,-75.6301564
+1045,Shoppers,"541 Montreal Road , Ottawa",grocery,large,Manor Park,45.4418209,-75.646244
+1046,Shoppers,"150 Montreal Rd. , Ottawa",grocery,large,Vanier South,45.4343364,-75.6646177
+1047,Shoppers,"322 Rideau Street, Ottawa, ON",grocery,large,Sandy Hill,45.4288897,-75.6847071
+1048,Shoppers,"50 Rideau St. , Ottawa",grocery,large,Sandy Hill,45.4250234,-75.6909652
+1049,Shoppers,"1200 St. Laurent Blvd , Ottawa",grocery,large,Overbrook - McArthur,45.4219466,-75.6387057
+1050,Shoppers,"111 Albert Street, Unit #110 , Ottawa",grocery,large,Centretown,45.421018,-75.698194
+1051,Shoppers,"174 Bank St , Ottawa",grocery,large,Centretown,45.4181889,-75.6992434
+1052,Shoppers,"455 Bank Street , Ottawa",grocery,large,Centretown,45.4119191,-75.6931575
+1053,Shoppers,"1559 Alta Vista Dr , Ottawa",grocery,large,Riverview,45.4087609,-75.6571787
+1054,Shoppers,"702 Bank Street, Unit 700 , Ottawa",grocery,large,Glebe - Dows Lake,45.4048452,-75.6897472
+1055,Shoppers,"778 Bank Street , Ottawa",grocery,large,Glebe - Dows Lake,45.403274,-75.6888649
+1056,Shoppers,"1080 Bank Street , Ottawa",grocery,large,Old Ottawa South,45.3943503,-75.6838382
+1057,Shoppers,"410 Richmond Road , Ottawa",grocery,large,Laurentian,45.3902682,-75.7569456
+1058,Shoppers,"1309 Carling Ave , Ottawa",grocery,large,Civic Hospital-Central Park,45.3867692,-75.7355233
+1059,Shoppers,"1582 Bank Street , Ottawa",grocery,large,Billings Bridge - Alta Vista,45.3791212,-75.6684444
+1060,Shoppers,"1180 Walkley Road , Ottawa",grocery,large,Hunt Club Woods - Quintarra - Revelstoke,45.3697843,-75.6636464
+1061,Shoppers,"2148 Carling Ave, Unit #1 , Ottawa",grocery,large,Carlingwood West - Glabar Park - McKellar Heights,45.3694167,-75.7687714
+1062,Shoppers,"888 Meadowlands Dr E , Ottawa",grocery,large,Carleton Heights - Rideauview,45.3671249,-75.7025045
+1063,Shoppers,"1460 Richmond Road , Ottawa",grocery,large,Britannia Village,45.3628466,-75.789612
+1064,Shoppers,"1469 Merivale Road , Ottawa",grocery,large,Skyline - Fisher Heights,45.3604808,-75.7343684
+1065,Shoppers,"3080 Carling Avenue , Ottawa",grocery,large,Bayshore - Belltown,45.3548434,-75.8044638
+1066,Shoppers,"2515 Bank St , Ottawa",grocery,large,South Keys - Greenboro West,45.3542812,-75.6459712
+1067,Shoppers,"2446 Bank Street , Ottawa",grocery,large,Emerald Woods - Sawmill Creek,45.3526461,-75.6469143
+1068,Shoppers,"3310 Mccarthy Rd , Ottawa",grocery,large,Hunt Club East - Western Community,45.3506573,-75.6719591
+1069,Shoppers,"1642 Merivale Rd , Ottawa",grocery,large,Cityview - Crestview - Meadowlands,45.3455841,-75.732034
+1070,Shoppers,"1821 Robertson Road , Ottawa",grocery,large,Bells Corners East,45.3290888,-75.8192022
+1071,Shoppers,"181 Greenbank Road , Ottawa",grocery,large,Woodvale - Craig Henry - Manordale - Estates of Arlington Woods,45.3281927,-75.779573
+1072,Shoppers,"4744 Bank Street, Unit 1 , Ottawa",grocery,large,Findlay Creek,45.3198157,-75.5942266
+1073,Shoppers,"647 Earl Armstrong Road , Ottawa",grocery,large,Riverside South - Leitrim,45.2693834,-75.6981271
+1074,Silk Road Foods,"1618 Merivale Road, Ottawa, ON",grocery,small,Cityview - Crestview - Meadowlands,45.3474932,-75.7327351
+1075,Silver City Food Market,"1437 Ogilvie Rd, Ottawa, ON K1J 7P3",convenience,regular,Carson Grove - Carson Meadows,45.4318679,-75.6184619
+1076,Silver City Food Market Two,"289 Queen Mary St, Ottawa, ON K1K 1X1",grocery,small,Overbrook - McArthur,45.4252801,-75.6530463
+1077,Silver Platter Catering,"500 Palladium Drive, Kanata, ON K2V 1C2",specialty,deli meat cheese,Katimavik - Hazeldean,45.2997419,-75.9127706
+1078,Simbad Bakery,"471 Hazeldean Road, Ottawa, ON K2L 4B8",specialty,bakery,Katimavik - Hazeldean,45.2986456,-75.8894566
+1079,Siren Bakery,"2575 Blackwell St, Ottawa, ON K1B 4E4",specialty,bakery,East Industrial,45.4048395,-75.6087901
+1080,Skela Foods,"1884 Merivale Road, Ottawa, ON K2G 1E6",specialty,bakery,Merivale Gardens - Grenfell Glen - Pineglen - Country Place,45.331727,-75.7234219
+1081,Slater Street Market,"350 Slater St., Ottawa, ON K1A 0K1",grocery,large,Centretown,45.4177623,-75.7032745
+1082,Slater Street Market,"427 Laurier West, Ottawa, ON K1R 1B9",convenience,regular,Centretown,45.4172318,-75.7025806
+1083,Slipacoff's Premium Meats,"1620 Laperriere Ave, Ottawa, ON K1Z 7T2",specialty,deli meat cheese,Carlington,45.375673,-75.7468163
+1084,SOBEY'S,"5150 Innes Road, Orleans, on, K4A 0G4",grocery,large,Portobello South,45.469773000000004,-75.4553161
+1085,SOBEY'S,"2276 - Tenth Line Road, Orleans, on, K4A 0X4",grocery,large,Portobello South,45.4520629,-75.4849814
+1086,SOBEY'S,"840 March Road, Kanata, on, K2W 0C9",grocery,large,Brookside - Briarbrook - Morgan's Grant,45.3579397,-75.9337228
+1087,SOBEY'S,"700 Terry Fox Drive, Kanata, on, K2L 4H4",grocery,large,Stittsville,45.2922484,-75.896023
+1088,Solfarmers,"2413 Holly Ln, Ottawa, ON K1V 7P2",grocery,small,Ledbury - Heron Gate - Ridgemont,45.3784615,-75.6392095
+1089,South Asian Supermarket,"3059 Carling Ave, Ottawa, ON K2B 7K4",grocery,small,Bayshore - Belltown,45.3546544,-75.8074087
+1090,Spice Divine Indian Grocery Store,"1619 Carling Ave, Ottawa, ON K2A 1C4",grocery,small,Westboro,45.3804225,-75.7477074
+1091,Sports Supplement Experts,"384 Dalhousie Street, Ottawa, ON K1N 7G3",specialty,health store,Byward Market,45.4272707,-75.6900211
+1092,St-Charles Food Market,"46 St Charles St, Vanier, ON K1L 7Z1",grocery,small,Vanier North,45.4395935,-75.6722276
+1093,Stacked Smoked Meat,"2679 Bank Street, Ottawa, ON K1T 1N1",specialty,deli meat cheese,Hunt Club Upper -Blossom Park - Timbermill,45.3528797,-75.6349786
+1094,Star Convenience & Fast Food,"2592 Innes Rd, Ottawa, ON K1B 4Z6",convenience,regular,Blackburn Hamlet,45.4310038,-75.5653349
+1095,Ste Anne Convenience,"308 Shakespeare St, Vanier, ON K1L 5M4",grocery,small,Vanier North,45.4395184,-75.6592304
+1096,Steele's Restaurant,"1900 Merivale Rd, Ottawa, ON K2G 4N4",specialty,deli meat cheese,Merivale Gardens - Grenfell Glen - Pineglen - Country Place,45.3303169,-75.7223384
+1097,Stella Luna Gelato Cafe,"1103 Bank Street, Ottawa, ON K1S 3X4",specialty,bakery,Old Ottawa South,45.3939113,-75.6830647
+1098,Stolichni Deli,"2280 Carling Avenue, Ottawa, ON",grocery,small,Whitehaven - Queensway Terrace North,45.3681421,-75.7743718
+1099,Store Homeland,"46 Garland St, Ottawa, ON K1Y 2A7",convenience,regular,Hintonburg - Mechanicsville,45.4063636,-75.7243021
+1100,Strawberry Blonde Bakery,"111 Richmond Road, Ottawa, ON K1Z 6V9",specialty,bakery,Westboro,45.3963825,-75.743592
+1101,Strawberry Blonde Bakery,"767 Silver Seven Rd, Ottawa, ON K2V 0A1",specialty,bakery,Katimavik - Hazeldean,45.3021248,-75.9136793
+1102,Stubbe Chocolates & More,"500 Hazeldean Road, Kanata, ON K2L 2B5",specialty,bakery,Glen Cairn - Kanata South Business Park,45.2933502,-75.8937131
+1103,Sultan Supermarket South,"2446 Bank Street, Ottawa, ON K1V 1A4",grocery,small,Emerald Woods - Sawmill Creek,45.3526461,-75.6469143
+1104,Summersweet Foods Ottawa,"2309 Stevenage Dr, Ottawa, ON K1G 3W1",grocery,small,East Industrial,45.379711,-75.611289
+1105,SunTech Greenhouses Ltd,"5541 Doyle Rd, Manotick, ON K4M 1B4",grocery,small,Osgoode - Vernon,45.1727472,-75.6222462
+1106,Super Convenience Mart,"1-25 Tapiola Crescent, Ottawa, ON K1T 2J7",convenience,regular,South Keys - Greenboro West,45.3638769,-75.6466612
+1107,Supplement King,"515 Industrial Avenue, Ottawa, ON K1G 0Z1",specialty,health store,East Industrial,45.412044,-75.646533
+1108,SuzyQ Doughnuts,"1015 Wellington Street W, Ottawa, ON K1Y 2X7",specialty,bakery,Hintonburg - Mechanicsville,45.4050178,-75.7238346
+1109,Sweet Bite,"769 Bank Street, Ottawa, ON K1S 3V3",specialty,bakery,Glebe - Dows Lake,45.403953,-75.688531
+1110,Sweet Castle,"2446 Bank Street, Ottawa, ON K1V 1A4",specialty,bakery,Emerald Woods - Sawmill Creek,45.3526461,-75.6469143
+1111,Sweet Treatz Cake Pops,"1250 Tara Drive, Ottawa, ON K2C 2H5",specialty,bakery,Braemar Park - Bel Air Heights - Copeland Park,45.361547,-75.7509016
+1112,Sweets Cupcakes Candy And More,"462 Hazeldean Road, Kanata, ON K2L 1V3",specialty,bakery,Glen Cairn - Kanata South Business Park,45.2981401,-75.8872192
+1113,Swiss Farmer Bakery,"851 Notre Dame Rue, Embrun, ON K0A 1W1",specialty,bakery,(None),45.2700628,-75.2933863
+1114,T&T,"224 Hunt Club Road  Ottawa, ON. K1V 1C1",grocery,large,Hunt Club - Ottawa Airport,45.3339133,-75.6905898
+1115,Take Another Bite,"148 Colonnade Road, Ottawa, ON K2E 7R4",specialty,bakery,Hunt Club South Industrial,45.3433133,-75.7080122
+1116,TARGET FUEL,"455 DONALD ST, OTTAWA, ON",convenience,gas station,Overbrook - McArthur,45.4285852,-75.6479422
+1117,Tazij House,"1620 Merivale Rd, Ottawa, ON",grocery,small,Cityview - Crestview - Meadowlands,45.3473442,-75.7321474
+1118,TeemJ's,"132F Twyford St, Ottawa, ON K1V 0V7",grocery,small,Hunt Club East - Western Community,45.3489201,-75.6706513
+1119,terra20,"2685 Iris Street, Ottawa, ON K2C 3S4",specialty,health store,Iris - Queensway Terrance South,45.3503157,-75.7846581
+1120,The Bagel Place,"283 Greenbank Rd, Ottawa, ON K2C 4G1",specialty,bakery,Woodvale - Craig Henry - Manordale - Estates of Arlington Woods,45.3242692,-75.7776888
+1121,The Baker,"3570 Strandherd Dr, Ottawa, ON K2J 5L4",specialty,bakery,Old Barrhaven East,45.2751492,-75.7375557
+1122,The Barn,"6154 Abbott Street E, Stittsville, ON K2S 1V2",farmer's market,farmer's market,Stittsville,45.2591182,-75.9196397
+1123,The Brittania Bakeshop,"2728 Howe Street, Ottawa, ON K2B 6W8",specialty,bakery,Britannia Village,45.3654885,-75.7964396
+1124,The Butchery,"1821 Robertson Road, Ottawa, ON K2H 8X3",specialty,deli meat cheese,Bells Corners East,45.3290888,-75.8192022
+1125,The Cake Shop,"1200 Wellington Street W, Ottawa, ON K1Y 2Z8",specialty,bakery,Hintonburg - Mechanicsville,45.400136,-75.7303658
+1126,The Chopped Leaf,"140 Trainyards Dr, Ottawa, ON K1G 3S2",specialty,deli meat cheese,East Industrial,45.413009,-75.6453412
+1127,The Cupcake Lounge,"324 Richmond Road, Ottawa, ON K2A 0E7",specialty,bakery,Westboro,45.3922162,-75.7531117
+1128,The Fancy Farm Girl,"3282 9th Line Rd, Metcalfe, ON K0A 2P0",grocery,small,Metcalfe,45.215696,-75.4456054
+1129,The French Baker / Le Boulanger FranÃƒÂ§ais,"119 Murray St, Ottawa, ON K1N 5M5",specialty,bakery,Byward Market,45.430235,-75.6926327
+1130,The Gingerbread Man,"1134 Tighe Street, Ottawa, ON K4M 1A2",specialty,bakery,Manotick,45.2255842,-75.6831843
+1131,The Grocer's shop,"2190 B Thurston Dr, Ottawa, ON K1G 6E1",grocery,small,East Industrial,45.3794672,-75.6201996
+1132,The Hill Butcher Shop,"2339 Ogilvie Rd, Gloucester, ON K1J 8M6",specialty,deli meat cheese,Rothwell Heights - Beacon Hill North,45.4516814,-75.5979131
+1133,The House of Cheese,"34 Byward Market Sq, Ottawa, ON K1N 7A2",specialty,deli meat cheese,Byward Market,45.4276427,-75.6930259
+1134,The House Of Cheese & Deli,"4335 Strandherd Dr, Ottawa, ON K2J 5P8",specialty,deli meat cheese,Stonebridge - Half Moon Bay - Heart's Desire,45.2703988,-75.7846431
+1135,The Indian Supermarket,"1547 Merivale Rd Unit-6, Nepean, ON K2G 4V3",grocery,small,Skyline - Fisher Heights,45.3545247,-75.7335934
+1136,The Joy of Gluten Free,"250 Greenbank Road, Ottawa, ON K2H 8X4",specialty,bakery,Trend-Arlington,45.3244028,-75.7795626
+1137,The Log Farm,"670 Cedarview Road, Nepean, ON K2R 1E5",farmer's market,farmer's market,Greenbelt,45.2964053,-75.7917806
+1138,The Ministry of Coffee and Social Affairs,"1013 Wellington Street W, Ottawa, ON K1Y 2Y1",specialty,bakery,Hintonburg - Mechanicsville,45.4050399,-75.7237649
+1139,The Piggy Market,"400 Winston Avenue, Ottawa, ON",grocery,small,Westboro,45.391254000000004,-75.756554
+1140,The Red Apron,"564 Gladstone Avenue, Ottawa, ON K1R 5P3",specialty,bakery,Centretown,45.4093044,-75.70011
+1141,The Scone Witch,"1638 Cyrville Road, Ottawa, ON K1B 3L8",specialty,bakery,East Industrial,45.4171337,-75.608016
+1142,The SconeWitch,"35 Beechwood Avenue, Ottawa, ON K1M 1M1",specialty,bakery,Lindenlea - New Edinburgh,45.439713,-75.6769512
+1143,The SconeWitch,"150 Elgin Street, Ottawa, ON K1P 1L4",specialty,bakery,Centretown,45.4204818,-75.6928242
+1144,The SconeWitch,"393 Winston Avenue, Ottawa, ON K2A 1Y8",specialty,bakery,Westboro,45.3916923,-75.7564399
+1145,The Scottish and Irish Store,"1717 St. Laurent Blvd, Ottawa, ON K1G 3V4",grocery,small,East Industrial,45.4060741,-75.6263867
+1146,The Sweet Room,"1408 Stittsville Main Street, Ottawa, ON K2S 1V7",specialty,bakery,Stittsville,45.2617637,-75.925402
+1147,The Unrefined Olive,"499 Terry Fox Drive, Ottawa, ON K2T 1H7",specialty,bakery,Kanata Lakes - Arcardia,45.3108116,-75.9199686
+1148,ThimbleCakes,"369 Bank Street, Ottawa, ON K2P 1Y2",specialty,bakery,Centretown,45.4139653,-75.6950059
+1149,Thomas Lunch Box Delhi & Candy,"1129 Baxter Rd, Ottawa, ON K2C 3R4",specialty,deli meat cheese,Iris - Queensway Terrance South,45.3508154,-75.7820707
+1150,Three Tarts,"464 Bank Street, Ottawa, ON K2P 1Z3",specialty,bakery,Centretown,45.4111324,-75.6933049
+1151,Thyme & Again,"1255 Wellington St W, Ottawa, ON K1Y 3A6",specialty,deli meat cheese,Island Park - Wellington Village,45.3996922,-75.7332856
+1152,Thyme & Again,"1845 Carling Avenue, Ottawa, ON",grocery,large,Laurentian,45.3768169,-75.7559995
+1153,Tia Mart,"3560 Strandherd Dr, Ottawa, ON",grocery,small,Old Barrhaven East,45.2751422,-75.736756
+1154,Timmy's Convenience,"2660 Southvale Crescent, Ottawa, ON K1B 4W5",convenience,regular,Hawthorne Meadows - Sheffield Glen,45.394834,-75.6100638
+1155,Tizita Bakeshop,"365A Booth Street, Ottawa, ON K1R 7K1",specialty,bakery,West Centretown,45.407313,-75.7090134
+1156,Treats Bakeries,"1200 Street Laurent Boulevard, Ottawa, ON K1K 3B8",specialty,bakery,Overbrook - McArthur,45.4219466,-75.6387057
+1157,Trillium Bakery,"1181 Bank Street, Ottawa, ON K1S 3X7",specialty,bakery,Old Ottawa South,45.3921891,-75.6815686
+1158,True Loaf Bread,"573 Gladstone Avenue, Ottawa, ON K2P 0P3",specialty,bakery,Centretown,45.409503,-75.700667
+1159,Tuck Shop,"1171 Ambleside Dr, Ottawa, ON K2B 8E1",convenience,regular,Carlingwood West - Glabar Park - McKellar Heights,45.3725335,-75.7820876
+1160,Tytan Sport Nutrition,"2655 Queensview Dr, Ottawa, ON K2B 8K2",specialty,health store,Whitehaven - Queensway Terrace North,45.3533826,-75.7870045
+1161,Tytan Sport Nutrition,"1 Roydon Pl, Ottawa, ON K2E 1A3",specialty,health store,Hunt Club South Industrial,45.3386406,-75.7255251
+1162,Ultramar,"700 MONTEE PAIEMENT , GATINEAU, QC, J8R1L3",convenience,gas station,(None),45.5020951,-75.6767605
+1163,Ultramar,"253 ST-RENE OUEST, GATINEAU, QC, J8P2V7",convenience,gas station,(None),45.491934,-75.6572693
+1164,Ultramar,"1385, boul. de la VÃƒÂ©rendrye O., Gatineau, QC, J8T8J8",convenience,gas station,(None),45.4884686,-75.7127166
+1165,Ultramar,"873 Maloney Est, Gatineau, QC, J8P1H4",convenience,gas station,(None),45.4882202,-75.6011971
+1166,Ultramar,"410, Boul. Maloney Est, Gatineau, QC, J8P1E7",convenience,gas station,(None),45.4842196,-75.6392184
+1167,Ultramar,"320, Boulevard Greber, Gatineau, QC, J8T8H4",convenience,gas station,(None),45.4777091,-75.7014885
+1168,Ultramar,"3, avenue Gatineau, Gatineau, QC, J8T4H8",convenience,gas station,(None),45.4758204,-75.7308871
+1169,Ultramar,"108, boulevard Greber, Gatineau, QC, J8T3P8",convenience,gas station,(None),45.4664669,-75.7008585
+1170,Ultramar,"34, boulevard Mont Bleu, Gatineau, QC, J8Z1J1",convenience,gas station,(None),45.4625476,-75.7461996
+1171,Ultramar,"1797 St-Joseph Boulevard, Orleans, ON, K1C7C6",convenience,gas station,Orléans Industrial,45.4618541,-75.5484463
+1172,Ultramar,"772 ST-JOSEPH, GATINEAU (HULL), QC, J8X4B9",convenience,gas station,(None),45.459793,-75.74107
+1173,Ultramar,"510 Boulevard Saint-Joseph, Gatineau, QC, J8Y4A2",convenience,gas station,(None),45.4484731,-75.7336017
+1174,Ultramar,"3469 Innes Rd, Orleans, ON K1C 1T1",convenience,gas station,Chapel Hill North,45.447056,-75.5269859
+1175,Ultramar,"591 Boul. des Grives, Gatineau, QC, J9A3C3",convenience,gas station,(None),45.4445213,-75.7861172
+1176,Ultramar,"190, Rue St-RÃƒÂ©dempteur, Gatineau (Hull), QC, J8X2S9",convenience,gas station,(None),45.4327124,-75.7214485
+1177,Ultramar,"209, Chemin Aylmer, Gatineau, QC, J9H1A3",convenience,gas station,(None),45.3959535,-75.8322898
+1178,Ultramar,"3199 Hawthorne Road, Ottawa, ON, K1G3V8",convenience,gas station,East Industrial,45.3829528,-75.6015275
+1179,Ultramar,"3467 Hawthorne Road, Ottawa, ON, K1G4G2",convenience,gas station,East Industrial,45.3747828,-75.5969736
+1180,Ultramar,"1543 Merivale Road, Nepean, ON, K2G3J4",convenience,gas station,Skyline - Fisher Heights,45.3549754,-75.7354285
+1181,Ultramar,"660 Eagleson Road, Ottawa, ON K2M 1H4",convenience,gas station,Glen Cairn - Kanata South Business Park,45.2879529,-75.8686241
+1182,Ultramar Carlsbad Variety,"6500 Russel Road, Ottawa, ON K0A 1K0",convenience,gas station,Edwards - Carlsbad Springs,45.3689882,-75.4556709
+1183,Ultramar Ontario,"2749 Laurier Street, Rockland, ON K4K 1A3",convenience,gas station,(None),45.5414127,-75.3008097
+1184,Uncle Ali's Super Market,"3059 Carling Ave b, Ottawa, ON K2B 7K4",grocery,small,Bayshore - Belltown,45.3543775,-75.807196
+1185,United Kosher Deli & Catering,"21 Nadolny Sachs Private, Ottawa, ON K2A 2E1",specialty,deli meat cheese,Carlingwood West - Glabar Park - McKellar Heights,45.3759104,-75.7517995
+1186,Upland Heights Grocery,"3360 Paul Anka Dr, Ottawa, ON",grocery,small,Hunt Club East - Western Community,45.3497454,-75.6750806
+1187,Uplands Minimart,"20 Curtis Private, Gloucester, ON K1V 7M1",convenience,regular,Hunt Club - Ottawa Airport,45.3358568,-75.6677476
+1188,Upper Crust,"267 O'Connor Street, Ottawa, ON K2P 1V3",specialty,bakery,Centretown,45.4155084,-75.6932832
+1189,Vaishali's Super Store,"62 Wylie Ave, Ottawa, ON",grocery,small,Bayshore - Belltown,45.3548507,-75.8069988
+1190,Valentina,"110 Place D'orleans Drive, Orleans, ON K1C 2L9",convenience,regular,Convent Glen - Orléans Woods,45.4781702,-75.5155571
+1191,Van Leeuwen Centre,"420 Hazeldean Road, Ottawa, ON K2L 4B2",specialty,health store,Glen Cairn - Kanata South Business Park,45.3014469,-75.8805222
+1192,Vanier Convenience Food Mart,"101 Rue Lavergne, Vanier, ON K1L 5E6",convenience,regular,Vanier North,45.4431274,-75.6652425
+1193,Variety Convenience Store,"277 Granville St, Vanier, ON K1L 6Z3",convenience,regular,Vanier North,45.4382601,-75.656007
+1194,VARS GAS BAR LTD,"6175 ROCKDALE RD, VARS, ON",convenience,gas station,Vars,45.3404999,-75.3441019
+1195,Via Slack Coffee,"1950 Merivale Road, Ottawa, ON K2G 5T5",specialty,deli meat cheese,Merivale Gardens - Grenfell Glen - Pineglen - Country Place,45.326052,-75.7198339
+1196,Vic's Tuck Shop,"1375 Prince of Wales Dr, Ottawa, ON K2C 3L5",convenience,regular,Carleton Heights - Rideauview,45.3709943,-75.7020901
+1197,Vie Bella Market and Deli,"87 Sparks St, Ottawa, ON K1P 1A2",specialty,deli meat cheese,Centretown,45.4230608,-75.6971851
+1198,Village Food,"888 Meadowlands Dr, Ottawa, ON",grocery,small,Carleton Heights - Rideauview,45.3671249,-75.7025045
+1199,Voila Gluten-Free Bakeree,"4055 Carling Avenue, Ottawa, ON K2K 2A4",specialty,bakery,Brookside - Briarbrook - Morgan's Grant,45.3387049,-75.9075134
+1200,Wah Shing Grocery Store,"835 Somerset Street W, Ottawa, ON",grocery,small,West Centretown,45.4091919,-75.7118785
+1201,WALMART,"3001 Richelieu St, Rockland, ON, K4K 0B5",grocery,large,(None),45.5322464,-75.3059486
+1202,WALMART,"3900 Innes Rd, Orleans, ON, K1W 1K9",grocery,large,Chapel Hill South,45.4513939,-75.5083891
+1203,WALMART,"1980 Ogilvie Rd, Gloucester, ON, K1J 9L3",grocery,large,Carson Grove - Carson Meadows,45.4325275,-75.6098258
+1204,WALMART,"450 Terminal Ave, Ottawa, ON, K1G 0Z3",grocery,large,East Industrial,45.4131465,-75.6496399
+1205,WALMART,"2277 Riverside Dr, Ottawa, ON, K1H 7X6",grocery,large,Billings Bridge - Alta Vista,45.3856281,-75.6774777
+1206,WALMART,"1375 Baseline Rd, Ottawa, ON, K2C 3G1",grocery,large,Civic Hospital-Central Park,45.3637647,-75.7384059
+1207,WALMART,"2210 Bank St, Ottawa, ON, K1V 1J5",grocery,large,South Keys - Greenboro West,45.3556337,-75.6546138
+1208,WALMART,"100 Bayshore Dr, Ottawa, ON, K2B 8C1",grocery,large,Bayshore - Belltown,45.347237,-75.8068316
+1209,WALMART,"500 Earl Grey Dr, Kanata, ON, K2T 1B6",grocery,large,Kanata Lakes - Arcardia,45.3112546,-75.9127711
+1210,WALMART,"5357 Fernbank Rd, Stittsville, ON, K2S 0T7",grocery,large,Stittsville,45.2755019,-75.874195
+1211,WALMART,"3651 Strandherd Dr, Barrhaven, ON, K2J 4G8",grocery,large,Chapman Mills,45.2718267,-75.7408564
+1212,WALMART,"450 Mcneely Ave, Carleton Place, ON, K7C 0A6",grocery,large,(None),45.1336183,-76.1254369
+1213,WALMART,"340 Colonnade Dr, Kemptville, ON, K0G 1J0",grocery,large,(None),45.0291722,-75.6295666
+1214,Watkins Produits,"74 Blvd Greber, Gatineau, QC J8T 3P8",specialty,health store,(None),45.463657,-75.7007775
+1215,Wedel - Touch of Europe,"5 Byward Market Square, Ottawa, ON K1N 9B8",specialty,deli meat cheese,Byward Market,45.4286004,-75.6934389
+1216,Wedel Touch of Europe,"300 Richmond Rd, Ottawa, ON K1Z 6X6",specialty,bakery,Westboro,45.3924293,-75.7526382
+1217,Wellbeing Health Food,"5303 Canotek Rd, Ottawa, ON K1J 9M1",specialty,health store,Rothwell Heights - Beacon Hill North,45.4529502,-75.5885048
+1218,Wellington Butchery,"1333 Wellington St. W, Ottawa, ON K1Y 3B6",grocery,small,Island Park - Wellington Village,45.3987556,-75.7372322
+1219,Wellington Homeopathy and Nutrition Centre,"1309 Wellington St W, Ottawa, ON K1Y 3B1",specialty,health store,Island Park - Wellington Village,45.3990429,-75.7359745
+1220,Wellington Wholesale Seafood,"1105 Wellington St. W, Ottawa, ON K1Y 2Y4",specialty,deli meat cheese,Hintonburg - Mechanicsville,45.4027958,-75.7258702
+1221,WFM Coffee Bar,"951 Bank St, Ottawa, ON K1S 3W7",specialty,health store,Glebe - Dows Lake,45.3993485,-75.6854996
+1222,Wheat Sales,"2211 Thurston Dr, Ottawa, ON K1G 6C9",grocery,small,East Industrial,45.3816766,-75.6193048
+1223,Whole Foods Market,"951 Bank St, Ottawa, ON K1S 3W7",grocery,small,Glebe - Dows Lake,45.3993485,-75.6854996
+1224,Wholesale Club,"1435 Cyrville Rd, Gloucester, ON K1B 3L7",grocery,small,East Industrial,45.4206865,-75.6177447
+1225,Wild Child Coffee Project,"314 Richmond Rd, Ottawa, ON K1Z 6X6",specialty,bakery,Westboro,45.3923743,-75.7528924
+1226,Wild Oat Bakery Cafe and Farm,"817 Bank Street, Ottawa, ON K1S 3V7",specialty,bakery,Glebe - Dows Lake,45.4025275,-75.6879099
+1227,Wild Wing Kanata,"700 Eagleson Road, Kanata, ON K2M 2G9",specialty,bakery,Glen Cairn - Kanata South Business Park,45.2859368,-75.8680446
+1228,Win Tai Market,"1137 Ogilvie Road, Ottawa, ON",grocery,small,Overbrook - McArthur,45.4267387,-75.6312669
+1229,WO Stinson & Son,"4728 Bank Street, Ottawa, ON K1T 3W7",convenience,gas station,Findlay Creek,45.3241221,-75.5965773
+1230,Working Title Kitchen,"330 Laurier Avenue E, Ottawa, ON K1N 6R4",specialty,bakery,Sandy Hill,45.4272878,-75.6774935
+1231,Xcheaters-Bistro,"300 Eagleson Road, Ottawa, ON K2M 2C3",specialty,bakery,Glen Cairn - Kanata South Business Park,45.3023709,-75.8777644
+1232,Yalla Yalla Bakery & Lebanese Food,"2010 Trim Road, Ottawa, ON K1C 1T1",specialty,bakery,Portobello South,45.4685869,-75.4545687
+1233,Yaseen Halal Pizza & Bakery,"1741 Cyrville Rd, Gloucester, ON K1B 3L8",specialty,bakery,Pineview,45.417149,-75.6047832
+1234,YIG,"2737 Laurier St, Rockland, Ontario, K4K 1A3",grocery,large,(None),45.5414081,-75.2989098
+1235,YIG,"1619 Orleans Ave, Ottawa, Ontario, K1C 7E2",grocery,large,Orléans Village - Chateauneuf,45.459603,-75.5241281
+1236,YIG,"596 Montreal Rd, Ottawa, Ontario, K1K 0T9",grocery,large,Overbrook - McArthur,45.4409692,-75.6435621
+1237,YIG,"296 Bank St, Ottawa, Ontario, K2P 1X8",grocery,large,Centretown,45.4149887,-75.6963375
+1238,YIG,"2241 Riverside Dr, Ottawa, Ontario, K1H 7X5",grocery,large,Billings Bridge - Alta Vista,45.3861802,-75.676197
+1239,YIG,"2681 Alta Vista Dr, Ottawa, Ontario, K1V 7T5",grocery,large,Ledbury - Heron Gate - Ridgemont,45.3722133,-75.6630484
+1240,YIG,"200 Grant Carman, Nepean, Ontario, K2E 7Z8",grocery,large,Borden Farm - Fisher Glen,45.351331,-75.7307124
+1241,YIG,"300 Eagleson Rd, Kanata, Ontario, K2M 1C9",grocery,large,Glen Cairn - Kanata South Business Park,45.3023709,-75.8777644
+1242,YIG,"671 River Rd, Ottawa, Ontario, K1V 2G2",grocery,large,Riverside South - Leitrim,45.2705567,-75.6974346
+1243,YIG,"1251 Main St, Stittsville, Ontario, K2S 2E5",grocery,large,Stittsville,45.268974,-75.9284036
+1244,YIG,"3777 Strandherd Dr, Nepean, Ontario, K2J 4B1",grocery,large,Stonebridge - Half Moon Bay - Heart's Desire,45.268477,-75.7491607
+1245,YIG,"753 Notre-Dame St, Embrun, Ontario, K0A 1W0",grocery,large,(None),45.2684141,-75.3036791
+1246,YIG,"401 Ottawa St Rr 4, Almonte, Ontario, K0A 1A0",grocery,large,(None),45.23389,-76.182175
+1247,YIG,"1160 Beaverwood Rd, Manotick, Ontario, K4M 1A5",grocery,large,Manotick,45.2235963,-75.6847232
+1248,YIG,"5911 Perth St, Richmond, Ontario, K0A 2Z0",grocery,large,Richmond,45.2032116,-75.8290665
+1249,YIG,"455 Mcneely Ave, Carleton Place, Ontario, K7C 4S6",grocery,large,(None),45.1342809,-76.1211587
+1250,YIG,"Hwy 43 W Kemptville Mall, Kemptville, Ontario, K0G 1J0",grocery,large,(None),45.0188357,-75.6564164
+1251,Yorgo's,"1356 Clyde Aveune, Ottawa, ON K2C 3Z4",specialty,deli meat cheese,Civic Hospital-Central Park,45.3627084,-75.7409954
+1252,York Convenience Store,"180 York St, Ottawa, ON K1N 1J6",convenience,regular,Byward Market,45.4296856,-75.6885901
+1253,You Go Bistro,"200 Terence Matthews Crescent, Kanata, ON K2M 2C6",specialty,health store,Glen Cairn - Kanata South Business Park,45.2867917,-75.8745408
+1254,Zak's produce plus Inc,"2700 Lancaster Rd, Ottawa, ON K1B 4T7",grocery,small,East Industrial,45.3971808,-75.6087017
+1255,Zesty Market,"280 Elgin St, Ottawa, ON K2P 1M2",convenience,regular,Centretown,45.4174483,-75.6902436
+1256,Zoba Convenience Store,"81 Bank St, Ottawa, ON K1P 5N2",convenience,regular,Centretown,45.4208228,-75.7008112

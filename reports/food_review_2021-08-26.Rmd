@@ -1,0 +1,438 @@
+---
+title: "Untitled"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(crosstalk)
+library(leaflet)
+
+
+food <- read_csv("../data/combined/foodspace_2021-08-26.csv") %>%
+  arrange(name) %>%
+  mutate(in_ott = !is.na(Nbhd))
+
+f <- food %>% arrange(lat) %>% group_by(lat) %>% mutate(num = 1:n()) %>% mutate(lat  = lat + 0.0001*(num-1))
+
+foods <- crosstalk::SharedData$new(f)
+
+make_table <- function(data) {
+  
+  reactable::reactable(data,
+                     filterable = FALSE,
+                     searchable = TRUE,
+                       selection = "multiple",
+  onClick = "select",
+  rowStyle = list(cursor = "pointer"),
+  #defaultColDef = reactable::colDef(show = FALSE),
+  columns = list(
+    name = reactable::colDef(name = "Name", show = TRUE),
+    address = reactable::colDef(name = "Address", show = TRUE),
+    phone = reactable::colDef(show= FALSE),
+    update_date = reactable::colDef(show = FALSE),
+    lat = reactable::colDef(show = FALSE),
+    lng = reactable::colDef(show = FALSE),
+    note = reactable::colDef(show = FALSE),
+    chain = reactable::colDef(show = FALSE),
+    category2 = reactable::colDef(name = "Category"),
+    category3 = reactable::colDef(name = "Sub-Cat.")
+    
+  ))
+}
+
+make_map <- function(data, icon ){
+  labs <-  sprintf("<b>%s</b><br>%s<br>%s", data$data()$name, data$data()$category, data$data()$address) %>%
+  purrr::map(htmltools::HTML)
+
+leaflet() %>%
+  addTiles() %>%
+  addAwesomeMarkers(data = data,
+                    icon = icon,
+                    label = labs)
+}
+
+leaflet_food <- function(food){
+  
+  circle_pal <- function(category){
+    colour <- case_when(
+      category == "farmer's market" ~ "lightgreen",
+      category == "grocery" ~ "darkgreen",
+      category == "convenience" ~ "blue",
+      category == "specialty" ~ "red",
+      TRUE ~ "grey"
+    )
+    
+  }
+  
+  popups <- sprintf("<b><h3>%s</b></h3><br>
+                    <i>%s: %s</i><br>
+                    %s", food$data()$name, food$data()$category2, food$data()$category3, food$data()$address) %>%
+    purrr::map(htmltools::HTML)
+  
+  
+  labels <- sprintf("<b>%s</b><br>
+                    <i>%s: %s</i><br>
+                    %s", food$data()$name, food$data()$category2, food$data()$category3, food$data()$address) %>%
+    purrr::map(htmltools::HTML)
+  
+  
+  leaflet() %>%
+    addTiles() %>%
+    addCircleMarkers(data = foods,
+                     color = ~ circle_pal(category2)
+                   #  ,clusterOptions = leaflet::markerClusterOptions()  
+                     , popup = popups
+                   , label = labels
+                     )
+  
+  
+}
+
+make_dt_table <- function(foods){
+  foods %>%
+    DT::datatable(
+      filter = "top",  # allows filtering on each column
+      extensions = c(
+        "Buttons",  # add download buttons, etc
+        "Scroller"  # for scrolling down the rows rather than pagination
+      ),
+      rownames = FALSE,  # remove rownames
+      style = "bootstrap",
+      class = "compact",
+      width = "100%",
+      options = list(
+        dom = "Blrtip",  # specify content (search box, etc)
+        deferRender = TRUE,
+        scrollY = 300,
+        scroller = TRUE,
+        columnDefs = list(
+          list(
+            visible = FALSE,
+            targets = c(3, 4, 5, 6, 7, 8, 11, 13, 14)
+          )
+        ), 
+        buttons = list(
+          I("colvis"),  # turn columns on and off
+          "csv",  # download as .csv
+          "excel"  # download as .xlsx
+        )
+      ),
+      colnames = c(
+        "Name" = "name",
+        "Address" = "address",
+        "Category" = "category2" ,
+        "Sub-Cat." = "category3" 
+        
+      )
+    )
+  
+}
+
+
+```
+
+
+
+Interactive Data {data-icon="ion-pin"}
+=====================================  
+
+Column {data-width=400}
+-----------------------------------------------------------------------
+
+### Filters
+
+
+```{r filters}
+crosstalk::filter_select("nhood", "Neighbourhood", foods, ~Nbhd)
+
+crosstalk::filter_checkbox("category",  "Category", foods, ~category2)
+```
+
+### Interactive Data Table
+
+```{r}
+make_table(foods)
+```
+
+Column {data-width=600}
+-----------------------------------------------------------------------
+
+### Interactive Map
+
+```{r}
+
+icon_carrot <- leaflet::makeAwesomeIcon(text = fontawesome::fa("fas fa-carrot"),
+                                        markerColor = "green")
+
+leaflet_food(foods)
+# 
+# labs_grocery <-  sprintf("<b>%s</b><br>%s<br>%s", grocery$name, grocery$category, grocery$address) %>%
+#   purrr::map(htmltools::HTML)
+# 
+# leaflet() %>%
+#   addTiles() %>%
+#   addAwesomeMarkers(data = grocery,
+#                     icon = icon_carrot,
+#                     label = labs_grocery)
+```
+
+
+Information {data-orientation=rows data-icon="fa-info-circle"}
+===================================== 
+
+test
+
+<!-- Convenience {data-navmenu="Category"} -->
+<!-- =====================================   -->
+
+<!-- Column {data-width=350} -->
+<!-- ----------------------------------------------------------------------- -->
+
+<!-- ### Explanatory Text -->
+
+<!-- Text can go here. -->
+
+<!-- ```{r} -->
+<!-- #crosstalk::filter_checkbox("category",  "Category", shared_food, ~category) -->
+
+<!-- ``` -->
+
+<!-- ### Interactive Data Table -->
+
+<!-- ```{r} -->
+<!-- make_table(convenience) -->
+<!-- ``` -->
+
+<!-- Column {data-width=650} -->
+<!-- ----------------------------------------------------------------------- -->
+
+<!-- ### Interactive Map -->
+
+<!-- ```{r} -->
+<!-- # convenience store -->
+<!-- icon_cookie <-  leaflet::makeAwesomeIcon(text = fontawesome::fa("fas fa-cookie"), -->
+<!--                                                       markerColor = "blue") -->
+<!-- make_map(convenience, icon_cookie) -->
+<!-- ``` -->
+
+<!-- Bakery {data-navmenu="Category"} -->
+<!-- =====================================   -->
+
+<!-- Column {data-width=350} -->
+<!-- ----------------------------------------------------------------------- -->
+
+<!-- ### Explanatory Text -->
+
+<!-- Text can go here. -->
+
+<!-- ```{r} -->
+<!-- #crosstalk::filter_checkbox("category",  "Category", shared_food, ~category) -->
+
+<!-- ``` -->
+
+<!-- ### Interactive Data Table -->
+
+<!-- ```{r} -->
+<!-- make_table(bakery) -->
+<!-- ``` -->
+
+<!-- Column {data-width=650} -->
+<!-- ----------------------------------------------------------------------- -->
+
+<!-- ### Interactive Map -->
+
+<!-- ```{r} -->
+<!-- # bakery -->
+<!-- icon_bread <-  leaflet::makeAwesomeIcon(text = fontawesome::fa("fas fa-bread-slice"), -->
+<!--                                                       markerColor = "beige") -->
+
+<!-- make_map(bakery, icon_bread) -->
+<!-- ``` -->
+
+<!-- Health Food {data-navmenu="Category"} -->
+<!-- =====================================   -->
+
+<!-- Column {data-width=350} -->
+<!-- ----------------------------------------------------------------------- -->
+
+<!-- ### Explanatory Text -->
+
+<!-- Text can go here. -->
+
+<!-- ```{r} -->
+<!-- #crosstalk::filter_checkbox("category",  "Category", shared_food, ~category) -->
+
+<!-- ``` -->
+
+<!-- ### Interactive Data Table -->
+
+<!-- ```{r} -->
+<!-- make_table(health_food) -->
+<!-- ``` -->
+
+<!-- Column {data-width=650} -->
+<!-- ----------------------------------------------------------------------- -->
+
+<!-- ### Interactive Map -->
+
+<!-- ```{r} -->
+<!-- # health food store -->
+<!-- icon_leaf <- leaflet::makeAwesomeIcon(text = fontawesome::fa("fas fa-leaf"), -->
+<!--                                                      markerColor = "lightgreen") -->
+
+<!-- make_map(health_food, icon_leaf) -->
+<!-- ``` -->
+
+
+
+<!-- Meat / Deli / Cheese {data-navmenu="Category"} -->
+<!-- =====================================   -->
+
+<!-- Column {data-width=350} -->
+<!-- ----------------------------------------------------------------------- -->
+
+<!-- ### Explanatory Text -->
+
+<!-- Text can go here. -->
+
+<!-- ```{r} -->
+<!-- #crosstalk::filter_checkbox("category",  "Category", shared_food, ~category) -->
+
+<!-- ``` -->
+
+<!-- ### Interactive Data Table -->
+
+<!-- ```{r} -->
+<!-- make_table(deli) -->
+<!-- ``` -->
+
+<!-- Column {data-width=650} -->
+<!-- ----------------------------------------------------------------------- -->
+
+<!-- ### Interactive Map -->
+
+<!-- ```{r} -->
+<!-- # meat deli cheese -->
+<!-- icon_cheese <-  leaflet::makeAwesomeIcon(text = fontawesome::fa("fas fa-cheese"), -->
+<!--                                                        markerColor = "orange") -->
+
+<!-- make_map(deli, icon_cheese) -->
+<!-- ``` -->
+
+
+
+<!-- Farmer's Market {data-navmenu="Category"} -->
+<!-- =====================================   -->
+
+<!-- Column {data-width=350} -->
+<!-- ----------------------------------------------------------------------- -->
+
+<!-- ### Explanatory Text -->
+
+<!-- Text can go here. -->
+
+<!-- ```{r} -->
+<!-- #crosstalk::filter_checkbox("category",  "Category", shared_food, ~category) -->
+
+<!-- ``` -->
+
+<!-- ### Interactive Data Table -->
+
+<!-- ```{r} -->
+<!-- make_table(farmers_market) -->
+<!-- ``` -->
+
+<!-- Column {data-width=650} -->
+<!-- ----------------------------------------------------------------------- -->
+
+<!-- ### Interactive Map -->
+
+<!-- ```{r farmers_map} -->
+
+<!-- # farmer's market -->
+<!-- icon_seedling <-  leaflet::makeAwesomeIcon(text = fontawesome::fa("fas fa-seedling"), -->
+<!--                                                          markerColor = "darkgreen") -->
+<!-- make_map(farmers_market, icon_seedling) -->
+<!-- ``` -->
+
+
+
+
+
+
+<!-- ```{r, eval = FALSE} -->
+
+<!-- # https://github.com/rstudio/leaflet/issues/691 -->
+
+<!-- icon_carrot <- leaflet::makeAwesomeIcon(text = fontawesome::fa("fas fa-carrot"), -->
+<!--                                         markerColor = "red") -->
+
+<!-- # health food store -->
+<!-- icon_leaf <- leaflet::makeAwesomeIcon(text = fontawesome::fa("fas fa-leaf"), -->
+<!--                                                      markerColor = "lightgreen") -->
+
+<!-- # bakery -->
+<!-- icon_bread <-  leaflet::makeAwesomeIcon(text = fontawesome::fa("fas fa-bread-slice"), -->
+<!--                                                       markerColor = "beige") -->
+
+<!-- # convenience store -->
+<!-- icon_cookie <-  leaflet::makeAwesomeIcon(text = fontawesome::fa("fas fa-cookie"), -->
+<!--                                                        markerColor = "blue") -->
+
+<!-- # meat deli cheese -->
+<!-- icon_cheese <-  leaflet::makeAwesomeIcon(text = fontawesome::fa("fas fa-cheese"), -->
+<!--                                                        markerColor = "orange") -->
+
+<!-- # farmer's market -->
+<!-- icon_seedling <-  leaflet::makeAwesomeIcon(text = fontawesome::fa("fas fa-seedling"), -->
+<!--                                                          markerColor = "darkgreen") -->
+<!-- icon_list <- leaflet::awesomeIconList( -->
+<!--   "grocery" = icon_carrot, -->
+<!--   "farmer's market" = icon_seedling, -->
+<!--   "deli meat cheese" = icon_cheese, -->
+<!--   "convenience" = icon_cookie, -->
+<!--   "bakery" = icon_bread, -->
+<!--   "health store" = icon_leaf -->
+
+<!-- ) -->
+
+<!-- test <- icon_list[food$category] -->
+
+<!-- labs <-  sprintf("<b>%s</b><br>%s<br>%s", food$name, food$category, food$address) %>% -->
+<!--   purrr::map(htmltools::HTML) -->
+
+<!-- leaflet() %>% -->
+<!--   addTiles() %>% -->
+<!--   addAwesomeMarkers(data = shared_food, -->
+
+<!--                     icon = ~ icon_list[category] -->
+<!--                       # , -->
+<!--                       # category == "health store" ~ icon_leaf, -->
+<!--                       # category == "bakery" ~ icon_bread, -->
+<!--                       # category == "convenience" ~ icon_cookie, -->
+<!--                       # category == "deli meat cheese" ~ icon_cheese, -->
+<!--                       # category == "farmer's market" ~ icon_seedling -->
+
+<!--                     #, clusterOptions = markerClusterOptions() -->
+<!--                     , label = labs -->
+<!--                     ) -->
+
+<!--                     #   awesomeIcons( -->
+<!--                     #   library = "fa", -->
+<!--                     #   icon = case_when( -->
+<!--                     #   TRUE ~ "fas fa-carrot" -->
+<!--                     # ) -->
+<!--                     #) -->
+<!--                     #) -->
+<!-- #  -->
+<!-- # leaflet() %>% -->
+<!-- #   addTiles() %>% -->
+<!-- #   addMarkers(data = shared_food -->
+<!-- #              #,             clusterOptions = markerClusterOptions() -->
+<!-- #              ) -->
+<!-- ``` -->

@@ -1,0 +1,74 @@
+---
+title: "ONS Foodspace Data: In-Progress Report"
+subtitle: "DRAFT--For Discussion Only"
+date: "`r Sys.Date()`"
+output: 
+  flexdashboard::flex_dashboard:
+     orientation: rows
+    # vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(crosstalk)
+library(leaflet)
+
+source("../R/dashboard_functions.R", encoding = "UTF-8")
+
+
+food <- read_csv("../data/combined/foodspace_2021-08-26c.csv") %>%
+  select(rowid, name, address, category2, category3, Nbhd, lat, lng) %>%
+  mutate(Nbhd = if_else(is.na(Nbhd), "(None)", Nbhd)) %>%
+  arrange(name) #%>% mutate(in_ott = !is.na(Nbhd))
+
+f <- food %>% arrange(lat) %>% group_by(lat) %>% mutate(num = 1:n()) %>% mutate(lat  = lat + 0.0001*(num-1)) %>%
+  select(-num)
+
+foods <- crosstalk::SharedData$new(f)
+
+```
+
+
+
+Interactive Data {data-icon="ion-pin"}
+=====================================  
+
+
+
+Inputs {.sidebar}
+-----------------------------------------------------------------------
+
+### Filters 
+
+```{r filters}
+crosstalk::filter_select("nhood", "Neighbourhood", foods, ~Nbhd)
+
+crosstalk::filter_select("name", "Name", foods, ~name)
+
+crosstalk::filter_checkbox("category",  "Category", foods, ~category2)
+```
+
+Row
+-----------------------------------------------------------------------
+
+###
+
+```{r leaflet_map}
+leaflet_food(foods)
+```
+
+Row  {data-height = 350}
+-----------------------------------------------------------------------
+
+```{r data_table}
+#make_table(foods)
+make_dt_table(foods)
+```
+
+
+
+Information {data-orientation=rows data-icon="fa-info-circle"}
+===================================== 
+
+test
