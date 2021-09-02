@@ -1,0 +1,218 @@
+rowid,name,restaurant_address,subzone_name,website,serves_veg_flag,pure_veg_flag,temp_closed_flag,is_seating_available,lat,lon,phone
+1,Chez Lucien,"137 Murray Street, Ottawa K1N 5M7",ByWard Market,NA,0,0,0,TRUE,45.4305722222,-75.6923305556,+1 (613) 241-3533
+2,The Manx,"370 Elgin Street, Ottawa K2P 1N1",Centretown,http://www.manxpub.com/,0,0,0,TRUE,45.4151200000,-75.6880570000,+1 (613) 231-2070
+3,Play Food & Wine,"1 York Street, Ottawa K1N 6Z5",ByWard Market,NA,0,0,0,TRUE,45.4275710000,-75.6948810000,+1 (613) 667-9207
+4,Union Local 613,"315 Somerset Street West, Ottawa K2P 0J8",Centretown,http://union613.ca/,0,0,0,TRUE,45.4161905000,-75.6944967000,+1 (613) 231-1010
+5,The Albion Rooms,"Hotel Novotel Ottawa, 33 Nicholas Street, Ottawa K1N 9M7",ByWard Market,http://www.thealbionrooms.com/,0,0,0,TRUE,45.4258915000,-75.6896160000,+1 (613) 760-4771
+6,Oz Kafe,"10 York Street, Ottawa K2P 5S6",ByWard Market,http://www.ozkafe.com/,0,0,0,TRUE,45.4274288000,-75.6966402000,+1 (613) 234-0907
+7,Two Six {Ate},"268 Preston Street, Ottawa K1R 7R3",Little Italy,http://www.twosixate.com/,0,0,0,TRUE,45.4041958000,-75.7118560000,+1 (613) 695-8200
+8,The Cheshire Cat,"2193 Richardson Side Road, Carp K0A 1L0",Carp,http://www.cheshirecatpub.com/,0,0,0,TRUE,45.2936638889,-75.9717027778,+1 (613) 831-2183
+9,Mill Street Brew Pub,"555 Wellington Street, Ottawa K1R 1C5",Centretown West,http://ottawa.millstreetbrewpub.ca/,0,0,0,TRUE,45.4195416667,-75.7124250000,+1 (613) 567-2337
+10,Fauna,"425 Bank Street, Ottawa K2P 1Y7",Centretown,http://www.faunaottawa.ca/,0,0,0,TRUE,45.4123916667,-75.6937861111,+1 (613) 563-2862
+11,Pub Italia,"434 Preston Street, Ottawa K1S 4N4",Little Italy,http://www.pubitalia.ca/,0,0,0,TRUE,45.3996130000,-75.7091010000,+1 (613) 232-2326
+12,Brothers Beer Bistro,366 Dalhousie Street K1N 7G3,ByWard Market,http://www.brothersbeerbistro.ca/,0,0,0,TRUE,45.4279100000,-75.6903200000,+1 (613) 695-6300: +1 (613) 695-6300
+13,The Lieutenant's Pump,361 Elgin Street K2P 1M7,Centretown,http://www.lieutenantspump.ca/,0,0,0,TRUE,45.4155390000,-75.6881270000,+1 (613) 238-2949
+14,Big Rig Brewery,"2750 Iris Street, Ottawa K2C 3V5",Nepean,http://www.bigrigbrew.com/,0,0,0,TRUE,45.3475888889,-75.7875138889,+1 (613) 688-3336
+15,Blue Cactus Bar and Grill,"2 ByWard Market Square, Ottawa K1N 7A1",ByWard Market,NA,0,0,0,TRUE,45.4286060000,-75.6938410000,+1 (613) 241-7061
+16,Milestones,"700 Sussex Dr Unit 201, Ottawa K1N 1K4",ByWard Market,http://www.milestonesrestaurants.com/,0,0,0,TRUE,45.4257720000,-75.6938160000,+1 (613) 789-5432
+17,Social,"537 Sussex Drive, Ottawa K1N 6Z6",ByWard Market,http://www.social.ca/,0,0,0,TRUE,45.4265550000,-75.6940530000,+1 (613) 789-7355
+18,The Moonroom,"442 Preston Street, Ottawa K1S 4N6",Little Italy,NA,0,0,0,TRUE,45.3990710000,-75.7087810000,+1 (613) 231-2525
+19,Trio Lounge,"307 Richmond Road, Ottawa K1Z 6X2",Westboro,http://www.triowestboro.com/,0,0,0,TRUE,45.3927722222,-75.7524861111,+1 (613) 722-3887
+20,Metropolitain Brasserie Restaurant,"700 Sussex Drive, Ottawa K1N 1K4",ByWard Market,NA,0,0,0,TRUE,45.4257720000,-75.6938160000,+1 (613) 562-1160
+21,107 Fourth Avenue Wine Bar & Café,"107 Fourth Avenue, Ottawa K1S 2L1",The Glebe,http://www.107fourthavenue.com/,0,0,0,TRUE,45.4025722222,-75.6875916667,+1 (613) 236-0040
+22,Cornerstone Bar and Grill,"92 Clarence Street, Ottawa K1N 7B5",ByWard Market,NA,0,0,0,TRUE,45.4292250000,-75.6928944444,+1 (613) 241-6835
+23,The Elmdale Oyster House & Tavern,"1084 Wellington Street West, Ottawa K1Y 2Y5",Wellington West,http://www.elmdaletavern.com/,0,0,0,TRUE,45.4031194444,-75.7252277778,+1 (613) 728-2848
+24,The Keg Steakhouse + Bar - Hunt Club,"376, Hunt Club Rd, Ottawa Ontario K1V 1C1",Hunt Club,http://www.kegsteakhouse.com/en/locations/ON/ottawa/ottawa-hunt-club/,0,0,0,TRUE,45.3385250000,-75.6827083333,+1 (613) 248-0509
+25,Lone Star Texas Grill,"780 Baseline Road, Ottawa K2C 3V8",Nepean,http://www.lonestartexasgrill.com/,0,0,0,TRUE,45.3708916667,-75.7169333333,+1 (613) 224-4044
+26,Local Lansdowne,"825 Exhibition Way, #107, Ottawa K1S 5J3",The Glebe,http://www.locallansdowne.com/,0,0,0,TRUE,45.3997027778,-75.6840666667,+1 (613) 233-3772
+27,Ginza Ramen,"832 Somerset Street West, Ottawa K1R 6R5",Centretown West,http://www.ginzarestaurant.ca/,0,0,0,TRUE,45.4090888889,-75.7116555556,+1 (613) 680-8822
+28,The 3 Brewers,"240 Sparks Street, Ottawa K1P 6C9",Centretown,http://www.les3brasseurs.ca/,0,0,0,TRUE,45.4219601712,-75.7020235062,+1 (613) 380-8140
+29,Memories Restaurant,"136 Saint Patrick Street, Ottawa K1N 5J9",ByWard Market,http://www.memoriesrestaurant.ca/,0,0,0,TRUE,45.4294660000,-75.6959150000,+1 (613) 241-1882
+30,JOEY Lansdowne,"825 Exhibition Way #103, Ottawa K1S 5J3",The Glebe,http://www.joeyrestaurants.com/,0,0,0,TRUE,45.3994333333,-75.6842027778,+1 (613) 695-5639
+31,Heart & Crown,"67 Clarence Street,Ottawa K1N 5P5",ByWard Market,http://www.heartandcrown.ca/,0,0,0,TRUE,45.4290583333,-75.6938861111,+1 (613) 562-0674
+32,Central Bierhaus,"650 Kanata Avenue, Ottawa K2T 1H6",Kanata,http://centralbierhaus.ca/,0,0,0,TRUE,45.3100861111,-75.9098888889,+1 (613) 595-0707
+33,El Furniture Warehouse,"77 Clarence Street, Ottawa K1N 5P5",ByWard Market,NA,0,0,0,TRUE,45.4290576000,-75.6930572000,+1 (613) 695-1771
+34,Crazy Horse,"115 Roland Michener Drive, Ottawa K2T 1G7",Kanata,http://www.thecrazyhorse.ca/,0,0,0,TRUE,45.3085833333,-75.9135138889,+1 (613) 591-8884
+35,Quinn's,"1070 Bank Street, Ottawa K1S 3W9",Old Ottawa South,http://www.quinnsalehouse.com/,0,0,0,TRUE,45.3947111111,-75.6837305556,+1 (613) 523-4400
+36,Aulde Dubliner & Pour House,"62 William Street, Ottawa K1N 7A3",ByWard Market,http://www.heartandcrown.ca/dubliner.aspx,0,0,0,TRUE,45.4270270000,-75.6918080000,+1 (613) 241-0066
+37,Moxie's Grill & Bar,"601 Earl Grey Drive, Ottawa K2T 1K4",Kanata,http://www.moxies.ca/restaurant-locations/ontario/ottawa-kanata,0,0,0,TRUE,45.3095972222,-75.9117194444,+1 (613) 599-5000
+38,Datsun,"380 Elgin Street, Ottawa K2P 1M9",Centretown,http://www.eatdatsun.com/,0,0,0,TRUE,45.4147760000,-75.6878820000,+1 (613) 422-2800
+39,The King Eddy,"45 Clarence Street, Ottawa K1N 5P4",ByWard Market,http://www.kingeddyburgers.com/,0,0,0,TRUE,45.4288038000,-75.6940150000,+1 (613) 680-1700
+40,Churchills Pub,"356 Richmond Road, Ottawa K2A 0E7",Westboro,http://www.churchillsottawa.com/,0,0,0,TRUE,45.3917055556,-75.7546083333,+1 (613) 421-3775
+41,Pints & Quarts,"779 Bank Street, Ottawa K1S 3V5",The Glebe,http://www.pintsandquarts.ca/,0,0,0,TRUE,45.4033583333,-75.6884833333,+1 (613) 235-2624
+42,Bier Markt,"156 Sparks Street, Ottawa K1P 5C1",Centretown,http://thebiermarkt.com/,0,0,0,TRUE,45.4217861111,-75.6998361111,+1 (613) 780-7575
+43,Tomo,"109 Clarence Street, Ottawa K1N 5P5",ByWard Market,http://tomorestaurant.ca/,0,0,0,TRUE,45.4294583333,-75.6923138889,+1 (613) 241-0990
+44,Clocktower,"89 Clarence Street, Ottawa K1N 5P5",ByWard Market,http://clocktower.ca/,0,0,0,TRUE,45.4293888889,-75.6928416667,+1 (613) 241-8783
+45,Sandy Hill Lounge & Grill,"321 Somerset Street East, Ottawa K1N 6W4",Sandy Hill,NA,0,0,0,TRUE,45.4245940000,-75.6743960000,+1 (613) 695-0875
+46,D'Arcy McGee's,"156 Sparks Street, Ottawa K1P 5C1",Centretown,http://www.primepubs.com,0,0,0,TRUE,45.4217000000,-75.6996700000,+1 (613) 780-7575
+47,Sir John A,"284 Elgin Street, Ottawa K2P 1M3",Centretown,http://sirjohna.ca/,0,0,0,TRUE,45.4170470000,-75.6898470000,+1 (613) 567-2746
+48,Lowertown Brewery,"73 York Street, Ottawa K1N 5T2",ByWard Market,http://www.lowertownbrewery.ca/,0,0,0,TRUE,45.4286893000,-75.6921402000,+1 (613) 722-1454
+49,The Senate Sports Tavern and Eatery,"33 Clarence Street, Ottawa K1N 5M4",ByWard Market,http://www.thesenate.ca/,0,0,0,TRUE,45.4285578000,-75.6945141000,+1 (613) 695-5523
+50,Summerhays Bar & Grill,"1971 Baseline Road, Ottawa K2C 0C7",Nepean,NA,0,0,0,TRUE,45.3523055556,-75.7618166667,+1 (613) 228-6049
+1,10Fourteen,"1014 Wellington Street West, Ottawa K1Y 2Y1",Wellington West,http://www.10fourteenbar.com/,0,0,0,TRUE,45.4048500000,-75.7235500000,+1 (613) 422-8610
+2,The Highlander Pub,"115 Rideau Street, Ottawa K1N 5X1",ByWard Market,http://www.thehighlanderpub.com/,0,0,0,TRUE,45.4265110000,-75.6912160000,+1 (613) 562-5678
+3,The Brig Eatery & Pub,"23 York Street, Ottawa K1N 9J6",ByWard Market,http://www.thebrigpub.com/,0,0,0,TRUE,45.4278037000,-75.6941212000,+1 (613) 562-6666
+4,The Glen,"1010 Stittsville Main Street, Ottawa K2S 0N9",Stittsville,http://www.theglen.ca/,0,0,0,TRUE,45.2730666667,-75.9312055556,+1 (613) 836-5622
+5,Jack Astor's,"125 Roland Michener Drive, Ottawa K2T 1K4",Kanata,http://www.jackastors.com/,0,0,0,TRUE,45.3086500000,-75.9133444444,+1 (613) 271-1041
+6,Vineyards Wine Bar Bistro,"54 York Street, Lower Level, Ottawa K1N 5T1",ByWard Market,http://www.vineyards.ca/,0,0,0,TRUE,45.4281741000,-75.6924183000,+1 (613) 241-4270
+7,The Black Thorn Cafe,"15 Clarence Street, Ottawa K1N 5P4",ByWard Market,http://www.theblackthorn.ca/,0,0,1,TRUE,45.4283600000,-75.6950630000,Not Available
+8,The Burbs,"501 Hazeldean Road, Ottawa K2L 1V6",Kanata,http://www.theburbspub.ca/home.html,0,0,0,TRUE,45.2958361111,-75.8931194444,+1 (613) 435-8833
+9,Atomic Rooster,"303 Bank Street, Ottawa K2P 1X7",Centretown,http://www.atomicrooster.ca/,0,0,0,TRUE,45.4150305556,-75.6958305556,+1 (613) 569-1000
+10,Steak & Sushi,"87 Clarence Street, Ottawa K1N 5P5",ByWard Market,http://steakottawa.ca/,0,0,0,TRUE,45.4291888889,-75.6928722222,+1 (613) 695-8787
+11,Broadway Bar & Grill,"Barrhaven Town Centre, 3777 Strandherd Drive, Ottawa K2J 4B1",Barrhaven,http://www.broadwaybarandgrill.ca/,0,0,0,TRUE,45.2680055556,-75.7483055556,+1 (613) 825-6533
+12,St. Louis Bar & Grill,"399 Elgin St Unit 2, Ottawa K2P 1M9",Centretown,http://stlouiswings.com/,0,0,0,TRUE,45.4150120000,-75.6877760000,+1 (613) 231-1116
+13,Father & Sons,"112 Osgoode Street, Ottawa K1N 6S1",Sandy Hill,http://www.fatherandsonsottawa.com/,0,0,0,TRUE,45.4237717000,-75.6814810000,+1 (613) 234-1173
+14,Patty's Pub,"1186 Bank Street, Ottawa K1S 0W6",Old Ottawa South,http://www.pattyspub.ca/,0,0,0,TRUE,45.3919861111,-75.6816472222,+1 (613) 730-2434
+15,Pour Boy Pub,"495 Somerset Street West,  Ottawa K1R 5J7",Centretown,http://www.pourboypub.com/,0,0,0,TRUE,45.4138318000,-75.7003915000,+1 (613) 695-7687
+16,The Standard,"360 Elgin Street, Ottawa K2P 1M8",Centretown,NA,0,0,0,TRUE,45.4154750000,-75.6880277778,+1 (613) 232-6274
+17,Kelsey's,"75 Marketplace Avenue, Ottawa K2J 5G4",Barrhaven,http://www.kelseys.ca/,0,0,0,TRUE,45.2701083333,-75.7420194444,+1 (613) 843-0662
+18,Earl of Sussex,"431 Sussex Drive, Ottawa K1N 7B1",ByWard Market,http://www.earlofsussex.ca/,0,0,0,TRUE,45.4289012000,-75.6961218000,+1 (613) 562-5544
+19,The Barley Mow,"1481 Greenbank Road, Ottawa K2J 4Y6",Barrhaven,http://www.barleymow.com/,0,0,0,TRUE,45.2740166667,-75.7479694444,+1 (613) 823-8028
+20,The Arrow and Loon,"99 Fifth Avenue, Ottawa K1S 2M3",The Glebe,http://www.arrowandloon.com/,0,0,0,TRUE,45.4018166667,-75.6872333333,+1 (613) 237-0448
+21,Atari,"297 Dalhousie Street, Ottawa, ON K1N 7E5",ByWard Market,http://www.atariottawa.com,0,0,0,TRUE,45.4297280000,-75.6917340000,+1 (613) 422-8877
+22,The Fox & Feather,"283 Elgin Street, Ottawa K2P 1M1",Centretown,http://foxandfeather.ca/,0,0,0,TRUE,45.4178320000,-75.6901900000,+1 (613) 233-2219
+23,The Loft,"14 Waller Street, Second Floor, Ottawa K1N 9C4",ByWard Market,http://www.theloftlounge.ca/,0,0,0,TRUE,45.4270152000,-75.6886615000,+1 (613) 695-7529
+24,Connors Irish Pub,"2401 St. Joseph Boulevard, Ottawa K1C 1E9",Orleans,http://www.connorspubs.com/,0,0,0,TRUE,45.4694722222,-75.5289166667,+1 (613) 837-5050
+25,Corner Bar & Grill,"1779 Tenth Line Road, Ottawa K1E 3X2",Orleans,http://www.cornerbarandgrill.ca/,0,0,0,TRUE,45.4666944444,-75.4905916667,+1 (613) 424-7305
+26,The Berryman Pub,"478 Bank Street, Ottawa K2P 1Z3",Centretown,http://www.theberrymanpub.com/,0,0,0,TRUE,45.4110070000,-75.6930789000,+1 (613) 421-7675
+27,The Wood on Wellington,"1237 Wellington Street West, Ottawa K1Y 3A3",Wellington West,http://www.woodonwellington.com/,0,0,0,TRUE,45.3996916667,-75.7323305556,+1 (613) 667-9477
+28,Moscow Tea Room,"527 Sussex Drive, Ottawa K1N 5S6",ByWard Market,http://www.moscowtearoom.com/,0,0,0,TRUE,45.4269016000,-75.6943660000,+1 (613) 627-2335
+29,Hooley's,"292 Elgin Street, Ottawa K2P 1M3",Centretown,http://www.hooleyspub.com/,0,0,0,TRUE,45.4168840000,-75.6897420000,+1 (613) 231-3888
+30,The Brew Table,"360 Moodie Drive, Ottawa K2H 8G3",Bells Corners,http://www.thebrewtable.com/,0,0,0,TRUE,45.3223638889,-75.8340916667,+1 (613) 596-4226
+31,Sea King Shark Fin Seafood Restaurant,"1558 Merivale Road, Ottawa K2G 3J9",Nepean,NA,0,0,0,TRUE,45.3530666667,-75.7354055556,+1 (613) 228-8819
+32,Bowman's Bar & Grill,"1170 Carling Avenue, Ottawa K1Z 7K6",Carlington,NA,0,0,0,TRUE,45.3880611111,-75.7291861111,+1 (613) 680-9339
+33,Hurley's,"Bridlewood Plaza, 64 Stonehaven Drive, Ottawa K2M 2Y2",Kanata,http://www.hurleysgrill.com,0,0,0,TRUE,45.2914555556,-75.8574138889,+1 (613) 271-3073
+34,Pub 101,"101 York Street, Ottawa K1N 8Y3",ByWard Market,http://www.pub101.com/,0,0,0,TRUE,45.4289180000,-75.6911610000,+1 (613) 789-3515
+35,Patty Boland's,"101 Clarence Street, Ottawa K1N 5P5",ByWard Market,http://www.pattybolands.com/,0,0,0,TRUE,45.4293861111,-75.6925277778,+1 (613) 789-7822
+36,Zoe's - Fairmont Château Laurier,"Fairmont Château Laurier, 1 Rideau Street, Ottawa K1N 8S7",ByWard Market,http://www.zoesottawa.com,0,0,0,TRUE,45.4251800000,-75.6944100000,+1 (613) 241-1414
+37,Greenfield's Gastro Public House,"900 Greenbank Road, Ottawa K2J 1S8",Barrhaven,http://www.barrhavenspub.com,0,0,0,TRUE,45.2863359581,-75.7573752478,+1 (613) 823-9900
+38,Casey's,"1880 Ogilvie Road, Ottawa K1J 7P4",Gloucester,http://gloucester.caseysgrillbar.com/,0,0,0,TRUE,45.4327277778,-75.6143500000,+1 (613) 742-1818
+39,Hometown Sports Grill,"1525 Bank Street, Alta Vista, Ottawa K1H 7Z1",Alta Vista,http://www.hometownsportsbar.ca/,0,0,0,TRUE,45.3811333333,-75.6680972222,+1 (613) 733-0808
+40,Café Nostalgica,"University of Ottawa, 601 Cumberland Street, Ottawa K1N 6N5",Sandy Hill,http://nostalgica.ca/,0,0,0,TRUE,45.4244670000,-75.6844250000,+1 (613) 562-5800
+41,The Royal Oak,"4110 Strandherd Drive, Ottawa K2J 0V2",Barrhaven,http://www.royaloakpubs.com/,0,0,0,TRUE,45.2599972222,-75.7679888889,+1 (613) 825-8251
+42,Moose McGuire's,"3320 McCarthy Road, Unit 2, Ottawa K1V 9X5",Hunt Club,http://www.moosemcguires.com,0,0,0,TRUE,45.3510361111,-75.6708972222,+1 (613) 680-4411
+43,ARC Lounge,"Arc The Hotel, 140 Slater Street, Ottawa K1P 5H6",Centretown,http://arcthehotel.com/,0,0,0,TRUE,45.4205972222,-75.6971138889,+1 (613) 238-9998
+44,Deacon Brodie's Pub,"247 Elgin Street, Ottawa K2P 0G1",Centretown,http://www.deaconbrodiespub.com/,0,0,0,TRUE,45.4184997000,-75.6906141000,+1 (613) 236-6464
+45,Grace O'Malley's,"1151 Ogilvie Road, Ottawa K1J 1J9",Vanier,http://www.gracies.ca/,0,0,0,TRUE,45.4269350000,-75.6307870000,+1 (613) 842-0220
+46,Belmont,"1169 Bank Street, Ottawa K1S 3X7",Old Ottawa South,http://www.belmontottawa.com/,0,0,0,TRUE,45.3925222222,-75.6818472222,+1 (613) 979-3663
+47,Local Heroes,"1400 Clyde Avenue, Ottawa K2G 3J2",Nepean,http://www.localheroesrestaurants.com,0,0,0,TRUE,45.3588166667,-75.7389916667,+1 (613) 224-3873
+48,Industria Brasserie,"225 Marché Way, Unit 107, Ottawa K1S 5H6",The Glebe,http://www.ottawarestos.ca/restaurants/show_website.php?resto_id=9956&weblink=http%3A%2F%2Fwww.industriabrasserie.com%2Fen%2Fott,0,0,0,TRUE,45.4000680000,-75.6846110000,+1 (613) 695-1200
+49,Whispers,"249 Richmond Road, Ottawa K1Z 6X1",Westboro,http://whisperspubottawa.ca/,0,0,0,TRUE,45.3938250000,-75.7501055556,+1 (613) 722-9603
+50,Spin Kitchen & Bar - Ottawa Marriott Hotel,"Ottawa Marriott Hotel, 100 Kent Street, Ottawa K1P 5R7",Centretown,http://www.spinkitchenbar.com/,0,0,0,TRUE,45.4193583333,-75.7031555556,+1 (613) 783-4202
+1,The Tartan Pub & Grill,"4025 Innes Road, Ottawa K1C 6P6",Orleans,http://www.tartanpub.com,0,0,0,TRUE,45.4558722222,-75.5056305556,+1 (613) 834-4569
+2,The Mill Tavern,"5544 Manotick Main Street, Ottawa K4M 1A2",Manotick,http://www.milltavern.ca/,0,0,0,TRUE,45.2251027778,-75.6841666667,+1 (613) 692-1686
+3,MacLaren's on Elgin,"301 Elgin Street, Ottawa K2P 0L3",Centretown,http://www.maclarens.com/,0,0,0,TRUE,45.4171740000,-75.6896010000,+1 (613) 236-2766
+4,Montana's,"140 Earl Grey Drive, Ottawa K2T 1B6",Kanata,http://www.montanas.ca,0,0,0,TRUE,45.3087222222,-75.9139861111,+1 (613) 270-0518
+5,Sens House,"73 York Street, Ottawa K1N 5T2",ByWard Market,http://www.thesenshouse.ca/,0,0,0,TRUE,45.4284823000,-75.6920482000,+1 (613) 241-5434
+6,Irene's Pub,"885 Bank Street, Ottawa K1S 3W4",The Glebe,http://irenespub.ca/,0,0,0,TRUE,45.4007388889,-75.6869805556,+1 (613) 230-4474
+7,House of TARG,"1077 Bank Street, Ottawa K1S 3W9",Old Ottawa South,http://www.houseoftarg.com/,0,0,0,TRUE,45.3945166667,-75.6835777778,+1 (613) 730-5748
+8,East Side Mario's,"651 Terry Fox Drive, Kanata, Ottawa K2L 4E7",Kanata,http://www.eastsidemarios.com/,0,0,0,TRUE,45.2967611111,-75.8999861111,+1 (613) 836-3680
+9,The Waverley,"339 Elgin Street, Ottawa K2P 1M5",Centretown,http://thewaverleyelgin.com/,0,0,0,TRUE,45.4156494000,-75.6884339000,+1 (613) 627-4140
+10,Jonny Canuck's Bar & Grill,"900 Watters Road, Ottawa K4A 0B4",Orleans,http://www.jonnycanucks.com/,0,0,0,TRUE,45.4824722222,-75.4731916667,+1 (613) 841-5000
+11,The Carleton Tavern,"223 Armstrong Street, Ottawa K1Y 4P1",Wellington West,NA,0,0,0,TRUE,45.4019694444,-75.7300638889,+1 (613) 728-4424
+12,La Maison - The House,"191 Somerset Street East, Ottawa K1N 6V1",Sandy Hill,NA,0,0,0,TRUE,45.4224570000,-75.6796320000,+1 (613) 565-9585
+13,Riverside Pub,"3673 Riverside Drive, Ottawa K1V 0P5",Hunt Club,NA,0,0,0,TRUE,45.3436777778,-75.6905527778,+1 (613) 733-8459
+14,Copper Spirits and Sights,"325 Dalhousie Street, Ottawa K1N 7G1",ByWard Market,https://ottawa.andaz.hyatt.com/en/hotel/dining/copper-spirits-and-sights.html,0,0,0,TRUE,45.4286935000,-75.6909229000,+1 (613) 321-1234
+15,O'Brien's Eatery and Pub,"1145 Heron Road, Ottawa K1V 6B5",Riverside,NA,0,0,0,TRUE,45.3783805556,-75.6709444444,+1 (613) 731-8752
+16,Cock and Lion Pub,"202 Sparks Street, Ottawa K1P 5T9",Centretown,http://www.cockandlion.com,0,0,0,TRUE,45.4212916667,-75.7010944444,+1 (613) 233-0080
+17,The Marlborough Pub & Eatery,"2364 Roger Stevens Drive, North Gower K0A 2T0",North Gower,http://www.marlboroughpub.com/,0,0,0,TRUE,45.1296053000,-75.7202992000,+1 (613) 489-2278
+18,Laurier Social House,"244 Laurier Avenue East, Ottawa K1N 6P7",Sandy Hill,http://lauriersocialhouse.com/,0,0,0,TRUE,45.4260533000,-75.6811268000,+1 (613) 680-3999
+19,The Glue Pot Pub,"340 Queen Street, Ottawa K1R 5T9",Centretown,http://www.gluepotpub.com/,0,0,0,TRUE,45.4186277778,-75.7053916667,+1 (613) 594-8222
+20,Shoeless Joe's,"315 Colonnade Drive, Kemptville K0G 1J0",Kemptville,http://www.shoelessjoes.ca/,0,0,0,TRUE,45.0294765000,-75.6322609000,+1 (613) 215-0500
+21,Local Heroes Bells Corners,"15 Robertson Rd, Ottawa K2H7P4",Bells Corners,NA,0,0,0,TRUE,45.3246000000,-75.8276527778,+1 (613) 721-7700
+22,Don Cherry's,"320 Eagleson Road, Ottawa K2L 2X1",Kanata,http://www.doncherrysottawa.com/,0,0,0,TRUE,45.3008944444,-75.8759833333,+1 (613) 599-6300
+23,Pubwells,"96 Preston Street, Ottawa K1R 7N8",Little Italy,http://www.pubwells.com/,0,0,0,TRUE,45.4089194444,-75.7145611111,+1 (613) 236-1175
+24,Liam Maguire's,"1705 St. Laurent Boulevard, Ottawa K1G 3VR",Riverview,http://www.liammaguires.com/,0,0,0,TRUE,45.4062944444,-75.6267694444,+1 (613) 737-7801
+25,The Ministry Of Coffee & Social Affairs,"1013 Wellington Street W, Ottawa K1Y 2Y1",Wellington West,http://www.theministryofcoffee.com/,0,0,0,TRUE,45.4050350000,-75.7237340000,+1 (613) 695-9002
+26,Tailgator's,"1642 Merivale Road, Ottawa K2G 4A1",Nepean,http://tailgators.ca/,0,0,0,TRUE,45.3442500000,-75.7312555556,+1 (613) 224-0249
+27,Newfoundland Pub,"940 Montreal Road, Ottawa K1K 4E5",Vanier,NA,0,0,0,TRUE,45.4467277778,-75.6281361111,+1 (613) 745-0962
+28,The Conroy Pub,"4 Lorry Greenburg Drive, Ottawa K1G 5H6",Greenboro,http://www.theconroypub.com/,0,0,0,TRUE,45.3694611111,-75.6201861111,+1 (613) 739-4907
+29,Daniel O'Connell's,"1211 Wellington Street West, Ottawa K1Y 2Z8",Wellington West,http://www.danieloconnells.com/,0,0,0,TRUE,45.4003222222,-75.7306138889,+1 (613) 724-2200
+30,Common Eatery,"380 Elgin Street, Ottawa K2P 1N1",Centretown,http://www.commoneatery.com,0,0,0,TRUE,45.4148312000,-75.6880743000,+1 (613) 695-2110
+31,Bar laurel,"1087 Wellington St W, Ottawa, ON K1Y 2Y4, Canada",Wellington West,NA,0,0,0,TRUE,45.4031450000,-75.7255890000,+1 613 695 5558
+32,Sur-lie | French Restaurant Ottawa,"110 Murray Street, Ottawa K1N 5M6",The Glebe,https://www.surlierestaurant.ca/,0,0,0,TRUE,45.4298799000,-75.6928765000,+1 (613) 562-7244
+33,The Thirsty Moose Pub & Eatery,"20 Bridge Street, Carleton Place K7C 2V1",Carleton Place,NA,0,0,0,TRUE,45.1373472222,-76.1429833333,+1 (613) 253-0879
+34,Muzika Resto Lounge,"730 Industrial Avenue, Ottawa K1G 0Y9",Riverview,NA,0,0,0,TRUE,45.4092527778,-75.6364972222,+1 (613) 737-9000
+35,Bab el Hara Cafe,"1818 Bank Street, Ottawa K1V 7Y6",Riverside,https://www.facebook.com/BabElHaraCafe,0,0,0,TRUE,45.3714435000,-75.6641326000,+1 (343) 700-1442
+36,Bert's,"Canadian Tire Centre, 1000 Palladium Drive, Ottawa K2V 1E2",Kanata,http://www.bertsbarbados.com/index.asp,0,0,0,TRUE,45.2964010000,-75.9252800000,+1 (613) 599-2582
+37,Blackburn Arms Pub,"2586 Innes Road, Ottawa K1B 3K1",Gloucester,http://www.blackburnarms.com/,0,0,0,TRUE,45.4310027778,-75.5654000000,+1 (613) 830-4829
+38,JOEY Rideau,"50 Rideau St #106, Ottawa K1N 9J7",Centretown,http://joeyrestaurants.com/locations/#!/restaurant/5211/canada?as=1,0,0,0,TRUE,45.4264970000,-75.6906530000,+1 (613) 680-5639
+39,The Red Lion Public House,"47 Clarence Street, Ottawa K1N 9K1",Lower Town,http://theredliongroup.com/,0,0,0,TRUE,45.4288868000,-75.6938644000,+1 (613) 241-2222
+40,Bar Robo,692 Somerset Street West K1R 6P4,Centretown West,http://barrobo.com/,0,0,0,TRUE,45.4110032450,-75.7066462440,+1 (613) 233-7626
+41,El Mazaj,"5307 Canotek Road, Ottawa K1J 9J3",Gloucester,http://www.elmazaj.ca/,0,0,0,TRUE,45.4527805556,-75.5879583333,+1 (613) 741-3000
+42,Parliament Pub,"101 Sparks Street, Ottawa K1P 5T9",Centretown,http://www.parliamentpub.com/,0,0,1,TRUE,45.4227111111,-75.6978000000,Not Available
+43,Fat Albert's & Ralph's Sports Bar,"1990 Russell Road, Ottawa K1G 1G6",Riverview,http://www.fatalberts.ca/,0,0,0,TRUE,45.4009583333,-75.6241000000,+1 (613) 526-4100
+44,1848,"University of Ottawa, University Centre, 85 University Private, Second Floor, Ottawa K1N 6N5",Sandy Hill,http://sfuo.ca/1848/,0,0,0,TRUE,45.4220700000,-75.6836770000,+1 (613) 562-5800
+45,Brian's Bar & Grill,"2 Racine Street, Casselman K0A 1M0",Casselman,NA,0,0,0,TRUE,45.3058694444,-75.0813611111,+1 (613) 764-1800
+46,Citizen,"207 Gilmour St, Ottawa, ON K2P 1M3, Canada",Centretown,NA,0,0,0,TRUE,45.4164770000,-75.6896910000,+1 613 422 6505
+47,Mason-Dixon Kitchen & Bar,"424 Preston Street, Ottawa K1S 4N2",The Glebe,http://masondixonottawa.com/,0,0,0,TRUE,45.4001368000,-75.7115614000,+1 (613) 422-7880
+48,Villa Lucia Supper Club,"3430 Carling Avenue, Ottawa K2H 5J1",Bayshore,http://www.villalucia.com/,0,0,0,TRUE,45.3521916667,-75.8370055556,+1 (613) 596-1346
+49,Options - Brookstreet Hotel,"Brookstreet Hotel, 525 Legget Drive, Ottawa K2K 2W2",Kanata,http://www.brookstreethotel.com/eat/options-jazz-lounge/,0,0,0,TRUE,45.3467378000,-75.9182043000,+1 (613) 271-1800
+50,Main Street Pub,"1408 Main Street, Ottawa K2F 1B8",Stittsville,NA,0,0,0,TRUE,45.2618111111,-75.9255666667,+1 (613) 836-2684
+1,D'Afrique Restaurant & Bar,"164 Laurier Avenue West, Ottawa K1P 5J4",Centretown,NA,0,0,0,TRUE,45.4205580000,-75.6943640000,+1 (613) 680-5755
+2,Danby's Bar & Grill,"2858 Munster Road, Ottawa K0A 3P0",Munster,http://www.danbys.ca/,0,0,0,TRUE,45.1646820000,-75.9404580000,+1 (613) 838-2521
+3,The Draft Pub,"University of Ottawa, Minto Sports Complex, 801 King Edward Avenue, Second Floor, Ottawa K1N 6V1",Sandy Hill,http://www.thedraftpub.com/,0,0,0,TRUE,45.4201660000,-75.6783470000,+1 (613) 422-0847
+4,Sonny's Bar and Grill,"1119 Baxter Road, Ottawa K2C 1M1",Nepean,http://www.sonnysbarandgrill.com/,0,0,0,TRUE,45.3505250000,-75.7822638889,+1 (613) 829-1920
+5,Blades Bar & Grill,"Minto Skating Centre, 2571 Lancaster Road, Main Level, Ottawa K1B 4L5",Riverview,NA,0,0,0,TRUE,45.4000388889,-75.6124583333,+1 (613) 733-7800
+6,Avant-Garde Bar,"135 1/2 Besserer Street, Ottawa K1N 6A7",ByWard Market,http://www.avantgardebar.com,0,0,0,TRUE,45.4266490000,-75.6889480000,+1 (613) 321-8908
+7,JunXion,"15 George Street, Ottawa K1N 1K2",ByWard Market,http://www.thejunxionottawa.com/,0,0,0,TRUE,45.4266030000,-75.6933685000,+1 (613) 241-2868
+8,Fat Tuesdays,"625 Kanata Avenue, Ottawa K2T 1K5",Kanata,http://www.fattuesdays.ca/,0,0,0,TRUE,45.3106260000,-75.9111380000,+1 (613) 591-3287
+9,Moondog Pub and Grill,"238 Laurier Avenue East, Ottawa K1N 6P1",Sandy Hill,NA,0,0,0,TRUE,45.4260350000,-75.6811700000,+1 (613) 233-3624
+10,Beerocracy,"340 Somerset Street W, Ottawa K2P 0J9",Centretown,http://www.Beerocracy.ca,0,0,0,TRUE,45.4156340000,-75.6953870000,+1 (613) 680-2337
+11,Time Out Pub & Grill,"1119 Meadowlands Drive East, Ottawa K2E 6J5",Nepean,http://www.timeoutottawa.com/,0,0,0,TRUE,45.3629270000,-75.7120730000,+1 (613) 726-3003
+12,Sasha's Lounge - Sheraton Ottawa Hotel,"Sheraton Ottawa Hotel, 150 Albert Street, Ottawa, ON K1A 1M5",Centretown,NA,0,0,0,TRUE,45.4210916667,-75.6980583333,+1 (613) 238-1500
+13,Waller Street Brewing,"14 Waller Street, Lower Level, Ottawa K1N 9C4",ByWard Market,http://www.wallerst.ca,0,0,0,TRUE,45.4271060000,-75.6886000000,+1 (613) 860-1515
+14,Half Pint Pub,"968 Notre Dame Street, Embrun K0A 1M0",Embrun,http://www.halfpintpub.ca,0,0,0,TRUE,45.2721680000,-75.2808990000,+1 (613) 370-0176
+15,The Blurry Pixel,"Second Floor, 201 Queen Street, Ottawa K1P 5C9",Centretown,http://theblurrypixel.com,0,0,0,TRUE,45.4210530000,-75.7005710000,
+16,Mike's Place,"Carleton University, University Centre, 1125 Colonel By Drive, Second Floor, Ottawa K1S 5B6",Old Ottawa South,http://gsacarleton.ca/mikes-place/,0,0,0,TRUE,45.3834980000,-75.6972920000,+1 (613) 520-6616
+17,Ppl. Night Club,"130 George Street, Ottawa K1N 5W4",ByWard Market,http://www.pplottawa.com,0,0,0,TRUE,45.4280840000,-75.6896390000,+1 (613) 769-4390
+18,Gab's Sports Bar,"1039 Laurier Street, Clarence-Rockland K4K 1E6",Clarence-Rockland,NA,0,0,0,TRUE,45.5539666667,-75.2798833333,+1 (613) 446-9916
+19,Borgo Bar,"262 Preston Street, Ottawa K1R 7R5",Little Italy,NA,0,0,0,TRUE,45.4043899012,-75.7120898969,+1 (613) 862-8750
+20,The Garden - Hilton Garden Inn,"Hilton Garden Inn, 2400 Alert Road, Ottawa K1V 1S1",Hunt Club,http://hiltongardeninn3.hilton.com/en/hotels/ontario/hilton-garden-inn-ottawa-airport-YOWAPGI/dining/index.html,0,0,0,TRUE,45.3280980000,-75.6522050000,+1 (613) 288-9013
+21,The Rainbow,"76 Murray Street, Ottawa K1N 5M6",ByWard Market,http://www.therainbow.ca/,0,0,0,TRUE,45.4295930000,-75.6937220000,+1 (613) 241-5123
+22,The Whiskey Bar,"112 York Street, Ottawa K1N 5T5",ByWard Market,http://www.whiskeybar.ca,0,0,0,TRUE,45.4290250000,-75.6906340000,+1 (613) 241-5457
+23,Zaphods,"27 York Street, Ottawa K1N 5S7",ByWard Market,http://zaphods.ca/,0,0,0,TRUE,45.4279430000,-75.6939190000,+1 (613) 562-1010
+24,Carlington Sports Bar,"1577 Laperriere Avenue, Ottawa K1Z 7T3",Carlington,NA,0,0,0,TRUE,45.3767540000,-75.7456920000,+1 (613) 761-1989
+25,The Whalesbone,"231 Elgin Street , Ottawa K2P 1L6",The Glebe,http://thewhalesbone.com/,0,0,0,TRUE,45.4188690000,-75.6910760000,+1 (613) 505-4300
+26,The Fireside Pub,"Walkley Bowling Centre, 2092 Walkley Road, Ottawa K1G 3V3",Riverview,http://walkleybowlingcentre.com/fireside-pub/,0,0,0,TRUE,45.3846290000,-75.6258250000,+1 (613) 521-0132
+27,Grumpy's,"4000 Bridle Path Drive, Ottawa, ON K1T 1Z5",South Keys,NA,0,0,0,TRUE,45.3483200000,-75.6456840000,+1 (613) 525-9490
+28,Dooly's,"2279 Gladwin Crescent, Ottawa K1B 4L5",Riverview,http://www.doolys.ca/,0,0,0,TRUE,45.4040250000,-75.6236670000,+1 (613) 260-2311
+29,Fieldhouse Bar & Grill,"RA Centre, 2451 Riverside Drive, Ottawa K1H 7X7",Riverside,http://www.racentre.com/socilahqs,0,0,0,TRUE,45.3817950000,-75.6842258000,+1 (613) 736-6203
+30,Cue & Cushion,"319 Bank Street, Ottawa K2P 1X9",Centretown,http://cuencushion.ca,0,0,0,TRUE,45.4144930000,-75.6955060000,+1 (613) 237-2404
+31,Oliver's,"Carleton University, University Building, 1125 Colonel By Drive, First Floor, Ottawa K1S 5B6",Old Ottawa South,NA,0,0,0,TRUE,45.3833230000,-75.6976930000,+1 (613) 520-6688
+32,Stanley's,"1565 Maple Grove Road, Ottawa K2V 1A3",Kanata,http://stanleys.bellsensplex.ca/,0,0,0,TRUE,45.2969975000,-75.9090323000,+1 (613) 599-0233
+33,Velvet Room,"62 York Street, Ottawa K1N 5T1",ByWard Market,http://www.velvetroom.ca,0,0,0,TRUE,45.4283480000,-75.6922090000,+1 (613) 241-6810
+34,Bab El Hara Cafe and Shawarma,"257 McArthur Avenue, Ottawa K1L 6P3",Vanier,NA,0,0,0,TRUE,45.4317000000,-75.6583340000,+1 (613) 695-8955
+35,The Brass Monkey,"Greenbank Hunt Club Centre, 250 Greenbank Road, Ottawa K2H 8X4",Bells Corners,http://www.brassmonkeybilliards.com/home/,0,0,0,TRUE,45.3253150000,-75.7798230000,+1 (613) 820-4889
+36,Finnigans Pub,"347 Montreal Road, Ottawa K1L 6B2",Vanier,NA,0,0,0,TRUE,45.4381100000,-75.6561440000,+1 (613) 747-2578
+37,The Laff,"42 York Street, Ottawa K1N 5S6",ByWard Market,http://www.thelaff.ca/,0,0,0,TRUE,45.4278500000,-75.6932580000,+1 (613) 241-4747
+38,Amigo's Sports Bar,"858 Merivale Road, Ottawa K1Z 5Z4",Carlington,http://www.amigossportsbar.com,0,0,0,TRUE,45.3852870000,-75.7323380000,+1 (613) 725-2818
+39,Le Bibliothèque Café,"Capital Hill Hotel & Suites, 88 Albert Street, Ottawa K1P 5E9",Centretown,http://www.capitalhill.com/index.php/accommodations/bibliotheque-cafe/,0,0,0,TRUE,45.4220783035,-75.6959513202,+1 (613) 235-1413
+40,Tequila Jacks,"104 Clarence Street, Ottawa K1N 5P5",ByWard Market,http://tequilajacksottawa.ca/,0,0,0,TRUE,45.4292510000,-75.6924040000,+1 (613) 862-7622
+41,Liquor Store,"130 York Street, Ottawa K1N 5T5",ByWard Market,http://www.liquorstorepartybar.com,0,0,0,TRUE,45.4293400000,-75.6897010000,+1 (613) 241-6827
+42,The Bourbon Room,"400 Dalhousie Street, Unit A, Ottawa K1N 9K4",ByWard Market,http://www.thebourbonroom.ca/,0,0,0,TRUE,45.4269280000,-75.6896080000,+1 (613) 878-8110
+43,Tugal's,"74 Cobourg Street, Ottawa K1N 8G8",Lower Town,NA,0,0,0,TRUE,45.4339560000,-75.6797840000,+1 (613) 789-9295
+44,VJ's,"150 Laurier Avenue West, Ottawa K1P 5JR",Centretown,NA,0,0,0,TRUE,45.4208000000,-75.6937500000,+1 (613) 234-0925
+45,Stars Palace,"161 Montreal Road, Ottawa, ON K1L 6E4",Vanier,NA,0,0,0,TRUE,45.4349750000,-75.6648250000,+1 (613) 842-0999
+46,Mercury Lounge,"56 ByWard Market Square, Ottawa K1N 7A2",ByWard Market,http://www.mercurylounge.com/,0,0,0,TRUE,45.4272510000,-75.6925060000,+1 (613) 789-5324
+47,Kavali,"34 Clarence Street, Ottawa K1N 5P3",ByWard Market,http://kavali.ca/,0,0,0,TRUE,45.4284090000,-75.6943800000,+1 (613) 315-8255
+48,The Cabin,"95 York Street, Ottawa K1N 5T2",ByWard Market,http://thecabin.ca/,0,0,0,TRUE,45.4289600000,-75.6914940000,+1 (613) 241-7552
+49,Dubai Café,"1652 Bank Street, Ottawa K1V 7Y6",Riverside,NA,0,0,0,TRUE,45.3766400000,-75.6668720000,+1 (613) 406-6640
+50,VIP Karaoke Bar,"610 Somerset Street West, Inside Korean Palace, Second Floor K1R 5K4",Centretown,http://www.vipkaraokebar.com/,0,0,0,TRUE,45.4123380000,-75.7039280000,+1 (613) 983-8847: +1 (613) 680-8847
+1,Minnesota's,"442 Hazeldean Road, Ottawa K2L 1V2",Kanata,http://www.minnesotasbilliards.com,0,0,0,TRUE,45.2995510000,-75.8851480000,+1 (613) 831-0031
+2,The Dominion,"33 York Street, Ottawa K1N 5S7",ByWard Market,http://www.tavern.ca/,0,0,0,TRUE,45.4279690000,-75.6938090000,+1 (613) 241-7706
+3,Melody Cafe,"257 McArthur Avenue, Ottawa K1L 6P3",Vanier,NA,0,0,0,TRUE,45.4316920000,-75.6583340000,+1 (613) 695-4774
+4,Café Caco Sports Bar,"77 Montreal Road, Ottawa, ON K1L 6E8",Vanier,http://cafecaco.tripod.com/index.html,0,0,0,TRUE,45.4337990000,-75.6677350000,+1 (613) 749-8249
+5,Concorde Tavern & Sports Bar,"Concorde Motel, 333 Montreal Road, Ottawa, ON K1L 6B4",Vanier,http://www.concordemotel.ca/sportsbar.htm,0,0,0,TRUE,45.4378400000,-75.6569640000,+1 (613) 745-2112
+6,Striker's Billiards,"Orleans Bowling Centre, 885 Taylor Creek Drive, Ottawa K1C 1T1",Orleans,http://www.orleansbowling.com/#!billiards-/czmi,0,0,0,TRUE,45.4930480000,-75.4814960000,+1 (613) 837-7000
+7,Green Room,"130 York Street, Ottawa K1N 5T5",ByWard Market,http://www.greenroomottawa.ca,0,0,0,TRUE,45.4293400000,-75.6897010000,+1 (613) 241-6827
+8,Karina's Pub,"668 Cartier Street, Casselman K0A 1M0",Casselman,NA,0,0,0,TRUE,45.3134300000,-75.0874620000,+1 (613) 764-5608
+9,Cafe Dijla,"575 Gladstone Avenue, Ottawa K1V 7Z8",Centretown,NA,0,0,0,TRUE,45.4094010000,-75.7006910000,+1 (613) 699-5252
+10,Eve,"110 York Street, Second Level, Ottawa K1N 1K9",ByWard Market,http://www.eve110york.com/,0,0,0,FALSE,45.4289200000,-75.6906890000,+1 (613) 867-4262
+11,Duffy's Tavern,"6 Lennox Street, Ottawa, ON K0A 2Z0",Richmond,NA,0,0,0,TRUE,45.1932490000,-75.8394710000,+1 (613) 838-3837
+12,Flybar,"158 1/2 Rideau Street, Ottawa K1N 5X6",ByWard Market,http://flybarottawa.ca/,0,0,0,TRUE,45.4269540000,-75.6898410000,+1 (613) 860-8261
+13,Ritual,"137 Besserer Street, Ottawa K1N 9M7",ByWard Market,NA,0,0,0,TRUE,45.4265940000,-75.6888900000,+1 (613) 680-7661
+14,Babylon,"317 Bank Street, Ottawa K2P 1X9",Centretown,http://www.babylonclub.ca/,0,0,0,TRUE,45.4145360000,-75.6955280000,+1 (613) 594-0003
+15,The Cross Bar,"Ray Friel Recreation Complex, Second Floor, 1585 Tenth Line, Ottawa K1E 3E8",Orleans,http://www.thecrossbar.ca/,0,0,0,TRUE,45.4719710000,-75.4931030000,+1 (613) 830-0988
+16,Dodge City,"104 Clarence Street, Ottawa K1N 5P5",ByWard Market,http://dodgecityottawa.com/,0,0,0,TRUE,45.4292510000,-75.6924040000,+1 (613) 805-2738
+17,PLURR,"310 Dalhousie Street, Ottawa K1N 7E7",ByWard Market,http://plurrottawa.com/,0,0,0,TRUE,45.4291330000,-75.6914610000,+1 (613) 852-9570

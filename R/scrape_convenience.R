@@ -22,6 +22,42 @@ food <-read_csv("data/combined/foodspace_2021-08-26.csv")
 #    write_csv("data/combined/foodspace_2021-08-26.csv")
 
 
+
+
+old_food <- read_csv("data/original/ONS Food Environment Mega Data - Food Env-edit.csv")
+
+food <- read_csv("data/combined/foodspace_2021-08-25.csv")
+# 
+# t <- food %>%
+#   group_by(address) %>%
+#   mutate(num = n()) %>%
+#   arrange(num) %>%
+#   select(name, address, phone, category, num)
+# 
+
+# old_food %>%
+#   filter(Category2 %in% c("grocery", "specialty", "convenience"))
+# 
+# 
+# names_not_found <- old_food %>%
+#   filter(Category2 %in% c("grocery", "specialty", "convenience")) %>%
+#   filter(!toupper(Name) %in% toupper(food$name))
+
+# names_not_found %>%
+#   write_csv("data/collecting/names_not_found_grocers_2021-08-24.csv")
+# new_food <- read_csv("data/combined/foodspace_2021-08-05.csv")
+# 
+# old_food %>%
+#   filter(Category2 %in% c("convenience store", "grocery"))
+# 
+# old_food %>%
+#   filter(Category2 == "specialty") %>%
+#   pull(Category3) %>%
+#   unique()
+
+
+
+
 get_hoods <- function(food){
   
   ons_shp <- onsr::get_ons_shp() %>%
@@ -148,39 +184,6 @@ geocode_food <- function(food) {
   write_csv("data/combined/foodspace_2021-08-25.csv")
   
 }
-
-
-
-old_food <- read_csv("data/original/ONS Food Environment Mega Data - Food Env-edit.csv")
-
-food <- read_csv("data/combined/foodspace_2021-08-25.csv")
-
-t <- food %>%
-  group_by(address) %>%
-  mutate(num = n()) %>%
-  arrange(num) %>%
-  select(name, address, phone, category, num)
-
-
-old_food %>%
-  filter(Category2 %in% c("grocery", "specialty", "convenience"))
-
-
-names_not_found <- old_food %>%
-  filter(Category2 %in% c("grocery", "specialty", "convenience")) %>%
-  filter(!toupper(Name) %in% toupper(food$name))
-
-names_not_found %>%
-  write_csv("data/collecting/names_not_found_grocers_2021-08-24.csv")
-# new_food <- read_csv("data/combined/foodspace_2021-08-05.csv")
-# 
-# old_food %>%
-#   filter(Category2 %in% c("convenience store", "grocery"))
-# 
-# old_food %>%
-#   filter(Category2 == "specialty") %>%
-#   pull(Category3) %>%
-#   unique()
 
 
 scrape_mm_meat_shops <- function(){
