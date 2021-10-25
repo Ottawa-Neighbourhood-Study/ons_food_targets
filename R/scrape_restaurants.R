@@ -13,6 +13,108 @@ fastfood_chains <- old_food %>%
 
 #harveys <- read_csv("data/restaurants/harveys.csv")
 
+# SECOND CUP IS ANNOYING, NOT DONE YET TODO
+
+
+scrape_pizzapizza <- function(){
+  cookie <- 'pp-mw-session=VTJGc2RHVmtYMStUbzAzeHMvRGZoclBtbGh2ZVFhU0RMWEpJemNiQ3Z6NFhjbitnL0lUa1NPcFBPSkVwU1dySFhCNmowTFNQRTI0azRCaEtIbDZzWUorWmIyUWs2THhZcGErbkZQSTkydWc9; AKA_A2=A; _cls_v=6c830111-2b38-43fd-8d7c-c54a6eca8a49; _cls_s=b2134b39-eea5-4139-9494-7020548342df:0; rbzid=73d2SN40vwnU3bjUM1OKeGYm/W7XVZxKP7lt9uYSMTCekFfrICr2owRJgobM/kqpXlOAT3+4CpDUakHRiiKwlRFSFZhM23MHzJmjnLyFxOHuOA8JWmoHrp7IjlsnEZjGC7oWK1irND9Uxjg0TatQJQqF5MO8cS5fHWUQt5irrWsUHFUauQk94Hc5DGF9CvWUlhOu9AtEONhzm+9ynMsGWVYzUtKLW0OfQqRgZNl593S9yOHbhzsgmvOJ4Z15n9SLOhpnOfDZw487TG3s42uXydu33ioPV/cUu6UzBihQSrs=; rbzsessionid=ceeda2671a261750efda8dfae400d0e9; RT="z=1&dm=pizzapizza.ca&si=np20z3xezjq&ss=kv721go4&sl=0&tt=0"; GlobalContactLessDelivery=true; GlobalContactLessPickup=true; isClubBannerShown=true; isDeliveryTabActive=true; ftr_ncd=6; forterToken=189950b9a89d42b6b094e11447f64294_1635190225056__UDF43_9ck; _gcl_au=1.1.1648738651.1635190226; _ga=GA1.2.467176076.1635190226; _gid=GA1.2.1023906708.1635190226; _gat_UA-6939575-8=1; _scid=cbcfbc56-6280-49d3-8361-5bf4f498fcdb; kumulosID=07c3a489-292e-41ac-a0b5-bae38febeae4; _sctr=1|1635134400000; _pin_unauth=dWlkPVlqRTJPR00xWVRFdE1qWmxNaTAwTmpCaExXRTBOREV0WXpGaE5UWTFZMk0wT1Roag; __zlcmid=16jkQqKglwqRQhl; selectedStore=201; userAddress={%22address_components%22:[{%22long_name%22:%22Ottawa%22%2C%22short_name%22:%22Ottawa%22%2C%22types%22:[%22locality%22%2C%22political%22]}%2C{%22long_name%22:%22Ottawa%22%2C%22short_name%22:%22Ottawa%22%2C%22types%22:[%22administrative_area_level_2%22%2C%22political%22]}%2C{%22long_name%22:%22Ontario%22%2C%22short_name%22:%22ON%22%2C%22types%22:[%22administrative_area_level_1%22%2C%22political%22]}%2C{%22long_name%22:%22Canada%22%2C%22short_name%22:%22CA%22%2C%22types%22:[%22country%22%2C%22political%22]}]%2C%22formatted_address%22:%22Ottawa%2C%20ON%2C%20Canada%22%2C%22latitude%22:45.4215296%2C%22longitude%22:-75.69719309999999}; _gac_UA-6939575-8=1.1635190245.CjwKCAjwq9mLBhB2EiwAuYdMtbSsMmDX4t88PaHTLPPOo3HAyUzsTQcZtTbkjQAiMbu9aSsut0d9ABoCqTAQAvD_BwE'
+  
+  all_pizzapizza <- tibble()
+  
+  base_url <- "https://www.pizzapizza.ca/ajax/store/api/v1/search/store_locator?latitude=45.4215296&longitude=-75.69719309999999&cursor="
+  
+  for (i in 0:10){
+    message(i)
+    url <- paste0(base_url, 10*i)
+    test <- httr::GET(url = url,
+                      add_headers(.headers = c("cookie" = cookie,
+                                               "fortertoken" = '189950b9a89d42b6b094e11447f64294_1635190504985__UDF43_9ck',
+                                               "if-none-match"  = 'W/"2702-O3lzCWL/8PhwxXMCLIopBedvLe4"',
+                                               "kumulos-install-id" = "07c3a489-292e-41ac-a0b5-bae38febeae4",
+                                               "session-token" = "75ad0ed9-1bc0-4fb6-86e2-7e597594c8e4",
+                                               "timestamp" = "1635190506344",
+                                               "timezone" = "240",
+                                               "user-agent" = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36",
+                                               "x-request-id" = "5e3023fd-ba50-43c6-87fc-e243448b9bb4")))
+    
+    
+    #test <- rvest::session("https://www.pizzapizza.ca/restaurant-locator/Ontario/Ottawa?query=Ottawa,%2520ON,%2520Canada")
+    
+    pizzapizza <- test %>%
+      rvest::read_html() %>%
+      rvest::html_text() %>%
+      jsonlite::fromJSON() %>%
+      pluck("stores") %>%
+      as_tibble() 
+    
+    if (nrow(pizzapizza) == 0) break
+    
+    pizzapizza <- pizzapizza %>%
+      mutate(name = "Pizza Pizza",
+             address = sprintf("%s, %s, %s, %s", address, city, province, postal_code )) %>%
+      select(name, address, lat = latitude, lon = longitude, phone = market_phone_number)
+    
+    all_pizzapizza <- bind_rows(all_pizzapizza, pizzapizza)
+    
+  } # end for
+
+  write_csv(all_pizzapizza, "data/restaurants/pizzapizza.csv")  
+}
+
+
+scrape_starbucks <- function(){
+  
+  # manually search a few urls.
+  # we get all 62 if we search them all: json says there are 62 around, but only gives 50 at once
+  urls <- c("https://www.starbucks.ca/store-locator?map=45.314953,-76.008969,11z", #west
+            "https://www.starbucks.ca/store-locator?map=45.379123,-75.68133,10z&place=Ottawa,%20ON,%20Canada", #"ottawa"
+            "https://www.starbucks.ca/store-locator?map=45.134434,-75.782018,11z", # south
+            "https://www.starbucks.ca/store-locator?map=45.162617,-75.24424,11z", #southeast
+            "https://www.starbucks.ca/store-locator?map=45.30302,-75.210878,11z", #east
+            "https://www.starbucks.ca/store-locator?map=45.460748,-75.310107,11z" #northeast
+  )
+  
+  all_starbuckses <- tibble()
+  
+  for (url in urls){
+    message(url)
+    sb_sess <- rvest::session(url)
+    
+    sb_test <- sb_sess %>%
+      rvest::read_html() %>%
+      rvest::html_elements("script") %>%
+      purrr::map_chr(as.character) %>% 
+      enframe() %>%
+      filter(str_detect(value, "BOOTSTRAP")) %>%
+      mutate(value = stringr::str_remove(value, "<script>\\n      window.__BOOTSTRAP = "),
+             value = stringr::str_remove_all(value, regex("window\\.__INTL_MESSAGES.*", dotall = TRUE))
+             #,value = stringr::str_remove_all(value, "</script>")
+      )
+    
+    sb_json <- sb_test$value
+    
+    sb_parsed <- jsonlite::fromJSON(sb_json)
+    
+    
+    starbuckses <- sb_parsed$previousAction$payload$data$stores%>%
+      jsonlite::flatten() %>%
+      as_tibble() %>%
+      mutate(address = purrr::map_chr(addressLines, stringr::str_flatten, collapse = ", "),
+      ) %>%
+      select(name = brandName, address,
+             lat = coordinates.latitude,
+             lon = coordinates.longitude)
+    
+    all_starbuckses <- bind_rows(all_starbuckses, starbuckses)
+  } # end for all urls
+  
+  all_starbuckses <- distinct(all_starbuckses)
+  
+  write_csv(all_starbuckses, "data/restaurants/starbucks.csv")
+  
+  return(all_starbuckses)
+}
+
 
 scrape_mcdonalds <- function(){
   
