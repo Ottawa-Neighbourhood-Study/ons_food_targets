@@ -19,9 +19,31 @@ fastfood_chains <- old_food %>%
 
 # SECOND CUP IS ANNOYING, NOT DONE YET TODO
 
+scrape_aw <- function() {
+  url <- "https://web.aw.ca/api/locations/"
+  
+  aw_json <- httr::GET(url) %>%
+    httr::content(type = "text/json", encoding = "UTF-8")
+
+  aw_data <- jsonlite::fromJSON(aw_json) %>%
+    as_tibble()
+
+  aw <- aw_data %>%
+    mutate(address = if_else(address2 == "",
+                             sprintf("%s, %s, %s, %s", address1, city_name, province_code, postal_code),
+                             sprintf("%s, %s, %s, %s, %s", address1, address2, city_name, province_code, postal_code)),
+           name = "A&W") %>%
+    select(name, address, phone = phone_number, lat = latitude, lon = longitude)
+  
+  write_csv(aw, "data/restaurants/A&W.csv")
+  
+  return(aw)
+}
+
+
 scrape_thaiexpress <- function() {
   url <- "https://thaiexpress.ca/wp-content/plugins/superstorefinder-wp/ssf-wp-xml.php?wpml_lang=en&t=1635253295641"
-
+  
   resp <- httr::GET(url) %>%
     httr::content(type = "text/xml", encoding = "UTF-8")
   
@@ -40,7 +62,7 @@ scrape_thaiexpress <- function() {
              lat = lat,
              lon = lon)
     })
-
+  
   write_csv(thai, "data/restaurants/thai_express.csv")
   return(thai)
   
@@ -51,10 +73,10 @@ scrape_milanopizza <- function() {
   url <- "https://order.milanopizzeria.ca/index.php/search/all"
   
   mil_html <- rvest::read_html(url)
-
+  
   restos <- mil_html %>%
     rvest::html_elements(".restaurant")
-
+  
   milanos <- restos %>%
     purrr::map_dfr(function(x){
       name <- "Milano's Pizza"
