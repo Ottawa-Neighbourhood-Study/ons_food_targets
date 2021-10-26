@@ -19,6 +19,33 @@ fastfood_chains <- old_food %>%
 
 # SECOND CUP IS ANNOYING, NOT DONE YET TODO
 
+scrape_thaiexpress <- function() {
+  url <- "https://thaiexpress.ca/wp-content/plugins/superstorefinder-wp/ssf-wp-xml.php?wpml_lang=en&t=1635253295641"
+
+  resp <- httr::GET(url) %>%
+    httr::content(type = "text/xml", encoding = "UTF-8")
+  
+  thai <- resp %>%
+    html_elements("store item") %>%
+    purrr::map_dfr(function(x) {
+      name <- "Thai Express"
+      address <- html_elements(x, "address") %>% html_text()
+      phone <- html_elements(x, "telephone") %>% html_text()
+      lat <- html_elements(x, "latitude") %>% html_text()
+      lon <- html_elements(x, "longitude") %>% html_text()
+      
+      tibble(name = name,
+             address = address,
+             phone = phone,
+             lat = lat,
+             lon = lon)
+    })
+
+  write_csv(thai, "data/restaurants/thai_express.csv")
+  return(thai)
+  
+}
+
 
 scrape_milanopizza <- function() {
   url <- "https://order.milanopizzeria.ca/index.php/search/all"
