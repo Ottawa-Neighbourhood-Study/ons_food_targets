@@ -19,6 +19,62 @@ fastfood_chains <- old_food %>%
 
 # SECOND CUP IS ANNOYING, NOT DONE YET TODO
 
+b <- scrape_bridgehead()
+scrape_bridgehead <- function() {
+  url <- "https://www.bridgehead.ca/pages/coffeehouses"
+  
+  b_html <- rvest::read_html(url)
+  
+  b_data <- b_html %>%
+    as.character() %>%
+    stringr::str_extract(regex("(?<=var sites = \\[).*?(?=;)", dotall=TRUE))
+  
+  bridgehead <- b_data %>%
+    stringr::str_split("\\n") %>%
+    purrr::map_dfr(function(x) {
+      lat = stringr::str_extract(x, "45\\.\\d*")
+      lon = stringr::str_extract(x, "-75\\.\\d*")
+      address = stringr::str_extract(x, '(?<=target=\\\"_blank\\\">).*?(?=<)')
+      phone = stringr::str_extract(x, "(?<=Ph\\. ).*?(?= <)")
+      
+      tibble(name = "Bridgehead",
+             lat = lat,
+             lon = lon,
+             address = address,
+             phone = phone) %>%
+        mutate(across(everything(), stringr::str_trim)) %>%
+        drop_na(address)
+      
+    })
+  
+  write_csv(bridgehead, "data/restaurants/bridgehead.csv")
+  
+  return(bridgehead)
+}
+
+
+scrape_boosterjuice <- function() {
+  url <- "https://www.boosterjuice.com/WebServices/Booster.asmx/StoreLocations"
+  
+  booster_json <- httr::GET(url) %>%
+    httr::content(type = "text/json", encoding = "UTF-8")
+  
+  booster_data <- booster_json[[1]] %>%
+    jsonlite::fromJSON() %>%
+    as_tibble()
+  
+  booster <- booster_data %>%
+    mutate(address = if_else(address2 == "", 
+                             sprintf("%s, %s, %s, %s", address, city, province, postalCode),
+                             sprintf("%s, %s, %s, %s, %s", address, address2, city, province, postalCode)) %>%
+             stringr::str_squish(),
+           name = "Booster Juice") %>%
+    select(name, address, phoneNumber, lat = latitude, lon = longitude)
+  
+  write_csv(booster, "data/restaurants/booster_juice.csv")
+  
+  return(booster)
+}
 
 scrape_gabrielpizza <- function(){
   
