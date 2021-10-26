@@ -1,3 +1,7 @@
+
+library(tidyverse)
+library(rvest)
+library(httr)
 # scraping restaurants
 
 
@@ -15,6 +19,73 @@ fastfood_chains <- old_food %>%
 
 # SECOND CUP IS ANNOYING, NOT DONE YET TODO
 
+
+scrape_gabrielpizza <- function(){
+  
+  # IT GIVES JAVASCRIPT DEFINITION NOT JSON
+  # so we need to do some super annoying parsing
+  
+  url <- "https://gabrielpizza.com/wp-admin/admin-ajax.php?action=locations_js&lang=en"
+  resp <- httr::GET(url)
+  
+  gab_js <- httr::content(resp, type = "text/json", encoding = "UTF-8") 
+  
+  # convert javascript variable definnitions to json
+  # (couldn't find a quick way to run js in R)
+  gab_json <- gab_js %>%
+    stringr::str_remove("var locations =") %>%
+    stringr::str_remove(regex("var map.*", dotall=TRUE)) %>%
+    #gsub(x = ., pattern = "'", replacement = '"') %>%
+    stringr::str_replace_all("(?<!\\w)'(?=\\w)", '"') %>%        # ' not preceded by letter, yes followed by letter
+    stringr::str_replace_all("(?<=\\w)'(?!\\w)", '"') %>% # preceded by letter, not followed by letter
+    stringr::str_replace_all("title", '"title"') %>%
+    stringr::str_replace_all("content :", '"content" :') %>%
+    stringr::str_replace_all("lat", '"lat"') %>%
+    stringr::str_replace_all("lng", '"lng"') %>%
+    stringr::str_replace_all("addr", '"addr"') %>%
+    stringr::str_replace_all("city", '"city"') %>%
+    stringr::str_replace_all("prov", '"prov"')%>%
+    stringr::str_replace_all("pcode", '"pcode"')%>%
+    stringr::str_replace_all("notes", '"notes"')%>%
+    stringr::str_replace_all("hours", '"hours"')%>%
+    stringr::str_replace_all("icon :", '"icon" :')%>%
+    stringr::str_replace_all("dinein", '"dinein"')%>%
+    stringr::str_replace_all("delivery :", '"delivery" :') %>%
+    stringr::str_replace_all(regex(",[:space:]*\\}", dotall=TRUE), "}")  %>%
+    stringr::str_replace_all("true", '"true"') %>%
+    stringr::str_replace_all("false", '"false"') %>%
+    stringr::str_remove_all(";") 
+  
+  # parse the JSON
+  gab_data <- jsonlite::fromJSON(gab_json)
+  
+  # extract the values from the list
+  gabriel <- gab_data %>%
+    purrr::map_dfr(function(x) {
+      lat = x$lat
+      lon = x$lng
+      address = sprintf("%s, %s, %s, %s",
+                        x$addr,
+                        x$city,
+                        x$prov,
+                        x$pcode)
+      dinein = x$dinein
+      delivery = x$delivery
+      
+      tibble(name = "Gabriel's Pizza",
+             address = address,
+             lat = lat,
+             lon = lon,
+             dinein = dinein,
+             delivery = delivery)
+      
+    })
+  
+  # save csv
+  write_csv(gabriel, "data/restaurants/gabriels_pizza.csv")
+  return(gabriel)
+  
+}
 
 scrape_pizzapizza <- function(){
   cookie <- 'pp-mw-session=VTJGc2RHVmtYMStUbzAzeHMvRGZoclBtbGh2ZVFhU0RMWEpJemNiQ3Z6NFhjbitnL0lUa1NPcFBPSkVwU1dySFhCNmowTFNQRTI0azRCaEtIbDZzWUorWmIyUWs2THhZcGErbkZQSTkydWc9; AKA_A2=A; _cls_v=6c830111-2b38-43fd-8d7c-c54a6eca8a49; _cls_s=b2134b39-eea5-4139-9494-7020548342df:0; rbzid=73d2SN40vwnU3bjUM1OKeGYm/W7XVZxKP7lt9uYSMTCekFfrICr2owRJgobM/kqpXlOAT3+4CpDUakHRiiKwlRFSFZhM23MHzJmjnLyFxOHuOA8JWmoHrp7IjlsnEZjGC7oWK1irND9Uxjg0TatQJQqF5MO8cS5fHWUQt5irrWsUHFUauQk94Hc5DGF9CvWUlhOu9AtEONhzm+9ynMsGWVYzUtKLW0OfQqRgZNl593S9yOHbhzsgmvOJ4Z15n9SLOhpnOfDZw487TG3s42uXydu33ioPV/cUu6UzBihQSrs=; rbzsessionid=ceeda2671a261750efda8dfae400d0e9; RT="z=1&dm=pizzapizza.ca&si=np20z3xezjq&ss=kv721go4&sl=0&tt=0"; GlobalContactLessDelivery=true; GlobalContactLessPickup=true; isClubBannerShown=true; isDeliveryTabActive=true; ftr_ncd=6; forterToken=189950b9a89d42b6b094e11447f64294_1635190225056__UDF43_9ck; _gcl_au=1.1.1648738651.1635190226; _ga=GA1.2.467176076.1635190226; _gid=GA1.2.1023906708.1635190226; _gat_UA-6939575-8=1; _scid=cbcfbc56-6280-49d3-8361-5bf4f498fcdb; kumulosID=07c3a489-292e-41ac-a0b5-bae38febeae4; _sctr=1|1635134400000; _pin_unauth=dWlkPVlqRTJPR00xWVRFdE1qWmxNaTAwTmpCaExXRTBOREV0WXpGaE5UWTFZMk0wT1Roag; __zlcmid=16jkQqKglwqRQhl; selectedStore=201; userAddress={%22address_components%22:[{%22long_name%22:%22Ottawa%22%2C%22short_name%22:%22Ottawa%22%2C%22types%22:[%22locality%22%2C%22political%22]}%2C{%22long_name%22:%22Ottawa%22%2C%22short_name%22:%22Ottawa%22%2C%22types%22:[%22administrative_area_level_2%22%2C%22political%22]}%2C{%22long_name%22:%22Ontario%22%2C%22short_name%22:%22ON%22%2C%22types%22:[%22administrative_area_level_1%22%2C%22political%22]}%2C{%22long_name%22:%22Canada%22%2C%22short_name%22:%22CA%22%2C%22types%22:[%22country%22%2C%22political%22]}]%2C%22formatted_address%22:%22Ottawa%2C%20ON%2C%20Canada%22%2C%22latitude%22:45.4215296%2C%22longitude%22:-75.69719309999999}; _gac_UA-6939575-8=1.1635190245.CjwKCAjwq9mLBhB2EiwAuYdMtbSsMmDX4t88PaHTLPPOo3HAyUzsTQcZtTbkjQAiMbu9aSsut0d9ABoCqTAQAvD_BwE'
@@ -57,7 +128,7 @@ scrape_pizzapizza <- function(){
     all_pizzapizza <- bind_rows(all_pizzapizza, pizzapizza)
     
   } # end for
-
+  
   write_csv(all_pizzapizza, "data/restaurants/pizzapizza.csv")  
 }
 
