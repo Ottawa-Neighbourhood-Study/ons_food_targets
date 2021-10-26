@@ -19,6 +19,42 @@ fastfood_chains <- old_food %>%
 
 # SECOND CUP IS ANNOYING, NOT DONE YET TODO
 
+
+# take headers from google dev console and convert to named character vector
+parse_headers <- function(raw_headers){
+  headers <- raw_headers %>%
+    stringr::str_split(pattern = "\\n") %>%
+    unlist() %>%
+    tibble(raw = .) %>%
+    separate(col = raw, into = c("name", "value"), sep = "(?<=\\w): ", extra = "merge")
+  
+  h <- headers$value
+  names(h) <- headers$name
+  
+  return (h)
+}
+
+scrape_wendys <- function() {
+  url <- "https://locationservices.wendys.com/LocationServices/rest/nearbyLocations?&lang=en&cntry=CA&sourceCode=ORDER.WENDYS&version=9.1.4&address=ottawa%2C%20on&limit=500&filterSearch=true&hasMobileOrder=true&radius=2000"
+
+  resp <- httr::GET(url,
+                    add_headers(.headers = h))  
+  
+ wendys <- resp  %>%
+  httr::content(type = "text/json", encoding = "UTF-8") %>%
+   jsonlite::fromJSON() %>%
+   flatten() %>%
+   as_tibble()
+
+ wendys <- wendys %>% 
+   mutate(address = sprintf("%s, %s, %s, %s", address1, city, state, postal), name = "Wendy's") %>% 
+   select(name, address, phone, lat, lon = lng)
+ 
+  write_csv(wendys, "data/restaurants/wendys.csv") 
+
+  return(wendys)
+}
+
 scrape_kfc <- function() {
   url <- "https://www.kfc.ca/"
   
