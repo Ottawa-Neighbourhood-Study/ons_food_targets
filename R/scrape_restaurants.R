@@ -21,6 +21,90 @@ fastfood_chains <- old_food %>%
 # 1 for 1 pizza
 # prince gourmet
 
+
+scrape_newyorkfries <- function() {
+  url <- "https://www.newyorkfries.com/_api/wix-code-public-dispatcher/siteview/wix/data-web.jsw/find.ajax?gridAppId=5f8c34a2-3417-46b2-a854-84727d6752b8&instance=wixcode-pub.f2504f9027cf51bc1ca8e1a1a453918a2fa57c32.eyJpbnN0YW5jZUlkIjoiYTA2NTRkYTktZDE1Yi00M2E2LTg5MjUtMjgwNjE5ZjE4N2VlIiwiaHRtbFNpdGVJZCI6IjMxOGU2YzViLTE5ZWItNGMyNi1iNWVhLWRkYTM4M2E3ZTRmYiIsInVpZCI6bnVsbCwicGVybWlzc2lvbnMiOm51bGwsImlzVGVtcGxhdGUiOmZhbHNlLCJzaWduRGF0ZSI6MTYzNTI2Njk5NTk5NiwiYWlkIjoiMGY5MmVmYTEtMDJjNC00N2ZhLTkxZTktZDdhNTAxNTc1NTA3IiwiYXBwRGVmSWQiOiJDbG91ZFNpdGVFeHRlbnNpb24iLCJpc0FkbWluIjpmYWxzZSwibWV0YVNpdGVJZCI6ImI4YTg3MmExLTMwMDMtNDQ5Yy05MWM0LWU1YzBlZDk2MTFlZCIsImNhY2hlIjpudWxsLCJleHBpcmF0aW9uRGF0ZSI6bnVsbCwicHJlbWl1bUFzc2V0cyI6IkFkc0ZyZWUsU2hvd1dpeFdoaWxlTG9hZGluZyxIYXNEb21haW4iLCJ0ZW5hbnQiOm51bGwsInNpdGVPd25lcklkIjoiYmRmOGI2ODAtYWY4ZC00ODI5LWIxY2YtNDkwY2UzZDJhMDc0IiwiaW5zdGFuY2VUeXBlIjoicHViIiwic2l0ZU1lbWJlcklkIjpudWxsfQ==&viewMode=site"
+  
+  payload <- '["LocationsCanada",{"$and":[{"international":{"$ne":true}}]},[{"province":"asc"}],0,115,null,null,null]'
+  
+  resp <- httr::POST(url,
+                     body = payload
+                     , content_type_json()
+  )
+  
+  result <- resp %>%
+    httr::content(type = "application/json", encoding = "UTF-8")
+  
+  nyf <- result$result$items
+  
+  nyf_all <- nyf %>%
+    purrr::map_dfr(function(x) {
+      address <- x$addressFull$formatted
+      lat <- x$addressFull$location$latitude
+      lon <- x$addressFull$location$longitude
+      
+      if (is.null(lat)) lat <- NA
+      if (is.null(lon)) lon <- NA
+      
+      tibble(name = "New York Fries",
+             address = address,
+             lat = lat,
+             lon = lon)
+    })
+  
+  write_csv(nyf_all, "data/restaurants/new_york_fries.csv")
+  
+  return(nyf_all)  
+}
+
+
+scrape_lunch <- function() {
+  url <- "https://thinklunch.ca/locations/"
+  
+  lunch_html <- rvest::read_html(url)
+  
+  stores <- lunch_html %>%
+    rvest::html_elements(".eluid3e4252ed p") %>% html_text()
+  
+  store_addr <- stringr::str_remove_all(stores , "\\(.*")
+  store_phone <- stringr::str_remove_all(stores, ".*(?=\\()")
+  
+  machine_addr <- lunch_html %>%
+    rvest::html_elements(".eluid4845666f p") %>% html_text()
+  
+  store <- tibble(name = "LUNCH",
+                  address = store_addr,
+                  phone = store_phone,
+                  note = "Restaurant")
+  
+  machine <- tibble(name = "LUNCH",
+                    address = machine_addr,
+                    phone = "",
+                    note = "Vending Machine")  
+  
+  # cafeterias too
+  lunch_html <- rvest::read_html("https://thinklunch.ca/menu/")
+  
+  cafs <- lunch_html %>%
+    html_elements("#eluiddfe57a1d_3 .dn-heading") %>% html_text()
+  
+  caf_addr <- stringr::str_remove(cafs, " \\|.*") %>% stringr::str_trim()
+  caf_phone <- stringr::str_extract(cafs, "(?<=\\|).*") %>% stringr::str_trim() %>%
+    if_else(is.na(.), "", .)
+  
+  caf <- tibble(name = "LUNCH",
+                address = caf_addr,
+                phone = caf_phone,
+                note = "Cafeteria")
+  
+  lunch <- bind_rows(store, machine, caf)    
+  
+  write_csv(lunch, "data/restaurants/lunch.csv")
+  
+  return(lunch)
+  
+}
+
 scrape_littlecasesars <- function() {
   url <- "https://api.cloud.littlecaesars.com/bff/api/GetClosestStores"
   
