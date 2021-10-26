@@ -18,6 +18,79 @@ fastfood_chains <- old_food %>%
 #harveys <- read_csv("data/restaurants/harveys.csv")
 
 # SECOND CUP IS ANNOYING, NOT DONE YET TODO
+# 1 for 1 pizza
+# prince gourmet
+
+scrape_burgerking <- function() {
+  
+  url <- "https://use1-prod-bk.rbictg.com/graphql"
+  
+  # need to do a post
+  payload <- '[{"operationName":"GetRestaurants","variables":{"input":{"filter":"NEARBY","coordinates":{"userLat":45.4215296,"userLng":-75.69719309999999,"searchRadius":32000},"first":20,"status":"OPEN"}},
+  "query":"query GetRestaurants($input: RestaurantsInput) {  restaurants(input: $input) {    pageInfo {      hasNextPage      endCursor      __typename    }    totalCount    nodes {      ...RestaurantNodeFragment      __typename    }    __typename  }}fragment RestaurantNodeFragment on RestaurantNode {  _id  storeId  isAvailable  posVendor  chaseMerchantId  curbsideHours {    ...OperatingHoursFragment    __typename  }  deliveryHours {    ...OperatingHoursFragment    __typename  }  diningRoomHours {    ...OperatingHoursFragment    __typename  }  distanceInMiles  drinkStationType  driveThruHours {    ...OperatingHoursFragment    __typename  }  driveThruLaneType  email  environment  franchiseGroupId  franchiseGroupName  frontCounterClosed  hasBreakfast  hasBurgersForBreakfast  hasCatering  hasCurbside  hasDelivery  hasDineIn  hasDriveThru  hasMobileOrdering  hasParking  hasPlayground  hasTakeOut  hasWifi  hasLoyalty  id  isDarkKitchen  isFavorite  isHalal  isRecent  latitude  longitude  mobileOrderingStatus  name  number  parkingType  phoneNumber  physicalAddress {    address1    address2    city    country    postalCode    stateProvince    stateProvinceShort    __typename  }  playgroundType  pos {    vendor    __typename  }  posRestaurantId  restaurantImage {    asset {      _id      metadata {        lqip        palette {          dominant {            background            foreground            __typename          }          __typename        }        __typename      }      __typename    }    crop {      top      bottom      left      right      __typename    }    hotspot {      height      width      x      y      __typename    }    __typename  }  restaurantPosData {    _id    __typename  }  status  vatNumber  __typename}fragment OperatingHoursFragment on OperatingHours {  friClose  friOpen  monClose  monOpen  satClose  satOpen  sunClose  sunOpen  thrClose  thrOpen  tueClose  tueOpen  wedClose  wedOpen  __typename}"}]'
+  
+  
+  payload <- '[{"operationName":"GetRestaurants","variables":{"input":{"filter":"NEARBY","coordinates":{"userLat":45.4215296,"userLng":-75.69719309999999,"searchRadius":80000},"first":500,"status":"OPEN"}},
+"query":"query GetRestaurants($input: RestaurantsInput) {   restaurants(input: $input) {     pageInfo {       hasNextPage       endCursor       __typename     }     totalCount     nodes {       ...RestaurantNodeFragment       __typename     }     __typename   } }  fragment RestaurantNodeFragment on RestaurantNode {   _id   storeId   isAvailable   posVendor   chaseMerchantId   curbsideHours {     ...OperatingHoursFragment     __typename   }   deliveryHours {     ...OperatingHoursFragment     __typename   }   diningRoomHours {     ...OperatingHoursFragment     __typename   }   distanceInMiles   drinkStationType   driveThruHours {     ...OperatingHoursFragment     __typename   }   driveThruLaneType   email   environment   franchiseGroupId   franchiseGroupName   frontCounterClosed   hasBreakfast   hasBurgersForBreakfast   hasCatering   hasCurbside   hasDelivery   hasDineIn   hasDriveThru   hasMobileOrdering   hasParking   hasPlayground   hasTakeOut   hasWifi   id   isDarkKitchen   isFavorite   isRecent   latitude   longitude   mobileOrderingStatus   name   number   parkingType   phoneNumber   physicalAddress {     address1     address2     city     country     postalCode     stateProvince     stateProvinceShort     __typename   }   playgroundType   pos {     vendor     __typename   }   posRestaurantId   restaurantImage {     asset {       _id       metadata {         lqip         palette {           dominant {             background             foreground             __typename           }           __typename         }         __typename       }       __typename     }     crop {       top       bottom       left       right       __typename     }     hotspot {       height       width       x       y       __typename     }     __typename   }   restaurantPosData {     _id     __typename   }   status   vatNumber   __typename }  fragment OperatingHoursFragment on OperatingHours {   friClose   friOpen   monClose   monOpen   satClose   satOpen   sunClose   sunOpen   thrClose   thrOpen   tueClose   tueOpen   wedClose   wedOpen   __typename } "}]'
+  
+  headers <- c(`:authority` = "use1-prod-bk.rbictg.com", 
+               `:method` = "POST", 
+               `:path` = "/graphql", 
+               `:scheme` = "https", 
+               accept = "*/*", 
+               `accept-encoding` = "gzip, deflate, br", 
+               `accept-language` = "en-CA,en-GB;q=0.9,en-US;q=0.8,en;q=0.7", 
+               `content-length` = "2432", `content-type` = "application/json", 
+               origin = "https://www.burgerking.ca", `sec-ch-ua` = "\"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\"", 
+               `sec-ch-ua-mobile` = "?0", `sec-ch-ua-platform` = "\"Windows\"", 
+               `sec-fetch-dest` = "empty", `sec-fetch-mode` = "cors", `sec-fetch-site` = "cross-site", 
+               `user-agent` = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36", 
+               `x-forter-token` = "050907ea5d264fa18e54c1e94191dd24_1635263350518__UDF43_13ck_tt", 
+               `x-session-id` = "9CF4D212-BA52-4E7A-B44A-A2D49CCF0111", `x-ui-language` = "en", 
+               `x-ui-region` = "CA", `x-user-datetime` = "2021-10-26T11:49:20-04:00")
+  
+  resp <- httr::POST(url,
+                     body = payload
+                     ,content_type_json()
+                     #,add_headers(.headers = headers)
+  )   %>%
+    httr::content()
+  
+  
+  bk <- resp[[1]]$data$restaurants$nodes
+  
+  bk_all <- bk %>%
+    purrr::map_dfr(function(x){
+      address <- if_else(x$physicalAddress$address2 == "", 
+                         sprintf("%s, %s, %s, %s", 
+                                 x$physicalAddress$address1,
+                                 x$physicalAddress$city,
+                                 x$physicalAddress$stateProvinceShort,
+                                 x$physicalAddress$postalCode),
+                         sprintf("%s, %s, %s, %s, %s", 
+                                 x$physicalAddress$address1,
+                                 x$physicalAddress$address2,
+                                 x$physicalAddress$city,
+                                 x$physicalAddress$stateProvinceShort,
+                                 x$physicalAddress$postalCode))
+      
+      phone <- x$phoneNumber
+      lat <- x$latitude
+      lon <- x$longitude
+      
+      
+      tibble(name = "Burger King",
+             address = address,
+             lat = lat,
+             lon = lon,
+             phone = phone)
+      
+    })
+  
+  write_csv(bk_all, "data/restaurants/burger_king.csv")
+  
+  return(bk_all)
+}
 
 
 # take headers from google dev console and convert to named character vector
@@ -36,22 +109,22 @@ parse_headers <- function(raw_headers){
 
 scrape_wendys <- function() {
   url <- "https://locationservices.wendys.com/LocationServices/rest/nearbyLocations?&lang=en&cntry=CA&sourceCode=ORDER.WENDYS&version=9.1.4&address=ottawa%2C%20on&limit=500&filterSearch=true&hasMobileOrder=true&radius=2000"
-
+  
   resp <- httr::GET(url,
                     add_headers(.headers = h))  
   
- wendys <- resp  %>%
-  httr::content(type = "text/json", encoding = "UTF-8") %>%
-   jsonlite::fromJSON() %>%
-   flatten() %>%
-   as_tibble()
-
- wendys <- wendys %>% 
-   mutate(address = sprintf("%s, %s, %s, %s", address1, city, state, postal), name = "Wendy's") %>% 
-   select(name, address, phone, lat, lon = lng)
- 
+  wendys <- resp  %>%
+    httr::content(type = "text/json", encoding = "UTF-8") %>%
+    jsonlite::fromJSON() %>%
+    flatten() %>%
+    as_tibble()
+  
+  wendys <- wendys %>% 
+    mutate(address = sprintf("%s, %s, %s, %s", address1, city, state, postal), name = "Wendy's") %>% 
+    select(name, address, phone, lat, lon = lng)
+  
   write_csv(wendys, "data/restaurants/wendys.csv") 
-
+  
   return(wendys)
 }
 
@@ -565,7 +638,7 @@ scrape_tim_hortons <- function(){
   
   r <- response %>%
     httr::content(encoding = "UTF-8")
-  jsonlite::fromJSON()
+  #jsonlite::fromJSON()
   
   stores <- tibble::tibble(data = r[[1]]$data$restaurants$nodes)
   
