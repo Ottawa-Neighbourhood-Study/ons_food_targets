@@ -19,15 +19,64 @@ fastfood_chains <- old_food %>%
 
 # SECOND CUP IS ANNOYING, NOT DONE YET TODO
 
+scrape_dominos <- function() {
+  url <- "https://order.dominos.ca/store-locator-international/locate/store?regionCode=CA&latitude=45.4215296&longitude=-75.69719309999999"
+  
+  resp <- httr::GET(url, 
+                    add_headers(.headers = c(
+                      "accept" = "application/vnd.com.dominos.ecommerce.store-locator.response+json;version=1.2",
+                      "accept-encoding" = "gzip, deflate, br",
+                      "accept-language" = "en-CA,en-GB;q=0.9,en-US;q=0.8,en;q=0.7",
+                      "cookie" = "_gid=GA1.2.1714415506.1635256830; check=true; _scid=9c859ce5-c074-49b0-8570-333b9da4a64b; _sctr=1|1635220800000; _ga_6EY126Y6XR=GS1.1.1635256831.1.0.1635256831.0; _ga=GA1.1.2027823926.1635256830; _uetsid=14d711a0366511ec8bd74d9606411369; _uetvid=14d717e0366511ecbb69e32930e4db5a; utag_main=v_id:017cbce70936001041985a808e2905072003306a00bd0$_sn:1$_ss:1$_pn:1%3Bexp-session$_st:1635258702615$ses_id:1635256830262%3Bexp-session",
+                      "dpz-language" = "en",
+                      "dpz-market" = "CANADA",
+                      "market" = "CANADA"
+                      
+                    ))) %>%
+    httr::content(type = "text/json", encoding = 'UTF-8')
+  
+  dominos_carryout <- jsonlite::fromJSON(resp)$Stores %>%
+    as_tibble() %>%
+    mutate(name = "Domino's Pizza")
+  
+  dominos <- dominos_carryout %>%
+    select(name, address = AddressDescription, phone = Phone)
+  
+  write_csv(dominos, "data/restaurants/dominos.csv")
+  
+  return(dominos)
+
+}
+
+scrape_dairyqueen <- function() {
+  url <- "https://prod-dairyqueen.dotcmscloud.com/api/vtl/locations?country=ca&lat=45.4215296&long=-75.69719309999999"
+  
+  resp <- httr::GET(url) %>%
+    httr::content(type = "text/json", encoding = "UTF-8")
+  
+  dq <- resp %>%
+    jsonlite::fromJSON() %>%
+    pluck("locations") %>%
+    as_tibble() %>%
+    mutate(address = sprintf("%s, %s, %s, %s", address3, city, stateProvince, postalCode),
+           name = "Dairy Queen") %>%
+    select(name, address, latlong) %>%
+    separate(col = latlong, into = c("lat", "lon"), sep = ",")
+  
+  write_csv(dq, "data/restaurants/dairy_queen.csv")
+  
+  return(dq)
+}
+
 scrape_aw <- function() {
   url <- "https://web.aw.ca/api/locations/"
   
   aw_json <- httr::GET(url) %>%
     httr::content(type = "text/json", encoding = "UTF-8")
-
+  
   aw_data <- jsonlite::fromJSON(aw_json) %>%
     as_tibble()
-
+  
   aw <- aw_data %>%
     mutate(address = if_else(address2 == "",
                              sprintf("%s, %s, %s, %s", address1, city_name, province_code, postal_code),
