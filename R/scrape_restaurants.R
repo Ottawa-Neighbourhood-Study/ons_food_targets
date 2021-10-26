@@ -19,7 +19,39 @@ fastfood_chains <- old_food %>%
 
 # SECOND CUP IS ANNOYING, NOT DONE YET TODO
 
-b <- scrape_bridgehead()
+
+scrape_milanopizza <- function() {
+  url <- "https://order.milanopizzeria.ca/index.php/search/all"
+  
+  mil_html <- rvest::read_html(url)
+
+  restos <- mil_html %>%
+    rvest::html_elements(".restaurant")
+
+  milanos <- restos %>%
+    purrr::map_dfr(function(x){
+      name <- "Milano's Pizza"
+      address <- rvest::html_element(x, "p") %>%
+        html_text()
+      phone <- stringr::str_extract(address, "\\(.*") %>%
+        stringr::str_squish()
+      address <- stringr::str_remove(address, "\\(.*") %>%
+        stringr::str_squish()
+      
+      
+      tibble(name = name,
+             address = address,
+             phone = phone) %>%
+        filter(address != "",
+               address != "Gatineau Area")
+      
+    })
+  
+  write_csv(milanos, "data/restaurants/milanos_pizza.csv")
+  return(milanos)
+  
+}
+
 scrape_bridgehead <- function() {
   url <- "https://www.bridgehead.ca/pages/coffeehouses"
   
