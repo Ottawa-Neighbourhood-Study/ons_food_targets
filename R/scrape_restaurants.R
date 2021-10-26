@@ -21,6 +21,58 @@ fastfood_chains <- old_food %>%
 # 1 for 1 pizza
 # prince gourmet
 
+scrape_littlecasesars <- function() {
+  url <- "https://api.cloud.littlecaesars.com/bff/api/GetClosestStores"
+  
+  payload <- '{"address":{"street":"","city":"ottawa on","state":"","zip":""}}'
+  
+  headers <- c(`:authority` = "api.cloud.littlecaesars.com", `:method` = "POST", 
+               `:path` = "/bff/api/GetClosestStores", `:scheme` = "https", accept = "application/json", 
+               `accept-encoding` = "gzip, deflate, br", `accept-language` = "en-ca", 
+               `cache-control` = "no-cache, max-age=0", `content-length` = "64", 
+               `content-type` = "application/json", origin = "https://littlecaesars.ca", 
+               referer = "https://littlecaesars.ca/en-ca/order/pickup/stores/search/ottawa%20on/", 
+               `sec-ch-ua` = "\"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\"", 
+               `sec-ch-ua-mobile` = "?0", `sec-ch-ua-platform` = "\"Windows\"", 
+               `sec-fetch-dest` = "empty", `sec-fetch-mode` = "cors", `sec-fetch-site` = "cross-site", 
+               `user-agent` = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36")
+  
+  resp <- httr::POST(
+    url = url,
+    body = payload,
+    content_type_json(),
+    add_headers(.headers = headers)
+  )
+  
+  caesars <- resp %>%
+    httr::content()
+  
+  little_caesars <- caesars$stores %>%
+    purrr::map_dfr(function(x) {
+      
+      phone <- x$phone
+      lat <- x$latitude
+      lon <- x$longitude
+      address <- sprintf("%s, %s, %s, %s",
+                         x$address$street,
+                         x$address$city,
+                         x$address$state,
+                         x$address$zip)
+      tibble(name = "Little Caesar's",
+             address = address,
+             phone = phone,
+             lat = lat,
+             lon = lon)
+      
+    })
+  
+  write_csv(little_caesars , "data/restaurants/little_caesars.csv")
+  
+  return(little_caesars)
+  
+}
+
+
 scrape_burgerking <- function() {
   
   url <- "https://use1-prod-bk.rbictg.com/graphql"
