@@ -22,6 +22,37 @@ fastfood_chains <- old_food %>%
 # prince gourmet
 
 
+scrape_teriyaki_experience <- function() {
+  url <- "https://www.teriyakiexperience.com/wp-admin/admin-ajax.php?action=get_google_map_data&query="
+  
+  resp <- httr::GET(url) %>%
+    httr::content(type = "text/json", encoding= "UTF-8")
+  
+  ty <- jsonlite::fromJSON(resp)
+  
+  tys <- ty$data$info %>%
+    as_tibble()
+  
+  tys_all <- tys %>%
+    jsonlite::flatten() %>%
+    as_tibble() %>%
+    mutate(prov =  purrr::map_chr(tys$province, function(x) {
+      result <- pluck(x, "name")
+      if (is.null(result)) result <- ""
+      result
+    }),
+    address = sprintf("%s, %s, %s, %s", street, city, prov, country.name),
+    name = "Teriyaki Express",
+    phone = stringr::str_squish(contact.phone)) %>%
+    bind_cols(ty$data$position) %>%
+    select(name, address, phone, lat, lng) 
+  
+  
+  write_csv(tys_all, "data/restaurants/teriyaki_express.csv")
+  
+  return(tys_all)  
+}
+
 scrape_newyorkfries <- function() {
   url <- "https://www.newyorkfries.com/_api/wix-code-public-dispatcher/siteview/wix/data-web.jsw/find.ajax?gridAppId=5f8c34a2-3417-46b2-a854-84727d6752b8&instance=wixcode-pub.f2504f9027cf51bc1ca8e1a1a453918a2fa57c32.eyJpbnN0YW5jZUlkIjoiYTA2NTRkYTktZDE1Yi00M2E2LTg5MjUtMjgwNjE5ZjE4N2VlIiwiaHRtbFNpdGVJZCI6IjMxOGU2YzViLTE5ZWItNGMyNi1iNWVhLWRkYTM4M2E3ZTRmYiIsInVpZCI6bnVsbCwicGVybWlzc2lvbnMiOm51bGwsImlzVGVtcGxhdGUiOmZhbHNlLCJzaWduRGF0ZSI6MTYzNTI2Njk5NTk5NiwiYWlkIjoiMGY5MmVmYTEtMDJjNC00N2ZhLTkxZTktZDdhNTAxNTc1NTA3IiwiYXBwRGVmSWQiOiJDbG91ZFNpdGVFeHRlbnNpb24iLCJpc0FkbWluIjpmYWxzZSwibWV0YVNpdGVJZCI6ImI4YTg3MmExLTMwMDMtNDQ5Yy05MWM0LWU1YzBlZDk2MTFlZCIsImNhY2hlIjpudWxsLCJleHBpcmF0aW9uRGF0ZSI6bnVsbCwicHJlbWl1bUFzc2V0cyI6IkFkc0ZyZWUsU2hvd1dpeFdoaWxlTG9hZGluZyxIYXNEb21haW4iLCJ0ZW5hbnQiOm51bGwsInNpdGVPd25lcklkIjoiYmRmOGI2ODAtYWY4ZC00ODI5LWIxY2YtNDkwY2UzZDJhMDc0IiwiaW5zdGFuY2VUeXBlIjoicHViIiwic2l0ZU1lbWJlcklkIjpudWxsfQ==&viewMode=site"
   
