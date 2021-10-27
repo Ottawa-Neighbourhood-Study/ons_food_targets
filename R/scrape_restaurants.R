@@ -2,6 +2,8 @@
 library(tidyverse)
 library(rvest)
 library(httr)
+library(sf)
+
 # scraping restaurants
 
 
@@ -20,6 +22,62 @@ fastfood_chains <- old_food %>%
 # SECOND CUP IS ANNOYING, NOT DONE YET TODO
 # 1 for 1 pizza
 # prince gourmet
+# popeyes (graphql wouldn't work)
+
+get_ontario_fsas <- function() {
+  fsa <- read_sf("C:/Users/chris/Documents/large_shapefiles/lfsa000b16a_e/lfsa000b16a_e.shp") %>%
+    filter(stringr::str_detect(PRNAME, "Ontario"))
+  
+  fsa$CFSAUID
+}
+
+scrape_secondcup <- function() {
+  url <- "https://secondcup.com/find-a-cafe"
+  
+  sess <- rvest::session(url)
+  
+  # get the form
+  f <- rvest::html_form(sess)[[3]]
+  
+  all_cafes <- tibble()
+  
+  search_cities <- c("ottawa on", "nepean on", "kanata on", "barrhaven on",
+                     "orleans on")
+  search_cities <- get_ontario_fsas()
+  
+  #search_city <- search_cities[[1]]
+  for(search_city in search_cities){
+    message(search_city)
+    
+    f <- rvest::html_form_set(f, "postal_code" = search_city)
+    
+    sess2 <- rvest::session_submit(sess, f)
+    
+    cafes_html <- sess2 %>%
+      read_html() %>%
+      html_elements(".o-location-collection__item")
+    
+    cafes <- cafes_html %>%
+      purrr::map_dfr(function(x) {
+        addr <-  html_elements(x, "#postal-code-form , .m-location-features__address .a-link") %>%
+          html_text2()
+        
+        phone <- html_elements(x, ".m-location-features__phone") %>% html_text2()
+        
+        tibble(name = "Second Cup",
+               address = addr,
+               phone = phone)  
+      })
+    
+    all_cafes <- bind_rows(all_cafes, cafes)
+  }
+  
+  all_cafes <- distinct(all_cafes)
+  
+  write_csv(all_cafes, "data/restaurants/second_cup.csv")
+  
+  return(all_cafes)
+}
 
 scrape_muchoburrito <- function() {
   url <- "https://api.momentfeed.com/v1/analytics/api/llp.json?auth_token=GTKDWXDZMLHWYIKP&center=45.421143,-75.690057&coordinates=44.76227747205096,-75.10599131777343,46.073172781358885,-76.28839488222656&multi_account=false&page=1&pageSize=30"
