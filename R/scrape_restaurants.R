@@ -21,6 +21,32 @@ fastfood_chains <- old_food %>%
 # 1 for 1 pizza
 # prince gourmet
 
+scrape_muchoburrito <- function() {
+  url <- "https://api.momentfeed.com/v1/analytics/api/llp.json?auth_token=GTKDWXDZMLHWYIKP&center=45.421143,-75.690057&coordinates=44.76227747205096,-75.10599131777343,46.073172781358885,-76.28839488222656&multi_account=false&page=1&pageSize=30"
+  
+  resp <- httr::GET(url) %>%
+    httr::content(type = "text/json", encoding = "UTF-8")
+  
+  mb <- jsonlite::fromJSON(resp) %>%
+    jsonlite::flatten() %>%
+    as_tibble()
+  
+  mbs <- mb %>% 
+    mutate(address = if_else(store_info.address_extended == "", 
+                             sprintf("%s, %s, %s, %s", store_info.address, store_info.locality, store_info.region, store_info.postcode),
+                             sprintf("%s, %s, %s, %s, %s", store_info.address, store_info.address_extended, store_info.locality, store_info.region, store_info.postcode))
+    ) %>%
+    select(name = store_info.name,
+           address,
+           phone = store_info.phone,
+           lat = store_info.latitude,
+           lon = store_info.longitude)
+  
+  write_csv(mbs, "data/restaurants/much_burrito.csv")
+  
+  return(mbs)
+}
+
 scrape_greekonwheels <- function() {
   
   url <- "https://greekonwheels.ca/greek-on-wheels-locations/"
@@ -37,11 +63,11 @@ scrape_greekonwheels <- function() {
     html_elements("#content strong") %>%
     html_text() %>%
     stringr::str_remove_all("Phone: |.* or ")  #.*?(?=\\d+)"
-
+  
   gow <- tibble(name = "Greek on Wheels",
                 address = addrs,
                 phone = phones)
-    
+  
   write_csv(gow, "data/restaurants/greek_on_wheels.csv")
   
   return(gow)
