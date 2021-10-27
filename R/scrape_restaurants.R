@@ -21,6 +21,31 @@ fastfood_chains <- old_food %>%
 # 1 for 1 pizza
 # prince gourmet
 
+scrape_greekonwheels <- function() {
+  
+  url <- "https://greekonwheels.ca/greek-on-wheels-locations/"
+  
+  gow_html <- read_html(url)
+  
+  addrs <- gow_html %>%
+    html_elements("#content .clearfix h1") %>%
+    html_text() %>%
+    stringr::str_replace("\\s\\(", ", ") %>%
+    stringr::str_remove("\\)")
+  
+  phones <- gow_html %>%
+    html_elements("#content strong") %>%
+    html_text() %>%
+    stringr::str_remove_all("Phone: |.* or ")  #.*?(?=\\d+)"
+
+  gow <- tibble(name = "Greek on Wheels",
+                address = addrs,
+                phone = phones)
+    
+  write_csv(gow, "data/restaurants/greek_on_wheels.csv")
+  
+  return(gow)
+}
 
 scrape_teriyaki_experience <- function() {
   url <- "https://www.teriyakiexperience.com/wp-admin/admin-ajax.php?action=get_google_map_data&query="
