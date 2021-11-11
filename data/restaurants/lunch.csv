@@ -1,13 +1,13 @@
 name,address,phone,note
-LUNCH,121 Bank Street,(613) 238-9453,Restaurant
-LUNCH,1055 St Laurent Blvd,(613) 238-9453,Restaurant
-LUNCH,240 Sparks Street,(613) 238-9453,Restaurant
-LUNCH,301 Wellington Street,(613) 238-9453,Restaurant
-LUNCH,7 Bayview Road,(613) 238-9453,Restaurant
-LUNCH,7 Bayview Road,,Vending Machine
-LUNCH,Wellington Street,,Vending Machine
-LUNCH,901 Prince of Wales Dr,,Vending Machine
-LUNCH,150 Slater Street,,Vending Machine
-LUNCH,307 LEGGET DRIVE,,Cafeteria
-LUNCH,240 SPARKS STREET,(613) 680-8026,Cafeteria
-LUNCH,7 BAYVIEW ROAD,(613) 238-9453,Cafeteria
+LUNCH,"121 Bank Street, Ottawa, ON",(613) 238-9453,Restaurant
+LUNCH,"1055 St Laurent Blvd, Ottawa, ON",(613) 238-9453,Restaurant
+LUNCH,"240 Sparks Street, Ottawa, ON",(613) 238-9453,Restaurant
+LUNCH,"301 Wellington Street, Ottawa, ON",(613) 238-9453,Restaurant
+LUNCH,"7 Bayview Road, Ottawa, ON",(613) 238-9453,Restaurant
+LUNCH,"7 Bayview Road, Ottawa, ON",,Vending Machine
+LUNCH,"Wellington Street, Ottawa, ON",,Vending Machine
+LUNCH,"901 Prince of Wales Dr, Ottawa, ON",,Vending Machine
+LUNCH,"150 Slater Street, Ottawa, ON",,Vending Machine
+LUNCH,"307 LEGGET DRIVE, Ottawa, ON",,Cafeteria
+LUNCH,"240 SPARKS STREET, Ottawa, ON",(613) 680-8026,Cafeteria
+LUNCH,"7 BAYVIEW ROAD, Ottawa, ON",(613) 238-9453,Cafeteria

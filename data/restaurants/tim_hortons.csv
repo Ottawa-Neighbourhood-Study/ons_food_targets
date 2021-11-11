@@ -1,4 +1,4 @@
-name,address,phone_number,lat,lng
+name,address,phone_number,lat,lon
 Tim Horton's,"100 Metcalfe Street, Ottawa, ON K1P 0A7",6132328910,45.421099,-75.696023
 Tim Horton's,"171 Slater Street, Ottawa, ON K1P 5H7",6135694767,45.420179,-75.697915
 Tim Horton's,"90 Elgin Street, Ottawa, ON K1P 0C6",6132386444,45.422085,-75.694770
@@ -24,6 +24,7 @@ Tim Horton's,"40 Ruskin Avenue, Ottawa, ON K1Y 4W7",6133255536,45.394430,-75.721
 Tim Horton's,"1263-1265 Bank Street, Ottawa, ON K1S 3Y2",6137369118,45.390584,-75.679726
 Tim Horton's,"1053 Carling Avenue, Ottawa, ON K1Y 4E9",6137616003,45.392504,-75.722326
 Tim Horton's,"1125 Colonel By Drive, Ottawa, ON K1S 5B6",6135202600,45.387053,-75.697480
+Tim Horton's,"1125 Colonel By Dr-Carleton Univ Phy Ctr, Ottawa, ON K1S 5B6",6135202600,45.386382,-75.693416
 Tim Horton's,"535 Terminal Ave, Ottawa, ON K1G 0Z2",6132440118,45.414723,-75.643608
 Tim Horton's,"2277 Riverside Drive, Ottawa, ON K1H 7X6",6137360428,45.385759,-75.677430
 Tim Horton's,"46 Boulevard Greber, Gatineau, QC J8T 3P6",8195619009,45.460955,-75.702454
@@ -91,6 +92,7 @@ Tim Horton's,"165, Rue Principale, Gatineau, QC J9H 3M9",8196843484,45.395544,-7
 Tim Horton's,"100 Bayshore Drive, Nepean, ON K2B 8C1",6138289000,45.348020,-75.804667
 Tim Horton's,"250 Greenbank Road, Nepean, ON K2H 8X4",6138298691,45.325230,-75.779353
 Tim Horton's,"10, Rue De La Fabrique, Gatineau, QC J9J 2X3",8196827642,45.410262,-75.857626
+Tim Horton's,"3045 Baseline Rd, Nepean, ON K2H 8P4",6137212000,45.336257,-75.807479
 Tim Horton's,"3045 Baseline Rd, Nepean, ON K2H 8P4",613-721-2000,45.334940,-75.806748
 Tim Horton's,"1980 Joseph Blvd, Orleans, ON K1C 1E4",6138377071,45.463700,-75.540400
 Tim Horton's,"2311 St Joseph Blvd, Orleans, ON K1C 1E7",6138245125,45.469300,-75.531200
@@ -126,6 +128,7 @@ Tim Horton's,"989 River Road, Manotick, ON K4M 1B2",6136920988,45.234403,-75.676
 Tim Horton's,"44 Edgewater, Kanata, ON K2L 1V8",6138366911,45.297569,-75.900941
 Tim Horton's,"501 Terry Fox Drive, Kanata, ON K2T 1E8",6132710721,45.310008,-75.918352
 Tim Horton's,"5357 Fernbank, Kanata, ON K2S 1B6",6138317773,45.274582,-75.872006
+Tim Horton's,"Capital Sports Properties Inc, KANATA, ON K2V 1A4",6135990135,45.296946,-75.927201
 Tim Horton's,"225 Huntmar Dr, Stittsville, ON K2S 1B9",13435459943,45.294180,-75.927885
 Tim Horton's,"6061 Hazeldean Rd, Stittsville, ON K2S 1B9",6138361493,45.272662,-75.930484
 Tim Horton's,"1259 Stittsville Main St, Stittsville, ON K2S 2E4",6138366642,45.267884,-75.928590
@@ -134,7 +137,7 @@ Tim Horton's,"1015, Ch. De Masson, Gatineau, QC J8M 1R4",8192816808,45.558233,-7
 Tim Horton's,"5915 Perth St, Richmond, ON K0A 2Z0",6138382999,45.202171,-75.828807
 Tim Horton's,"160, Lepine Blvd, Gatineau, QC J8L 4M4",8199863669,45.575222,-75.403446
 Tim Horton's,"172, Chemin De La Vallee De Wakefield, Wakefield, QC J0X 3G0",8194593535,45.625028,-75.934613
-Tim Horton's,"1622 Roger Stevens, Kars, ON K0A 2E0",6134893392,45.155544,-75.639818
+Tim Horton's,"1622 Roger Stevens, Kars, ON K0A 2E0",6134893392,45.155680,-75.657958
 Tim Horton's,"88 Broadway Avenue, Russell, ON K4R 1A1",6134453434,45.256107,-75.374558
 Tim Horton's,"2875 Rue Laporte, Rockland, ON K4K 1A3",6134469948,45.539600,-75.302400
 Tim Horton's,"297 Edwards Street, Rockland, ON K4K 1H6",6134460248,45.551600,-75.295400
@@ -167,3 +170,19 @@ Tim Horton's,"15919 County Road #2, Long Sault, ON K0C 1P0",6135342170,45.027816
 Tim Horton's,"383 Stewart Street, Renfrew, ON K7V 1Y3",6134326278,45.479087,-76.697064
 Tim Horton's,"110Prescottcentre Dr, Prescott, ON K0E 1T0",6139259866,44.722329,-75.522873
 Tim Horton's,"925 Edward Street, Prescott, ON K0E 1T0",6139251465,44.717213,-75.520650
+Tim Horton's,"2690 Brookdale Avenue, Cornwall, ON K6J 5Y2",6139361664,45.047444,-74.770372
+Tim Horton's,"232 Main St, Massena, NY 13662-1902",3157054435,44.925317,-74.891753
+Tim Horton's,"9005 SH 56, Raymondville, NY 13678",3153843484,44.850255,-74.978438
+Tim Horton's,"81 Tollgate Road West, Cornwall, ON K6J 5L5",6139383151,45.045740,-74.750660
+Tim Horton's,"1950 Mcconnell Ave, Cornwall, ON K6H 0C1",6139368680,45.049148,-74.738423
+Tim Horton's,"1233 Brookdale Ave, Cornwall, ON K6J 4P7",6139332401,45.028287,-74.752336
+Tim Horton's,"960 Brookdale Ave, Cornwall, ON K6J 4P5",6139302685,45.023689,-74.749907
+Tim Horton's,"851 Pitt Street, Cornwall, ON K6J 3S4",6139389466,45.028596,-74.734089
+Tim Horton's,"840 Mcconnell Avenue, Cornwall, ON K6H 5S1",6139384240,45.029574,-74.718427
+Tim Horton's,"155 Akwesasne International Road, Akwesasne, ON K6H 5R7",6139374444,45.001812,-74.741235
+Tim Horton's,"1380 Marleau Ave, Cornwall, ON K6H 2W8",6139389335,45.036513,-74.710882
+Tim Horton's,"1 Water St East, Cornwall, ON K6H 6M2",6139386781,45.016476,-74.725623
+Tim Horton's,"6215 Boundary Road, South Glengarry, ON K6H 7P9",6139322600,45.059810,-74.687302
+Tim Horton's,"1320 Second Street East, Cornwall, ON K6H 2B7",6139327300,45.026264,-74.705334
+Tim Horton's,"373 Montreal Road, Cornwall, ON K6H 1B6",6139322355,45.018168,-74.709841
+Tim Horton's,"425 State Route 37, Hogansburg, NY 13655-3219",5183584229,44.979044,-74.683216

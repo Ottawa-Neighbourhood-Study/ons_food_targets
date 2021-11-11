@@ -92,16 +92,29 @@ list(
   ),
   
   
+  # combine restaurants into existing data
+  tar_target(
+    foodspace,
+    {
+    test <-   read_csv("data/combined/foodspace_2021-08-26c.csv", col_types = cols(.default = "c")) %>%
+        mutate(dataset = "new", update_date = "2021-08-26") %>%
+        bind_rows(read_csv("data/restaurants/consolidated/restaurants_2021-11-11.csv", col_types = cols(.default = "c")) ) %>%
+     select(-rowid) %>%
+      rowid_to_column()
+        write_csv(sprintf("data/combined/foodspace_%s.csv", Sys.Date()))
+    }
+  )
+  
   
   ##### SOME MAPS FOR TESTING
   
-  tar_target(
-    grocers_large_ott_map,
-    leaflet(rename(grocers_large, lat = Y, lon = X)) %>% addTiles() %>% addMarkers(label = ~purrr::map(paste0("<b>",name,"</b><br>",address), htmltools::HTML)) 
-  ),
-  tar_target(
-    grocers_yelp_ott_map,
-    leaflet(rename(grocers_yelp, lat = Y, lon = X)) %>% addTiles() %>% addMarkers(label = ~purrr::map(paste0("<b>",name,"</b><br>",address), htmltools::HTML)) 
-  )
+  # tar_target(
+  #   grocers_large_ott_map,
+  #   leaflet(rename(grocers_large, lat = Y, lon = X)) %>% addTiles() %>% addMarkers(label = ~purrr::map(paste0("<b>",name,"</b><br>",address), htmltools::HTML)) 
+  # ),
+  # tar_target(
+  #   grocers_yelp_ott_map,
+  #   leaflet(rename(grocers_yelp, lat = Y, lon = X)) %>% addTiles() %>% addMarkers(label = ~purrr::map(paste0("<b>",name,"</b><br>",address), htmltools::HTML)) 
+  # )
   
 )

@@ -17,9 +17,254 @@ fastfood_chains <- old_food %>%
   write_csv("ff_temp.csv")
 
 
+
+# this documents the process I used to combine the old and new restaurant files.
+# it's *almost* fully automatic, with one step i did manually: removing some
+# tricky three-valued matches in Excel. otherwise it's all automatic
+# but you should run it line-by-line and not as a complete function to be sure...
+compare_old_new_restos <- function(){
+  new_restos <- read_csv("data/restaurants/consolidated/consolidated_in_progress_no_dupes2021-11-10.csv") %>%
+    mutate(dataset = "new") %>%
+    mutate(name = if_else(name == "Teriyaki Express", "Teriyaki Experience", name))
+  
+  old_food <- read_csv("data/original/ONS Food Environment Mega Data - Food Env-edit.csv")
+  old_restos <- filter(old_food, Category2 %in% c("fast food", "nightlife", "restaurant")) %>%
+    mutate(dataset = "old") %>%
+    select(-Note, -NBID, -NB_name, -Category1) %>%
+    rename(lat = Y, lng = X,
+           #category1 = Category1,
+           category2 = Category2,
+           category3 = Category3,
+           name = Name)
+  
+  all_restos <- bind_rows(new_restos, old_restos)
+  
+  all_restos_possible_dupes <- all_restos %>%
+    mutate(name= if_else(name == "A & W", "A&W", name)) %>%
+    mutate(num_name = stringr::str_remove_all(address, "[:punct:]") %>%
+             stringr::str_extract("^\\d+,*\\s\\w+") %>%
+             toupper()) %>%
+    group_by(toupper(name), num_name) %>%
+    mutate(check = n() > 1 & !is.na(num_name)) %>%
+    arrange(desc(check), toupper(name), num_name )
+  
+  no_dupes <- all_restos_possible_dupes %>%
+    filter(!check) %>%
+    ungroup()
+  
+  remove_dupes <- all_restos_possible_dupes %>%
+    filter(check) %>%
+    #select(name, phone, `NEMS Code`) %>%
+    mutate(`NEMS Code` = max(c(0, `NEMS Code`), na.rm = TRUE)) %>%
+    slice_head(n=1) %>%
+    ungroup()
+  
+  dupes_removed <- bind_rows(no_dupes, remove_dupes) %>%
+    select(-num_name, -`toupper(name)`, -check) 
+  
+  # here we again check for duplications
+  test <- dupes_removed %>%
+    mutate(num_name = stringr::str_remove_all(address, "[:punct:]") %>%
+             #stringr::str_extract("^\\d+,*\\w*\\s\\w+") %>%
+             stringr::str_extract("\\d+,*\\w*\\s\\w+") %>%
+             toupper(),
+           name_word = stringr::str_extract(toupper(name), "[:alpha:]+"),
+           name_word = if_else(!is.na(name_word), name_word, name)
+    ) %>%
+    group_by(num_name, name_word) %>%
+    mutate(check = n() > 1) %>%
+    arrange(desc(check))
+  
+  # filter out those with no detected duplicates
+  no_dupes <- filter(test, !check)
+  
+  # found more duplicates! must deal with them.
+  more_dupes <- filter(test, check) %>%
+    mutate(n = n())
+  
+  # save interim results to manually remove the three-valued entries....
+ # write_csv(more_dupes, sprintf("data/restaurants/consolidated/all_in_progress_%s.csv", Sys.Date()))
+  
+  
+  # now load the manually edited data and programmatically combien the two-valued entries
+  more_dupes2 <- readr::read_csv("data/restaurants/consolidated/all_in_progress_2021-11-11-edited.csv", 
+                                 locale = readr::locale(encoding = "UTF-8")) %>%
+    group_by(num_name, name_word)%>%
+    mutate(n = n()) %>%
+    mutate(check = (n > 1) & ! name_word %in%  c("THE", "BARRHAVEN")) %>%
+    arrange(desc(check)) %>%
+    mutate(`NEMS Code` = if_else(is.na(`NEMS Code`), 0, `NEMS Code`),
+           `NEMS Code` = max(`NEMS Code`)) 
+  
+  more_dupes2_removed <- more_dupes2 %>%
+    nest() %>%
+    #  head(5) %>%
+    mutate(data = purrr::map(data, function(x){
+      # at least we will return what we got
+      result <- x
+      
+      # if there are two or more rows we do the following.
+      if (nrow(x) > 1){
+        
+        # if we have a new and an old...
+        if ("new" %in% x$dataset & "old" %in% x$dataset){
+          old <- filter(x, dataset == "old")
+          result <- filter(x, dataset == "new")
+          
+          result$category2 <- old$category2
+          result$category3 <- old$category3
+          # message(nchar(old$address))
+          # message(nchar(result$address))
+          
+          if (nchar(old$address) > nchar(result$address)) result$address <- old$address
+          
+          
+        } else {
+        # otherwise, either two olds or two news, take longest set of data
+        
+          old <- x[2,]
+          result <- x[1,]
+          
+          result$category2 <- old$category2
+          result$category3 <- old$category3
+          
+          if (nchar(old$address) > nchar(result$address)) result$address <- old$address
+          
+        } 
+      }
+      
+      return(result)
+    })) %>%
+      unnest(cols = "data")
+  
+  all_restos_dupes_removed <- bind_rows(no_dupes, more_dupes2_removed) %>%
+    mutate(category2 = tolower(category2),
+           category3 = tolower(category3),
+           category3 = if_else(category3 == "dine out", "regular", category3))
+
+
+  forsave <- all_restos_dupes_removed %>%
+    select(-check, -n) %>%
+    rename(update_date = `Update date`, chain = Chain, nems_code = `NEMS Code`) %>%
+    ungroup() %>%
+    mutate(update_date = if_else(is.na(update_date), as.character(Sys.Date()), as.character(update_date))) %>%
+    group_by(name) %>%
+    mutate(chain = as.numeric(n() > 1)) %>%
+    ungroup()
+  
+  forsave_forreal <- forsave %>%
+    sf::st_as_sf(coords=c("lng","lat"), crs = "WGS84", remove = FALSE) %>%
+    onsr::get_pts_neighbourhood(pgon = onsr::ons_shp) %>%
+    sf::st_set_geometry(NULL) %>%
+    select(-num_name, -name_word, Nbhd = Name, -ONS_ID, -Name_FR) %>%
+    mutate(Nbhd = if_else(is.na(Nbhd), "(None)", Nbhd)) %>%
+    mutate(nems_code = if_else(is.na(nems_code), "0", as.character(nems_code))) %>%
+    mutate(newdate = lubridate::ymd(update_date),
+           newdate = if_else(is.na(newdate), lubridate::ym(update_date), newdate),
+           ) %>%
+    select(-update_date) %>%
+    rename(update_date = newdate)
+  
+  forsave_forreal %>%
+    write_csv(sprintf("data/restaurants/consolidated/restaurants_%s.csv", Sys.Date()))
+    
+  
+}
+
+
+
+
+# function to take files with data scraped from Zomato and from many, many
+# individual fast food restaurants, combine them, do basic first-pass categorization,
+# and remove obvious duplicates.
+consolidate_restaurant_files <- function() {
+  
+  #### LOAD FASTFOOD FILES
+  fastfood_files_to_load <- list.files("data/restaurants") %>%
+    stringr::str_subset("zomato", negate = TRUE)
+  
+  coffee_shops <- c("Bridgehead", "Starbucks", "Tim Horton's", "Second Cup")
+  
+  fastfood_restos <- purrr::map_dfr(paste0("data/restaurants/", fastfood_files_to_load), function(x) {
+    message(x)
+    readr::read_csv(x) %>%
+      mutate(across(everything(), as.character))}) %>%
+    select(name, address, lat, lon) %>%
+    distinct() %>%
+    # drop_na(lat, lon) %>%
+    mutate(category2 = "Fast Food", 
+           category3 = if_else(name %in% coffee_shops, "Coffee Shop", "Regular"),
+           lat = as.numeric(lat),
+           lng = as.numeric(lon)) %>%
+    select(-lon)
+  
+  # handle those with lat/lon
+  ff_latlon <- fastfood_restos %>% 
+    filter(!is.na(lat)) %>%
+    filter(lat > 45 & lat < 46 & lng < -75 & lng > -76.5)
+  
+  # handle those without lat/lon
+  # we first do an expansive filter to make sure we don't erase things by accident,
+  # then exclude obviously out-of-scope cities 
+  ff_nolatlon <- fastfood_restos %>%
+    filter(is.na(lat)) %>%
+    filter(stringr::str_detect(tolower(address), "ottawa|on"),
+           !stringr::str_detect(tolower(address), "toronto|etobicoke|hamilton|waterloo|ab"))
+  
+  ff_newlatlon <- onsr::geocode_gmap(ff_nolatlon,
+                                     address,
+                                     api_key = readr::read_file("../chris_google_api/chris_google_api_key.csv"),
+                                     verbose = TRUE)
+  
+  ff_new_latlon <- ff_newlatlon %>%
+    select(everything(), lat = lat...7, lng = lng...8, -lat...3, -lng...6) %>%
+    filter(lat > 45 & lat < 46 & lng < -75 & lng > -76.5)
+  
+  ff_all <- bind_rows(ff_latlon, ff_new_latlon)%>%
+    filter(lat > 45 & lat < 46 & lng < -75 & lng > -76.5)
+  
+  #ff_latlon %>% leaflet() %>% addTiles() %>% addMarkers()
+  
+  zomato_dineout <- read_csv("data/restaurants/zomato_dine-out_2021-09-02.csv") %>%
+    select(name, address = restaurant_address, phone, lat, lng = lon) %>%
+    mutate(category2 = "Restaurant", category3 = "Dine Out")
+  
+  zomato_drinks <- read_csv("data/restaurants/zomato_drinks-and-nightlife_2021-09-02.csv") %>%
+    select(name, address = restaurant_address, phone, lat, lng = lon) %>%
+    mutate(category2 = "Restaurant", category3 = "Drinks and Nightlife")
+  
+  zomato <- bind_rows(zomato_dineout, zomato_drinks) %>%
+    distinct(name, address, .keep_all = TRUE)
+  
+  all_restos <- bind_rows(zomato, ff_all) 
+  
+  # save interim results
+  write_csv(all_restos, sprintf("data/restaurants/consolidated/consolidated_in_progress_%s.csv", Sys.Date()))
+  
+  
+  potential_dupes <- all_restos %>%
+    mutate(num_name = stringr::str_extract(address, "^\\d+,*\\s\\w+")) %>%
+    group_by(name, num_name) %>%
+    mutate(check = n() > 1 & !is.na(num_name))
+  
+  all_restos_no_dupes <- potential_dupes %>%
+    arrange(desc(check), num_name, name) %>%
+    group_by(name, num_name, check) %>%
+    slice_head(n=1) %>%
+    ungroup() %>%
+    select(-num_name, -check) %>%
+    filter(lat > 45 & lat < 46 & lng < -75 & lng > -76.5)
+  
+  # save interim results
+  write_csv(all_restos_no_dupes, sprintf("data/restaurants/consolidated/consolidated_in_progress_no_dupes%s.csv", Sys.Date()))
+  
+  #all_restos_no_dupes %>%leaflet() %>% addTiles() %>% addMarkers(label = ~name)
+  
+}
+
+
 #harveys <- read_csv("data/restaurants/harveys.csv")
 
-# SECOND CUP IS ANNOYING, NOT DONE YET TODO
 # 1 for 1 pizza
 # prince gourmet
 # popeyes (graphql wouldn't work)
@@ -154,7 +399,7 @@ scrape_teriyaki_experience <- function() {
     name = "Teriyaki Express",
     phone = stringr::str_squish(contact.phone)) %>%
     bind_cols(ty$data$position) %>%
-    select(name, address, phone, lat, lng) 
+    select(name, address, phone, lat, lon = lng) 
   
   
   write_csv(tys_all, "data/restaurants/teriyaki_express.csv")
@@ -237,7 +482,8 @@ scrape_lunch <- function() {
                 phone = caf_phone,
                 note = "Cafeteria")
   
-  lunch <- bind_rows(store, machine, caf)    
+  lunch <- bind_rows(store, machine, caf) %>%
+    mutate(address = sprintf("%s, Ottawa, ON", address))
   
   write_csv(lunch, "data/restaurants/lunch.csv")
   
@@ -878,10 +1124,10 @@ scrape_subway <- function(){
                                Address.PostalCode),
              address = stringr::str_remove_all(address," ,"),
              lat = Geo.Latitude,
-             lng = Geo.Longitude
+             lon = Geo.Longitude
              
       ) %>%
-      select(name, address, lat, lng)
+      select(name, address, lat, lon)
     
     results <- bind_rows(results, stores) %>%
       distinct()
@@ -931,7 +1177,7 @@ scrape_tim_hortons <- function(){
            breakfast_burgers = purrr::map_lgl(data, pluck, "hasBurgersForBreakfast")
     ) %>%
     mutate(address = sprintf("%s, %s, %s %s", address1, city, province, postal_code)) %>%
-    select(name, address, phone_number, lat, lng)
+    select(name, address, phone_number, lat, lon  = lng)
   
   write_csv(results, "data/restaurants/tim_hortons.csv")
 }
