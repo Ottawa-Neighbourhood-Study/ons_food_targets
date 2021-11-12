@@ -100,7 +100,7 @@ list(
         mutate(dataset = "new", update_date = "2021-08-26") %>%
         bind_rows(read_csv("data/restaurants/consolidated/restaurants_2021-11-11.csv", col_types = cols(.default = "c")) ) %>%
      select(-rowid) %>%
-      rowid_to_column()
+      rowid_to_column() %>%
         write_csv(sprintf("data/combined/foodspace_%s.csv", Sys.Date()))
     }
   )

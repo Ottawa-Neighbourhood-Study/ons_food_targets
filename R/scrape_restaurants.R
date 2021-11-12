@@ -548,33 +548,36 @@ scrape_burgerking <- function() {
   url <- "https://use1-prod-bk.rbictg.com/graphql"
   
   # need to do a post
-  payload <- '[{"operationName":"GetRestaurants","variables":{"input":{"filter":"NEARBY","coordinates":{"userLat":45.4215296,"userLng":-75.69719309999999,"searchRadius":32000},"first":20,"status":"OPEN"}},
-  "query":"query GetRestaurants($input: RestaurantsInput) {  restaurants(input: $input) {    pageInfo {      hasNextPage      endCursor      __typename    }    totalCount    nodes {      ...RestaurantNodeFragment      __typename    }    __typename  }}fragment RestaurantNodeFragment on RestaurantNode {  _id  storeId  isAvailable  posVendor  chaseMerchantId  curbsideHours {    ...OperatingHoursFragment    __typename  }  deliveryHours {    ...OperatingHoursFragment    __typename  }  diningRoomHours {    ...OperatingHoursFragment    __typename  }  distanceInMiles  drinkStationType  driveThruHours {    ...OperatingHoursFragment    __typename  }  driveThruLaneType  email  environment  franchiseGroupId  franchiseGroupName  frontCounterClosed  hasBreakfast  hasBurgersForBreakfast  hasCatering  hasCurbside  hasDelivery  hasDineIn  hasDriveThru  hasMobileOrdering  hasParking  hasPlayground  hasTakeOut  hasWifi  hasLoyalty  id  isDarkKitchen  isFavorite  isHalal  isRecent  latitude  longitude  mobileOrderingStatus  name  number  parkingType  phoneNumber  physicalAddress {    address1    address2    city    country    postalCode    stateProvince    stateProvinceShort    __typename  }  playgroundType  pos {    vendor    __typename  }  posRestaurantId  restaurantImage {    asset {      _id      metadata {        lqip        palette {          dominant {            background            foreground            __typename          }          __typename        }        __typename      }      __typename    }    crop {      top      bottom      left      right      __typename    }    hotspot {      height      width      x      y      __typename    }    __typename  }  restaurantPosData {    _id    __typename  }  status  vatNumber  __typename}fragment OperatingHoursFragment on OperatingHours {  friClose  friOpen  monClose  monOpen  satClose  satOpen  sunClose  sunOpen  thrClose  thrOpen  tueClose  tueOpen  wedClose  wedOpen  __typename}"}]'
+
+  payload <- '[{"operationName":"GetRestaurants","variables":{"input":{"filter":"NEARBY","coordinates":{"userLat":45.4215296,"userLng":-75.69719309999999,"searchRadius":32000},"first":20,"status":"OPEN"}},"query":"query GetRestaurants($input: RestaurantsInput) {  restaurants(input: $input) {    pageInfo {      hasNextPage     endCursor      __typename    }    totalCount    nodes {      ...RestaurantNodeFragment      __typename    }    __typename  }}fragment RestaurantNodeFragment on RestaurantNode {  _id  storeId  isAvailable  posVendor  chaseMerchantId  curbsideHours {    ...OperatingHoursFragment    __typename  }  deliveryHours {    ...OperatingHoursFragment    __typename  }  diningRoomHours {    ...OperatingHoursFragment    __typename  }  distanceInMiles  drinkStationType  driveThruHours {    ...OperatingHoursFragment    __typename  }  driveThruLaneType  email  environment  franchiseGroupId  franchiseGroupName  frontCounterClosed  hasBreakfast  hasBurgersForBreakfast  hasCatering  hasCurbside  hasDelivery  hasDineIn  hasDriveThru  hasMobileOrdering  hasParking  hasPlayground  hasTakeOut  hasWifi  hasLoyalty  id  isDarkKitchen  isFavorite  isHalal  isRecent  latitude  longitude  mobileOrderingStatus  name  number  parkingType  phoneNumber  physicalAddress {    address1    address2    city    country    postalCode    stateProvince    stateProvinceShort    __typename  }  playgroundType  pos {    vendor    __typename  }  posRestaurantId  restaurantImage {    asset {      _id      metadata {        lqip        palette {          dominant {            background            foreground            __typename          }          __typename        }        __typename      }      __typename    }    crop {      top      bottom      left      right      __typename    }    hotspot {      height      width      x      y      __typename    }    __typename  }  restaurantPosData {    _id    __typename  }  status  vatNumber  __typename}fragment OperatingHoursFragment on OperatingHours {  friClose  friOpen  monClose  monOpen  satClose  satOpen sunClose  sunOpen  thrClose  thrOpen  tueClose  tueOpen  wedClose  wedOpen  __typename}"}]' 
   
-  
-  payload <- '[{"operationName":"GetRestaurants","variables":{"input":{"filter":"NEARBY","coordinates":{"userLat":45.4215296,"userLng":-75.69719309999999,"searchRadius":80000},"first":500,"status":"OPEN"}},
-"query":"query GetRestaurants($input: RestaurantsInput) {   restaurants(input: $input) {     pageInfo {       hasNextPage       endCursor       __typename     }     totalCount     nodes {       ...RestaurantNodeFragment       __typename     }     __typename   } }  fragment RestaurantNodeFragment on RestaurantNode {   _id   storeId   isAvailable   posVendor   chaseMerchantId   curbsideHours {     ...OperatingHoursFragment     __typename   }   deliveryHours {     ...OperatingHoursFragment     __typename   }   diningRoomHours {     ...OperatingHoursFragment     __typename   }   distanceInMiles   drinkStationType   driveThruHours {     ...OperatingHoursFragment     __typename   }   driveThruLaneType   email   environment   franchiseGroupId   franchiseGroupName   frontCounterClosed   hasBreakfast   hasBurgersForBreakfast   hasCatering   hasCurbside   hasDelivery   hasDineIn   hasDriveThru   hasMobileOrdering   hasParking   hasPlayground   hasTakeOut   hasWifi   id   isDarkKitchen   isFavorite   isRecent   latitude   longitude   mobileOrderingStatus   name   number   parkingType   phoneNumber   physicalAddress {     address1     address2     city     country     postalCode     stateProvince     stateProvinceShort     __typename   }   playgroundType   pos {     vendor     __typename   }   posRestaurantId   restaurantImage {     asset {       _id       metadata {         lqip         palette {           dominant {             background             foreground             __typename           }           __typename         }         __typename       }       __typename     }     crop {       top       bottom       left       right       __typename     }     hotspot {       height       width       x       y       __typename     }     __typename   }   restaurantPosData {     _id     __typename   }   status   vatNumber   __typename }  fragment OperatingHoursFragment on OperatingHours {   friClose   friOpen   monClose   monOpen   satClose   satOpen   sunClose   sunOpen   thrClose   thrOpen   tueClose   tueOpen   wedClose   wedOpen   __typename } "}]'
-  
-  headers <- c(`:authority` = "use1-prod-bk.rbictg.com", 
-               `:method` = "POST", 
-               `:path` = "/graphql", 
-               `:scheme` = "https", 
-               accept = "*/*", 
-               `accept-encoding` = "gzip, deflate, br", 
-               `accept-language` = "en-CA,en-GB;q=0.9,en-US;q=0.8,en;q=0.7", 
-               `content-length` = "2432", `content-type` = "application/json", 
-               origin = "https://www.burgerking.ca", `sec-ch-ua` = "\"Chromium\";v=\"94\", \"Google Chrome\";v=\"94\", \";Not A Brand\";v=\"99\"", 
-               `sec-ch-ua-mobile` = "?0", `sec-ch-ua-platform` = "\"Windows\"", 
-               `sec-fetch-dest` = "empty", `sec-fetch-mode` = "cors", `sec-fetch-site` = "cross-site", 
-               `user-agent` = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36", 
-               `x-forter-token` = "050907ea5d264fa18e54c1e94191dd24_1635263350518__UDF43_13ck_tt", 
-               `x-session-id` = "9CF4D212-BA52-4E7A-B44A-A2D49CCF0111", `x-ui-language` = "en", 
-               `x-ui-region` = "CA", `x-user-datetime` = "2021-10-26T11:49:20-04:00")
+  headers <- c(`authority` = "use1-prod-bk.rbictg.com", 
+                  `method` = "POST", 
+                  `path` = "/graphql", 
+                  `scheme` = "https", 
+                  `accept-encoding` = "gzip, deflate, br", 
+                  `sec-ch-ua` = "\"Google Chrome\";v=\"95\", \"Chromium\";v=\"95\", \";Not A Brand\";v=\"99\"", 
+                  `x-forter-token` = "050907ea5d264fa18e54c1e94191dd24_1636729428930__UDF43_13ck_tt", 
+                  `x-ui-region` = "CA",
+                  `x-ui-language` = "en", 
+                  `user-agent` = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36", 
+                  `content-type` = "application/json", 
+                  "accept" = "*/*", 
+                  `x-user-datetime` = "2021-11-12T10:04:07-05:00",
+                  `sec-ch-ua-mobile` = "?0",
+                  `x-session-id` = "7BAA8988-D01B-4AE1-8957-110C685B6F56", 
+                  `sec-ch-ua-platform` = "\"Windows\"", 
+                  "origin" = "https://www.burgerking.ca", 
+                  `sec-fetch-site` = "cross-site", 
+                  `sec-fetch-mode` = "cors", 
+                  `sec-fetch-dest` = "empty", 
+                  `accept-language` = "en-CA,en-GB;q=0.9,en-US;q=0.8,en;q=0.7"
+  )
   
   resp <- httr::POST(url,
                      body = payload
-                     ,content_type_json()
-                     #,add_headers(.headers = headers)
+                     ,httr::content_type_json()
+                     ,httr::add_headers(.headers = headers)
   )   %>%
     httr::content()
   
