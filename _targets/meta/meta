@@ -1,5 +1,5 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-.Random.seed|object|35d48dedd63f2324|||||||||||||||
+.Random.seed|object|93be453376c0af5e|||||||||||||||
 foodspace|stem|f959f1e85e2a367d|0538df7b3329b3d1|d769a72523b86c3f|-290966218|_targets/objects/foodspace|36cdf6789e04c84a|697c3bf6eff64cba|160390|rds|local|vector|||1.39|package htmltools was built under R version 4.0.5|
 geo_filter_grocers|function|78c1b07f5a6e0f34|||||||||||||||
 get_whole_foods|function|5d6c9f6b43e53b6c|||||||||||||||
@@ -24,7 +24,8 @@ parse_metro|function|bcf968cbcc4e53fe|||||||||||||||
 parse_sobeys|function|c39950c946ca5aa4|||||||||||||||
 parse_t_and_t|function|2b340f3e53e42e4a|||||||||||||||
 parse_walmart|function|599f838e285e5071|||||||||||||||
-save_results|stem|f5f7e713ea5aa660|84a089c4a1ce5ccf|ce647565e5c4c9ba|-1191734632||t19622.7888743446s|ca4dff8e0e63a754|110996|rds|local|vector|||0.36||
+save_results|stem|f5f7e713ea5aa660|84a089c4a1ce5ccf|ce647565e5c4c9ba|-1191734632||t19622.7913682031s|ca4dff8e0e63a754|110996|rds|local|vector|||0.36||
+save_results_ottawa|stem|fc45b8b1b1d065f4|638465acb91c6331|2e7f8d7025ea3efd|-905886483||t19622.7911892664s|68c63db29dfe86f6|9836|rds|local|vector|||0.11|Field names abbreviated for ESRI Shapefile driver. GDAL Message 1 One or several characters couldnt be converted correctly from UTF8 to ISO88591.  This warning will not be emitted anymore.|
 scrape_and_parse_large_grocers|function|dda50861f6a6ca4c|||||||||||||||
 scrape_farmboy|function|f262dc811e524219|||||||||||||||
 scrape_foodbasics|function|fd6d3f30908f57c4|||||||||||||||

@@ -46,6 +46,14 @@ list(
   targets::tar_target(
     grocers_large_ottawa,
     geo_filter_grocers(grocers_large, ons_shp = ons_shp)
+  ),
+  
+  targets::tar_target(
+    save_results_ottawa,
+    {
+      readr::write_csv(sf::st_drop_geometry(grocers_large_ottawa), paste0("outputs/grocers_large_ottawa-", Sys.Date(),".csv"))
+      sf::write_sf(grocers_large_ottawa, paste0("outputs/grocers_large_ottawa-", Sys.Date(),".shp"))
+    }
   )
   
   

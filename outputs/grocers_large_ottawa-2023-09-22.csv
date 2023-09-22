@@ -1,0 +1,198 @@
+note,address,address2,phone,Y,X,name,update_date,fax
+Metro,375 Daniel St. S,Arnprior ON K7S 3K6,613-623-6273,45.42471,-76.36742,METRO,2023-09-22,NA
+Metro,50 Beechwood Avenue,Ottawa ON K1L 8B3,613-744-6676,45.43953,-75.67625,METRO,2023-09-22,NA
+Metro,2636 Innes Road,Gloucester ON K1B 4Z8,613-837-1845,45.43201,-75.56378,METRO,2023-09-22,NA
+Metro,3201 Strandherd Drive,Nepean ON K2J 5N1,613-823-8825,45.27445,-75.72107,METRO,2023-09-22,NA
+Metro,6509 Jeane D'Arc Blvd.,Orleans ON K1C 2R1,613-837-1170,45.48076,-75.53611,METRO,2023-09-22,NA
+Metro,4510 Innes Road,Ottawa ON K4A 4C5,613-824-8850,45.46232,-75.48299,METRO,2023-09-22,NA
+Metro,10 Cope Drive,Kanata ON K2M 0N2,613-271-7020,45.28236,-75.86516,METRO,2023-09-22,NA
+Metro,2261 Walkley Road,Ottawa ON K1G 3G8,613-526-5994,45.38935,-75.6193,METRO,2023-09-22,NA
+Metro,1675 Tenth Line Road,Orleans ON K1E 3P6,613-837-2614,45.46971,-75.49086,METRO,2023-09-22,NA
+Metro,754 Bank Street,Ottawa ON K1S 3V6,613-232-9466,45.40364,-75.6887,METRO,2023-09-22,NA
+Metro,250 Greenbank Road,Nepean ON K2H 8P3,613-828-9321,45.32454,-75.78059,METRO,2023-09-22,NA
+Metro,345 Carleton Avenue,Ottawa ON K1Y 0K3,613-725-3065,45.39797,-75.74072,METRO,2023-09-22,NA
+Metro,2525 Carling Ave.,Ottawa ON K2B 7Z2,613-828-3251,45.3652,-75.78537,METRO,2023-09-22,NA
+Metro,4048 Carling Avenue,Kanata ON K2K 1Y1,613-599-0470,45.33802,-75.90768,METRO,2023-09-22,NA
+Metro,3310 McCarthy Rd.,Ottawa ON K1V 9S1,613-523-2774,45.35156,-75.67112,METRO,2023-09-22,NA
+Metro,1705 Merivale Road,Ottawa ON K2G 3K2,613-274-7274,45.345,-75.72985,METRO,2023-09-22,NA
+Metro,1930 Montreal Road,Gloucester ON K1J 6N2,613-744-2961,45.44658,-75.59552,METRO,2023-09-22,NA
+Metro,799 Boul. Wilfrid-Lavigne,Gatineau QC J9J 1V2,819-685-3490,45.411918,-75.839181,METRO,2023-09-22,NA
+Metro,214 Boul. De La Cité Des Jeunes,Gatineau QC J8Y 6S8,819-778-7330,45.44997,-75.75497,METRO,2023-09-22,NA
+Metro,499 Boul. Gréber,Gatineau QC J8T 0B3,819-561-6627,45.48898,-75.7015,METRO,2023-09-22,NA
+Metro,910 Boul. Maloney Est,Gatineau QC J8P 1H5,819-643-2353,45.489141,-75.598834,METRO,2023-09-22,NA
+Metro,435 Montée Paiement,Gatineau QC J8P 0B1,819-561-5478,45.49161,-75.67596,METRO,2023-09-22,NA
+Metro,2515 Bank Street,Ottawa ON K1V 8R9,613-731-7410,45.35492,-75.64511,METRO,2023-09-22,NA
+Metro,#2 - 1811 Robertson Road,Nepean ON K2H 8X3,613-721-7028,45.32872,-75.81759,METRO,2023-09-22,NA
+Delivery Wilsons Your Independent Grocer,2681 Alta Vista Dr,"Ottawa, Ontario, K1V 7T5",6137332311,45.372,-75.663,YIG,2023-09-22,NA
+Massine's Your Independent Grocer Ottawa (Colleague Testing),296 Bank St,"Ottawa, Ontario, K2P 1X8",6132348692,45.414883,-75.697015,YIG,2023-09-22,NA
+Jonssons' Your Independent Grocer Kemptville,Hwy 43 W Kemptville Mall,"Kemptville, Ontario, K0G 1J0",6132585966,45.018737,-75.655671,YIG,2023-09-22,NA
+Laura's Your Independent Grocer Ottawa,1910 St Laurent Blvd,"Ottawa, Ontario, K1G 1A4",6135210880,45.399412,-75.623844,YIG,2023-09-22,NA
+McDonoughÕs YIG - Online Grocery Coming SoonÉ,1160 Beaverwood Rd,"Manotick, Ontario, K4M 1A5",6136922828,45.223079,-75.683632,YIG,2023-09-22,NA
+Laura's Your Independent Grocer,300 Eagleson Rd,"Kanata, Ontario, K2M 1C9",6135923850,45.301498,-75.877672,YIG,2023-09-22,NA
+Your Independent Grocer Perth Street (Colleague Testing),5911 Perth St,"Richmond, Ontario, K0A 2Z0",6138387255,45.201432,-75.828786,YIG,2023-09-22,NA
+Moncion's Your Independent Grocer Ottawa (Colleague Testing),685 River Rd,"Gloucester, Ontario, K1V 2G2",6138224749,45.27006,-75.6977,YIG,2023-09-22,NA
+River Road YIG Gloucester,685 River Rd,"Gloucester, Ontario, K1V 2G2",6138224749,45.271,-75.699,YIG,2023-09-22,NA
+Ross' Your Independent Grocer Nepean (Colleague Testing),3777 Strandherd Dr,"Nepean, Ontario, K2J 4B1",6138439413,45.26866,-75.7472,YIG,2023-09-22,NA
+Moncion's Your Independent Grocer,685 River Rd,"Gloucester, Ontario, K1V 2G2",6138224749,45.270859,-75.699001,YIG,2023-09-22,NA
+Massine's Your Independent Grocer Ottawa,296 Bank St,"Ottawa, Ontario, K2P 1X8",6132348692,45.414988,-75.696337,YIG,2023-09-22,NA
+Marsha's Your Independent Grocer,200 Grant Carman,"Nepean, Ontario, K2E 7Z8",6137271672,45.351331,-75.730712,YIG,2023-09-22,NA
+Marsha's YIG Nepean (Colleague Testing),200 Grant Carman,"Nepean, Ontario, K2E 7Z8",6137271672,45.35212,-75.72997,YIG,2023-09-22,NA
+Patrice's Your Independent Grocer,401 Ottawa St Rr 4,"Almonte, Ontario, K0A 1A0",6132562080,45.234038,-76.182098,YIG,2023-09-22,NA
+Jonssons' Your Independent Grocer Kemptville,Hwy 43 W Kemptville Mall,"Kemptville, Ontario, K0G 1J0",6132585966,45.018737,-75.655671,YIG,2023-09-22,NA
+Wilson's Your Independent Grocer,2681 Alta Vista Dr,"Ottawa, Ontario, K1V 7T5",6137332311,45.372213,-75.663048,YIG,2023-09-22,NA
+Robinson's YIG,1160 Beaverwood Road PO Box 517,"Manotick, Ontario, K4M 1A5",,45.223079,-75.683632,YIG,2023-09-22,NA
+Delivery Lauras Your Independent Grocer Ottawa,1910 St Laurent Blvd,"Ottawa, Ontario, K1G 1A4",6135210880,45.399,-75.624,YIG,2023-09-22,NA
+Carl & Nathalie's Your Independent Grocer Gloucester (Colleague Testing),1619 Orleans Ave,"Ottawa, Ontario, K1C 7E2",6138306880,45.461576,-75.526199,YIG,2023-09-22,NA
+McDanielÕs Independent Grocer (Colleague Testing),200 Grant Carman,"Nepean, Ontario, K2E 7Z8",6137271672,45.35212,-75.72997,YIG,2023-09-22,NA
+Jonssons' Your Independent Grocer Kemptville(Colleague testing),Hwy 43 W Kemptville Mall,"Kemptville, Ontario, K0G 1J0",6132585966,45.017446,-75.658531,YIG,2023-09-22,NA
+Delivery Hess' Your Independent Grocer Ottawa,596 Montreal Rd,"Ottawa, Ontario, K1K 0T9",6137450778,45.441,-75.644,YIG,2023-09-22,NA
+Delivery Riley's Your Independent Grocer,2241 Riverside Dr,"Ottawa, Ontario, K1H 7X5",6137331590,45.387,-75.679,YIG,2023-09-22,NA
+Jonsson's Your Independent Grocer,401 Ottawa St Rr 4,"Almonte, Ontario, K0A 1A0",6132562080,45.234038,-76.182098,YIG,2023-09-22,NA
+Delivery McDonough's Your Independent Grocer Manotick,1160 Beaverwood Rd,"Manotick, Ontario, K4M 1A5",6136922828,45.224,-75.685,YIG,2023-09-22,NA
+Delivery Marsha's YIG Nepean,200 Grant Carman,"Nepean, Ontario, K2E 7Z8",6137271672,45.351,-75.731,YIG,2023-09-22,NA
+Rehan's Your Independent Grocer Rockland,2737 Laurier St,"Rockland, Ontario, K4K 1A3",6134467273,45.541698,-75.299258,YIG,2023-09-22,NA
+King's Your Independent Grocer,5911 Perth St,"Richmond, Ontario, K0A 2Z0",6138387255,45.203211,-75.829066,YIG,2023-09-22,NA
+Rehan's Your Independent Grocer Rockland (Colleague Testing),2737 Laurier St,"Rockland, Ontario, K4K 1A3",6134467273,45.541698,-75.299258,YIG,2023-09-22,NA
+McDonoughÕs YIG - (Colleague Testing),1160 Beaverwood Rd,"Manotick, Ontario, K4M 1A5",6136922828,45.223079,-75.683632,YIG,2023-09-22,NA
+McDaniel's Your Independent Grocer,200 Grant Carman,"Nepean, Ontario, K2E 7Z8",6137271672,45.351331,-75.730712,YIG,2023-09-22,NA
+Delivery McDonoughs Your Independent Grocer Nepean,3777 Strandherd Dr,"Nepean, Ontario, K2J 4B1",6138439413,45.268,-75.749,YIG,2023-09-22,NA
+McDonough's Your Independent Grocer Manotick,1160 Beaverwood Rd,"Manotick, Ontario, K4M 1A5",6136922828,45.223596,-75.684723,YIG,2023-09-22,NA
+Browns YIG (Colleague Testing),1251 Main St,"Stittsville, Ontario, K2S 2E5",6138319235,45.268999,-75.928971,YIG,2023-09-22,NA
+"2737 Laurier Street, Rockland",2737 Laurier Street,"Rockland, Ontario, K4K 1A3",,45.54184,-75.29986,YIG,2023-09-22,NA
+McDonough's Your Independent Grocer,2241 Riverside Dr,"Ottawa, Ontario, K1H 7X5",6137331590,45.38642,-75.676506,YIG,2023-09-22,NA
+Hess' Your Independent Grocer Ottawa,596 Montreal Rd,"Ottawa, Ontario, K1K 0T9",6137450778,45.440969,-75.643562,YIG,2023-09-22,NA
+River Road YIG Gloucester,685 River Rd,"Gloucester, Ontario, K1V 2G2",6138224749,45.270859,-75.699001,YIG,2023-09-22,NA
+Parent's Your Independent Grocer Rockland (Colleague Testing),2737 Laurier St,"Rockland, Ontario, K4K 1A3",6134467273,45.541698,-75.299258,YIG,2023-09-22,NA
+Brierley's Your Independent Grocer Gloucester,685 River Rd,"Gloucester, Ontario, K1V 2G2",6138224749,45.270859,-75.699001,YIG,2023-09-22,NA
+Laura's Your Independent Grocer Kanata (Colleague Testing),300 Eagleson Rd,"Kanata, Ontario, K2M 1C9",6135923850,45.302952,-75.877469,YIG,2023-09-22,NA
+Parent's Your Independent Grocer Rockland,2737 Laurier St,"Rockland, Ontario, K4K 1A3",6134467273,45.541698,-75.299258,YIG,2023-09-22,NA
+Rehan's Your Independent Grocer Rockland,2737 Laurier St,"Rockland, Ontario, K4K 1A3",6134467273,45.541698,-75.299258,YIG,2023-09-22,NA
+King's Your Independent Grocer,5911 Perth St,"Richmond, Ontario, K0A 2Z0",6138387255,45.203211,-75.829066,YIG,2023-09-22,NA
+Delivery Laura's Your Independent Grocer,300 Eagleson Rd,"Kanata, Ontario, K2M 1C9",6135923850,45.301,-75.878,YIG,2023-09-22,NA
+Brierley's Your Independent Grocer Gloucester Delivery,685 River Rd,"Gloucester, Ontario, K1V 2G2",6138224749,45.271,-75.699,YIG,2023-09-22,NA
+Delivery Brown's Your Independent Grocer,1251 Main St,"Stittsville, Ontario, K2S 2E5",6138319235,45.269,-75.928,YIG,2023-09-22,NA
+Bissonnette's YIG,596 Montreal Road,"Ottawa, Ontario, K1K 0T9",,45.441785,-75.643898,YIG,2023-09-22,NA
+McDonough's Your Independent Grocer Ottawa (Colleague Testing),2241 Riverside Dr,"Ottawa, Ontario, K1H 7X5",6137331590,45.38642,-75.676506,YIG,2023-09-22,NA
+McDonoughÕs YIG Manotick (Colleague Testing),1160 Beaverwood Rd,"Manotick, Ontario, K4M 1A5",6136922828,45.223079,-75.683632,YIG,2023-09-22,NA
+Ross' Your Independent Grocer,3777 Strandherd Dr,"Nepean, Ontario, K2J 4B1",6138439413,45.268477,-75.74916,YIG,2023-09-22,NA
+Guido & Tanya's Your Independent Grocer Almonte (Colleague Testing),401 Ottawa St Rr 4,"Almonte, Ontario, K0A 1A0",6132562080,45.23502,-76.18179,YIG,2023-09-22,NA
+Delivery Moncions Your Independent Grocer,685 River Rd,"Gloucester, Ontario, K1V 2G2",6138224749,45.271,-75.699,YIG,2023-09-22,NA
+Delivery Massine's Your Independent Grocer Ottawa,296 Bank St,"Ottawa, Ontario, K2P 1X8",6132348692,45.415,-75.696,YIG,2023-09-22,NA
+Dessureault’s Your Independent Grocer Orleans,1619 Orleans Ave,"Ottawa, Ontario, K1C 7E2",6138306880,45.459603,-75.524128,YIG,2023-09-22,NA
+Delivery McDaniels Your Independent Grocer,200 Grant Carman,"Nepean, Ontario, K2E 7Z8",6137271672,45.351,-75.731,YIG,2023-09-22,NA
+Riley's Your Independent Grocer,2241 Riverside Dr,"Ottawa, Ontario, K1H 7X5",6137331590,45.386836,-75.679227,YIG,2023-09-22,NA
+Wilson's Your Independent Grocer Ottawa (Colleague Testing),2681 Alta Vista Dr,"Ottawa, Ontario, K1V 7T5",6137333311,45.372392,-75.664113,YIG,2023-09-22,NA
+Brierley's Your Independent Grocer Gloucester(Colleague Testing),685 River Rd,"Gloucester, Ontario, K1V 2G2",6138224749,45.270859,-75.699001,YIG,2023-09-22,NA
+McDonough's Your Independent Grocer Nepean,3777 Strandherd Dr,"Nepean, Ontario, K2J 4B1",6138439413,45.268477,-75.74916,YIG,2023-09-22,NA
+Brown's Your Independent Grocer,1251 Main St,"Stittsville, Ontario, K2S 2E5",6138319235,45.268974,-75.928403,YIG,2023-09-22,NA
+Hess' Your Independent Grocer Ottawa (Colleague Testing),596 Montreal Rd,"Ottawa, Ontario, K1K 0T9",6137450778,45.441785,-75.643898,YIG,2023-09-22,NA
+Delivery Dessureaultâ€™s Your Independent Grocer Orleans,1619 Orleans Ave,"Ottawa, Ontario, K1C 7E2",6138306880,45.46,-75.524,YIG,2023-09-22,NA
+Jonsson's Your Independent Grocer (Colleague Testing),401 Ottawa St Rr 4,"Almonte, Ontario, K0A 1A0",6132562080,45.234038,-76.182098,YIG,2023-09-22,NA
+Baseline Road (Colleague Testing),1980 Baseline Rd,"Ottawa, Ontario, K2C 0C6",6137232455,45.351968,-75.759467,LOBLAWS,2023-09-22,NA
+Loblaws - Isabella Street (Colleague Testing),64 Isabella St,"Ottawa, Ontario, K1S 1V4",6132324128,45.410496,-75.685933,LOBLAWS,2023-09-22,NA
+Delivery Greenbank Road,3201 Greenbank Rd,"Ottawa, Ontario, K2J 4H9",6138256262,45.268,-75.743,LOBLAWS,2023-09-22,NA
+Ogilvie Road (Test Collégial),1980 Ogilvie Rd,"Ottawa, Ontario, K1J 9L3",6137463487,45.432527,-75.609825,LOBLAWS,2023-09-22,NA
+Delivery Baseline Road,1980 Baseline Rd,"Ottawa, Ontario, K2C 0C6",6137232455,45.352,-75.76,LOBLAWS,2023-09-22,NA
+Greenbank Road (Test Collégial),3201 Greenbank Rd,"Ottawa, Ontario, K2J 4H9",6138256262,45.267849,-75.744219,LOBLAWS,2023-09-22,NA
+Loblaws - Merivale Road (Colleague Testing),1460 Merivale Rd,"Nepean, Ontario, K2E 5P2",6132266001,45.362876,-75.734611,LOBLAWS,2023-09-22,NA
+Loblaws - Robertson Road (Colleague Testing),2065A Robertson Rd,"Ottawa, Ontario, K2H 5H9",6138299770,45.3251,-75.8321,LOBLAWS,2023-09-22,NA
+Delivery McArthur Avenue,100 McArthur Rd,"Ottawa, Ontario, K1L 8H5",6137442003,45.429,-75.665,LOBLAWS,2023-09-22,NA
+Delivery Merivale Road,1460 Merivale Rd,"Nepean, Ontario, K2E 5P2",6132266001,45.362,-75.735,LOBLAWS,2023-09-22,NA
+Robertson Road,2065A Robertson Rd,"Ottawa, Ontario, K2H 5H9",6138299770,45.324403,-75.832437,LOBLAWS,2023-09-22,NA
+Delivery Earl Grey Drive,200 Earl Grey Dr,"Ottawa, Ontario, K2T 1B6",6135993840,45.31,-75.917,LOBLAWS,2023-09-22,NA
+Earl Grey Drive (Colleague Testing),200 Earl Grey Dr,"Ottawa, Ontario, K2T 1B6",6135993840,45.309942,-75.916618,LOBLAWS,2023-09-22,NA
+Delivery Isabella Street,64 Isabella St,"Ottawa, Ontario, K1S 1V4",6132324128,45.41,-75.686,LOBLAWS,2023-09-22,NA
+Merivale Road,1460 Merivale Rd,"Nepean, Ontario, K2E 5P2",6132266001,45.361929,-75.735351,LOBLAWS,2023-09-22,NA
+Delivery Rideau Street,363 Rideau St,"Ottawa, Ontario, K1N 5Y6",6137893330,45.43,-75.684,LOBLAWS,2023-09-22,NA
+McArthur Avenue,100 McArthur Rd,"Ottawa, Ontario, K1L 8H5",6137442003,45.429341,-75.66486,LOBLAWS,2023-09-22,NA
+Delivery Robertson Road,2065A Robertson Rd,"Ottawa, Ontario, K2H 5H9",6138299770,45.324,-75.832,LOBLAWS,2023-09-22,NA
+McArthur Avenue (Test Collégial),100 McArthur Rd,"Ottawa, Ontario, K1L 8H5",6137442003,45.429342,-75.66486,LOBLAWS,2023-09-22,NA
+Isabella Street,64 Isabella St,"Ottawa, Ontario, K1S 1V4",6132324128,45.410461,-75.685897,LOBLAWS,2023-09-22,NA
+Rideau Street,363 Rideau St,"Ottawa, Ontario, K1N 5Y6",6137893330,45.430155,-75.683814,LOBLAWS,2023-09-22,NA
+Delivery Ogilvie Road,1980 Ogilvie Rd,"Ottawa, Ontario, K1J 9L3",6137463487,45.433,-75.61,LOBLAWS,2023-09-22,NA
+Ogilvie Road,1980 Ogilvie Rd,"Ottawa, Ontario, K1J 9L3",6137463487,45.432527,-75.609825,LOBLAWS,2023-09-22,NA
+St. Laurent Boulevard,1910 St Laurent Blvd,"Ottawa, Ontario, K1G 1A4",6135210880,45.399412,-75.623844,LOBLAWS,2023-09-22,NA
+Bank Street,2210 Bank St,"Ottawa, Ontario, K1V 1J5",6137895252,45.354899,-75.654754,LOBLAWS,2023-09-22,NA
+Earl Grey Drive,200 Earl Grey Dr,"Ottawa, Ontario, K2T 1B6",6135993840,45.309942,-75.916618,LOBLAWS,2023-09-22,NA
+Loblaws - Carling Avenue (Colleague Testing),2085 Carling Ave,"Ottawa, Ontario, K2A 1H2",6137223227,45.371671,-75.769587,LOBLAWS,2023-09-22,NA
+Baseline Road,1980 Baseline Rd,"Ottawa, Ontario, K2C 0C6",6137232455,45.352074,-75.759558,LOBLAWS,2023-09-22,NA
+Greenbank Road,3201 Greenbank Rd,"Ottawa, Ontario, K2J 4H9",6138256262,45.268051,-75.74346,LOBLAWS,2023-09-22,NA
+Delivery Carling Avenue,2085 Carling Ave,"Ottawa, Ontario, K2A 1H2",6137223227,45.372,-75.768,LOBLAWS,2023-09-22,NA
+Loblaws - St. Laurent Blvd (Colleague Testing),1910 St Laurent Blvd,"Ottawa, Ontario, K1G 1A4",6135210880,45.398075,-75.623798,LOBLAWS,2023-09-22,NA
+Loblaws - Bank Street (Colleague Testing),2210 Bank St,"Ottawa, Ontario, K1V 1J5",6137895252,45.357238,-75.656398,LOBLAWS,2023-09-22,NA
+"Loblaws - Rideau Street (Colleague Testing) - Order online, walk in or call for pick up",363 Rideau St,"Ottawa, Ontario, K1N 5Y6",6137893330,45.43039,-75.68375,LOBLAWS,2023-09-22,NA
+Delivery Bank Street,2210 Bank St,"Ottawa, Ontario, K1V 1J5",6137895252,45.355,-75.655,LOBLAWS,2023-09-22,NA
+Carling Avenue,2085 Carling Ave,"Ottawa, Ontario, K2A 1H2",6137223227,45.372308,-75.767572,LOBLAWS,2023-09-22,NA
+"OTTAWA EAST, ON",450 Terminal Ave,"Ottawa, ON, K1G 0Z3",613-562-0500,45.413726,-75.651251,WALMART,2023-09-22,NA
+HULL E.,1-425 Boul Saint Joseph,"Hull, QC, J8Y 3Z8",819-920-2000,45.4449,-75.7339,WALMART,2023-09-22,NA
+OTTAWA (C),2277 Riverside Dr,"Ottawa, ON, K1H 7X6",613-737-6897,45.384757,-75.679865,WALMART,2023-09-22,NA
+"GATINEAU WEST, QC",51 De La Gappe Blvd,"Gatineau, QC, J8T 0B5",819-246-4633,45.464817,-75.718795,WALMART,2023-09-22,NA
+"HULL, QC",35 Boul Du Plateau,"Hull, QC, J9A 3G1",819-772-1911,45.436527,-75.771613,WALMART,2023-09-22,NA
+GLOUCESTER,1980 Ogilvie Rd,"Gloucester, ON, K1J 9L3",613-842-0111,45.43177,-75.610321,WALMART,2023-09-22,NA
+"GATINEAU, QC",640 Blvd Maloney W,"Gatineau, QC, J8T 8K7",819-246-8808,45.482419,-75.675976,WALMART,2023-09-22,NA
+"OTTAWA SW., ON",1375 Baseline Rd,"Ottawa, ON, K2C 3G1",613-224-2664,45.363806,-75.737554,WALMART,2023-09-22,NA
+"S. OTTAWA, ON",2210 Bank St,"Ottawa, ON, K1V 1J5",613-247-1184,45.355491,-75.654259,WALMART,2023-09-22,NA
+"BAYSHORE SHOPPING CENTRE, OTTAWA",100 Bayshore Dr,"Ottawa, ON, K2B 8C1",613-828-5482,45.347884,-75.807461,WALMART,2023-09-22,NA
+"ORLEANS, OTTAWA, ON",3900 Innes Rd,"Orleans, ON, K1W 1K9",613-837-9399,45.452382,-75.507931,WALMART,2023-09-22,NA
+"BARRHAVEN, ONT",3651 Strandherd Dr,"Barrhaven, ON, K2J 4G8",613-823-8714,45.271118,-75.741444,WALMART,2023-09-22,NA
+"KANATA,ONTARIO",500 Earl Grey Dr,"Kanata, ON, K2T 1B6",613-599-6765,45.310865,-75.913884,WALMART,2023-09-22,NA
+"KANATA SOUTH, ON",5357 Fernbank Rd,"Stittsville, ON, K2S 0T7",613-831-2636,45.274329,-75.872296,WALMART,2023-09-22,NA
+"ROCKLAND, ON",3001 Richelieu St,"Rockland, ON, K4K 0B5",613-446-5730,45.53257,-75.306828,WALMART,2023-09-22,NA
+"KEMPTVILLE, ON",340 Colonnade Dr,"Kemptville, ON, K0G 1J0",613-258-6295,45.028284,-75.629408,WALMART,2023-09-22,NA
+Delivery Westboro,190 Richmond Rd,"Ottawa, Ontario, K1Z 6W6",6137229635,45.394,-75.747,REAL CANADIAN SUPERSTORE,2023-09-22,NA
+"Innes Road, Ottawa, ON (Colleague Testing)",4270 Innes Rd,"Ottawa, Ontario, K4A 5E6",6138377887,45.456634,-75.495482,REAL CANADIAN SUPERSTORE,2023-09-22,NA
+South Kanata,760 Eagleson Rd,"Kanata, Ontario, K2M 0A7",6135925701,45.282945,-75.866724,REAL CANADIAN SUPERSTORE,2023-09-22,NA
+Delivery South Orleans,4270 Innes Rd,"Ottawa, Ontario, K4A 5E6",6138377887,45.457,-75.495,REAL CANADIAN SUPERSTORE,2023-09-22,NA
+"South Kanata, Ottawa, ON (Colleague Testing)",760 Eagleson Rd,"Kanata, Ontario, K2M 0A7",6135925701,45.282909,-75.866059,REAL CANADIAN SUPERSTORE,2023-09-22,NA
+Westboro,190 Richmond Rd,"Ottawa, Ontario, K1Z 6W6",6137229635,45.394265,-75.747343,REAL CANADIAN SUPERSTORE,2023-09-22,NA
+"Westboro, Ottawa, ON (Colleague Testing)",190 Richmond Rd,"Ottawa, Ontario, K1Z 6W6",6137229635,45.394305,-75.747729,REAL CANADIAN SUPERSTORE,2023-09-22,NA
+Delivery South Kanata,760 Eagleson Rd,"Kanata, Ontario, K2M 0A7",6135925701,45.283,-75.867,REAL CANADIAN SUPERSTORE,2023-09-22,NA
+South Orleans,4270 Innes Rd,"Ottawa, Ontario, K4A 5E6",6138377887,45.457124,-75.495225,REAL CANADIAN SUPERSTORE,2023-09-22,NA
+NA,150 Katimavik Road Kanata K2L 2N2,NA,613-592-2942,45.3124188,-75.8958402,FOOD BASICS,2023-09-22,NA
+NA,"2615 Highway #43, R.R. #5 Kemptville K0G 1J0",NA,613-258-1266,45.0199425,-75.65949,FOOD BASICS,2023-09-22,NA
+NA,3712 Innes Road Orleans K1W 0C8,NA,613-837-0650,45.4501475,-75.5174677,FOOD BASICS,2023-09-22,NA
+NA,667 Kirkwood Avenue Ottawa K1Z 8N7,NA,613-722-7412,45.3863658,-75.7388344,FOOD BASICS,2023-09-22,NA
+NA,1670 Heron Road Ottawa K1V 0C2,NA,613-731-0066,45.3790498,-75.6434226,FOOD BASICS,2023-09-22,NA
+NA,"1021 Cyrville Road, Unit 1 Ottawa K1J 7S3",NA,613-842-4445,45.4265706,-75.636724,FOOD BASICS,2023-09-22,NA
+NA,900 Greenbank Road Ottawa K2J 1S8,NA,613-823-4458,45.2847264,-75.7564617,FOOD BASICS,2023-09-22,NA
+NA,"1465 Merivale Road, Unit 13 Ottawa K2E 5N9",NA,613-224-1544,45.3604624,-75.733189,FOOD BASICS,2023-09-22,NA
+NA,5703 Hazeldean Road Stittsville K2S 0P6,NA,613-831-3394,45.2852452,-75.9135879,FOOD BASICS,2023-09-22,NA
+Sobeys Orleans,2276 - Tenth Line Road,"Orleans, on, K4A 0X4",613-590-9179,45.45176,-75.48502,SOBEY'S,2023-09-22,NA
+Sobeys Trim and Innes,5150 Innes Road,"Orleans, on, K4A 0G4",613-590-2205,45.46942,-75.45648,SOBEY'S,2023-09-22,NA
+Sobeys Kanata,700 Terry Fox Drive,"Kanata, on, K2L 4H4",613-831-1444,45.292704,-75.895607,SOBEY'S,2023-09-22,NA
+Sobeys March Road,840 March Road,"Kanata, on, K2W 0C9",613-599-8965,45.356598,-75.93446,SOBEY'S,2023-09-22,NA
+FreshCo Orleans,920 Watters Road,"Orleans, on, K4A 0B4",613-841-9454,45.48247,-75.47439,FRESHCO,2023-09-22,NA
+FreshCo Bank & Findley Creek,4750 Bank Street,"Ottawa, on, K1J 0K8",613-822-4549,45.31869,-75.59575,FRESHCO,2023-09-22,NA
+FreshCo McArthur & LaFontaine,320 McArthur Avenue,"Ottawa, on, K1L 5G2",613-744-4343,45.43002,-75.65384,FRESHCO,2023-09-22,NA
+FreshCo Robertson & Moodie,2150 Robertson Road,"Nepean, on, K2H 9S1",613-726-8038,45.31919,-75.83553,FRESHCO,2023-09-22,NA
+FreshCo Strandherd & Crestha,"2480 Strandherd Dr., Building A","Ottawa, on, K2G 4S4",613-823-7269,45.27412,-75.70968,FRESHCO,2023-09-22,NA
+FreshCo Merivale & Meadowlands,"1595 Merivale Road, Unit # 5","Ottawa, on, K2G 3J4",613-226-1651,45.35288,-75.73224,FRESHCO,2023-09-22,NA
+Foodland Greely,101-6045 Bank Street,"Greely, on, K4P 0G5",613-821-3016,45.26334,-75.55429,FOODLAND,2023-09-22,NA
+Foodland Russell,148 Craig Street,"Russell, on, K4R 1A1",613-445-0468,45.25696,-75.37441,FOODLAND,2023-09-22,NA
+Foodland Osgoode,5669 Main Street,"Osgoode, on, K0A 2W0",613-826-2282,45.14989,-75.60212,FOODLAND,2023-09-22,NA
+Brandon & Megan's No Frills (Colleague Testing),30 Iber Road,"Stittsville, Ontario, K2S 2R1",,45.280904,-75.912797,NO FRILLS,2023-09-22,NA
+Brandon & Megan's NOFRILLS (Colleague Testing),1226 Place D'Orleans Dr,"Ottawa, Ontario, K1C 7K3",8002962332,45.476686,-75.522756,NO FRILLS,2023-09-22,NA
+Mark's NOFRILLS Arnprior (Colleague Testing),39 Winner's Circle Dr Rr 3,"Arnprior, Ontario, K7S 3G9",,45.421563,-76.369423,NO FRILLS,2023-09-22,NA
+Mark's NOFRILLS Arnprior,39 Winner's Circle Dr Rr 3,"Arnprior, Ontario, K7S 3G9",18442958219,45.421563,-76.369423,NO FRILLS,2023-09-22,NA
+Jack & Faith's NOFRILLS Arnprior,39 Winner's Circle Dr Rr 3,"Arnprior, Ontario, K7S 3G9",,45.421907,-76.369324,NO FRILLS,2023-09-22,NA
+"1226 Place d'Orleans Dr., Ottawa",1226 Place d'Orleans Dr.,"Ottawa, Ontario, K1C 7K3",,45.476686,-75.522756,NO FRILLS,2023-09-22,NA
+Joe & Lily's No Frills,1226 Place D'Orleans Dr,"Ottawa, Ontario, K1C 7K3",18442958219,45.476991,-75.520017,NO FRILLS,2023-09-22,NA
+"Brandon & Megan's NOFRILLS - Ends July 25, 2020",1226 Place D'Orleans Dr,"Ottawa, Ontario, K1C 7K3",18442958219,45.476991,-75.520017,NO FRILLS,2023-09-22,NA
+Brandon & Megan's NOFRILLS Stittsville,30 Iber Rd,"Stittsville, Ontario, K2S 2R1",18442958219,45.281055,-75.910072,NO FRILLS,2023-09-22,NA
+NA,"224 Hunt Club Road  Ottawa, ON. K1V 1C1",NA,NA,45.3339133,-75.6905898,T&T,2023-09-22,NA
+NA,"3033 Woodroffe Avenue, Ottawa, Ontario, K2G 6H2",NA,613-823-8835,45.2881771,-75.7251596,Farm Boy,2023-09-22,613-823-1247
+NA,"2950 Bank Street, Ottawa, Ontario, K1T 1N8",NA,613-260-7330,45.3469423,-75.6249438,Farm Boy,2023-09-22,613-260-7450
+NA,"1500 Bank Street, Ottawa, Ontario, K1H 7Z1",NA,613-739-7199,45.3808332,-75.6694123,Farm Boy,2023-09-22,613-739-7988
+NA,"1495 Richmond Road, Ottawa, Ontario, K2B 6R9",NA,613-688-2882,45.3630295,-75.7910266,Farm Boy,2023-09-22,613-688-2824
+NA,"1581 Greenbank Road, Ottawa, Ontario, K2J 4Y6",NA,613-825-1810,45.2738691,-75.7471205,Farm Boy,2023-09-22,613-825-7309
+NA,"585 Montreal Road, Ottawa, Ontario, K1K 4K3",NA,613-744-3463,45.4422399,-75.6447219,Farm Boy,2023-09-22,613-744-3106
+NA,"457 Hazeldean Road, Ottawa, Ontario, K2L 1V1",NA,613-836-8085,45.3001758,-75.8857221,Farm Boy,2023-09-22,613-836-8094
+NA,"193 Metcalfe Street, Ottawa, Ontario, K2P 0S5",NA,613-598-0257,45.4190573,-75.6934799,Farm Boy,2023-09-22,613-598-0236
+NA,"1642 Merivale Road, Ottawa, Ontario, K2G 4A1",NA,613-228-7417,45.3455841,-75.732034,Farm Boy,2023-09-22,613-228-7454
+NA,"3035 St. Joseph Blvd., Ottawa, Ontario, K1E 1E1",NA,613-590-1830,45.4776536,-75.5132978,Farm Boy,2023-09-22,613-590-9651
+NA,"50 Rideau Street, Ottawa, Ontario, K1N 9J7",NA,613-244-1033,45.4252741,-75.6929843,Farm Boy,2023-09-22,613-244-3941
+NA,"499 Terry Fox Drive, Ottawa, Ontario, K2T 1H7",NA,613-271-8727,45.3108116,-75.9199687,Farm Boy,2023-09-22,613-271-9391
+NA,"6315 Hazeldean Rd, Ottawa, ON, Canada, Ottawa, Ontario, K2S 1S9",NA,613-836-4594,45.2664584,-75.9409909,Farm Boy,2023-09-22,613-836-1075
+NA,"2030 Tenth Line, Ottawa, Ontario, K4A 4X4",NA,613-841-4221,45.4584073,-75.4877257,Farm Boy,2023-09-22,613-841-6677
+NA,"830 Belfast Road, Ottawa, Ontario, K1G 0Z4",NA,613-288-0616,45.4127338,-75.6384394,Farm Boy,2023-09-22,613-288-0619
+NA,"317 McRae Ave, Unit 1, Ottawa, Ontario, K1Z 8P4",NA,613-722-7300,45.3960489,-75.7498115,Farm Boy,2023-09-22,613-722-5258

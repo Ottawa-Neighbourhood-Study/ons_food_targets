@@ -1,8 +1,7 @@
 name|type|parent|branches|progress
-grocers_large|stem|grocers_large|0|started
-grocers_large|stem|grocers_large|0|built
+grocers_large|stem|grocers_large|0|skipped
 ons_shp|stem|ons_shp|0|skipped
 save_results|stem|save_results|0|started
 save_results|stem|save_results|0|built
-grocers_large_ottawa|stem|grocers_large_ottawa|0|started
-grocers_large_ottawa|stem|grocers_large_ottawa|0|built
+grocers_large_ottawa|stem|grocers_large_ottawa|0|skipped
+save_results_ottawa|stem|save_results_ottawa|0|skipped
