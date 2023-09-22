@@ -71,21 +71,14 @@ parse_walmart <- function(data){
 parse_foodbasics <- function(data, gmap_api_key){
   
   data %>%
-    mutate(name = "FOOD BASICS",
+    dplyr::mutate(name = "FOOD BASICS",
            address = address,
            address2 = NA,
            phone = phone,
-           Y = NA,
-           X = NA,
            note = NA,
-           update_date = Sys.Date())%>%
-    onsr::geocode_gmap(var = "address",
-                       api_key = gmap_api_key,
-                       verbose = TRUE) %>%
-    mutate(X = lng,
-           Y = lat) %>%
-    select(-lat, -lng)
-   
+           update_date = Sys.Date()) |>
+    tidygeocoder::geocode(address = "address", lat = "Y", lon = "X", method="google")
+
 }
 
 ################### SOBEYS
@@ -156,9 +149,11 @@ parse_foodland <- function(data){
 parse_t_and_t <- function(data){
 
   data %>%
-    mutate(note = name,
+    mutate(#note = name,
            name = "T&T",
            address2 = NA,
+           phone=NA,
+           note=NA,
            lat = as.numeric(lat),
            lng = as.numeric(lng),
            update_date = Sys.Date()) %>%
@@ -183,11 +178,32 @@ parse_farmboy <- function(data){
     rename(address = address1) %>%
     mutate(address = if_else(stringr::str_detect(address, regex("\\n\\d")), 
                              stringr::str_extract(address, regex("(?<=\\n).*", dotall = TRUE)), 
-                             address)) %>%
-    onsr::geocode_ottawa(var = "address") %>%
-    rename(Y = lat, X = lng) %>%
-    mutate(update_date = Sys.Date())
+                             address)) |>
+    tidygeocoder::geocode(address = "address", lat = "Y", lon = "X", method="google") |>
+    dplyr::mutate(update_date = Sys.Date())
   
 }
 
 
+
+
+# use the ONS shapefile to geo filter grocers to within 5km of Ottawa
+geo_filter_grocers <- function(grocers_large, ons_shp, buffer_dist_m = 5000){
+  # neighbourhoodstudy::ons_gen3_shp
+  ons_shp <-  ons_shp |>
+    dplyr::filter(ONS_Region == "OTTAWA") |>
+    dplyr::select(dplyr::any_of(c("ONS_ID", "ONS_Name", "geometry")))
+  
+  ons_buffer <- sf::st_union(ons_shp) |>
+    sf::st_transform(crs = 32189) |>
+    sf::st_buffer(dist = buffer_dist_m) |>
+    sf::st_transform(crs="WGS84")
+  
+  results <- grocers_large |>
+    dplyr::filter(!is.na(X)) |>
+    sf::st_as_sf(coords=c("X","Y"), crs="WGS84", remove = FALSE) |>
+    sf::st_filter(ons_buffer)
+  
+  return(results)
+  
+}

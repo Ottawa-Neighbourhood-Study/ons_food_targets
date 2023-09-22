@@ -4,37 +4,23 @@
 scrape_farmboy <- function() {
   message("Starting Farmboy")
   warning("This function to scrape Farm Boy locations is *fragile* because Farm Boy's website is inconsistent and changes. DOUBLE CHECK RESULTS.")
-  url <- "https://www.farmboy.ca/stores/"
+  #url <- "https://www.farmboy.ca/stores/"
+  url <- "https://www.farmboy.ca/accessible-store-listing/"
   
   r <- rvest::read_html(url)
   
-  stores <- rvest::html_elements(r, "#sin")
+  stores <- rvest::html_elements(r, ".fb_store_location_wrapper > div")
   
-  addresses <- r %>%
-    rvest::html_elements("#sin > p:nth-child(1)") %>%
-    rvest::html_text()
-  
-  # the dumbest, one of their stores has a different css class
-  addresses <- c(addresses[1:30], "841 Brown’s Line Toronto, ON M8W 3V7", addresses[31:length(addresses)])
-  
-  phone_fax <- r %>%
-    rvest::html_elements("#cinfo p") %>%
-    rvest::html_text() %>%
-    stringr::str_squish() %>%
-    stringi::stri_remove_empty()
-  
-  phone <- stringr::str_extract(phone_fax, "(?<=Phone:|Tel:).*?(?=Fax|$)") %>%
-    stringr::str_squish() %>%
-    stringi::stri_remove_empty()
-  
-  phone <- phone[!is.na(phone)]
-  
-  fax <- stringr::str_extract(phone_fax, "(?<=Fax: ).*") %>%
-    if_else(is.na(.), "", .) 
-  
-  fax <- fax[c(1:33, 35:39)]
-  
-  results <- tibble(name = "Farm Boy", address = addresses, phone = phone, fax = fax)
+  results <- purrr::map_dfr(stores, function(x) {
+    text <- rvest::html_text(x)
+    address <- stringr::str_extract(text, "(?<=Address: ).*")
+    phone <-  stringr::str_extract(text, "(?<=Phone: ).*")
+    fax <-  stringr::str_extract(text, "(?<=Fax: ).*")
+    return(dplyr::tibble(name = "Farm Boy", address = address, phone = phone, fax = fax))
+  }) |>
+    dplyr::mutate(dplyr::across(dplyr::everything(), stringr::str_squish)) |>
+    tidygeocoder::geocode(address = "address", lat = "Y", lon = "X", method="google") |>
+    dplyr::mutate(update_date = Sys.Date())
   
   message("Done Farmboy")
   return(results)
@@ -224,74 +210,33 @@ scrape_loblaws <- function(banner_ids = c("loblaw", "independent", "superstore",
 
 scrape_metro <- function() {
   message("Starting Metro:")
+  
+  # z = rvest::read_html("https://www.metro.ca/en/find-a-grocery?utm_id=12468278_1333253161_58836805612&utm_source=google&utm_medium=cpc&gclid=Cj0KCQjw9rSoBhCiARIsAFOiplne0nnif2tkLZ2fM3AUqN75QdfuOMSi7_htwEA_qRjUAHbdhiTCQlAaAhJ8EALw_wcB&gclsrc=aw.ds")
   url <- "https://www.metro.ca/en/find-a-grocery"
+
+  html <- rvest::read_html(url)  
+  stores_html <- rvest::html_elements(html, ".fs--box-shop")
   
-  # Start Selenium using Firefox on port 4567
-  # NOTE! If you get an error, you may need to choose a different chrome version
-  # see here: https://github.com/ropensci/RSelenium/issues/203
-  # i used binman::list_versions("chromedriver") to find the drivers installed,
-  # then checked my chrome version (about chrome, in the 3-dots menu) and chose the
-  # chromever closest to my actual version of chrome
-  rD <- rsDriver(browser = "chrome", port = 4566L,
-                 chromever = "90.0.4430.24")
-  
-  rDC <- rD$client
-  
-  rDC$navigate(url)
-  
-  html <- rDC$getPageSource() %>%
-    pluck(1) %>%
-    rvest::read_html()
-  
-  # originally I downloaded and read the html locally, which is more work
-  #html <- rvest::read_html("scraping/grocery/metro.html")
-  
-  stores <- html %>%
-    rvest::html_nodes(css = ".fs--boxes") %>%
-    rvest::html_nodes(css = ".fs--box-shop") 
-  
-  fields <- c("index", "id", "name", "lat", "lng") %>% paste0("data-store-", .)
-  
-  data <- purrr::map(fields, function(x) rvest::html_attr(stores, x))
-  
-  street <- rvest::html_elements(html, css = ".address--line1") %>%
-    rvest::html_text() %>%
-    stringr::str_squish()
-  
-  
-  town <- rvest::html_elements(html, css = ".address--line2") %>%
-    rvest::html_text() %>%
-    stringr::str_squish()
-  
-  phone <- rvest::html_elements(html, css = ".store-phone") %>%
-    rvest::html_text() %>%
-    stringr::str_squish()
-  
-  
-  results <- tibble::tibble(
-    index = data[[1]],
-    id = data[[2]],
-    name = data[[3]],
-    address1 = street,
-    address2 = town,
-    phone = phone,
-    lat = data[[4]],
-    lon = data[[5]]
-  )
-  
-  # close the browser window and stop the server
-  rDC$close()
-  rD$server$stop()
-  
-  # remove the pointers to the selenium objects
-  rm(rD)
-  rm(rDC)
-  gc()
-  
-  # a known bug means the servers may not stop
-  # https://stackoverflow.com/questions/43991498/rselenium-server-signals-port-is-already-in-use
-  # so we completely murder any remaining selenium servers
-  system("taskkill /im java.exe /f", intern=FALSE, ignore.stdout=FALSE)
+  results <- stores_html |>
+    purrr::map_dfr(function(x) {
+      attrs <- rvest::html_attrs(x)      
+        lat <- attrs["data-store-lat"] |> as.numeric()
+        lon <- attrs["data-store-lng"] |> as.numeric()
+        
+        moredata <- rvest::html_elements(x, ".white-wrapper div")
+        address1 <- rvest::html_elements(moredata, ".address--street") |>
+          rvest::html_attr("data-street")
+        
+        address2 <- rvest::html_elements(moredata, ".address--city") |>
+          rvest::html_attr("data-city")
+        
+        phone <-  rvest::html_elements(moredata, ".store-phone") |>
+          rvest::html_text() |> stringr::str_squish()
+        
+        result <- dplyr::tibble(name = "Metro", address1 = address1, address2 = address2, phone = phone, lat = lat, lon = lon)
+        
+      return(result)
+    })
   
   return(results)
 }
@@ -396,15 +341,17 @@ scrape_walmart <- function(address = "ottawa on"){
 
 scrape_t_and_t <- function() {
   message("Starting T&T")
-  url <- "https://www.tntsupermarket.com/rest/V1/xmapi/get-store-list-new?lang=en&address=L3T"
+  #url <- "https://www.tntsupermarket.com/rest/V1/xmapi/get-store-list-new?lang=en&address=L3T"
+  url <- "https://www.tntsupermarket.com/rest/V2/xmapi/get-stores?postcode=K1H"
   
   resp <- httr::GET(url)
   
   stores <- resp %>%
     httr::content(type = "text/json", encoding = "UTF-8") %>%
     jsonlite::fromJSON() %>%
-    pluck("data", "filter_by_keyword") %>%  
-    as_tibble()
+    pluck("data") %>%  
+    as_tibble() |>
+    dplyr::mutate(name = "T&T")
   
   return(stores)
 }
@@ -420,9 +367,9 @@ get_whole_foods <- function(){
                                 address = "951 Bank St",
                                 address2 = "Ottawa, ON K1S 3W7",
                                 phone = "(613) 565-7150",
-                                update_date = Sys.Date()) %>%
-    onsr::geocode_ottawa(var = "address") %>%
-    rename(Y = lat, X = lng)
+                                update_date = Sys.Date()) #%>%
+    #onsr::geocode_ottawa(var = "address") %>%
+   # rename(Y = lat, X = lng)
   
   return(whole_foods)
 }
@@ -438,8 +385,8 @@ scrape_and_parse_large_grocers <- function(gmap_api_key){
   
   
   ### metro
-  metro <- scrape_metro() %>%
-    parse_metro()
+  #warning("metro not working")
+  metro <- scrape_metro() %>%  parse_metro()
   
   ### YIG
   yig <- scrape_loblaws(banner_ids = "independent") %>%
@@ -487,8 +434,7 @@ scrape_and_parse_large_grocers <- function(gmap_api_key){
   
   # FARMBOY:
   
-  farmboy <- scrape_farmboy %>%
-    parse_farmboy()
+  farmboy <- scrape_farmboy() #%>% parse_farmboy()
   
   whole_foods <- get_whole_foods()
   
@@ -499,7 +445,8 @@ scrape_and_parse_large_grocers <- function(gmap_api_key){
   
   ## PUT IT ALL TOGETHER, WHAT DO YOU GET?
   
-  grocers_large <- bind_rows(metro, yig, loblaws, walmart, rcsuperstore, foodbasics, sobeys, freshco, foodland, nofrills, tt, farmboy, whole_foods)
+  grocers_large <- bind_rows(metro, yig, loblaws, walmart, rcsuperstore, foodbasics, sobeys, freshco, foodland, nofrills, tt, farmboy, whole_foods) |>
+    dplyr::mutate(update_date = Sys.Date())
   
   return(grocers_large)
 }

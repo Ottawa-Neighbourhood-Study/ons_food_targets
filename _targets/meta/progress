@@ -1,3 +1,8 @@
 name|type|parent|branches|progress
-foodspace|stem|foodspace|0|started
-foodspace|stem|foodspace|0|built
+grocers_large|stem|grocers_large|0|started
+grocers_large|stem|grocers_large|0|built
+ons_shp|stem|ons_shp|0|skipped
+save_results|stem|save_results|0|started
+save_results|stem|save_results|0|built
+grocers_large_ottawa|stem|grocers_large_ottawa|0|started
+grocers_large_ottawa|stem|grocers_large_ottawa|0|built
